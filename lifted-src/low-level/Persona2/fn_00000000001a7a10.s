@@ -1,0 +1,27 @@
+; instruction-faithful ARM64 fallback for Persona2::function_1a7a10
+0x00000000001a7a10: udf        #0xd8
+0x00000000001a7a14: udf        #0x1c
+0x00000000001a7a18: udf        #0x40
+0x00000000001a7a1c: udf        #0x54
+0x00000000001a7a20: udf        #0x30
+0x00000000001a7a24: udf        #0x7c
+0x00000000001a7a28: udf        #0xc0
+0x00000000001a7a2c: udf        #0x64
+0x00000000001a7a30: udf        #0xa4
+0x00000000001a7a34: udf        #0xd8
+0x00000000001a7a38: udf        #0xcc
+0x00000000001a7a3c: udf        #0x148
+0x00000000001a7a40: udf        #0xb8
+0x00000000001a7a44: udf        #0x134
+0x00000000001a7a48: udf        #0x1c
+0x00000000001a7a4c: udf        #0x50
+0x00000000001a7a50: udf        #0x44
+0x00000000001a7a54: udf        #0xc0
+0x00000000001a7a58: udf        #0x30
+0x00000000001a7a5c: udf        #0x98
+0x00000000001a7a60: udf        #0x1c
+0x00000000001a7a64: udf        #0x5c
+0x00000000001a7a68: udf        #0x70
+0x00000000001a7a6c: udf        #0x4c
+0x00000000001a7a70: udf        #0x28
+0x00000000001a7a74: udf        #0x80

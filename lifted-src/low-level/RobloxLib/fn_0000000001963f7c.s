@@ -1,0 +1,16 @@
+; instruction-faithful ARM64 fallback for RobloxLib::function_1963f7c
+0x0000000001963f7c: stp        xzr, xzr, [x0]
+0x0000000001963f80: str        xzr, [x0, #0x10]
+0x0000000001963f84: ldr        q0, [x1]
+0x0000000001963f88: str        q0, [x0]
+0x0000000001963f8c: ldr        x8, [x1, #0x10]
+0x0000000001963f90: str        x8, [x0, #0x10]
+0x0000000001963f94: stp        xzr, xzr, [x1]
+0x0000000001963f98: str        xzr, [x1, #0x10]
+0x0000000001963f9c: ldur       q0, [x1, #0x18]
+0x0000000001963fa0: ldr        x8, [x1, #0x28]
+0x0000000001963fa4: str        x8, [x0, #0x28]
+0x0000000001963fa8: stur       q0, [x0, #0x18]
+0x0000000001963fac: stp        xzr, xzr, [x1, #0x20]
+0x0000000001963fb0: str        xzr, [x1, #0x18]
+0x0000000001963fb4: ret        

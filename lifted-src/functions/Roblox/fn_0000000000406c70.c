@@ -1,0 +1,39 @@
+/*
+ * Evidence-based lift for Roblox::function_406c70
+ * Start VA: 0x100406c70; image-relative: 0x406c70; bytes: 128
+ * This is generated pseudocode, not original source. Unknown semantics are preserved as comments.
+ */
+void function_406c70__at_406c70(void) {
+    /* sub sp, sp, #0x60 */
+    /* memory stp x22, x21, [sp, #0x30] */
+    /* memory stp x20, x19, [sp, #0x40] */
+    /* memory stp x29, x30, [sp, #0x50] */
+    /* add x29, sp, #0x50 */
+    /* mov x19, x2 */
+    /* mov x20, x0 */
+    /* call #0x1005f9460; return value/ABI effects unresolved */
+    /* mov x29, x29 */
+    /* call #0x1005c1160; return value/ABI effects unresolved */
+    /* mov x21, x0 */
+    /* adrp x8, #0x1007c6000 */
+    /* memory ldr x8, [x8, #0x448] */
+    /* memory str x8, [sp] */
+    /* adrp x8, #0x100679000 */
+    /* memory ldr d0, [x8, #0xce0] */
+    /* memory str d0, [sp, #8] */
+    /* adrp x8, #0x100406000 */
+    /* add x8, x8, #0xcf0 */
+    /* adrp x9, #0x1007cc000 */
+    /* add x9, x9, #0x3d0 */
+    /* memory stp x8, x9, [sp, #0x10] */
+    /* memory stp x19, x20, [sp, #0x20] */
+    /* mov x1, sp */
+    /* call #0x1005c0b54; return value/ABI effects unresolved */
+    /* mov x0, x21 */
+    /* call #0x1005c1130; return value/ABI effects unresolved */
+    /* memory ldp x29, x30, [sp, #0x50] */
+    /* memory ldp x20, x19, [sp, #0x40] */
+    /* memory ldp x22, x21, [sp, #0x30] */
+    /* add sp, sp, #0x60 */
+    return;
+}

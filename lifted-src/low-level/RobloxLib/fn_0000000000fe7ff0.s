@@ -1,0 +1,54 @@
+; instruction-faithful ARM64 fallback for RobloxLib::function_fe7ff0
+0x0000000000fe7ff0: sub        sp, sp, #0x80
+0x0000000000fe7ff4: stp        x26, x25, [sp, #0x30]
+0x0000000000fe7ff8: stp        x24, x23, [sp, #0x40]
+0x0000000000fe7ffc: stp        x22, x21, [sp, #0x50]
+0x0000000000fe8000: stp        x20, x19, [sp, #0x60]
+0x0000000000fe8004: stp        x29, x30, [sp, #0x70]
+0x0000000000fe8008: add        x29, sp, #0x70
+0x0000000000fe800c: mov        x21, x7
+0x0000000000fe8010: mov        x20, x6
+0x0000000000fe8014: mov        x22, x5
+0x0000000000fe8018: mov        x23, x4
+0x0000000000fe801c: mov        x24, x3
+0x0000000000fe8020: mov        x25, x2
+0x0000000000fe8024: mov        x26, x1
+0x0000000000fe8028: mov        x19, x0
+0x0000000000fe802c: bl         #0xfe4a00
+0x0000000000fe8030: mov        x1, x0
+0x0000000000fe8034: ldp        q0, q1, [x20]
+0x0000000000fe8038: stp        q0, q1, [sp]
+0x0000000000fe803c: ldr        q0, [x20, #0x20]
+0x0000000000fe8040: str        q0, [sp, #0x20]
+0x0000000000fe8044: mov        x4, sp
+0x0000000000fe8048: mov        x0, x19
+0x0000000000fe804c: mov        x2, x24
+0x0000000000fe8050: mov        x3, x22
+0x0000000000fe8054: bl         #0x440a644
+0x0000000000fe8058: adrp       x8, #0x5c9f000
+0x0000000000fe805c: add        x8, x8, #0xe8
+0x0000000000fe8060: str        x8, [x19]
+0x0000000000fe8064: stp        x26, x25, [x19, #0xa8]
+0x0000000000fe8068: mov        x20, x19
+0x0000000000fe806c: str        xzr, [x20, #0xb8]!
+0x0000000000fe8070: mov        x1, x23
+0x0000000000fe8074: mov        x2, x21
+0x0000000000fe8078: bl         #0xfe80c4
+0x0000000000fe807c: mov        x0, x19
+0x0000000000fe8080: ldp        x29, x30, [sp, #0x70]
+0x0000000000fe8084: ldp        x20, x19, [sp, #0x60]
+0x0000000000fe8088: ldp        x22, x21, [sp, #0x50]
+0x0000000000fe808c: ldp        x24, x23, [sp, #0x40]
+0x0000000000fe8090: ldp        x26, x25, [sp, #0x30]
+0x0000000000fe8094: add        sp, sp, #0x80
+0x0000000000fe8098: ret        
+0x0000000000fe809c: mov        x21, x0
+0x0000000000fe80a0: ldr        x1, [x20]
+0x0000000000fe80a4: str        xzr, [x20]
+0x0000000000fe80a8: cbz        x1, #0xfe80b4
+0x0000000000fe80ac: mov        x0, x20
+0x0000000000fe80b0: bl         #0x246a4
+0x0000000000fe80b4: mov        x0, x19
+0x0000000000fe80b8: bl         #0x440a6a0
+0x0000000000fe80bc: mov        x0, x21
+0x0000000000fe80c0: bl         #0x4b97984

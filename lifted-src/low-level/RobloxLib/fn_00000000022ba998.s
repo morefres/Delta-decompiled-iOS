@@ -1,0 +1,30 @@
+; instruction-faithful ARM64 fallback for RobloxLib::function_22ba998
+0x00000000022ba998: sub        sp, sp, #0x40
+0x00000000022ba99c: stp        x22, x21, [sp, #0x10]
+0x00000000022ba9a0: stp        x20, x19, [sp, #0x20]
+0x00000000022ba9a4: stp        x29, x30, [sp, #0x30]
+0x00000000022ba9a8: add        x29, sp, #0x30
+0x00000000022ba9ac: mov        x20, x1
+0x00000000022ba9b0: mov        x21, x0
+0x00000000022ba9b4: add        x19, x0, #0x730
+0x00000000022ba9b8: str        x19, [sp]
+0x00000000022ba9bc: mov        w8, #1
+0x00000000022ba9c0: strb       w8, [sp, #8]
+0x00000000022ba9c4: mov        x0, x19
+0x00000000022ba9c8: bl         #0x6983d8
+0x00000000022ba9cc: add        x0, x21, #0x740
+0x00000000022ba9d0: mov        x1, x20
+0x00000000022ba9d4: bl         #0x18060c
+0x00000000022ba9d8: mov        x0, x19
+0x00000000022ba9dc: bl         #0x6984e8
+0x00000000022ba9e0: ldp        x29, x30, [sp, #0x30]
+0x00000000022ba9e4: ldp        x20, x19, [sp, #0x20]
+0x00000000022ba9e8: ldp        x22, x21, [sp, #0x10]
+0x00000000022ba9ec: add        sp, sp, #0x40
+0x00000000022ba9f0: ret        
+0x00000000022ba9f4: bl         #0x18bd8
+0x00000000022ba9f8: mov        x19, x0
+0x00000000022ba9fc: mov        x0, sp
+0x00000000022baa00: bl         #0x50804
+0x00000000022baa04: mov        x0, x19
+0x00000000022baa08: bl         #0x4b97984

@@ -1,0 +1,78 @@
+; instruction-faithful ARM64 fallback for RobloxLib::function_1fa7cb4
+0x0000000001fa7cb4: stp        x28, x27, [sp, #-0x40]!
+0x0000000001fa7cb8: stp        x22, x21, [sp, #0x10]
+0x0000000001fa7cbc: stp        x20, x19, [sp, #0x20]
+0x0000000001fa7cc0: stp        x29, x30, [sp, #0x30]
+0x0000000001fa7cc4: add        x29, sp, #0x30
+0x0000000001fa7cc8: sub        sp, sp, #0x220
+0x0000000001fa7ccc: ldp        x9, x8, [x29, #0x70]
+0x0000000001fa7cd0: ldp        x11, x10, [x29, #0x60]
+0x0000000001fa7cd4: ldp        x13, x12, [x29, #0x50]
+0x0000000001fa7cd8: ldp        x15, x14, [x29, #0x40]
+0x0000000001fa7cdc: ldp        x17, x16, [x29, #0x30]
+0x0000000001fa7ce0: ldp        x20, x19, [x29, #0x20]
+0x0000000001fa7ce4: ldp        x22, x21, [x29, #0x10]
+0x0000000001fa7ce8: ldr        d0, [x5]
+0x0000000001fa7cec: ldr        d1, [x6]
+0x0000000001fa7cf0: ldr        d2, [x7]
+0x0000000001fa7cf4: ldr        d3, [x22]
+0x0000000001fa7cf8: ldr        d4, [x21]
+0x0000000001fa7cfc: ldr        d5, [x20]
+0x0000000001fa7d00: ldr        d6, [x19]
+0x0000000001fa7d04: ldr        d7, [x17]
+0x0000000001fa7d08: ldr        d16, [x16]
+0x0000000001fa7d0c: ldr        d17, [x15]
+0x0000000001fa7d10: ldr        d18, [x14]
+0x0000000001fa7d14: ldr        x13, [x13]
+0x0000000001fa7d18: ldr        x12, [x12]
+0x0000000001fa7d1c: ldr        x11, [x11]
+0x0000000001fa7d20: ldr        x10, [x10]
+0x0000000001fa7d24: ldr        x9, [x9]
+0x0000000001fa7d28: ldr        x8, [x8]
+0x0000000001fa7d2c: str        d0, [sp]
+0x0000000001fa7d30: mov        w14, #0xa
+0x0000000001fa7d34: str        w14, [sp, #0x10]
+0x0000000001fa7d38: str        d1, [sp, #0x20]
+0x0000000001fa7d3c: str        w14, [sp, #0x30]
+0x0000000001fa7d40: str        d2, [sp, #0x40]
+0x0000000001fa7d44: str        w14, [sp, #0x50]
+0x0000000001fa7d48: str        d3, [sp, #0x60]
+0x0000000001fa7d4c: str        w14, [sp, #0x70]
+0x0000000001fa7d50: str        d4, [sp, #0x80]
+0x0000000001fa7d54: str        w14, [sp, #0x90]
+0x0000000001fa7d58: str        d5, [sp, #0xa0]
+0x0000000001fa7d5c: str        w14, [sp, #0xb0]
+0x0000000001fa7d60: str        d6, [sp, #0xc0]
+0x0000000001fa7d64: str        w14, [sp, #0xd0]
+0x0000000001fa7d68: str        d7, [sp, #0xe0]
+0x0000000001fa7d6c: str        w14, [sp, #0xf0]
+0x0000000001fa7d70: str        d16, [sp, #0x100]
+0x0000000001fa7d74: str        w14, [sp, #0x110]
+0x0000000001fa7d78: str        d17, [sp, #0x120]
+0x0000000001fa7d7c: str        w14, [sp, #0x130]
+0x0000000001fa7d80: str        d18, [sp, #0x140]
+0x0000000001fa7d84: str        w14, [sp, #0x150]
+0x0000000001fa7d88: str        x13, [sp, #0x160]
+0x0000000001fa7d8c: mov        w13, #4
+0x0000000001fa7d90: str        w13, [sp, #0x170]
+0x0000000001fa7d94: str        x12, [sp, #0x180]
+0x0000000001fa7d98: str        w13, [sp, #0x190]
+0x0000000001fa7d9c: str        x11, [sp, #0x1a0]
+0x0000000001fa7da0: str        w13, [sp, #0x1b0]
+0x0000000001fa7da4: str        x10, [sp, #0x1c0]
+0x0000000001fa7da8: str        w13, [sp, #0x1d0]
+0x0000000001fa7dac: str        x9, [sp, #0x1e0]
+0x0000000001fa7db0: str        w13, [sp, #0x1f0]
+0x0000000001fa7db4: str        x8, [sp, #0x200]
+0x0000000001fa7db8: str        w13, [sp, #0x210]
+0x0000000001fa7dbc: mov        x6, sp
+0x0000000001fa7dc0: mov        x5, #0x11
+0x0000000001fa7dc4: movk       x5, #0x8000, lsl #48
+0x0000000001fa7dc8: mov        w7, #1
+0x0000000001fa7dcc: bl         #0x47eec38
+0x0000000001fa7dd0: add        sp, sp, #0x220
+0x0000000001fa7dd4: ldp        x29, x30, [sp, #0x30]
+0x0000000001fa7dd8: ldp        x20, x19, [sp, #0x20]
+0x0000000001fa7ddc: ldp        x22, x21, [sp, #0x10]
+0x0000000001fa7de0: ldp        x28, x27, [sp], #0x40
+0x0000000001fa7de4: ret        

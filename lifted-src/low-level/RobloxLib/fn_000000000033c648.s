@@ -1,0 +1,18 @@
+; instruction-faithful ARM64 fallback for RobloxLib::function_33c648
+0x000000000033c648: ldrb       w8, [sp, #0x30]
+0x000000000033c64c: ldr        x9, [sp, #0x38]
+0x000000000033c650: ldr        x10, [sp, #0x28]
+0x000000000033c654: ldur       q0, [sp, #0x18]
+0x000000000033c658: ldrb       w11, [sp, #0x15]
+0x000000000033c65c: ldrb       w12, [sp, #0x14]
+0x000000000033c660: ldr        w13, [sp, #0x10]
+0x000000000033c664: ldp        x14, x15, [sp]
+0x000000000033c668: stp        x14, x15, [sp]
+0x000000000033c66c: str        w13, [sp, #0x10]
+0x000000000033c670: strb       w12, [sp, #0x14]
+0x000000000033c674: strb       w11, [sp, #0x15]
+0x000000000033c678: stur       q0, [sp, #0x18]
+0x000000000033c67c: str        x10, [sp, #0x28]
+0x000000000033c680: str        x9, [sp, #0x38]
+0x000000000033c684: strb       w8, [sp, #0x30]
+0x000000000033c688: b          #0x33bcd4

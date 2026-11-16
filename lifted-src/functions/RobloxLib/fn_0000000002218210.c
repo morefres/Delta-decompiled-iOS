@@ -1,0 +1,26 @@
+/* Evidence-based generated lift; not original source. */
+/* RobloxLib::function_2218210 start_va=0x2218210 image_relative=0x2218210 bytes=88 */
+void function_2218210__at_2218210(void) {
+    /* fcmp s0, #0.0 */
+    /* fmov s1, wzr */
+    /* fcsel s0, s1, s0, mi */
+    /* fmov s1, #1.00000000 */
+    /* fcmp s0, s1 */
+    /* fcsel s0, s1, s0, gt */
+    /* ldr s1, [x0, #0x150] */
+    /* fcmp s1, s0 */
+    /* b.eq #0x2218264 */
+    /* sub sp, sp, #0x20 */
+    /* stp x29, x30, [sp, #0x10] */
+    /* add x29, sp, #0x10 */
+    /* str s0, [x0, #0x150] */
+    /* adrp x8, #0x5df5000 */
+    /* add x8, x8, #0xae0 */
+    /* ldr x8, [x8] */
+    /* str x8, [sp, #8] */
+    /* add x1, sp, #8 */
+    /* call #0x28adac; ABI effects unresolved */
+    /* ldp x29, x30, [sp, #0x10] */
+    /* add sp, sp, #0x20 */
+    return;
+}

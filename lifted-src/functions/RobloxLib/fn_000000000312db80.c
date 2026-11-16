@@ -1,0 +1,10 @@
+/* Evidence-based generated lift; not original source. */
+/* RobloxLib::function_312db80 start_va=0x312db80 image_relative=0x312db80 bytes=24 */
+void function_312db80__at_312db80(void) {
+    /* adrp x0, #0x6178000 */
+    /* add x0, x0, #0x688 */
+    /* prfm pldl1keep, [x0] */
+    /* ldr x8, [x0] */
+    /* prfm pldl1keep, [x8] */
+    return;
+}

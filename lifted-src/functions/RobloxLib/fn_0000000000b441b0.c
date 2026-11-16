@@ -1,0 +1,96 @@
+/* Evidence-based generated lift; not original source. */
+/* RobloxLib::function_b441b0 start_va=0xb441b0 image_relative=0xb441b0 bytes=368 */
+void function_b441b0__at_b441b0(void) {
+    /* sub sp, sp, #0x50 */
+    /* stp x20, x19, [sp, #0x30] */
+    /* stp x29, x30, [sp, #0x40] */
+    /* add x29, sp, #0x40 */
+    /* mov x19, x0 */
+    /* ldp x9, x8, [x1] */
+    /* stp x9, x8, [sp, #0x10] */
+    /* cbz x8, #0xb441e4 */
+    /* add x8, x8, #8 */
+    /* ldxr x9, [x8] */
+    /* add x9, x9, #1 */
+    /* stxr w10, x9, [x8] */
+    /* cbnz w10, #0xb441d4 */
+    /* ldp x9, x8, [x2] */
+    /* stp x9, x8, [sp] */
+    /* cbz x8, #0xb44204 */
+    /* add x8, x8, #8 */
+    /* ldxr x9, [x8] */
+    /* add x9, x9, #1 */
+    /* stxr w10, x9, [x8] */
+    /* cbnz w10, #0xb441f4 */
+    /* ldr x20, [x19, #0x30] */
+    /* ldr x0, [x19, #0x48] */
+    /* call #0x39eac44; ABI effects unresolved */
+    /* ldp x9, x8, [x19, #0x38] */
+    /* stp x9, x8, [sp, #0x20] */
+    /* cbz x8, #0xb44230 */
+    /* add x8, x8, #8 */
+    /* ldxr x9, [x8] */
+    /* add x9, x9, #1 */
+    /* stxr w10, x9, [x8] */
+    /* cbnz w10, #0xb44220 */
+    /* add x1, sp, #0x20 */
+    /* mov x0, x20 */
+    /* call #0xb411ac; ABI effects unresolved */
+    /* ldr x19, [sp, #0x28] */
+    /* cbz x19, #0xb44274 */
+    /* add x8, x19, #8 */
+    /* ldaxr x9, [x8] */
+    /* sub x10, x9, #1 */
+    /* stlxr w11, x10, [x8] */
+    /* cbnz w11, #0xb44248 */
+    /* cbnz x9, #0xb44274 */
+    /* ldr x8, [x19] */
+    /* ldr x8, [x8, #0x10] */
+    /* mov x0, x19 */
+    /* call x8; ABI effects unresolved */
+    /* mov x0, x19 */
+    /* call #0x4b9808c; ABI effects unresolved */
+    /* ldr x19, [sp, #8] */
+    /* cbz x19, #0xb442ac */
+    /* add x8, x19, #8 */
+    /* ldaxr x9, [x8] */
+    /* sub x10, x9, #1 */
+    /* stlxr w11, x10, [x8] */
+    /* cbnz w11, #0xb44280 */
+    /* cbnz x9, #0xb442ac */
+    /* ldr x8, [x19] */
+    /* ldr x8, [x8, #0x10] */
+    /* mov x0, x19 */
+    /* call x8; ABI effects unresolved */
+    /* mov x0, x19 */
+    /* call #0x4b9808c; ABI effects unresolved */
+    /* ldr x19, [sp, #0x18] */
+    /* cbz x19, #0xb442e4 */
+    /* add x8, x19, #8 */
+    /* ldaxr x9, [x8] */
+    /* sub x10, x9, #1 */
+    /* stlxr w11, x10, [x8] */
+    /* cbnz w11, #0xb442b8 */
+    /* cbnz x9, #0xb442e4 */
+    /* ldr x8, [x19] */
+    /* ldr x8, [x8, #0x10] */
+    /* mov x0, x19 */
+    /* call x8; ABI effects unresolved */
+    /* mov x0, x19 */
+    /* call #0x4b9808c; ABI effects unresolved */
+    /* ldp x29, x30, [sp, #0x40] */
+    /* ldp x20, x19, [sp, #0x30] */
+    /* add sp, sp, #0x50 */
+    return;
+    /* mov x19, x0 */
+    /* add x0, sp, #0x20 */
+    /* call #0x1df28; ABI effects unresolved */
+    /* branch b #0xb44308 */
+    /* mov x19, x0 */
+    /* mov x0, sp */
+    /* call #0x1df28; ABI effects unresolved */
+    /* add x0, sp, #0x10 */
+    /* call #0x1df28; ABI effects unresolved */
+    /* mov x0, x19 */
+    /* call #0x4b97984; ABI effects unresolved */
+}

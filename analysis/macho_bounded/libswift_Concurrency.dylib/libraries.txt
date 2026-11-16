@@ -1,0 +1,24 @@
+Command: ID_DYLIB
+Offset:  0xbe8
+Size:    0x40
+name=@rpath/libswift_Concurrency.dylib, timestamp=1793047665, current_version=5.7.2,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0xd10
+Size:    0x38
+name=/usr/lib/libobjc.A.dylib, timestamp=2, current_version=228.0.0,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0xd48
+Size:    0x30
+name=/usr/lib/libc++.1.dylib, timestamp=2, current_version=1300.32.0,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0xd78
+Size:    0x38
+name=/usr/lib/libSystem.B.dylib, timestamp=2, current_version=1319.0.0,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0xdb0
+Size:    0x60
+name=/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation, timestamp=2, current_version=1949.0.0,  compatibility_version=150.0.0
+Command: LOAD_DYLIB
+Offset:  0xe10
+Size:    0x38
+name=@rpath/libswiftCore.dylib, timestamp=2, current_version=5.7.0,  compatibility_version=1.0.0

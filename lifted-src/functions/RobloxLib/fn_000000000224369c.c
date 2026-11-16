@@ -1,0 +1,11 @@
+/* Evidence-based generated lift; not original source. */
+/* RobloxLib::function_224369c start_va=0x224369c image_relative=0x224369c bytes=28 */
+void function_224369c__at_224369c(void) {
+    /* ldr q0, [x1] */
+    /* str q0, [x0] */
+    /* stp xzr, xzr, [x1] */
+    /* ldr q0, [x1, #0x10] */
+    /* str q0, [x0, #0x10] */
+    /* stp xzr, xzr, [x1, #0x10] */
+    return;
+}

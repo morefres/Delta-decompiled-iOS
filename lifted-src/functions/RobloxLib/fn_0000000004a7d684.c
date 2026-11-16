@@ -1,0 +1,7 @@
+/* Evidence-based generated lift; not original source. */
+/* RobloxLib::function_4a7d684 start_va=0x4a7d684 image_relative=0x4a7d684 bytes=12 */
+void function_4a7d684__at_4a7d684(void) {
+    /* adrp x0, #0x60aa000 */
+    /* add x0, x0, #0x498 */
+    return;
+}

@@ -1,0 +1,40 @@
+; instruction-faithful ARM64 fallback for RobloxLib::function_30fa980
+0x00000000030fa980: ldr        x8, [sp]
+0x00000000030fa984: movi       v0.16b, #0
+0x00000000030fa988: stur       q0, [x0, #8]
+0x00000000030fa98c: adrp       x9, #0x5e1c000
+0x00000000030fa990: add        x9, x9, #0xe08
+0x00000000030fa994: str        x9, [x0]
+0x00000000030fa998: str        x1, [x0, #0x18]
+0x00000000030fa99c: ldr        w9, [x2]
+0x00000000030fa9a0: ldr        w10, [x3]
+0x00000000030fa9a4: ldr        x11, [x4]
+0x00000000030fa9a8: ldr        w12, [x5]
+0x00000000030fa9ac: ldr        w13, [x6]
+0x00000000030fa9b0: ldr        w14, [x7]
+0x00000000030fa9b4: ldrb       w8, [x8]
+0x00000000030fa9b8: stp        w9, w10, [x0, #0x28]
+0x00000000030fa9bc: str        x11, [x0, #0x30]
+0x00000000030fa9c0: str        xzr, [x0, #0x80]
+0x00000000030fa9c4: stur       q0, [x0, #0x38]
+0x00000000030fa9c8: stur       q0, [x0, #0x48]
+0x00000000030fa9cc: stur       q0, [x0, #0x58]
+0x00000000030fa9d0: stur       q0, [x0, #0x68]
+0x00000000030fa9d4: strh       wzr, [x0, #0x78]
+0x00000000030fa9d8: adrp       x9, #0x5e1a000
+0x00000000030fa9dc: add        x9, x9, #0xa40
+0x00000000030fa9e0: str        x9, [x0, #0x20]
+0x00000000030fa9e4: stp        w12, w13, [x0, #0x88]
+0x00000000030fa9e8: stp        wzr, w14, [x0, #0x90]
+0x00000000030fa9ec: strb       w8, [x0, #0x98]
+0x00000000030fa9f0: strb       wzr, [x0, #0xb8]
+0x00000000030fa9f4: strh       wzr, [x0, #0xbc]
+0x00000000030fa9f8: strb       wzr, [x0, #0xc0]
+0x00000000030fa9fc: strb       wzr, [x0, #0xc4]
+0x00000000030faa00: strb       wzr, [x0, #0xc8]
+0x00000000030faa04: strb       wzr, [x0, #0xcc]
+0x00000000030faa08: stur       xzr, [x0, #0xad]
+0x00000000030faa0c: str        q0, [x0, #0xa0]
+0x00000000030faa10: strh       wzr, [x0, #0xd8]
+0x00000000030faa14: str        xzr, [x0, #0xd0]
+0x00000000030faa18: ret        

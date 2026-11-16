@@ -1,0 +1,16 @@
+; instruction-faithful ARM64 fallback for Reaper::function_4bb8
+0x0000000000004bb8: stp        x20, x19, [sp, #-0x20]!
+0x0000000000004bbc: stp        x29, x30, [sp, #0x10]
+0x0000000000004bc0: add        x29, sp, #0x10
+0x0000000000004bc4: mov        x19, x0
+0x0000000000004bc8: add        x0, x0, #0x18
+0x0000000000004bcc: mov        x1, #0
+0x0000000000004bd0: bl         #0x6ddc
+0x0000000000004bd4: add        x0, x19, #0x10
+0x0000000000004bd8: mov        x1, #0
+0x0000000000004bdc: bl         #0x6ddc
+0x0000000000004be0: add        x0, x19, #8
+0x0000000000004be4: mov        x1, #0
+0x0000000000004be8: ldp        x29, x30, [sp, #0x10]
+0x0000000000004bec: ldp        x20, x19, [sp], #0x20
+0x0000000000004bf0: b          #0x6ddc

@@ -1,0 +1,6 @@
+; instruction-faithful ARM64 fallback for RobloxLib::function_2965ce0
+0x0000000002965ce0: stp        x29, x30, [sp, #-0x10]!
+0x0000000002965ce4: mov        x29, sp
+0x0000000002965ce8: bl         #0x2965c94
+0x0000000002965cec: ldp        x29, x30, [sp], #0x10
+0x0000000002965cf0: b          #0x47e93a8

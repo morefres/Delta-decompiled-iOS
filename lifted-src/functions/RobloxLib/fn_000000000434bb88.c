@@ -1,0 +1,38 @@
+/* Evidence-based generated lift; not original source. */
+/* RobloxLib::function_434bb88 start_va=0x434bb88 image_relative=0x434bb88 bytes=136 */
+void function_434bb88__at_434bb88(void) {
+    /* stp x20, x19, [sp, #-0x20]! */
+    /* stp x29, x30, [sp, #0x10] */
+    /* add x29, sp, #0x10 */
+    /* mov x19, x0 */
+    /* adrp x8, #0x4baa000 */
+    /* ldr d0, [x8, #0x668] */
+    /* adrp x8, #0x434b000 */
+    /* add x8, x8, #0xc10 */
+    /* str d0, [x0] */
+    /* stp xzr, xzr, [x0, #0x10] */
+    /* str x8, [x0, #8] */
+    /* ldr x8, [x1] */
+    /* str x8, [x0, #0x20] */
+    /* cbz x8, #0x434bbe0 */
+    /* add x8, x8, #4 */
+    /* ldaxr w9, [x8] */
+    /* add w9, w9, #1 */
+    /* stlxr w10, w9, [x8] */
+    /* cbnz w10, #0x434bbc4 */
+    /* ldr x8, [x19, #0x18] */
+    /* orr x8, x8, #4 */
+    /* branch b #0x434bbe4 */
+    /* mov w8, #4 */
+    /* str x8, [x19, #0x18] */
+    /* adrp x8, #0x434b000 */
+    /* add x8, x8, #0xc18 */
+    /* str x8, [x19, #0x28] */
+    /* add x0, x19, #0x30 */
+    /* mov x1, x2 */
+    /* call #0x4342718; ABI effects unresolved */
+    /* mov x0, x19 */
+    /* ldp x29, x30, [sp, #0x10] */
+    /* ldp x20, x19, [sp], #0x20 */
+    return;
+}

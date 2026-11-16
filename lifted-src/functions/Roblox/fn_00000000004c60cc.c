@@ -1,0 +1,194 @@
+/*
+ * Evidence-based lift for Roblox::function_4c60cc
+ * Start VA: 0x1004c60cc; image-relative: 0x4c60cc; bytes: 748
+ * This is generated pseudocode, not original source. Unknown semantics are preserved as comments.
+ */
+void function_4c60cc__at_4c60cc(void) {
+    /* sub sp, sp, #0xe0 */
+    /* memory stp x29, x30, [sp, #0xd0] */
+    /* add x29, sp, #0xd0 */
+    /* mov x8, x1 */
+    /* mov x1, x2 */
+    /* memory str x3, [sp, #0x58] */
+    /* memory str w4, [sp, #0x64] */
+    /* memory stur x0, [x29, #-0x10] */
+    /* memory stur x8, [x29, #-0x18] */
+    /* sub x0, x29, #0x20 */
+    /* memory stur xzr, [x29, #-0x20] */
+    /* call #0x1005c11b4; return value/ABI effects unresolved */
+    /* memory ldr x1, [sp, #0x58] */
+    /* sub x0, x29, #0x28 */
+    /* memory stur xzr, [x29, #-0x28] */
+    /* call #0x1005c11b4; return value/ABI effects unresolved */
+    /* memory ldr w4, [sp, #0x64] */
+    /* memory stur w4, [x29, #-0x2c] */
+    /* memory ldur x8, [x29, #-0x10] */
+    /* memory stur xzr, [x29, #-0x10] */
+    /* sub x0, x29, #0x40 */
+    /* memory stur x8, [x29, #-0x40] */
+    /* adrp x8, #0x1008d5000 */
+    /* memory ldr x8, [x8, #0xbb0] */
+    /* memory stur x8, [x29, #-0x38] */
+    /* adrp x8, #0x1008c0000 */
+    /* memory ldr x1, [x8, #0xa00] */
+    /* call #0x1005c10dc; return value/ABI effects unresolved */
+    /* memory str x0, [sp, #0x68] */
+    goto label__0x1004c6144;
+    /* memory ldr x1, [sp, #0x68] */
+    /* sub x0, x29, #0x10 */
+    /* mov x8, x1 */
+    /* memory stur x8, [x29, #-0x10] */
+    /* call #0x1005c11b4; return value/ABI effects unresolved */
+    /* memory ldur x8, [x29, #-0x10] */
+    /* subs x8, x8, #0 */
+    /* condition cset w8, eq */
+    /* conditional branch tbnz w8, #0, #0x1004c6334; control-flow target retained in assembly fallback */
+    goto label__0x1004c616c;
+    /* memory ldr x1, [sp, #0x48] */
+    /* memory ldur x0, [x29, #-0x20] */
+    /* call #0x1005e7580; return value/ABI effects unresolved */
+    /* memory str x0, [sp, #0x50] */
+    goto label__0x1004c6180;
+    /* memory ldr x8, [sp, #0x50] */
+    /* subs x8, x8, #0 */
+    /* condition cset w8, eq */
+    /* conditional branch tbnz w8, #0, #0x1004c61bc; control-flow target retained in assembly fallback */
+    goto label__0x1004c6194;
+    /* memory ldr x1, [sp, #0x48] */
+    /* memory ldur x0, [x29, #-0x28] */
+    /* call #0x1005e7580; return value/ABI effects unresolved */
+    /* memory str x0, [sp, #0x40] */
+    goto label__0x1004c61a8;
+    /* memory ldr x8, [sp, #0x40] */
+    /* subs x8, x8, #0 */
+    /* condition cset w8, ne */
+    /* conditional branch tbnz w8, #0, #0x1004c61dc; control-flow target retained in assembly fallback */
+    goto label__0x1004c61bc;
+    /* memory stur xzr, [x29, #-8] */
+    /* mov w8, #1 */
+    /* memory stur w8, [x29, #-0x50] */
+    goto label__0x1004c634c;
+    /* memory stur x0, [x29, #-0x48] */
+    /* mov x8, x1 */
+    /* memory stur w8, [x29, #-0x4c] */
+    goto label__0x1004c6384;
+    /* memory ldr x1, [sp, #0x48] */
+    /* memory ldur x0, [x29, #-0x20] */
+    /* call #0x1005cf0c0; return value/ABI effects unresolved */
+    /* memory str x0, [sp, #0x38] */
+    goto label__0x1004c61f0;
+    /* memory ldr x8, [sp, #0x38] */
+    /* memory ldur x9, [x29, #-0x10] */
+    /* memory ldr x0, [x9, #0x20] */
+    /* memory str x8, [x9, #0x20] */
+    /* call #0x1005c1130; return value/ABI effects unresolved */
+    /* memory ldur x0, [x29, #-0x20] */
+    /* memory ldur x1, [x29, #-0x28] */
+    /* call #0x1004c92fc; return value/ABI effects unresolved */
+    /* memory str x0, [sp, #0x30] */
+    goto label__0x1004c6218;
+    /* memory ldr x0, [sp, #0x30] */
+    /* mov x29, x29 */
+    /* call #0x1005c1160; return value/ABI effects unresolved */
+    /* mov x8, x0 */
+    /* memory ldur x9, [x29, #-0x10] */
+    /* memory ldr x0, [x9, #0x28] */
+    /* memory str x8, [x9, #0x28] */
+    /* call #0x1005c1130; return value/ABI effects unresolved */
+    /* memory ldr x1, [sp, #0x48] */
+    /* memory ldur x0, [x29, #-0x28] */
+    /* call #0x1005cf0c0; return value/ABI effects unresolved */
+    /* memory str x0, [sp, #0x28] */
+    goto label__0x1004c624c;
+    /* memory ldr x8, [sp, #0x28] */
+    /* memory ldur x9, [x29, #-0x10] */
+    /* memory ldr x0, [x9, #0x30] */
+    /* memory str x8, [x9, #0x30] */
+    /* call #0x1005c1130; return value/ABI effects unresolved */
+    /* memory ldur x9, [x29, #-0x10] */
+    /* mov x8, #4 */
+    /* memory str x8, [x9, #0x38] */
+    /* memory ldur w8, [x29, #-0x2c] */
+    /* memory ldur x9, [x29, #-0x10] */
+    /* memory str w8, [x9, #0x40] */
+    /* memory ldur x8, [x29, #-0x10] */
+    /* memory ldr x0, [x8, #0x28] */
+    /* memory ldur x8, [x29, #-0x10] */
+    /* memory ldr x1, [x8, #0x30] */
+    /* memory ldur x8, [x29, #-0x10] */
+    /* memory ldr w2, [x8, #0x40] */
+    /* sub x8, x29, #0x60 */
+    /* call #0x1004c5708; return value/ABI effects unresolved */
+    goto label__0x1004c629c;
+    /* sub x0, x29, #0x60 */
+    /* call #0x100381918; return value/ABI effects unresolved */
+    /* memory str w0, [sp, #0x24] */
+    goto label__0x1004c62ac;
+    /* memory ldr w8, [sp, #0x24] */
+    /* conditional branch tbnz w8, #0, #0x1004c62e0; control-flow target retained in assembly fallback */
+    goto label__0x1004c62b8;
+    /* memory stur xzr, [x29, #-8] */
+    /* mov w8, #1 */
+    /* memory stur w8, [x29, #-0x50] */
+    goto label__0x1004c6314;
+    /* memory stur x0, [x29, #-0x48] */
+    /* mov x8, x1 */
+    /* memory stur w8, [x29, #-0x4c] */
+    /* sub x0, x29, #0x60 */
+    /* call #0x1004b10bc; return value/ABI effects unresolved */
+    goto label__0x1004c6384;
+    /* sub x0, x29, #0x60 */
+    /* call #0x1004a7f4c; return value/ABI effects unresolved */
+    /* memory str x0, [sp, #0x18] */
+    goto label__0x1004c62f0;
+    /* memory ldr x1, [sp, #0x18] */
+    /* memory ldur x8, [x29, #-0x10] */
+    /* add x0, x8, #8 */
+    /* call #0x1004c5948; return value/ABI effects unresolved */
+    /* memory ldur x9, [x29, #-0x10] */
+    /* mov w8, #7 */
+    /* memory str w8, [x9, #0x10] */
+    /* memory stur wzr, [x29, #-0x50] */
+    goto label__0x1004c6314;
+    /* sub x0, x29, #0x60 */
+    /* call #0x1004b10bc; return value/ABI effects unresolved */
+    /* memory ldur w8, [x29, #-0x50] */
+    /* subs w8, w8, #0 */
+    /* condition cset w8, ne */
+    /* conditional branch tbnz w8, #0, #0x1004c634c; control-flow target retained in assembly fallback */
+    goto label__0x1004c6330;
+    goto label__0x1004c6334;
+    /* memory ldur x0, [x29, #-0x10] */
+    /* call #0x1005c113c; return value/ABI effects unresolved */
+    /* memory stur x0, [x29, #-8] */
+    /* mov w8, #1 */
+    /* memory stur w8, [x29, #-0x50] */
+    goto label__0x1004c634c;
+    /* sub x0, x29, #0x28 */
+    /* mov x1, #0 */
+    /* memory str x1, [sp, #0x10] */
+    /* call #0x1005c11b4; return value/ABI effects unresolved */
+    /* memory ldr x1, [sp, #0x10] */
+    /* sub x0, x29, #0x20 */
+    /* call #0x1005c11b4; return value/ABI effects unresolved */
+    /* memory ldr x1, [sp, #0x10] */
+    /* sub x0, x29, #0x10 */
+    /* call #0x1005c11b4; return value/ABI effects unresolved */
+    /* memory ldur x0, [x29, #-8] */
+    /* memory ldp x29, x30, [sp, #0xd0] */
+    /* add sp, sp, #0xe0 */
+    return;
+    /* sub x0, x29, #0x28 */
+    /* mov x1, #0 */
+    /* memory str x1, [sp, #8] */
+    /* call #0x1005c11b4; return value/ABI effects unresolved */
+    /* memory ldr x1, [sp, #8] */
+    /* sub x0, x29, #0x20 */
+    /* call #0x1005c11b4; return value/ABI effects unresolved */
+    /* memory ldr x1, [sp, #8] */
+    /* sub x0, x29, #0x10 */
+    /* call #0x1005c11b4; return value/ABI effects unresolved */
+    goto label__0x1004c63b0;
+    /* memory ldur x0, [x29, #-0x48] */
+    /* call #0x1005bfce4; return value/ABI effects unresolved */
+}

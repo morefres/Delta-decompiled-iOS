@@ -1,0 +1,19 @@
+; instruction-faithful ARM64 fallback for libgloop.dylib::function_6b04c
+0x000000000006b04c: mov        x8, #0x848000000000
+0x000000000006b050: movk       x8, #0x412e, lsl #48
+0x000000000006b054: fmov       d1, x8
+0x000000000006b058: fmul       d0, d0, d1
+0x000000000006b05c: mov        x8, #0x43e0000000000000
+0x000000000006b060: fmov       d1, x8
+0x000000000006b064: fcmp       d0, d1
+0x000000000006b068: b.ge       #0x6b084
+0x000000000006b06c: mov        x8, #-0x3c20000000000000
+0x000000000006b070: fmov       d1, x8
+0x000000000006b074: fcmp       d0, d1
+0x000000000006b078: b.ls       #0x6b08c
+0x000000000006b07c: fcvtzs     x0, d0
+0x000000000006b080: ret        
+0x000000000006b084: mov        x0, #0x7fffffffffffffff
+0x000000000006b088: ret        
+0x000000000006b08c: mov        x0, #-0x8000000000000000
+0x000000000006b090: ret        

@@ -1,0 +1,8 @@
+; instruction-faithful ARM64 fallback for Persona2::function_4045ec
+0x00000000004045ec: mov        w9, #0x7469
+0x00000000004045f0: mov        x10, #-0x1e00000000000000
+0x00000000004045f4: stp        x9, x10, [x8]
+0x00000000004045f8: ret        
+0x00000000004045fc: mov        w0, #0x7469
+0x0000000000404600: mov        x1, #-0x1e00000000000000
+0x0000000000404604: ret        

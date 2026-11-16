@@ -1,0 +1,67 @@
+/* Evidence-based generated lift; not original source. */
+/* RobloxLib::function_d9920 start_va=0xd9920 image_relative=0xd9920 bytes=252 */
+void function_d9920__at_d9920(void) {
+    /* sub sp, sp, #0x40 */
+    /* stp d9, d8, [sp, #0x10] */
+    /* stp x20, x19, [sp, #0x20] */
+    /* stp x29, x30, [sp, #0x30] */
+    /* add x29, sp, #0x30 */
+    /* fmov d8, d0 */
+    /* mov x20, x0 */
+    /* adrp x8, #0x6199000 */
+    /* add x8, x8, #0xb00 */
+    /* ldr x8, [x8] */
+    /* sub x19, x0, #0xe0 */
+    /* mov x0, x19 */
+    /* call x8; ABI effects unresolved */
+    /* fcmp d8, #0.0 */
+    /* fmov d0, xzr */
+    /* fcsel d0, d0, d8, mi */
+    /* fmov d1, #1.00000000 */
+    /* fcmp d0, d1 */
+    /* fcsel d8, d1, d0, gt */
+    /* str d8, [sp, #8] */
+    /* ldr d0, [x20, #0x18]! */
+    /* fcmp d0, d8 */
+    /* b.eq #0xd9a08 */
+    /* adrp x8, #0x6199000 */
+    /* add x8, x8, #0x510 */
+    /* ldrb w8, [x8] */
+    /* cmp w8, #1 */
+    /* b.ne #0xd99f4 */
+    /* adrp x8, #0x65ee000 */
+    /* add x8, x8, #0xb00 */
+    /* ldrb w8, [x8] */
+    /* tbnz w8, #0, #0xd99b0 */
+    /* call #0x646b70; ABI effects unresolved */
+    /* tbnz w0, #0, #0xd99b0 */
+    /* call #0x646df0; ABI effects unresolved */
+    /* cbz w0, #0xd99f4 */
+    /* ldr x8, [x19] */
+    /* ldr x8, [x8, #0x98] */
+    /* adrp x1, #0x61fa000 */
+    /* add x1, x1, #0x680 */
+    /* mov x0, x19 */
+    /* mov w2, #1 */
+    /* call x8; ABI effects unresolved */
+    /* mov x0, x19 */
+    /* call #0x418c6d4; ABI effects unresolved */
+    /* cbz x0, #0xd99f4 */
+    /* adrp x2, #0x61fa000 */
+    /* add x2, x2, #0x680 */
+    /* add x4, sp, #8 */
+    /* mov x1, x19 */
+    /* mov x3, x20 */
+    /* call #0x24d8498; ABI effects unresolved */
+    /* ldr d8, [sp, #8] */
+    /* str d8, [x20] */
+    /* adrp x1, #0x61fa000 */
+    /* add x1, x1, #0x680 */
+    /* mov x0, x19 */
+    /* call #0x4197e7c; ABI effects unresolved */
+    /* ldp x29, x30, [sp, #0x30] */
+    /* ldp x20, x19, [sp, #0x20] */
+    /* ldp d9, d8, [sp, #0x10] */
+    /* add sp, sp, #0x40 */
+    return;
+}

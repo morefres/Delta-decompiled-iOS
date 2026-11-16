@@ -1,0 +1,46 @@
+/* Evidence-based generated lift; not original source. */
+/* RobloxLib::function_94f510 start_va=0x94f510 image_relative=0x94f510 bytes=168 */
+void function_94f510__at_94f510(void) {
+    /* stp d9, d8, [sp, #-0x30]! */
+    /* stp x20, x19, [sp, #0x10] */
+    /* stp x29, x30, [sp, #0x20] */
+    /* add x29, sp, #0x20 */
+    /* mov x19, x0 */
+    /* adrp x8, #0x6100000 */
+    /* ldr w8, [x8, #0xaf0] */
+    /* scvtf d0, w8 */
+    /* adrp x8, #0x4bcd000 */
+    /* ldr d1, [x8, #0x7c0] */
+    /* fdiv d8, d0, d1 */
+    /* call #0x479df78; ABI effects unresolved */
+    /* scvtf d0, w0 */
+    /* fmul d0, d8, d0 */
+    /* fcvtzs w8, d0 */
+    /* adrp x9, #0x6100000 */
+    /* ldr w9, [x9, #0xb08] */
+    /* str w8, [x19] */
+    /* adrp x8, #0x65d9000 */
+    /* add x8, x8, #0x138 */
+    /* str x8, [x19, #8] */
+    /* str w9, [x19, #0x10] */
+    /* adrp x8, #0x528a000 */
+    /* add x8, x8, #0x3ba */
+    /* str x8, [x19, #0x18] */
+    /* str wzr, [x19, #0x20] */
+    /* strh wzr, [x19, #0x24] */
+    /* str x19, [x19, #0x28] */
+    /* str wzr, [x19, #0x30] */
+    /* strb wzr, [x19, #0x34] */
+    /* str x19, [x19, #0x38] */
+    /* str wzr, [x19, #0x40] */
+    /* strb wzr, [x19, #0x44] */
+    /* str x19, [x19, #0x48] */
+    /* str wzr, [x19, #0x50] */
+    /* strb wzr, [x19, #0x54] */
+    /* str x19, [x19, #0x58] */
+    /* mov x0, x19 */
+    /* ldp x29, x30, [sp, #0x20] */
+    /* ldp x20, x19, [sp, #0x10] */
+    /* ldp d9, d8, [sp], #0x30 */
+    return;
+}

@@ -1,0 +1,22 @@
+; instruction-faithful ARM64 fallback for RobloxLib::function_ed2764
+0x0000000000ed2764: sub        sp, sp, #0x30
+0x0000000000ed2768: stp        x20, x19, [sp, #0x10]
+0x0000000000ed276c: stp        x29, x30, [sp, #0x20]
+0x0000000000ed2770: add        x29, sp, #0x20
+0x0000000000ed2774: mov        x0, x1
+0x0000000000ed2778: mov        x19, x8
+0x0000000000ed277c: mov        x8, sp
+0x0000000000ed2780: bl         #0xed27f4
+0x0000000000ed2784: ldr        q0, [sp]
+0x0000000000ed2788: str        q0, [x19]
+0x0000000000ed278c: fmov       x0, d0
+0x0000000000ed2790: bl         #0x44090cc
+0x0000000000ed2794: ldp        x29, x30, [sp, #0x20]
+0x0000000000ed2798: ldp        x20, x19, [sp, #0x10]
+0x0000000000ed279c: add        sp, sp, #0x30
+0x0000000000ed27a0: ret        
+0x0000000000ed27a4: mov        x20, x0
+0x0000000000ed27a8: mov        x0, x19
+0x0000000000ed27ac: bl         #0x1df28
+0x0000000000ed27b0: mov        x0, x20
+0x0000000000ed27b4: bl         #0x4b97984

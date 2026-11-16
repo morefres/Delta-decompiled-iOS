@@ -1,0 +1,2 @@
+; instruction-faithful ARM64 fallback for RobloxLib::__ZN3RBX8Payments3iOS20PaymentsProtocolImpl21getSecondaryAuthTokenENSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE
+0x0000000000799a70: ret        

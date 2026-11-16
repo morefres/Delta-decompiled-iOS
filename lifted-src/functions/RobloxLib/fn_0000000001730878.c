@@ -1,0 +1,119 @@
+/* Evidence-based generated lift; not original source. */
+/* RobloxLib::function_1730878 start_va=0x1730878 image_relative=0x1730878 bytes=460 */
+void function_1730878__at_1730878(void) {
+    /* sub sp, sp, #0x90 */
+    /* stp d9, d8, [sp, #0x60] */
+    /* stp x20, x19, [sp, #0x70] */
+    /* stp x29, x30, [sp, #0x80] */
+    /* add x29, sp, #0x80 */
+    /* mov x19, x0 */
+    /* ldp x9, x10, [x0] */
+    /* ldrsw x8, [x1, #0x10] */
+    /* ldr x10, [x10] */
+    /* add x20, x10, x8, lsl #3 */
+    /* ldr x13, [x0, #0x18] */
+    /* ldr w15, [x20] */
+    /* ldr x14, [x13, #0x10] */
+    /* ldr x10, [x13] */
+    /* ldp w12, w11, [x14, #0x48] */
+    /* subs w11, w15, w11 */
+    /* b.ge #0x17308c4 */
+    /* sub w12, w15, w12 */
+    /* branch b #0x17308e0 */
+    /* ldr x13, [x13, #8] */
+    /* ldr x14, [x14, #0x50] */
+    /* ldr w14, [x14, w11, sxtw #2] */
+    /* sub w12, w14, w12 */
+    /* cmp w14, #0 */
+    /* csel x10, x10, x13, ge */
+    /* csel w12, w12, w11, ge */
+    /* mov x11, #0 */
+    /* ldr x10, [x10] */
+    /* add w12, w12, w12, lsl #1 */
+    /* lsl w12, w12, #1 */
+    /* ldr x10, [x10] */
+    /* add x12, x10, w12, sxtw #2 */
+    /* ldr x13, [x19, #0x10] */
+    /* ldrsw x10, [x20, #4] */
+    /* ldrsw x14, [x9, #0x48] */
+    /* sub x10, x10, x14 */
+    /* ldr x14, [x13] */
+    /* add x13, x10, x10, lsl #1 */
+    /* lsl x13, x13, #1 */
+    /* ldr x14, [x14] */
+    /* stp xzr, xzr, [x29, #-0x38] */
+    /* stur xzr, [x29, #-0x28] */
+    /* ldr s0, [x9, #0x64] */
+    /* sub x15, x29, #0x38 */
+    /* ldr s1, [x12, x11] */
+    /* fmul s1, s0, s1 */
+    /* str s1, [x15, x11] */
+    /* add x11, x11, #4 */
+    /* cmp x11, #0x18 */
+    /* b.ne #0x1730928 */
+    /* mov x11, #0 */
+    /* add x12, x14, x13, lsl #2 */
+    /* stp xzr, xzr, [sp, #0x30] */
+    /* add x13, sp, #0x30 */
+    /* str xzr, [sp, #0x40] */
+    /* ldr s1, [x12, x11] */
+    /* fmul s1, s0, s1 */
+    /* str s1, [x13, x11] */
+    /* add x11, x11, #4 */
+    /* cmp x11, #0x18 */
+    /* b.ne #0x1730954 */
+    /* ldr x11, [x9, #0x10] */
+    /* ldr x10, [x11, x10, lsl #3] */
+    /* ldr s0, [x10, #0x38] */
+    /* adrp x10, #0x611f000 */
+    /* add x10, x10, #0x608 */
+    /* ldrb w10, [x10] */
+    /* fmov s1, #1.00000000 */
+    /* ldr x9, [x9] */
+    /* ldr x11, [x9, #0x100] */
+    /* ldr x11, [x11, #0x80] */
+    /* ldr x11, [x11] */
+    /* add w12, w8, #1 */
+    /* ldr w12, [x11, w12, uxtw #2] */
+    /* ldr w11, [x11, w8, uxtw #2] */
+    /* ldr x13, [x1] */
+    /* ldr w8, [x13, x8, lsl #2] */
+    /* ldp x13, x9, [x9, #0xc8] */
+    /* fdiv s0, s1, s0 */
+    /* stp x13, x9, [sp, #8] */
+    /* cmp w10, #0 */
+    /* fcsel s8, s0, s1, ne */
+    /* stp w11, w12, [sp, #0x18] */
+    /* stp wzr, w8, [sp, #0x20] */
+    /* str wzr, [sp, #0x28] */
+    /* cmp w11, w12 */
+    /* b.ge #0x1730a30 */
+    /* ldr x0, [x19, #0x20] */
+    /* add x1, sp, #8 */
+    /* sub x3, x29, #0x38 */
+    /* add x4, sp, #0x30 */
+    /* mov x2, x20 */
+    /* fmov s0, s8 */
+    /* call #0x172f400; ABI effects unresolved */
+    /* ldr x8, [sp, #8] */
+    /* ldp w9, w10, [sp, #0x18] */
+    /* sxtw x9, w9 */
+    /* ldrb w8, [x8, x9] */
+    /* ldr w11, [sp, #0x28] */
+    /* add w11, w11, w8 */
+    /* str w11, [sp, #0x28] */
+    /* add w9, w9, #1 */
+    /* str w9, [sp, #0x18] */
+    /* ldr d0, [sp, #0x20] */
+    /* movi v1.2s, #1 */
+    /* mov v1.s[1], w8 */
+    /* add v0.2s, v0.2s, v1.2s */
+    /* str d0, [sp, #0x20] */
+    /* cmp w9, w10 */
+    /* b.lt #0x17309d4 */
+    /* ldp x29, x30, [sp, #0x80] */
+    /* ldp x20, x19, [sp, #0x70] */
+    /* ldp d9, d8, [sp, #0x60] */
+    /* add sp, sp, #0x90 */
+    return;
+}

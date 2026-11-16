@@ -1,0 +1,6 @@
+/* Evidence-based generated lift; not original source. */
+/* RobloxLib::function_2ee6050 start_va=0x2ee6050 image_relative=0x2ee6050 bytes=8 */
+void function_2ee6050__at_2ee6050(void) {
+    /* add x0, x0, #0x20 */
+    /* branch b #0x2f6d620 */
+}

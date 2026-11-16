@@ -1,0 +1,23 @@
+; instruction-faithful ARM64 fallback for RobloxLib::function_3d7ec88
+0x0000000003d7ec88: stp        x20, x19, [sp, #-0x20]!
+0x0000000003d7ec8c: stp        x29, x30, [sp, #0x10]
+0x0000000003d7ec90: add        x29, sp, #0x10
+0x0000000003d7ec94: mov        x19, x0
+0x0000000003d7ec98: ldr        x20, [x0, #0x18]
+0x0000000003d7ec9c: cmp        x20, #8
+0x0000000003d7eca0: b.lo       #0x3d7eccc
+0x0000000003d7eca4: tbz        w20, #2, #0x3d7ecc0
+0x0000000003d7eca8: and        x8, x20, #0xfffffffffffffff8
+0x0000000003d7ecac: ldr        x8, [x8, #0x10]
+0x0000000003d7ecb0: mov        x0, x19
+0x0000000003d7ecb4: tbnz       w20, #1, #0x3d7ecbc
+0x0000000003d7ecb8: ldr        x0, [x19]
+0x0000000003d7ecbc: blr        x8
+0x0000000003d7ecc0: tbnz       w20, #1, #0x3d7eccc
+0x0000000003d7ecc4: ldr        x0, [x19]
+0x0000000003d7ecc8: bl         #0x47e8f20
+0x0000000003d7eccc: mov        x0, x19
+0x0000000003d7ecd0: ldp        x29, x30, [sp, #0x10]
+0x0000000003d7ecd4: ldp        x20, x19, [sp], #0x20
+0x0000000003d7ecd8: ret        
+0x0000000003d7ecdc: bl         #0x18bd8

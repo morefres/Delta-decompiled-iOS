@@ -1,0 +1,63 @@
+/* Evidence-based generated lift; not original source. */
+/* RobloxLib::function_2805f90 start_va=0x2805f90 image_relative=0x2805f90 bytes=236 */
+void function_2805f90__at_2805f90(void) {
+    /* sub sp, sp, #0x60 */
+    /* stp x20, x19, [sp, #0x40] */
+    /* stp x29, x30, [sp, #0x50] */
+    /* add x29, sp, #0x50 */
+    /* mov x3, x1 */
+    /* ldp x9, x8, [x1, #0x10] */
+    /* stp x9, x8, [x29, #-0x20] */
+    /* cbz x8, #0x2805fc4 */
+    /* add x8, x8, #8 */
+    /* ldxr x9, [x8] */
+    /* add x9, x9, #1 */
+    /* stxr w10, x9, [x8] */
+    /* cbnz w10, #0x2805fb4 */
+    /* ldr s0, [x3, #0x38]! */
+    /* ldur d1, [x3, #4] */
+    /* rev64 v2.2s, v1.2s */
+    /* uzp1 v3.4s, v0.4s, v2.4s */
+    /* mov v3.s[1], v2.s[1] */
+    /* movi v4.4s, #0x3f, lsl #24 */
+    /* fmul v3.4s, v3.4s, v4.4s */
+    /* fdiv v4.4s, v0.4s, v1.4s */
+    /* mov v3.s[3], v4.s[0] */
+    /* str q3, [sp, #0x10] */
+    /* fdiv v2.2s, v2.2s, v1.2s */
+    /* str d2, [sp, #0x20] */
+    /* fdiv s0, s1, s0 */
+    /* str s0, [sp, #0x28] */
+    /* sub x2, x3, #0x18 */
+    /* ldrb w5, [x3, #0x180] */
+    /* ldr w6, [x3, #0x184] */
+    /* ldr w7, [x3, #0x198] */
+    /* add x8, sp, #0x10 */
+    /* str x8, [sp] */
+    /* sub x1, x29, #0x20 */
+    /* add x4, x3, #0xc */
+    /* call #0x28077fc; ABI effects unresolved */
+    /* ldur x19, [x29, #-0x18] */
+    /* cbz x19, #0x2806058 */
+    /* add x8, x19, #8 */
+    /* ldaxr x9, [x8] */
+    /* sub x10, x9, #1 */
+    /* stlxr w11, x10, [x8] */
+    /* cbnz w11, #0x280602c */
+    /* cbnz x9, #0x2806058 */
+    /* ldr x8, [x19] */
+    /* ldr x8, [x8, #0x10] */
+    /* mov x0, x19 */
+    /* call x8; ABI effects unresolved */
+    /* mov x0, x19 */
+    /* call #0x4b9808c; ABI effects unresolved */
+    /* ldp x29, x30, [sp, #0x50] */
+    /* ldp x20, x19, [sp, #0x40] */
+    /* add sp, sp, #0x60 */
+    return;
+    /* mov x19, x0 */
+    /* sub x0, x29, #0x20 */
+    /* call #0x1df28; ABI effects unresolved */
+    /* mov x0, x19 */
+    /* call #0x4b97984; ABI effects unresolved */
+}

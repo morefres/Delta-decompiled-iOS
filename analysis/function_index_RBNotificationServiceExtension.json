@@ -1,0 +1,898 @@
+{
+  "image": "PlugIns/RBNotificationServiceExtension.appex/RBNotificationServiceExtension",
+  "text_address": "0x100004000",
+  "text_size": 30096,
+  "functions": [
+    {
+      "file": "fn_0000000000004000.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000004000.s",
+      "start_va": "0x100004000",
+      "image_relative": "0x4000",
+      "bytes": 256,
+      "symbol": "",
+      "instructions": 64
+    },
+    {
+      "file": "fn_0000000000004100.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000004100.s",
+      "start_va": "0x100004100",
+      "image_relative": "0x4100",
+      "bytes": 84,
+      "symbol": "",
+      "instructions": 21
+    },
+    {
+      "file": "fn_0000000000004154.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000004154.s",
+      "start_va": "0x100004154",
+      "image_relative": "0x4154",
+      "bytes": 8,
+      "symbol": "",
+      "instructions": 2
+    },
+    {
+      "file": "fn_000000000000415c.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_000000000000415c.s",
+      "start_va": "0x10000415c",
+      "image_relative": "0x415c",
+      "bytes": 204,
+      "symbol": "",
+      "instructions": 51
+    },
+    {
+      "file": "fn_0000000000004228.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000004228.s",
+      "start_va": "0x100004228",
+      "image_relative": "0x4228",
+      "bytes": 292,
+      "symbol": "",
+      "instructions": 73
+    },
+    {
+      "file": "fn_000000000000434c.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_000000000000434c.s",
+      "start_va": "0x10000434c",
+      "image_relative": "0x434c",
+      "bytes": 148,
+      "symbol": "",
+      "instructions": 37
+    },
+    {
+      "file": "fn_00000000000043e0.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_00000000000043e0.s",
+      "start_va": "0x1000043e0",
+      "image_relative": "0x43e0",
+      "bytes": 16,
+      "symbol": "",
+      "instructions": 4
+    },
+    {
+      "file": "fn_00000000000043f0.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_00000000000043f0.s",
+      "start_va": "0x1000043f0",
+      "image_relative": "0x43f0",
+      "bytes": 264,
+      "symbol": "",
+      "instructions": 66
+    },
+    {
+      "file": "fn_00000000000044f8.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_00000000000044f8.s",
+      "start_va": "0x1000044f8",
+      "image_relative": "0x44f8",
+      "bytes": 400,
+      "symbol": "",
+      "instructions": 100
+    },
+    {
+      "file": "fn_0000000000004688.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000004688.s",
+      "start_va": "0x100004688",
+      "image_relative": "0x4688",
+      "bytes": 32,
+      "symbol": "",
+      "instructions": 8
+    },
+    {
+      "file": "fn_00000000000046a8.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_00000000000046a8.s",
+      "start_va": "0x1000046a8",
+      "image_relative": "0x46a8",
+      "bytes": 192,
+      "symbol": "",
+      "instructions": 48
+    },
+    {
+      "file": "fn_0000000000004768.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000004768.s",
+      "start_va": "0x100004768",
+      "image_relative": "0x4768",
+      "bytes": 64,
+      "symbol": "",
+      "instructions": 16
+    },
+    {
+      "file": "fn_00000000000047a8.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_00000000000047a8.s",
+      "start_va": "0x1000047a8",
+      "image_relative": "0x47a8",
+      "bytes": 72,
+      "symbol": "",
+      "instructions": 18
+    },
+    {
+      "file": "fn_00000000000047f0.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_00000000000047f0.s",
+      "start_va": "0x1000047f0",
+      "image_relative": "0x47f0",
+      "bytes": 176,
+      "symbol": "",
+      "instructions": 44
+    },
+    {
+      "file": "fn_00000000000048a0.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_00000000000048a0.s",
+      "start_va": "0x1000048a0",
+      "image_relative": "0x48a0",
+      "bytes": 136,
+      "symbol": "",
+      "instructions": 34
+    },
+    {
+      "file": "fn_0000000000004928.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000004928.s",
+      "start_va": "0x100004928",
+      "image_relative": "0x4928",
+      "bytes": 116,
+      "symbol": "",
+      "instructions": 29
+    },
+    {
+      "file": "fn_000000000000499c.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_000000000000499c.s",
+      "start_va": "0x10000499c",
+      "image_relative": "0x499c",
+      "bytes": 920,
+      "symbol": "",
+      "instructions": 230
+    },
+    {
+      "file": "fn_0000000000004d34.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000004d34.s",
+      "start_va": "0x100004d34",
+      "image_relative": "0x4d34",
+      "bytes": 312,
+      "symbol": "",
+      "instructions": 78
+    },
+    {
+      "file": "fn_0000000000004e6c.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000004e6c.s",
+      "start_va": "0x100004e6c",
+      "image_relative": "0x4e6c",
+      "bytes": 1240,
+      "symbol": "",
+      "instructions": 310
+    },
+    {
+      "file": "fn_0000000000005344.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000005344.s",
+      "start_va": "0x100005344",
+      "image_relative": "0x5344",
+      "bytes": 24,
+      "symbol": "",
+      "instructions": 6
+    },
+    {
+      "file": "fn_000000000000535c.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_000000000000535c.s",
+      "start_va": "0x10000535c",
+      "image_relative": "0x535c",
+      "bytes": 488,
+      "symbol": "",
+      "instructions": 122
+    },
+    {
+      "file": "fn_0000000000005544.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000005544.s",
+      "start_va": "0x100005544",
+      "image_relative": "0x5544",
+      "bytes": 28,
+      "symbol": "",
+      "instructions": 7
+    },
+    {
+      "file": "fn_0000000000005560.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000005560.s",
+      "start_va": "0x100005560",
+      "image_relative": "0x5560",
+      "bytes": 120,
+      "symbol": "",
+      "instructions": 30
+    },
+    {
+      "file": "fn_00000000000055d8.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_00000000000055d8.s",
+      "start_va": "0x1000055d8",
+      "image_relative": "0x55d8",
+      "bytes": 56,
+      "symbol": "",
+      "instructions": 14
+    },
+    {
+      "file": "fn_0000000000005610.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000005610.s",
+      "start_va": "0x100005610",
+      "image_relative": "0x5610",
+      "bytes": 76,
+      "symbol": "",
+      "instructions": 19
+    },
+    {
+      "file": "fn_000000000000565c.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_000000000000565c.s",
+      "start_va": "0x10000565c",
+      "image_relative": "0x565c",
+      "bytes": 896,
+      "symbol": "",
+      "instructions": 224
+    },
+    {
+      "file": "fn_00000000000059dc.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_00000000000059dc.s",
+      "start_va": "0x1000059dc",
+      "image_relative": "0x59dc",
+      "bytes": 288,
+      "symbol": "",
+      "instructions": 72
+    },
+    {
+      "file": "fn_0000000000005afc.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000005afc.s",
+      "start_va": "0x100005afc",
+      "image_relative": "0x5afc",
+      "bytes": 96,
+      "symbol": "",
+      "instructions": 24
+    },
+    {
+      "file": "fn_0000000000005b5c.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000005b5c.s",
+      "start_va": "0x100005b5c",
+      "image_relative": "0x5b5c",
+      "bytes": 48,
+      "symbol": "",
+      "instructions": 12
+    },
+    {
+      "file": "fn_0000000000005b8c.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000005b8c.s",
+      "start_va": "0x100005b8c",
+      "image_relative": "0x5b8c",
+      "bytes": 28,
+      "symbol": "",
+      "instructions": 7
+    },
+    {
+      "file": "fn_0000000000005ba8.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000005ba8.s",
+      "start_va": "0x100005ba8",
+      "image_relative": "0x5ba8",
+      "bytes": 280,
+      "symbol": "",
+      "instructions": 70
+    },
+    {
+      "file": "fn_0000000000005cc0.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000005cc0.s",
+      "start_va": "0x100005cc0",
+      "image_relative": "0x5cc0",
+      "bytes": 148,
+      "symbol": "",
+      "instructions": 37
+    },
+    {
+      "file": "fn_0000000000005d54.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000005d54.s",
+      "start_va": "0x100005d54",
+      "image_relative": "0x5d54",
+      "bytes": 280,
+      "symbol": "",
+      "instructions": 70
+    },
+    {
+      "file": "fn_0000000000005e6c.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000005e6c.s",
+      "start_va": "0x100005e6c",
+      "image_relative": "0x5e6c",
+      "bytes": 48,
+      "symbol": "",
+      "instructions": 12
+    },
+    {
+      "file": "fn_0000000000005e9c.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000005e9c.s",
+      "start_va": "0x100005e9c",
+      "image_relative": "0x5e9c",
+      "bytes": 164,
+      "symbol": "",
+      "instructions": 41
+    },
+    {
+      "file": "fn_0000000000005f40.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000005f40.s",
+      "start_va": "0x100005f40",
+      "image_relative": "0x5f40",
+      "bytes": 788,
+      "symbol": "",
+      "instructions": 197
+    },
+    {
+      "file": "fn_0000000000006254.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000006254.s",
+      "start_va": "0x100006254",
+      "image_relative": "0x6254",
+      "bytes": 16,
+      "symbol": "",
+      "instructions": 4
+    },
+    {
+      "file": "fn_0000000000006264.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000006264.s",
+      "start_va": "0x100006264",
+      "image_relative": "0x6264",
+      "bytes": 56,
+      "symbol": "",
+      "instructions": 14
+    },
+    {
+      "file": "fn_000000000000629c.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_000000000000629c.s",
+      "start_va": "0x10000629c",
+      "image_relative": "0x629c",
+      "bytes": 288,
+      "symbol": "",
+      "instructions": 72
+    },
+    {
+      "file": "fn_00000000000063bc.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_00000000000063bc.s",
+      "start_va": "0x1000063bc",
+      "image_relative": "0x63bc",
+      "bytes": 260,
+      "symbol": "",
+      "instructions": 65
+    },
+    {
+      "file": "fn_00000000000064c0.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_00000000000064c0.s",
+      "start_va": "0x1000064c0",
+      "image_relative": "0x64c0",
+      "bytes": 168,
+      "symbol": "",
+      "instructions": 42
+    },
+    {
+      "file": "fn_0000000000006568.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000006568.s",
+      "start_va": "0x100006568",
+      "image_relative": "0x6568",
+      "bytes": 12,
+      "symbol": "",
+      "instructions": 3
+    },
+    {
+      "file": "fn_0000000000006574.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000006574.s",
+      "start_va": "0x100006574",
+      "image_relative": "0x6574",
+      "bytes": 632,
+      "symbol": "",
+      "instructions": 158
+    },
+    {
+      "file": "fn_00000000000067ec.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_00000000000067ec.s",
+      "start_va": "0x1000067ec",
+      "image_relative": "0x67ec",
+      "bytes": 1800,
+      "symbol": "",
+      "instructions": 450
+    },
+    {
+      "file": "fn_0000000000006ef4.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000006ef4.s",
+      "start_va": "0x100006ef4",
+      "image_relative": "0x6ef4",
+      "bytes": 8,
+      "symbol": "",
+      "instructions": 2
+    },
+    {
+      "file": "fn_0000000000006efc.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000006efc.s",
+      "start_va": "0x100006efc",
+      "image_relative": "0x6efc",
+      "bytes": 292,
+      "symbol": "",
+      "instructions": 73
+    },
+    {
+      "file": "fn_0000000000007020.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000007020.s",
+      "start_va": "0x100007020",
+      "image_relative": "0x7020",
+      "bytes": 8,
+      "symbol": "",
+      "instructions": 2
+    },
+    {
+      "file": "fn_0000000000007028.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000007028.s",
+      "start_va": "0x100007028",
+      "image_relative": "0x7028",
+      "bytes": 96,
+      "symbol": "",
+      "instructions": 24
+    },
+    {
+      "file": "fn_0000000000007088.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000007088.s",
+      "start_va": "0x100007088",
+      "image_relative": "0x7088",
+      "bytes": 8,
+      "symbol": "",
+      "instructions": 2
+    },
+    {
+      "file": "fn_0000000000007090.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000007090.s",
+      "start_va": "0x100007090",
+      "image_relative": "0x7090",
+      "bytes": 292,
+      "symbol": "",
+      "instructions": 73
+    },
+    {
+      "file": "fn_00000000000071b4.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_00000000000071b4.s",
+      "start_va": "0x1000071b4",
+      "image_relative": "0x71b4",
+      "bytes": 32,
+      "symbol": "",
+      "instructions": 8
+    },
+    {
+      "file": "fn_00000000000071d4.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_00000000000071d4.s",
+      "start_va": "0x1000071d4",
+      "image_relative": "0x71d4",
+      "bytes": 268,
+      "symbol": "",
+      "instructions": 67
+    },
+    {
+      "file": "fn_00000000000072e0.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_00000000000072e0.s",
+      "start_va": "0x1000072e0",
+      "image_relative": "0x72e0",
+      "bytes": 12,
+      "symbol": "",
+      "instructions": 3
+    },
+    {
+      "file": "fn_00000000000072ec.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_00000000000072ec.s",
+      "start_va": "0x1000072ec",
+      "image_relative": "0x72ec",
+      "bytes": 180,
+      "symbol": "",
+      "instructions": 45
+    },
+    {
+      "file": "fn_00000000000073a0.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_00000000000073a0.s",
+      "start_va": "0x1000073a0",
+      "image_relative": "0x73a0",
+      "bytes": 80,
+      "symbol": "",
+      "instructions": 20
+    },
+    {
+      "file": "fn_00000000000073f0.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_00000000000073f0.s",
+      "start_va": "0x1000073f0",
+      "image_relative": "0x73f0",
+      "bytes": 4,
+      "symbol": "",
+      "instructions": 1
+    },
+    {
+      "file": "fn_00000000000073f4.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_00000000000073f4.s",
+      "start_va": "0x1000073f4",
+      "image_relative": "0x73f4",
+      "bytes": 188,
+      "symbol": "",
+      "instructions": 47
+    },
+    {
+      "file": "fn_00000000000074b0.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_00000000000074b0.s",
+      "start_va": "0x1000074b0",
+      "image_relative": "0x74b0",
+      "bytes": 400,
+      "symbol": "",
+      "instructions": 100
+    },
+    {
+      "file": "fn_0000000000007640.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000007640.s",
+      "start_va": "0x100007640",
+      "image_relative": "0x7640",
+      "bytes": 1744,
+      "symbol": "",
+      "instructions": 436
+    },
+    {
+      "file": "fn_0000000000007d10.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000007d10.s",
+      "start_va": "0x100007d10",
+      "image_relative": "0x7d10",
+      "bytes": 300,
+      "symbol": "",
+      "instructions": 75
+    },
+    {
+      "file": "fn_0000000000007e3c.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000007e3c.s",
+      "start_va": "0x100007e3c",
+      "image_relative": "0x7e3c",
+      "bytes": 140,
+      "symbol": "",
+      "instructions": 35
+    },
+    {
+      "file": "fn_0000000000007ec8.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000007ec8.s",
+      "start_va": "0x100007ec8",
+      "image_relative": "0x7ec8",
+      "bytes": 352,
+      "symbol": "",
+      "instructions": 88
+    },
+    {
+      "file": "fn_0000000000008028.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000008028.s",
+      "start_va": "0x100008028",
+      "image_relative": "0x8028",
+      "bytes": 1984,
+      "symbol": "",
+      "instructions": 496
+    },
+    {
+      "file": "fn_00000000000087e8.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_00000000000087e8.s",
+      "start_va": "0x1000087e8",
+      "image_relative": "0x87e8",
+      "bytes": 312,
+      "symbol": "",
+      "instructions": 78
+    },
+    {
+      "file": "fn_0000000000008920.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000008920.s",
+      "start_va": "0x100008920",
+      "image_relative": "0x8920",
+      "bytes": 152,
+      "symbol": "",
+      "instructions": 38
+    },
+    {
+      "file": "fn_00000000000089b8.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_00000000000089b8.s",
+      "start_va": "0x1000089b8",
+      "image_relative": "0x89b8",
+      "bytes": 80,
+      "symbol": "",
+      "instructions": 20
+    },
+    {
+      "file": "fn_0000000000008a08.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000008a08.s",
+      "start_va": "0x100008a08",
+      "image_relative": "0x8a08",
+      "bytes": 1360,
+      "symbol": "",
+      "instructions": 340
+    },
+    {
+      "file": "fn_0000000000008f58.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000008f58.s",
+      "start_va": "0x100008f58",
+      "image_relative": "0x8f58",
+      "bytes": 12,
+      "symbol": "",
+      "instructions": 3
+    },
+    {
+      "file": "fn_0000000000008f64.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000008f64.s",
+      "start_va": "0x100008f64",
+      "image_relative": "0x8f64",
+      "bytes": 412,
+      "symbol": "",
+      "instructions": 103
+    },
+    {
+      "file": "fn_0000000000009100.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000009100.s",
+      "start_va": "0x100009100",
+      "image_relative": "0x9100",
+      "bytes": 76,
+      "symbol": "",
+      "instructions": 19
+    },
+    {
+      "file": "fn_000000000000914c.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_000000000000914c.s",
+      "start_va": "0x10000914c",
+      "image_relative": "0x914c",
+      "bytes": 300,
+      "symbol": "",
+      "instructions": 75
+    },
+    {
+      "file": "fn_0000000000009278.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000009278.s",
+      "start_va": "0x100009278",
+      "image_relative": "0x9278",
+      "bytes": 404,
+      "symbol": "",
+      "instructions": 101
+    },
+    {
+      "file": "fn_000000000000940c.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_000000000000940c.s",
+      "start_va": "0x10000940c",
+      "image_relative": "0x940c",
+      "bytes": 48,
+      "symbol": "",
+      "instructions": 12
+    },
+    {
+      "file": "fn_000000000000943c.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_000000000000943c.s",
+      "start_va": "0x10000943c",
+      "image_relative": "0x943c",
+      "bytes": 84,
+      "symbol": "",
+      "instructions": 21
+    },
+    {
+      "file": "fn_0000000000009490.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000009490.s",
+      "start_va": "0x100009490",
+      "image_relative": "0x9490",
+      "bytes": 572,
+      "symbol": "",
+      "instructions": 143
+    },
+    {
+      "file": "fn_00000000000096cc.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_00000000000096cc.s",
+      "start_va": "0x1000096cc",
+      "image_relative": "0x96cc",
+      "bytes": 128,
+      "symbol": "",
+      "instructions": 32
+    },
+    {
+      "file": "fn_000000000000974c.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_000000000000974c.s",
+      "start_va": "0x10000974c",
+      "image_relative": "0x974c",
+      "bytes": 164,
+      "symbol": "",
+      "instructions": 41
+    },
+    {
+      "file": "fn_00000000000097f0.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_00000000000097f0.s",
+      "start_va": "0x1000097f0",
+      "image_relative": "0x97f0",
+      "bytes": 1744,
+      "symbol": "",
+      "instructions": 436
+    },
+    {
+      "file": "fn_0000000000009ec0.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000009ec0.s",
+      "start_va": "0x100009ec0",
+      "image_relative": "0x9ec0",
+      "bytes": 112,
+      "symbol": "",
+      "instructions": 28
+    },
+    {
+      "file": "fn_0000000000009f30.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_0000000000009f30.s",
+      "start_va": "0x100009f30",
+      "image_relative": "0x9f30",
+      "bytes": 212,
+      "symbol": "",
+      "instructions": 53
+    },
+    {
+      "file": "fn_000000000000a004.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_000000000000a004.s",
+      "start_va": "0x10000a004",
+      "image_relative": "0xa004",
+      "bytes": 264,
+      "symbol": "",
+      "instructions": 66
+    },
+    {
+      "file": "fn_000000000000a10c.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_000000000000a10c.s",
+      "start_va": "0x10000a10c",
+      "image_relative": "0xa10c",
+      "bytes": 156,
+      "symbol": "",
+      "instructions": 39
+    },
+    {
+      "file": "fn_000000000000a1a8.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_000000000000a1a8.s",
+      "start_va": "0x10000a1a8",
+      "image_relative": "0xa1a8",
+      "bytes": 164,
+      "symbol": "",
+      "instructions": 41
+    },
+    {
+      "file": "fn_000000000000a24c.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_000000000000a24c.s",
+      "start_va": "0x10000a24c",
+      "image_relative": "0xa24c",
+      "bytes": 1944,
+      "symbol": "",
+      "instructions": 486
+    },
+    {
+      "file": "fn_000000000000a9e4.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_000000000000a9e4.s",
+      "start_va": "0x10000a9e4",
+      "image_relative": "0xa9e4",
+      "bytes": 204,
+      "symbol": "",
+      "instructions": 51
+    },
+    {
+      "file": "fn_000000000000aab0.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_000000000000aab0.s",
+      "start_va": "0x10000aab0",
+      "image_relative": "0xaab0",
+      "bytes": 72,
+      "symbol": "",
+      "instructions": 18
+    },
+    {
+      "file": "fn_000000000000aaf8.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_000000000000aaf8.s",
+      "start_va": "0x10000aaf8",
+      "image_relative": "0xaaf8",
+      "bytes": 116,
+      "symbol": "",
+      "instructions": 29
+    },
+    {
+      "file": "fn_000000000000ab6c.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_000000000000ab6c.s",
+      "start_va": "0x10000ab6c",
+      "image_relative": "0xab6c",
+      "bytes": 456,
+      "symbol": "",
+      "instructions": 114
+    },
+    {
+      "file": "fn_000000000000ad34.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_000000000000ad34.s",
+      "start_va": "0x10000ad34",
+      "image_relative": "0xad34",
+      "bytes": 160,
+      "symbol": "",
+      "instructions": 40
+    },
+    {
+      "file": "fn_000000000000add4.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_000000000000add4.s",
+      "start_va": "0x10000add4",
+      "image_relative": "0xadd4",
+      "bytes": 104,
+      "symbol": "",
+      "instructions": 26
+    },
+    {
+      "file": "fn_000000000000ae3c.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_000000000000ae3c.s",
+      "start_va": "0x10000ae3c",
+      "image_relative": "0xae3c",
+      "bytes": 192,
+      "symbol": "",
+      "instructions": 48
+    },
+    {
+      "file": "fn_000000000000aefc.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_000000000000aefc.s",
+      "start_va": "0x10000aefc",
+      "image_relative": "0xaefc",
+      "bytes": 156,
+      "symbol": "",
+      "instructions": 39
+    },
+    {
+      "file": "fn_000000000000af98.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_000000000000af98.s",
+      "start_va": "0x10000af98",
+      "image_relative": "0xaf98",
+      "bytes": 180,
+      "symbol": "",
+      "instructions": 45
+    },
+    {
+      "file": "fn_000000000000b04c.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_000000000000b04c.s",
+      "start_va": "0x10000b04c",
+      "image_relative": "0xb04c",
+      "bytes": 80,
+      "symbol": "",
+      "instructions": 20
+    },
+    {
+      "file": "fn_000000000000b09c.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_000000000000b09c.s",
+      "start_va": "0x10000b09c",
+      "image_relative": "0xb09c",
+      "bytes": 20,
+      "symbol": "",
+      "instructions": 5
+    },
+    {
+      "file": "fn_000000000000b0b0.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_000000000000b0b0.s",
+      "start_va": "0x10000b0b0",
+      "image_relative": "0xb0b0",
+      "bytes": 392,
+      "symbol": "",
+      "instructions": 98
+    },
+    {
+      "file": "fn_000000000000b238.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_000000000000b238.s",
+      "start_va": "0x10000b238",
+      "image_relative": "0xb238",
+      "bytes": 8,
+      "symbol": "",
+      "instructions": 2
+    },
+    {
+      "file": "fn_000000000000b240.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_000000000000b240.s",
+      "start_va": "0x10000b240",
+      "image_relative": "0xb240",
+      "bytes": 800,
+      "symbol": "",
+      "instructions": 200
+    },
+    {
+      "file": "fn_000000000000b560.c",
+      "fallback": "../../low-level/RBNotificationServiceExtension/fn_000000000000b560.s",
+      "start_va": "0x10000b560",
+      "image_relative": "0xb560",
+      "bytes": 48,
+      "symbol": "",
+      "instructions": 12
+    }
+  ]
+}

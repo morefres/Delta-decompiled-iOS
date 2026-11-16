@@ -1,0 +1,16 @@
+; instruction-faithful ARM64 fallback for RobloxLib::function_169c888
+0x000000000169c888: ldr        q0, [x1]
+0x000000000169c88c: str        q0, [x0]
+0x000000000169c890: stp        xzr, xzr, [x1]
+0x000000000169c894: ldr        q0, [x1, #0x10]
+0x000000000169c898: str        q0, [x0, #0x10]
+0x000000000169c89c: stp        xzr, xzr, [x1, #0x10]
+0x000000000169c8a0: ldrb       w8, [x1, #0x20]
+0x000000000169c8a4: strb       w8, [x0, #0x20]
+0x000000000169c8a8: ldur       q0, [x1, #0x28]
+0x000000000169c8ac: ldr        x8, [x1, #0x38]
+0x000000000169c8b0: str        x8, [x0, #0x38]
+0x000000000169c8b4: stur       q0, [x0, #0x28]
+0x000000000169c8b8: stp        xzr, xzr, [x1, #0x30]
+0x000000000169c8bc: str        xzr, [x1, #0x28]
+0x000000000169c8c0: ret        

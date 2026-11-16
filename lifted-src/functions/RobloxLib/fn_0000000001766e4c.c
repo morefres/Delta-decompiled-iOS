@@ -1,0 +1,90 @@
+/* Evidence-based generated lift; not original source. */
+/* RobloxLib::function_1766e4c start_va=0x1766e4c image_relative=0x1766e4c bytes=344 */
+void function_1766e4c__at_1766e4c(void) {
+    /* stp x29, x30, [sp, #-0x10]! */
+    /* mov x29, sp */
+    /* ldr x11, [x1] */
+    /* lsr x8, x11, #3 */
+    /* mov w9, #0x79b1 */
+    /* movk w9, #0x9e37, lsl #16 */
+    /* mul w8, w8, w9 */
+    /* ldr w14, [x0, #0x1c] */
+    /* neg w9, w14 */
+    /* lsr w12, w8, w9 */
+    /* lsl w9, w8, w14 */
+    /* and w13, w12, #0xfffffff0 */
+    /* ldr x10, [x0, #8] */
+    /* mov w8, #-1 */
+    /* lsl w8, w8, w14 */
+    /* mvn w14, w8 */
+    /* mov x15, #0xaf5c */
+    /* movk x15, #0x136, lsl #16 */
+    /* movk x15, #0xeb98, lsl #32 */
+    /* movk x15, #0x4d72, lsl #48 */
+    /* mov w16, #0x18 */
+    /* mov x17, #0 */
+    /* lsr x8, x15, x17 */
+    /* add w8, w12, w8 */
+    /* and w8, w8, #0xf */
+    /* add w8, w8, w13 */
+    /* ldr w3, [x10, w8, uxtw #2] */
+    /* cmn w3, #1 */
+    /* b.eq #0x1766f00 */
+    /* eor w5, w3, w9 */
+    /* ldr w4, [x0, #0x18] */
+    /* bics wzr, w5, w4 */
+    /* b.ne #0x1766ee8 */
+    /* ldr x5, [x0, #0x10] */
+    /* and w3, w4, w3 */
+    /* umull x3, w3, w16 */
+    /* ldr x3, [x5, x3] */
+    /* cmp x11, x3 */
+    /* b.eq #0x1766f64 */
+    /* add x17, x17, #4 */
+    /* cmp x17, #0x40 */
+    /* b.ne #0x1766ea4 */
+    /* add w8, w13, #0x10 */
+    /* and w13, w8, w14 */
+    /* branch b #0x1766ea0 */
+    /* cbz w2, #0x1766f5c */
+    /* adrp x11, #0x6912000 */
+    /* add x11, x11, #0xd80 */
+    /* ldrb w11, [x11] */
+    /* cmp w11, #1 */
+    /* b.ne #0x1766f50 */
+    /* cmp w2, #1 */
+    /* b.ne #0x1766f50 */
+    /* adrp x11, #0x61b3000 */
+    /* add x11, x11, #0xe88 */
+    /* ldrb w11, [x11] */
+    /* tbz w11, #0, #0x1766f50 */
+    /* ldp w11, w12, [x0] */
+    /* cmp w11, w12 */
+    /* b.ne #0x1766f70 */
+    /* call #0x1766fa4; ABI effects unresolved */
+    /* and x11, x0, #0xffffff0000000000 */
+    /* and x9, x0, #0xff00000000 */
+    /* mov w8, w0 */
+    /* branch b #0x1766f94 */
+    /* str w9, [x10, x8, lsl #2] */
+    /* cmp w2, #1 */
+    /* b.eq #0x1766f74 */
+    /* mov x11, #0 */
+    /* branch b #0x1766f90 */
+    /* mov x9, #0 */
+    /* mov x11, #0 */
+    /* branch b #0x1766f94 */
+    /* str w9, [x10, x8, lsl #2] */
+    /* mov x11, #0 */
+    /* ldr w12, [x0] */
+    /* orr w9, w12, w9 */
+    /* str w9, [x10, x8, lsl #2] */
+    /* ldr w9, [x0] */
+    /* add w9, w9, #1 */
+    /* str w9, [x0] */
+    /* mov x9, #0x100000000 */
+    /* orr x9, x9, x11 */
+    /* orr x0, x9, x8 */
+    /* ldp x29, x30, [sp], #0x10 */
+    return;
+}

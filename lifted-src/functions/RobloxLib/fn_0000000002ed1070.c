@@ -1,0 +1,30 @@
+/* Evidence-based generated lift; not original source. */
+/* RobloxLib::function_2ed1070 start_va=0x2ed1070 image_relative=0x2ed1070 bytes=104 */
+void function_2ed1070__at_2ed1070(void) {
+    /* stp x22, x21, [sp, #-0x30]! */
+    /* stp x20, x19, [sp, #0x10] */
+    /* stp x29, x30, [sp, #0x20] */
+    /* add x29, sp, #0x20 */
+    /* mov x19, x3 */
+    /* mov x20, x2 */
+    /* mov x21, x1 */
+    /* mov x22, x0 */
+    /* ldrb w8, [x0, #0x148] */
+    /* cmp w8, #1 */
+    /* b.ne #0x2ed10b8 */
+    /* ldr x0, [x22, #0x138] */
+    /* cbz x0, #0x2ed10b8 */
+    /* mov w8, #1 */
+    /* strb w8, [x0, #0x84] */
+    /* ldr x8, [x0] */
+    /* ldr x8, [x8, #0x68] */
+    /* call x8; ABI effects unresolved */
+    /* mov x0, x22 */
+    /* mov x1, x21 */
+    /* mov x2, x20 */
+    /* mov x3, x19 */
+    /* ldp x29, x30, [sp, #0x20] */
+    /* ldp x20, x19, [sp, #0x10] */
+    /* ldp x22, x21, [sp], #0x30 */
+    /* branch b #0x2ed10d8 */
+}

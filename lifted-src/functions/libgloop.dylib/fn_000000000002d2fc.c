@@ -1,0 +1,31 @@
+/* Evidence-based generated lift; not original source. */
+/* libgloop.dylib::function_2d2fc start_va=0x2d2fc image_relative=0x2d2fc bytes=108 */
+void function_2d2fc__at_2d2fc(void) {
+    /* sub sp, sp, #0x40 */
+    /* stp x22, x21, [sp, #0x10] */
+    /* stp x20, x19, [sp, #0x20] */
+    /* stp x29, x30, [sp, #0x30] */
+    /* add x29, sp, #0x30 */
+    /* mov x19, x1 */
+    /* mov x20, x0 */
+    /* ldr x21, [x0, #8] */
+    /* cmp x21, x1 */
+    /* b.eq #0x2d350 */
+    /* sub x8, x21, #0x18 */
+    /* str x8, [sp, #8] */
+    /* add x0, sp, #8 */
+    /* call #0x1aedc; ABI effects unresolved */
+    /* sub x8, x21, #0x30 */
+    /* str x8, [sp, #8] */
+    /* add x0, sp, #8 */
+    /* call #0x1aedc; ABI effects unresolved */
+    /* sub x21, x21, #0x38 */
+    /* cmp x21, x19 */
+    /* b.ne #0x2d324 */
+    /* str x19, [x20, #8] */
+    /* ldp x29, x30, [sp, #0x30] */
+    /* ldp x20, x19, [sp, #0x20] */
+    /* ldp x22, x21, [sp, #0x10] */
+    /* add sp, sp, #0x40 */
+    return;
+}

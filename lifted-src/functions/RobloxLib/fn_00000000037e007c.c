@@ -1,0 +1,66 @@
+/* Evidence-based generated lift; not original source. */
+/* RobloxLib::function_37e007c start_va=0x37e007c image_relative=0x37e007c bytes=248 */
+void function_37e007c__at_37e007c(void) {
+    /* stp x20, x19, [sp, #-0x20]! */
+    /* stp x29, x30, [sp, #0x10] */
+    /* add x29, sp, #0x10 */
+    /* ldr x19, [x1] */
+    /* tbz w0, #0, #0x37e00b0 */
+    /* cbz x19, #0x37e00b4 */
+    /* add x8, x19, #0x18 */
+    /* ldr x0, [x19, #0x30] */
+    /* cmp x0, x8 */
+    /* b.eq #0x37e00c0 */
+    /* cbz x0, #0x37e00d0 */
+    /* mov w8, #0x28 */
+    /* branch b #0x37e00c4 */
+    /* str x19, [x2] */
+    /* ldp x29, x30, [sp, #0x10] */
+    /* ldp x20, x19, [sp], #0x20 */
+    return;
+    /* mov w8, #0x20 */
+    /* ldr x9, [x0] */
+    /* ldr x8, [x9, x8] */
+    /* call x8; ABI effects unresolved */
+    /* mov x0, x19 */
+    /* ldp x29, x30, [sp, #0x10] */
+    /* ldp x20, x19, [sp], #0x20 */
+    /* branch b #0x47e93a8 */
+    /* sub sp, sp, #0x50 */
+    /* stp x20, x19, [sp, #0x30] */
+    /* stp x29, x30, [sp, #0x40] */
+    /* add x29, sp, #0x40 */
+    /* mov x19, x0 */
+    /* adrp x8, #0x5ba4000 */
+    /* ldr x8, [x8, #0x338] */
+    /* ldr x8, [x8] */
+    /* stur x8, [x29, #-0x18] */
+    /* add x20, sp, #8 */
+    /* add x0, sp, #8 */
+    /* call #0x13917cc; ABI effects unresolved */
+    /* add x0, sp, #8 */
+    /* mov x1, x19 */
+    /* call #0x37e0174; ABI effects unresolved */
+    /* ldr x0, [sp, #0x20] */
+    /* cmp x0, x20 */
+    /* b.eq #0x37e0134 */
+    /* cbz x0, #0x37e0144 */
+    /* mov w8, #0x28 */
+    /* branch b #0x37e0138 */
+    /* mov w8, #0x20 */
+    /* ldr x9, [x0] */
+    /* ldr x8, [x9, x8] */
+    /* call x8; ABI effects unresolved */
+    /* ldur x8, [x29, #-0x18] */
+    /* adrp x9, #0x5ba4000 */
+    /* ldr x9, [x9, #0x338] */
+    /* ldr x9, [x9] */
+    /* cmp x9, x8 */
+    /* b.ne #0x37e0170 */
+    /* mov x0, x19 */
+    /* ldp x29, x30, [sp, #0x40] */
+    /* ldp x20, x19, [sp, #0x30] */
+    /* add sp, sp, #0x50 */
+    return;
+    /* call #0x4b98620; ABI effects unresolved */
+}

@@ -1,0 +1,18 @@
+; instruction-faithful ARM64 fallback for RobloxLib::function_15d60ec
+0x00000000015d60ec: ldr        q0, [x1]
+0x00000000015d60f0: str        q0, [x0]
+0x00000000015d60f4: stp        xzr, xzr, [x1]
+0x00000000015d60f8: ldr        q0, [x1, #0x10]
+0x00000000015d60fc: ldr        x8, [x1, #0x20]
+0x00000000015d6100: str        x8, [x0, #0x20]
+0x00000000015d6104: str        q0, [x0, #0x10]
+0x00000000015d6108: stp        xzr, xzr, [x1, #0x18]
+0x00000000015d610c: str        xzr, [x1, #0x10]
+0x00000000015d6110: ldr        x8, [x1, #0x28]
+0x00000000015d6114: str        x8, [x0, #0x28]
+0x00000000015d6118: ldr        q0, [x1, #0x30]
+0x00000000015d611c: str        q0, [x0, #0x30]
+0x00000000015d6120: stp        xzr, xzr, [x1, #0x30]
+0x00000000015d6124: ldr        w8, [x1, #0x40]
+0x00000000015d6128: str        w8, [x0, #0x40]
+0x00000000015d612c: ret        

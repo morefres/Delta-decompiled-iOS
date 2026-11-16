@@ -1,0 +1,25 @@
+; instruction-faithful ARM64 fallback for RobloxLib::function_4b40b50
+0x0000000004b40b50: brk        #1
+0x0000000004b40b54: brk        #1
+0x0000000004b40b58: brk        #1
+0x0000000004b40b5c: brk        #1
+0x0000000004b40b60: brk        #1
+0x0000000004b40b64: brk        #1
+0x0000000004b40b68: brk        #1
+0x0000000004b40b6c: brk        #1
+0x0000000004b40b70: brk        #1
+0x0000000004b40b74: brk        #1
+0x0000000004b40b78: brk        #1
+0x0000000004b40b7c: brk        #1
+0x0000000004b40b80: brk        #1
+0x0000000004b40b84: brk        #1
+0x0000000004b40b88: brk        #1
+0x0000000004b40b8c: brk        #1
+0x0000000004b40b90: brk        #1
+0x0000000004b40b94: brk        #1
+0x0000000004b40b98: brk        #1
+0x0000000004b40b9c: brk        #1
+0x0000000004b40ba0: brk        #1
+0x0000000004b40ba4: brk        #1
+0x0000000004b40ba8: brk        #1
+0x0000000004b40bac: brk        #1

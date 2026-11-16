@@ -1,0 +1,7 @@
+; instruction-faithful ARM64 fallback for Roblox::function_189798
+; start_va=0x100189798 image_relative=0x189798 bytes=20
+0x0000000100189798: b          #0x100189040
+0x000000010018979c: b          #0x100189040
+0x00000001001897a0: b          #0x100189040
+0x00000001001897a4: b          #0x100189040
+0x00000001001897a8: b          #0x1001890f4

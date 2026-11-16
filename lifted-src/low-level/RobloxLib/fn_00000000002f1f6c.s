@@ -1,0 +1,21 @@
+; instruction-faithful ARM64 fallback for RobloxLib::function_2f1f6c
+0x00000000002f1f6c: ldr        q0, [x1]
+0x00000000002f1f70: str        q0, [x0]
+0x00000000002f1f74: stp        xzr, xzr, [x1]
+0x00000000002f1f78: ldr        x8, [x1, #0x30]
+0x00000000002f1f7c: str        x8, [x0, #0x30]
+0x00000000002f1f80: ldr        d0, [x1, #0x10]
+0x00000000002f1f84: str        d0, [x0, #0x10]
+0x00000000002f1f88: ldr        d0, [x1, #0x28]
+0x00000000002f1f8c: str        d0, [x0, #0x28]
+0x00000000002f1f90: ldur       q0, [x1, #0x18]
+0x00000000002f1f94: stur       q0, [x0, #0x18]
+0x00000000002f1f98: movi       v0.16b, #0
+0x00000000002f1f9c: stp        q0, q0, [x1, #0x10]
+0x00000000002f1fa0: ldur       q0, [x1, #0x38]
+0x00000000002f1fa4: ldr        x8, [x1, #0x48]
+0x00000000002f1fa8: str        x8, [x0, #0x48]
+0x00000000002f1fac: stur       q0, [x0, #0x38]
+0x00000000002f1fb0: stp        xzr, xzr, [x1, #0x40]
+0x00000000002f1fb4: str        xzr, [x1, #0x38]
+0x00000000002f1fb8: ret        

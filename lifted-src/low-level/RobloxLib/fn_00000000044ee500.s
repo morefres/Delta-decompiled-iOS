@@ -1,0 +1,18 @@
+; instruction-faithful ARM64 fallback for RobloxLib::function_44ee500
+0x00000000044ee500: ldr        q0, [sp]
+0x00000000044ee504: ldp        x8, x9, [sp, #0x38]
+0x00000000044ee508: ldrb       w10, [sp, #0x48]
+0x00000000044ee50c: ldur       q1, [sp, #0x28]
+0x00000000044ee510: ldp        x11, x12, [sp, #0x50]
+0x00000000044ee514: ldrb       w13, [sp, #0x21]
+0x00000000044ee518: ldrb       w14, [sp, #0x20]
+0x00000000044ee51c: ldp        x16, x15, [sp, #0x10]
+0x00000000044ee520: stp        x16, x15, [sp, #0x10]
+0x00000000044ee524: strb       w14, [sp, #0x20]
+0x00000000044ee528: strb       w13, [sp, #0x21]
+0x00000000044ee52c: stp        x11, x12, [sp, #0x50]
+0x00000000044ee530: stur       q1, [sp, #0x28]
+0x00000000044ee534: strb       w10, [sp, #0x48]
+0x00000000044ee538: stp        x8, x9, [sp, #0x38]
+0x00000000044ee53c: str        q0, [sp]
+0x00000000044ee540: b          #0x44ee304

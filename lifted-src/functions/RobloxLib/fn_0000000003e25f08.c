@@ -1,0 +1,10 @@
+/* Evidence-based generated lift; not original source. */
+/* RobloxLib::function_3e25f08 start_va=0x3e25f08 image_relative=0x3e25f08 bytes=24 */
+void function_3e25f08__at_3e25f08(void) {
+    /* ldr x0, [x0, #0x608] */
+    /* ldr x8, [x0] */
+    /* ldr x2, [x8, #0x28] */
+    /* branch br x2 */
+    /* mov w0, #0 */
+    return;
+}

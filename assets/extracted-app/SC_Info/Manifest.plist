@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SinfPaths</key>
+	<array>
+		<string>SC_Info/Roblox.sinf</string>
+	</array>
+	<key>SinfReplicationPaths</key>
+	<array>
+		<string>Frameworks/Backtrace.framework/SC_Info/Backtrace.sinf</string>
+		<string>Frameworks/Backtrace_PLCrashReporter.framework/SC_Info/Backtrace_PLCrashReporter.sinf</string>
+		<string>Frameworks/Persona2.framework/SC_Info/Persona2.sinf</string>
+		<string>Frameworks/RobloxLib.framework/SC_Info/RobloxLib.sinf</string>
+		<string>PlugIns/RBNotificationServiceExtension.appex/SC_Info/RBNotificationServiceExtension.sinf</string>
+		<string>PlugIns/RBWidgetExtension.appex/SC_Info/RBWidgetExtension.sinf</string>
+		<string>SC_Info/Roblox.sinf</string>
+	</array>
+</dict>
+</plist>

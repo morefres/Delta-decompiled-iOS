@@ -1,0 +1,39 @@
+/* Evidence-based generated lift; not original source. */
+/* Persona2::function_413170 start_va=0x413170 image_relative=0x413170 bytes=140 */
+void function_413170__at_413170(void) {
+    /* mov x8, x0 */
+    /* mov x1, #-0x1f00000000000000 */
+    /* mov w0, #0x64 */
+    /* and x8, x8, #0xff */
+    /* adrp x9, #0x50d000 */
+    /* add x9, x9, #0x119 */
+    /* adr x10, #0x413198 */
+    /* ldrb w11, [x9, x8] */
+    /* add x10, x10, x11, lsl #2 */
+    /* branch br x10 */
+    /* mov w0, #0x70 */
+    return;
+    /* mov x1, #-0x1e00000000000000 */
+    /* mov w0, #0x726f */
+    return;
+    /* mov x1, #-0x1e00000000000000 */
+    /* mov w0, #0x736f */
+    return;
+    /* mov x1, #-0x1e00000000000000 */
+    /* mov w0, #0x7269 */
+    return;
+    /* mov x1, #-0x1e00000000000000 */
+    /* mov w0, #0x7369 */
+    return;
+    /* mov w0, #0x72 */
+    return;
+    /* mov x1, #-0x1e00000000000000 */
+    /* mov w0, #0x7470 */
+    return;
+    /* mov x1, #-0x1e00000000000000 */
+    /* mov w0, #0x7973 */
+    return;
+    /* ldrb w1, [x1] */
+    /* ldrb w0, [x0] */
+    /* branch b #0x43b61c */
+}

@@ -1,0 +1,3 @@
+; instruction-faithful ARM64 fallback for RobloxLib::function_3ee91f8
+0x0000000003ee91f8: sub        x0, x0, #0x98
+0x0000000003ee91fc: b          #0x3fab784

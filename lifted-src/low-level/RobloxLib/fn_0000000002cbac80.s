@@ -1,0 +1,22 @@
+; instruction-faithful ARM64 fallback for RobloxLib::function_2cbac80
+0x0000000002cbac80: ldr        x8, [x2, #0x20]
+0x0000000002cbac84: str        x8, [x1, #0x20]
+0x0000000002cbac88: ldr        d0, [x2]
+0x0000000002cbac8c: str        d0, [x1]
+0x0000000002cbac90: ldr        d0, [x2, #0x18]
+0x0000000002cbac94: str        d0, [x1, #0x18]
+0x0000000002cbac98: ldur       q0, [x2, #8]
+0x0000000002cbac9c: stur       q0, [x1, #8]
+0x0000000002cbaca0: movi       v0.16b, #0
+0x0000000002cbaca4: stp        q0, q0, [x2]
+0x0000000002cbaca8: ldr        x8, [x2, #0x48]
+0x0000000002cbacac: str        x8, [x1, #0x48]
+0x0000000002cbacb0: ldr        d1, [x2, #0x28]
+0x0000000002cbacb4: str        d1, [x1, #0x28]
+0x0000000002cbacb8: ldr        d1, [x2, #0x40]
+0x0000000002cbacbc: str        d1, [x1, #0x40]
+0x0000000002cbacc0: ldr        q1, [x2, #0x30]
+0x0000000002cbacc4: str        q1, [x1, #0x30]
+0x0000000002cbacc8: stur       q0, [x2, #0x38]
+0x0000000002cbaccc: stur       q0, [x2, #0x28]
+0x0000000002cbacd0: ret        

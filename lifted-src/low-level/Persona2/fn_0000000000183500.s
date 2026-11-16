@@ -1,0 +1,7 @@
+; instruction-faithful ARM64 fallback for Persona2::function_183500
+0x0000000000183500: adrp       x1, #0x6a5000
+0x0000000000183504: add        x1, x1, #0x288
+0x0000000000183508: b          #0x183518
+0x000000000018350c: adrp       x1, #0x6a5000
+0x0000000000183510: add        x1, x1, #0x280
+0x0000000000183514: b          #0x183518

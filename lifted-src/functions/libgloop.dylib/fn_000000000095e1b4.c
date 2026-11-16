@@ -1,0 +1,39 @@
+/* Evidence-based generated lift; not original source. */
+/* libgloop.dylib::function_95e1b4 start_va=0x95e1b4 image_relative=0x95e1b4 bytes=140 */
+void function_95e1b4__at_95e1b4(void) {
+    /* sub sp, sp, #0x40 */
+    /* stp x29, x30, [sp, #0x30] */
+    /* add x29, sp, #0x30 */
+    /* str xzr, [sp, #0x20] */
+    /* movi v0.16b, #0 */
+    /* stp q0, q0, [sp] */
+    /* mov w8, #2 */
+    /* strb w8, [sp, #0x20] */
+    /* mov x1, sp */
+    /* mov w2, #0 */
+    /* call #0x95d8f0; ABI effects unresolved */
+    /* ldp x29, x30, [sp, #0x30] */
+    /* add sp, sp, #0x40 */
+    return;
+    /* sub sp, sp, #0x40 */
+    /* stp x29, x30, [sp, #0x30] */
+    /* add x29, sp, #0x30 */
+    /* movi v0.16b, #0 */
+    /* stp q0, q0, [sp, #0x10] */
+    /* ldr x8, [x0, #0x620] */
+    /* tbnz x8, #0x25, #0x95e234 */
+    /* orr x8, x8, #0x2000000000 */
+    /* str x8, [x0, #0x620] */
+    /* mov w8, #1 */
+    /* adrp x9, #0xc88000 */
+    /* add x9, x9, #0x7eb */
+    /* str x8, [sp, #8] */
+    /* mov w8, #0x15 */
+    /* stp x9, x8, [sp, #0x18] */
+    /* add x1, sp, #8 */
+    /* mov w2, #1 */
+    /* call #0x95d8f0; ABI effects unresolved */
+    /* ldp x29, x30, [sp, #0x30] */
+    /* add sp, sp, #0x40 */
+    return;
+}

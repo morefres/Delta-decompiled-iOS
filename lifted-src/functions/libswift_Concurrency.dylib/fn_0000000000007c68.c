@@ -1,0 +1,28 @@
+/* Evidence-based generated lift; not original source. */
+/* libswift_Concurrency.dylib::function_7c68 start_va=0x7c68 image_relative=0x7c68 bytes=96 */
+void function_7c68__at_7c68(void) {
+    /* adr x16, #0 */
+    /* nop  */
+    /* orr x29, x29, x16 */
+    /* sub sp, sp, #0x20 */
+    /* stp x29, x30, [sp, #0x10] */
+    /* str x22, [sp, #8] */
+    /* add x29, sp, #0x10 */
+    /* ldr x8, [x22] */
+    /* sub x9, x29, #8 */
+    /* str x8, [x9] */
+    /* ldp x10, x20, [x8, #0x60] */
+    /* ldp x0, x2, [x8, #0x50] */
+    /* ldr x22, [x22] */
+    /* str x22, [x9] */
+    /* ldr x8, [x10, #0x20] */
+    /* mov x1, x20 */
+    /* call x8; ABI effects unresolved */
+    /* mov x0, x20 */
+    /* call #0x32718; ABI effects unresolved */
+    /* ldr x0, [x22, #8] */
+    /* ldp x29, x30, [sp, #0x10] */
+    /* and x29, x29, #0xefffffffffffffff */
+    /* add sp, sp, #0x20 */
+    /* branch br x0 */
+}

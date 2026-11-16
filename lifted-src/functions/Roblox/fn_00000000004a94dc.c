@@ -1,0 +1,140 @@
+/*
+ * Evidence-based lift for Roblox::function_4a94dc
+ * Start VA: 0x1004a94dc; image-relative: 0x4a94dc; bytes: 532
+ * This is generated pseudocode, not original source. Unknown semantics are preserved as comments.
+ */
+void function_4a94dc__at_4a94dc(void) {
+    /* sub sp, sp, #0xc0 */
+    /* memory stp x29, x30, [sp, #0xb0] */
+    /* add x29, sp, #0xb0 */
+    /* memory stur x0, [x29, #-8] */
+    /* memory stur x1, [x29, #-0x10] */
+    /* mov x0, #0x138d */
+    /* adrp x1, #0x100833000 */
+    /* add x1, x1, #0x460 */
+    /* call #0x1004afbfc; return value/ABI effects unresolved */
+    /* memory ldr x1, [sp, #0x48] */
+    /* memory ldur x0, [x29, #-8] */
+    /* call #0x10060dcc0; return value/ABI effects unresolved */
+    /* memory ldr x1, [sp, #0x48] */
+    /* memory ldur x0, [x29, #-8] */
+    /* call #0x1005cec60; return value/ABI effects unresolved */
+    /* mov x29, x29 */
+    /* call #0x1005c1160; return value/ABI effects unresolved */
+    /* memory stur x0, [x29, #-0x18] */
+    /* memory ldur x1, [x29, #-8] */
+    /* sub x0, x29, #0x20 */
+    /* call #0x1005c10a0; return value/ABI effects unresolved */
+    /* memory ldr x1, [sp, #0x48] */
+    /* memory ldur x0, [x29, #-0x18] */
+    /* call #0x1005eb4a0; return value/ABI effects unresolved */
+    /* memory str x0, [sp, #0x50] */
+    goto label__0x1004a9544;
+    /* memory ldr x0, [sp, #0x50] */
+    /* mov x29, x29 */
+    /* call #0x1005c1160; return value/ABI effects unresolved */
+    /* memory ldr x1, [sp, #0x48] */
+    /* memory str x0, [sp, #0x38] */
+    /* memory ldur x0, [x29, #-8] */
+    /* call #0x1005ce040; return value/ABI effects unresolved */
+    /* memory str x0, [sp, #0x40] */
+    goto label__0x1004a9568;
+    /* memory ldr x0, [sp, #0x40] */
+    /* mov x29, x29 */
+    /* call #0x1005c1160; return value/ABI effects unresolved */
+    /* memory ldr x1, [sp, #0x48] */
+    /* memory str x0, [sp, #0x28] */
+    /* memory ldur x0, [x29, #-0x18] */
+    /* call #0x1005f9460; return value/ABI effects unresolved */
+    /* memory str x0, [sp, #0x30] */
+    goto label__0x1004a958c;
+    /* memory ldr x0, [sp, #0x30] */
+    /* mov x29, x29 */
+    /* call #0x1005c1160; return value/ABI effects unresolved */
+    /* memory str x0, [sp, #8] */
+    /* add x8, sp, #0x58 */
+    /* memory str x8, [sp, #0x18] */
+    /* adrp x9, #0x1007c6000 */
+    /* memory ldr x9, [x9, #0x448] */
+    /* memory str x9, [sp, #0x58] */
+    /* mov w9, #-0x3e000000 */
+    /* memory str w9, [sp, #0x60] */
+    /* mov w9, #0 */
+    /* memory str w9, [sp, #0x14] */
+    /* memory str wzr, [sp, #0x64] */
+    /* adrp x9, #0x1004a9000 */
+    /* add x9, x9, #0x6f0 */
+    /* memory str x9, [sp, #0x68] */
+    /* adrp x9, #0x1007e3000 */
+    /* add x9, x9, #0x6a8 */
+    /* memory str x9, [sp, #0x70] */
+    /* add x0, x8, #0x20 */
+    /* memory str x0, [sp] */
+    /* sub x1, x29, #0x20 */
+    /* call #0x1005c1034; return value/ABI effects unresolved */
+    /* memory ldr x0, [sp, #0x38] */
+    /* memory ldr x1, [sp, #0x48] */
+    /* memory ldr x2, [sp, #0x28] */
+    /* memory ldr x4, [sp, #8] */
+    /* memory ldr w8, [sp, #0x14] */
+    /* memory ldr x6, [sp, #0x18] */
+    /* mov x3, #0 */
+    /* and w5, w8, #1 */
+    /* call #0x1005dafe0; return value/ABI effects unresolved */
+    /* memory str x0, [sp, #0x20] */
+    goto label__0x1004a9618;
+    /* memory ldr x0, [sp, #0x20] */
+    /* mov x29, x29 */
+    /* call #0x1005c11f0; return value/ABI effects unresolved */
+    /* memory ldr x0, [sp, #8] */
+    /* call #0x1005c1130; return value/ABI effects unresolved */
+    /* memory ldr x0, [sp, #0x28] */
+    /* call #0x1005c1130; return value/ABI effects unresolved */
+    /* memory ldr x0, [sp, #0x38] */
+    /* call #0x1005c1130; return value/ABI effects unresolved */
+    /* memory ldr x0, [sp] */
+    /* call #0x1005c1040; return value/ABI effects unresolved */
+    /* sub x0, x29, #0x20 */
+    /* call #0x1005c1040; return value/ABI effects unresolved */
+    /* sub x0, x29, #0x18 */
+    /* mov x1, #0 */
+    /* call #0x1005c11b4; return value/ABI effects unresolved */
+    /* memory ldp x29, x30, [sp, #0xb0] */
+    /* add sp, sp, #0xc0 */
+    return;
+    /* memory stur x0, [x29, #-0x28] */
+    /* mov x8, x1 */
+    /* memory stur w8, [x29, #-0x2c] */
+    goto label__0x1004a96d0;
+    /* memory stur x0, [x29, #-0x28] */
+    /* mov x8, x1 */
+    /* memory stur w8, [x29, #-0x2c] */
+    goto label__0x1004a96c4;
+    /* memory stur x0, [x29, #-0x28] */
+    /* mov x8, x1 */
+    /* memory stur w8, [x29, #-0x2c] */
+    goto label__0x1004a96b8;
+    /* mov x8, x0 */
+    /* memory ldr x0, [sp] */
+    /* memory stur x8, [x29, #-0x28] */
+    /* mov x8, x1 */
+    /* memory stur w8, [x29, #-0x2c] */
+    /* call #0x1005c1040; return value/ABI effects unresolved */
+    /* memory ldr x0, [sp, #8] */
+    /* call #0x1005c1130; return value/ABI effects unresolved */
+    goto label__0x1004a96b8;
+    /* memory ldr x0, [sp, #0x28] */
+    /* call #0x1005c1130; return value/ABI effects unresolved */
+    goto label__0x1004a96c4;
+    /* memory ldr x0, [sp, #0x38] */
+    /* call #0x1005c1130; return value/ABI effects unresolved */
+    goto label__0x1004a96d0;
+    /* sub x0, x29, #0x20 */
+    /* call #0x1005c1040; return value/ABI effects unresolved */
+    /* sub x0, x29, #0x18 */
+    /* mov x1, #0 */
+    /* call #0x1005c11b4; return value/ABI effects unresolved */
+    goto label__0x1004a96e8;
+    /* memory ldur x0, [x29, #-0x28] */
+    /* call #0x1005bfce4; return value/ABI effects unresolved */
+}

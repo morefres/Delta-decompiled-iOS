@@ -1,0 +1,56 @@
+; instruction-faithful ARM64 fallback for Roblox::function_5bd4ac
+; start_va=0x1005bd4ac image_relative=0x5bd4ac bytes=216
+0x00000001005bd4ac: brk        #1
+0x00000001005bd4b0: brk        #1
+0x00000001005bd4b4: brk        #1
+0x00000001005bd4b8: brk        #1
+0x00000001005bd4bc: adrp       x0, #0x100903000
+0x00000001005bd4c0: add        x0, x0, #0xc68
+0x00000001005bd4c4: adrp       x1, #0x1007c8000
+0x00000001005bd4c8: add        x1, x1, #0x838
+0x00000001005bd4cc: b          #0x1005c0bfc
+0x00000001005bd4d0: adrp       x0, #0x100903000
+0x00000001005bd4d4: add        x0, x0, #0xc80
+0x00000001005bd4d8: adrp       x1, #0x1007c8000
+0x00000001005bd4dc: add        x1, x1, #0x888
+0x00000001005bd4e0: b          #0x1005c0bfc
+0x00000001005bd4e4: adrp       x0, #0x100903000
+0x00000001005bd4e8: add        x0, x0, #0xc90
+0x00000001005bd4ec: adrp       x1, #0x1007c8000
+0x00000001005bd4f0: add        x1, x1, #0x8c8
+0x00000001005bd4f4: b          #0x1005c0bfc
+0x00000001005bd4f8: adrp       x0, #0x100903000
+0x00000001005bd4fc: add        x0, x0, #0xca0
+0x00000001005bd500: adrp       x1, #0x1007c8000
+0x00000001005bd504: add        x1, x1, #0x8e8
+0x00000001005bd508: b          #0x1005c0bfc
+0x00000001005bd50c: adrp       x0, #0x100903000
+0x00000001005bd510: add        x0, x0, #0xcc8
+0x00000001005bd514: adrp       x1, #0x1007c8000
+0x00000001005bd518: add        x1, x1, #0x958
+0x00000001005bd51c: b          #0x1005c0bfc
+0x00000001005bd520: adrp       x0, #0x100903000
+0x00000001005bd524: add        x0, x0, #0xd18
+0x00000001005bd528: adrp       x1, #0x1007c9000
+0x00000001005bd52c: add        x1, x1, #0xe0
+0x00000001005bd530: b          #0x1005c0bfc
+0x00000001005bd534: adrp       x0, #0x100903000
+0x00000001005bd538: add        x0, x0, #0xd40
+0x00000001005bd53c: adrp       x1, #0x1007ca000
+0x00000001005bd540: add        x1, x1, #0x148
+0x00000001005bd544: b          #0x1005c0bfc
+0x00000001005bd548: adrp       x0, #0x100903000
+0x00000001005bd54c: add        x0, x0, #0xd50
+0x00000001005bd550: adrp       x1, #0x1007ca000
+0x00000001005bd554: add        x1, x1, #0x188
+0x00000001005bd558: b          #0x1005c0bfc
+0x00000001005bd55c: adrp       x0, #0x100904000
+0x00000001005bd560: add        x0, x0, #0xfd8
+0x00000001005bd564: adrp       x1, #0x1007ca000
+0x00000001005bd568: add        x1, x1, #0x938
+0x00000001005bd56c: b          #0x1005c0bfc
+0x00000001005bd570: adrp       x0, #0x100904000
+0x00000001005bd574: add        x0, x0, #0xfe8
+0x00000001005bd578: adrp       x1, #0x1007ca000
+0x00000001005bd57c: add        x1, x1, #0x968
+0x00000001005bd580: b          #0x1005c0bfc

@@ -1,0 +1,65 @@
+/* Evidence-based generated lift; not original source. */
+/* RobloxLib::function_1c4aff4 start_va=0x1c4aff4 image_relative=0x1c4aff4 bytes=244 */
+void function_1c4aff4__at_1c4aff4(void) {
+    /* sub sp, sp, #0x80 */
+    /* stp x20, x19, [sp, #0x60] */
+    /* stp x29, x30, [sp, #0x70] */
+    /* add x29, sp, #0x70 */
+    /* ldr x9, [x1] */
+    /* ldp x8, x10, [x0] */
+    /* add x0, x9, x10, asr #1 */
+    /* tbz w10, #0, #0x1c4b01c */
+    /* ldr x9, [x0] */
+    /* ldr x8, [x9, w8, uxtw] */
+    /* ldr q0, [x2] */
+    /* stur q0, [x29, #-0x30] */
+    /* ldr x9, [x2, #0x10] */
+    /* stur x9, [x29, #-0x20] */
+    /* stp xzr, xzr, [x2, #8] */
+    /* str xzr, [x2] */
+    /* ldr w2, [x3] */
+    /* ldr w3, [x4] */
+    /* ldr q0, [x5] */
+    /* str q0, [sp, #0x20] */
+    /* stp xzr, xzr, [x5] */
+    /* ldr x9, [x5, #0x10] */
+    /* adrp x10, #0x5bdb000 */
+    /* add x10, x10, #0x70 */
+    /* orr x10, x10, #6 */
+    /* stp x9, x10, [sp, #0x30] */
+    /* ldr q0, [x6] */
+    /* str q0, [sp] */
+    /* stp xzr, xzr, [x6] */
+    /* ldr x9, [x6, #0x10] */
+    /* adrp x10, #0x5d5d000 */
+    /* add x10, x10, #0x58 */
+    /* orr x10, x10, #6 */
+    /* stp x9, x10, [sp, #0x10] */
+    /* sub x1, x29, #0x30 */
+    /* add x4, sp, #0x20 */
+    /* mov x5, sp */
+    /* call x8; ABI effects unresolved */
+    /* mov x0, sp */
+    /* call #0x18c70; ABI effects unresolved */
+    /* add x0, sp, #0x20 */
+    /* call #0x18c70; ABI effects unresolved */
+    /* ldursb w8, [x29, #-0x19] */
+    /* tbz w8, #0x1f, #0x1c4b0ac */
+    /* ldur x0, [x29, #-0x30] */
+    /* call #0x47e93a8; ABI effects unresolved */
+    /* ldp x29, x30, [sp, #0x70] */
+    /* ldp x20, x19, [sp, #0x60] */
+    /* add sp, sp, #0x80 */
+    return;
+    /* mov x19, x0 */
+    /* mov x0, sp */
+    /* call #0x18c70; ABI effects unresolved */
+    /* add x0, sp, #0x20 */
+    /* call #0x18c70; ABI effects unresolved */
+    /* ldursb w8, [x29, #-0x19] */
+    /* tbz w8, #0x1f, #0x1c4b0e0 */
+    /* ldur x0, [x29, #-0x30] */
+    /* call #0x47e93a8; ABI effects unresolved */
+    /* mov x0, x19 */
+    /* call #0x4b97984; ABI effects unresolved */
+}

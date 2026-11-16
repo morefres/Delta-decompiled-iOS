@@ -1,0 +1,47 @@
+/*
+ * Evidence-based lift for Roblox::function_524390
+ * Start VA: 0x100524390; image-relative: 0x524390; bytes: 160
+ * This is generated pseudocode, not original source. Unknown semantics are preserved as comments.
+ */
+void function_524390__at_524390(void) {
+    /* memory stp x29, x30, [sp, #-0x10]! */
+    /* mov x29, sp */
+    /* condition cmp x0, #0x281 */
+    /* conditional branch b.hs #0x100524424; control-flow target retained in assembly fallback */
+    /* add x8, x0, #0x7f */
+    /* condition cmp x8, #0x300 */
+    /* conditional branch b.hs #0x100524428; control-flow target retained in assembly fallback */
+    /* lsr x8, x8, #7 */
+    /* sub x8, x8, #1 */
+    /* condition cmp x8, #4 */
+    /* conditional branch b.hi #0x10052442c; control-flow target retained in assembly fallback */
+    /* adrp x9, #0x100693000 */
+    /* add x9, x9, #0x2ba */
+    /* adr x10, #0x1005243d4 */
+    /* memory ldrb w11, [x9, x8] */
+    /* add x10, x10, x11, lsl #2 */
+    goto label_x10;
+    /* mov x0, x1 */
+    /* mov x1, x2 */
+    /* memory ldp x29, x30, [sp], #0x10 */
+    goto label__0x1003dfcf4;
+    /* mov x0, x1 */
+    /* mov x1, x2 */
+    /* memory ldp x29, x30, [sp], #0x10 */
+    goto label__0x1003dfd94;
+    /* mov x0, x1 */
+    /* mov x1, x2 */
+    /* memory ldp x29, x30, [sp], #0x10 */
+    goto label__0x1003dfe0c;
+    /* mov x0, x1 */
+    /* mov x1, x2 */
+    /* memory ldp x29, x30, [sp], #0x10 */
+    goto label__0x1003dfe84;
+    /* mov x0, x1 */
+    /* mov x1, x2 */
+    /* memory ldp x29, x30, [sp], #0x10 */
+    goto label__0x1003dfefc;
+    /* call #0x1003ee8b4; return value/ABI effects unresolved */
+    /* call #0x1003ee8dc; return value/ABI effects unresolved */
+    /* call #0x1003ee904; return value/ABI effects unresolved */
+}

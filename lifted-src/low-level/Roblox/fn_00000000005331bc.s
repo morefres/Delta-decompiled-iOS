@@ -1,0 +1,16 @@
+; instruction-faithful ARM64 fallback for Roblox::function_5331bc
+; start_va=0x1005331bc image_relative=0x5331bc bytes=56
+0x00000001005331bc: adrp       x0, #0x100512000
+0x00000001005331c0: add        x0, x0, #0xd58
+0x00000001005331c4: adrp       x1, #0x100917000
+0x00000001005331c8: add        x1, x1, #0x4f8
+0x00000001005331cc: adrp       x2, #0x100000000
+0x00000001005331d0: add        x2, x2, #0
+0x00000001005331d4: b          #0x1005c08b4
+0x00000001005331d8: adrp       x0, #0x100512000
+0x00000001005331dc: add        x0, x0, #0xd58
+0x00000001005331e0: adrp       x1, #0x10090f000
+0x00000001005331e4: add        x1, x1, #0x448
+0x00000001005331e8: adrp       x2, #0x100000000
+0x00000001005331ec: add        x2, x2, #0
+0x00000001005331f0: b          #0x1005c08b4

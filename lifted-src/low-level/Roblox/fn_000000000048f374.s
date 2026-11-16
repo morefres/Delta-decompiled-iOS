@@ -1,0 +1,44 @@
+; instruction-faithful ARM64 fallback for Roblox::function_48f374
+; start_va=0x10048f374 image_relative=0x48f374 bytes=168
+0x000000010048f374: fcmp       d0, d0
+0x000000010048f378: b.vs       #0x10048f3c0
+0x000000010048f37c: fabs       d1, d0
+0x000000010048f380: mov        x8, #0x7ff0000000000000
+0x000000010048f384: fmov       d2, x8
+0x000000010048f388: fcmp       d1, d2
+0x000000010048f38c: b.eq       #0x10048f3c0
+0x000000010048f390: stp        x29, x30, [sp, #-0x10]!
+0x000000010048f394: mov        x29, sp
+0x000000010048f398: frintm     d1, d1
+0x000000010048f39c: fneg       d2, d1
+0x000000010048f3a0: fcmp       d0, #0.0
+0x000000010048f3a4: fcsel      d0, d1, d2, gt
+0x000000010048f3a8: mov        x8, #0x41f0000000000000
+0x000000010048f3ac: fmov       d1, x8
+0x000000010048f3b0: bl         #0x1005c0d34
+0x000000010048f3b4: fcvtzs     w0, d0
+0x000000010048f3b8: ldp        x29, x30, [sp], #0x10
+0x000000010048f3bc: ret        
+0x000000010048f3c0: mov        w0, #0
+0x000000010048f3c4: ret        
+0x000000010048f3c8: fcmp       d0, d0
+0x000000010048f3cc: b.vs       #0x10048f414
+0x000000010048f3d0: fabs       d1, d0
+0x000000010048f3d4: mov        x8, #0x7ff0000000000000
+0x000000010048f3d8: fmov       d2, x8
+0x000000010048f3dc: fcmp       d1, d2
+0x000000010048f3e0: b.eq       #0x10048f414
+0x000000010048f3e4: stp        x29, x30, [sp, #-0x10]!
+0x000000010048f3e8: mov        x29, sp
+0x000000010048f3ec: frintm     d1, d1
+0x000000010048f3f0: fneg       d2, d1
+0x000000010048f3f4: fcmp       d0, #0.0
+0x000000010048f3f8: fcsel      d0, d1, d2, gt
+0x000000010048f3fc: mov        x8, #0x41f0000000000000
+0x000000010048f400: fmov       d1, x8
+0x000000010048f404: bl         #0x1005c0d34
+0x000000010048f408: fcvtzs     w0, d0
+0x000000010048f40c: ldp        x29, x30, [sp], #0x10
+0x000000010048f410: ret        
+0x000000010048f414: mov        w0, #0
+0x000000010048f418: ret        

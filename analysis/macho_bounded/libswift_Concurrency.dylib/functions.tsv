@@ -1,0 +1,1064 @@
+address	size	name
+0x0	0	_swift_async_extendedFramePointerFlags
+0x74c4	0	
+0x75c8	0	
+0x765c	0	
+0x7678	0	
+0x7a2c	0	
+0x7adc	0	
+0x7b30	0	
+0x7be4	0	
+0x7c68	0	
+0x7cc8	0	
+0x7d78	0	
+0x7dcc	0	
+0x7e8c	0	
+0x7f24	0	
+0x7fa4	0	
+0x7fb8	0	
+0x802c	0	
+0x8058	0	
+0x8084	0	
+0x80f0	0	
+0x8124	0	
+0x8158	0	
+0x816c	0	
+0x81a0	0	
+0x81ac	0	
+0x8338	0	
+0x83a4	0	
+0x84e4	0	
+0x855c	0	
+0x86ac	0	
+0x8700	0	
+0x8768	0	
+0x8778	0	
+0x8834	0	
+0x8878	0	
+0x8924	0	
+0x8ab0	0	
+0x8b1c	0	
+0x8d14	0	
+0x8d70	0	
+0x8db4	0	
+0x8e90	0	
+0x8ea0	0	
+0x8fc8	0	
+0x8fe0	0	
+0x9014	0	
+0x9028	0	
+0x9094	0	
+0x90e8	0	
+0x9160	0	
+0x91b0	0	
+0x91e0	0	
+0x9214	0	
+0x92b4	0	
+0x937c	0	
+0x9510	0	
+0x957c	0	
+0x96a0	0	
+0x9700	0	
+0x9904	0	
+0x9964	0	
+0x99b4	0	
+0x9a1c	0	
+0x9b50	0	
+0x9b6c	0	
+0x9c34	0	
+0x9c48	0	
+0x9c7c	0	
+0x9d0c	0	
+0x9e60	0	
+0x9ecc	0	
+0x9ff8	0	
+0xa058	0	
+0xa168	0	
+0xa1b0	0	
+0xa218	0	
+0xa344	0	
+0xa360	0	
+0xa394	0	
+0xa3a8	0	
+0xa4a0	0	
+0xa4f4	0	
+0xa738	0	
+0xa9ec	0	
+0xaa68	0	
+0xaeac	0	
+0xaf18	0	
+0xb0dc	0	
+0xb154	0	
+0xb244	0	
+0xb2c0	0	
+0xb6f0	0	
+0xb7e4	0	
+0xb8c0	0	
+0xb9b4	0	
+0xba1c	0	
+0xba5c	0	
+0xbb2c	0	
+0xbb40	0	
+0xbb74	0	
+0xbb80	0	
+0xbc24	0	
+0xbd7c	0	
+0xbde8	0	
+0xbf18	0	
+0xbf90	0	
+0xc048	0	
+0xc0b0	0	
+0xc0bc	0	
+0xc1f8	0	
+0xc1fc	0	
+0xc2b8	0	
+0xc2c4	0	
+0xc32c	0	
+0xc37c	0	
+0xc404	0	
+0xc420	0	
+0xc560	0	
+0xc5ac	0	
+0xc624	0	
+0xc630	0	
+0xc750	0	
+0xc754	0	
+0xc770	0	
+0xc7a0	0	
+0xc844	0	
+0xc85c	0	
+0xc890	0	
+0xc89c	0	
+0xc964	0	
+0xca98	0	
+0xcb04	0	
+0xcc2c	0	
+0xcc8c	0	
+0xcd58	0	
+0xcda0	0	
+0xce08	0	
+0xce18	0	
+0xcf60	0	
+0xd058	0	
+0xd0f8	0	
+0xd234	0	
+0xd320	0	
+0xd3a0	0	
+0xd41c	0	
+0xd498	0	
+0xd5c4	0	
+0xd6c4	0	
+0xd778	0	
+0xd8c4	0	
+0xd9b0	0	
+0xda20	0	
+0xda88	0	
+0xdaf0	0	
+0xdc04	0	
+0xdce0	0	
+0xdd5c	0	
+0xde74	0	
+0xdf2c	0	
+0xe014	0	
+0xe124	0	
+0xe200	0	
+0xe27c	0	
+0xe394	0	
+0xe3fc	0	
+0xe4b4	0	
+0xe59c	0	
+0xe604	0	
+0xe624	0	
+0xe6b8	0	
+0xe730	0	
+0xe798	0	
+0xe800	0	
+0xe914	0	
+0xe9f0	0	
+0xea6c	0	
+0xebcc	0	
+0xec34	0	
+0xed48	0	
+0xee24	0	
+0xeea0	0	
+0xefc4	0	
+0xf06c	0	
+0xf194	0	
+0xf2a8	0	
+0xf384	0	
+0xf400	0	
+0xf524	0	
+0xf588	0	
+0xf630	0	
+0xf758	0	
+0xf7bc	0	
+0xf90c	0	
+0xf9f0	0	
+0xfa6c	0	
+0xfbcc	0	
+0xfc68	0	
+0xfde4	0	
+0xfea4	0	
+0xff3c	0	
+0x1008c	0	
+0x10170	0	
+0x101ec	0	
+0x1034c	0	
+0x103e8	0	
+0x10564	0	
+0x10624	0	
+0x106bc	0	
+0x1073c	0	
+0x107bc	0	
+0x1083c	0	
+0x1085c	0	
+0x10944	0	
+0x10984	0	
+0x109a4	0	
+0x10a8c	0	
+0x10af0	0	
+0x10b40	0	
+0x10c38	0	
+0x10d7c	0	
+0x10de8	0	
+0x10f3c	0	
+0x10fb8	0	
+0x11134	0	
+0x11190	0	
+0x1120c	0	
+0x11274	0	
+0x112f8	0	
+0x113a4	0	
+0x1146c	0	
+0x115c4	0	
+0x11630	0	
+0x1175c	0	
+0x117ec	0	
+0x119a8	0	
+0x11a08	0	
+0x11a50	0	
+0x11ac0	0	
+0x11b28	0	
+0x11c68	0	
+0x11c78	0	
+0x11cfc	0	
+0x11d4c	0	
+0x11df0	0	
+0x11eb8	0	
+0x11fec	0	
+0x12058	0	
+0x12184	0	
+0x12214	0	
+0x1234c	0	
+0x12394	0	
+0x12404	0	
+0x1246c	0	
+0x125a8	0	
+0x125b8	0	
+0x12658	0	
+0x12664	0	
+0x126f4	0	
+0x12728	0	
+0x1273c	0	
+0x12770	0	
+0x127ac	0	
+0x128b4	0	
+0x12b04	0	
+0x12dc8	0	
+0x12e44	0	
+0x13298	0	
+0x13304	0	
+0x134c8	0	
+0x13544	0	
+0x13650	0	
+0x136dc	0	
+0x13b1c	0	
+0x13c1c	0	
+0x13d04	0	
+0x13e88	0	
+0x14004	0	
+0x1406c	0	
+0x14078	0	
+0x14210	0	
+0x14220	0	
+0x142ac	0	
+0x142b8	0	
+0x1433c	0	
+0x1438c	0	
+0x14434	0	
+0x144fc	0	
+0x1462c	0	
+0x14698	0	
+0x147c4	0	
+0x14840	0	
+0x148b0	0	
+0x148f8	0	
+0x14968	0	
+0x149d0	0	
+0x149dc	0	
+0x14b20	0	
+0x14b24	0	
+0x14b40	0	
+0x14bcc	0	
+0x14bd8	0	
+0x14c4c	0	
+0x14c78	0	
+0x14cac	0	
+0x14cb8	0	
+0x14d60	0	
+0x14e28	0	
+0x14f5c	0	
+0x14fc8	0	
+0x150f0	0	
+0x15180	0	
+0x1524c	0	
+0x15294	0	
+0x15300	0	
+0x15368	0	
+0x15374	0	
+0x154ac	0	
+0x154b4	0	
+0x15560	0	
+0x155f0	0	
+0x15608	0	
+0x1565c	0	
+0x15678	0	
+0x1571c	0	
+0x15774	0	
+0x157ac	0	
+0x15858	0	
+0x1589c	0	
+0x158a4	0	
+0x15934	0	
+0x15980	0	
+0x159a0	0	
+0x15af8	0	
+0x15ba4	0	
+0x15c8c	0	
+0x15ce8	0	
+0x15d54	0	
+0x15d6c	0	
+0x15e1c	0	
+0x15e88	0	
+0x15f14	0	
+0x15fe4	0	
+0x16000	0	
+0x16014	0	
+0x1607c	0	
+0x1608c	0	
+0x160c8	0	
+0x1622c	0	
+0x16288	0	
+0x162d4	0	
+0x1633c	0	
+0x164e8	0	
+0x16570	0	
+0x165dc	0	
+0x16660	0	
+0x16778	0	
+0x167a0	0	
+0x16830	0	
+0x16848	0	
+0x168f4	0	
+0x16a40	0	
+0x16a7c	0	
+0x16af0	0	
+0x16b00	0	
+0x16b9c	0	
+0x16c1c	0	
+0x16c74	0	
+0x16c78	0	
+0x16e14	0	
+0x16e18	0	
+0x17024	0	
+0x170e4	0	
+0x171f0	0	
+0x172b4	0	
+0x172f0	0	
+0x173ac	0	
+0x173f0	0	
+0x1753c	0	
+0x1763c	0	
+0x17698	0	
+0x17708	0	
+0x177d0	0	
+0x17828	0	
+0x178f4	0	
+0x17904	0	
+0x179a8	0	
+0x179f8	0	
+0x17a3c	0	
+0x17ab0	0	
+0x17b84	0	
+0x17bf0	0	
+0x17cc4	0	
+0x17d20	0	
+0x17d30	0	
+0x17dd8	0	
+0x17e24	0	
+0x17e38	0	
+0x17e88	0	
+0x17eb8	0	
+0x17f10	0	
+0x17f84	0	
+0x18058	0	
+0x1814c	0	
+0x181ac	0	
+0x182a0	0	
+0x182b4	0	
+0x182b8	0	
+0x182f8	0	
+0x1833c	0	
+0x18340	0	
+0x18458	0	
+0x18478	0	
+0x18574	0	
+0x1858c	0	
+0x18644	0	
+0x18688	0	
+0x186a0	0	
+0x18898	0	
+0x1890c	0	
+0x18a44	0	
+0x18a98	0	
+0x18ab0	0	
+0x18bfc	0	
+0x18c58	0	
+0x18cd4	0	
+0x18cdc	0	
+0x18df0	0	
+0x19ed8	0	
+0x19fb0	0	
+0x1a1cc	0	
+0x1a1ec	0	
+0x1a2cc	0	
+0x1a364	0	
+0x1a384	0	
+0x1a42c	0	
+0x1a47c	0	
+0x1a590	0	
+0x1a5b0	0	
+0x1a5c8	0	
+0x1a700	0	
+0x1c014	0	
+0x1c034	0	
+0x1c110	0	
+0x1c184	0	
+0x1c1fc	0	
+0x1c21c	0	
+0x1c2d8	0	
+0x1c324	0	
+0x1c470	0	
+0x1c4d4	0	
+0x1c4e8	0	
+0x1c554	0	
+0x1c560	0	
+0x1c5d8	0	
+0x1c628	0	
+0x1c6ec	0	
+0x1c780	0	
+0x1c78c	0	
+0x1c7d0	0	
+0x1c870	0	
+0x1c88c	0	
+0x1c9a0	0	
+0x1ca14	0	
+0x1cb54	0	
+0x1cb74	0	
+0x1cc44	0	
+0x1cca4	0	
+0x1cd14	0	
+0x1ce5c	0	
+0x1ceb4	0	
+0x1cf98	0	
+0x1cfb0	0	
+0x1d030	0	
+0x1d0c0	0	
+0x1d128	0	
+0x1d134	0	
+0x1d14c	0	
+0x1d240	0	
+0x1d2a0	0	
+0x1d318	0	
+0x1d3f8	0	
+0x1d4b4	0	
+0x1d4c0	0	
+0x1d528	0	
+0x1d574	0	
+0x1d668	0	
+0x1d6dc	0	
+0x1d81c	0	
+0x1d838	0	
+0x1d8f8	0	
+0x1d954	0	
+0x1d9c4	0	
+0x1db0c	0	
+0x1dbc0	0	
+0x1dbd8	0	
+0x1dc58	0	
+0x1dd3c	0	
+0x1dda4	0	
+0x1ddbc	0	
+0x1dee4	0	
+0x1dfdc	0	
+0x1e0e4	0	
+0x1e1fc	0	
+0x1e338	0	
+0x1e43c	0	
+0x1e820	0	
+0x1e8e8	0	
+0x1eba0	0	
+0x1ec94	0	
+0x1ecf8	0	
+0x1edf0	0	
+0x1eee4	0	
+0x1f198	0	
+0x1f290	0	
+0x1f31c	0	
+0x1f3cc	0	
+0x1f4c0	0	
+0x1f550	0	
+0x1f5d4	0	
+0x1f658	0	
+0x1f6ac	0	
+0x1f73c	0	
+0x1f758	0	
+0x1f794	0	
+0x1f7a0	0	
+0x1f7c4	0	
+0x1f82c	0	
+0x1f8bc	0	
+0x1f8fc	0	
+0x1f910	0	
+0x1f9e0	0	
+0x1fb90	0	
+0x1fbb0	0	
+0x1fbf4	0	
+0x1fc28	0	
+0x1fcb4	0	
+0x1fcd4	0	
+0x1fd24	0	
+0x1fd3c	0	
+0x1fdb4	0	
+0x1fea0	0	
+0x1fecc	0	
+0x1fee0	0	
+0x1ff20	0	
+0x1ff24	0	
+0x1ff64	0	
+0x1ffb4	0	
+0x20044	0	
+0x200ec	0	
+0x20104	0	
+0x20154	0	
+0x2016c	0	
+0x201f4	0	
+0x20208	0	
+0x202a8	0	
+0x203b0	0	
+0x203cc	0	
+0x203d4	0	
+0x20434	0	
+0x20454	0	
+0x20490	0	
+0x204a4	0	
+0x20580	0	
+0x205fc	0	
+0x208dc	0	
+0x20a2c	0	
+0x20be4	0	
+0x20c2c	0	
+0x20c5c	0	
+0x20d1c	0	
+0x20d7c	0	
+0x20f88	0	
+0x210cc	0	
+0x21278	0	
+0x21280	0	
+0x212f4	0	
+0x21338	0	
+0x21340	0	
+0x21414	0	
+0x215c8	0	
+0x216b0	0	
+0x219ac	0	
+0x21af4	0	
+0x21c90	0	
+0x22248	0	
+0x222cc	0	
+0x22318	0	
+0x22320	0	
+0x22394	0	
+0x2243c	0	
+0x2247c	0	
+0x22608	0	
+0x22714	0	
+0x228a0	0	
+0x228a8	0	
+0x2292c	0	
+0x229f0	0	
+0x22a54	0	
+0x22c70	0	
+0x22db8	0	
+0x22f68	0	
+0x22f80	0	
+0x22fec	0	
+0x23094	0	
+0x230a4	0	
+0x23214	0	
+0x232e8	0	
+0x23438	0	
+0x23450	0	
+0x234c8	0	
+0x23588	0	
+0x235d0	0	
+0x237c0	0	
+0x238c8	0	
+0x23a38	0	
+0x23a48	0	
+0x23ad4	0	
+0x23bbc	0	
+0x23c2c	0	
+0x23eb8	0	
+0x24014	0	
+0x241d8	0	
+0x241e8	0	
+0x2424c	0	
+0x2425c	0	
+0x2429c	0	
+0x242a4	0	
+0x24334	0	
+0x24668	0	
+0x247b0	0	
+0x249b4	0	
+0x249c4	0	
+0x24a54	0	
+0x24b24	0	
+0x24b88	0	
+0x24dc4	0	
+0x24f10	0	
+0x25120	0	
+0x25128	0	
+0x25170	0	
+0x25178	0	
+0x25248	0	
+0x25400	0	
+0x254ec	0	
+0x257f0	0	
+0x2593c	0	
+0x25adc	0	
+0x2609c	0	
+0x260ac	0	
+0x26140	0	
+0x26214	0	
+0x2627c	0	
+0x264c8	0	
+0x26618	0	
+0x2682c	0	
+0x2683c	0	
+0x268cc	0	
+0x269b8	0	
+0x26a2c	0	
+0x26cc8	0	
+0x26e28	0	
+0x26ff0	0	
+0x27290	0	
+0x272cc	0	
+0x272d0	0	
+0x27340	0	
+0x27350	0	
+0x273bc	0	
+0x27570	0	
+0x275e4	0	
+0x27710	0	
+0x277b0	0	
+0x2789c	0	
+0x27a38	0	
+0x27b24	0	
+0x27cc0	0	
+0x27e04	0	
+0x27fe0	0	
+0x28078	0	
+0x2814c	0	
+0x28230	0	
+0x28278	0	
+0x2829c	0	
+0x282e0	0	
+0x28334	0	
+0x284e8	0	
+0x285f4	0	
+0x28768	0	
+0x28ad4	0	
+0x28c48	0	
+0x28fb4	0	
+0x29100	0	
+0x2937c	0	
+0x29448	0	
+0x2944c	0	
+0x29560	0	
+0x29594	0	
+0x295dc	0	
+0x29600	0	
+0x29618	0	
+0x29654	0	
+0x29668	0	
+0x296d0	0	
+0x29790	0	
+0x297bc	0	
+0x297c4	0	
+0x29858	0	
+0x299c0	0	
+0x29a60	0	
+0x29cc8	0	
+0x29e10	0	
+0x2a00c	0	
+0x2a44c	0	
+0x2a63c	0	
+0x2aa68	0	
+0x2ac08	0	
+0x2af44	0	
+0x2af58	0	
+0x2afac	0	
+0x2b084	0	
+0x2b178	0	
+0x2b258	0	
+0x2b2f0	0	
+0x2b3d0	0	
+0x2b514	0	
+0x2b6f0	0	
+0x2b724	0	
+0x2b790	0	
+0x2b8c4	0	
+0x2b8e0	0	
+0x2b980	0	
+0x2ba4c	0	
+0x2bad0	0	
+0x2bb0c	0	
+0x2bb44	0	
+0x2bbe8	0	
+0x2bc0c	0	
+0x2bc4c	0	
+0x2bc70	0	
+0x2bcb0	0	
+0x2bcd4	0	
+0x2bd70	0	
+0x2bdc4	0	
+0x2be60	0	
+0x2beac	0	
+0x2beec	0	
+0x2bf90	0	
+0x2bfc0	0	
+0x2c014	0	
+0x2c0ac	0	
+0x2c11c	0	
+0x2c1e0	0	
+0x2c1f0	0	
+0x2c25c	0	
+0x2c28c	0	
+0x2c2bc	0	
+0x2c2f4	0	
+0x2c334	0	
+0x2c44c	0	
+0x2c484	0	
+0x2c4a4	0	
+0x2c4c8	0	
+0x2c4e0	0	
+0x2c5e0	0	
+0x2c604	0	
+0x2c648	0	
+0x2c6ec	0	
+0x2c738	0	
+0x2c7d0	0	
+0x2c7f0	0	
+0x2c860	0	
+0x2c8d0	0	
+0x2c920	0	
+0x2c930	0	
+0x2c998	0	
+0x2ca1c	0	
+0x2ca68	0	
+0x2ca78	0	
+0x2cad8	0	
+0x2cae8	0	
+0x2cb10	0	
+0x2cb6c	0	
+0x2cbac	0	
+0x2cc68	0	
+0x2cc7c	0	
+0x2cf50	0	
+0x2cf64	0	
+0x2cfd0	0	
+0x2cfe4	0	
+0x2d07c	0	
+0x2d0c0	0	__ZN5swift19getOverride_job_runEv
+0x2d104	0	__ZN5swift35getOverride_task_getCurrentExecutorEv
+0x2d148	0	__ZN5swift34getOverride_task_isCurrentExecutorEv
+0x2d18c	0	__ZN5swift23getOverride_task_switchEv
+0x2d1d0	0	__ZN5swift30getOverride_task_create_commonEv
+0x2d214	0	__ZN5swift28getOverride_task_future_waitEv
+0x2d258	0	__ZN5swift37getOverride_task_future_wait_throwingEv
+0x2d29c	0	__ZN5swift31getOverride_continuation_resumeEv
+0x2d2e0	0	__ZN5swift39getOverride_continuation_throwingResumeEv
+0x2d324	0	__ZN5swift48getOverride_continuation_throwingResumeWithErrorEv
+0x2d368	0	__ZN5swift39getOverride_task_addCancellationHandlerEv
+0x2d3ac	0	__ZN5swift42getOverride_task_removeCancellationHandlerEv
+0x2d3f0	0	__ZN5swift45getOverride_task_createNullaryContinuationJobEv
+0x2d434	0	__ZN5swift36getOverride_task_asyncMainDrainQueueEv
+0x2d478	0	__ZN5swift24getOverride_task_suspendEv
+0x2d4bc	0	__ZN5swift29getOverride_continuation_initEv
+0x2d500	0	__ZN5swift30getOverride_continuation_awaitEv
+0x2d544	0	__ZN5swift25getOverride_asyncLet_waitEv
+0x2d588	0	__ZN5swift34getOverride_asyncLet_wait_throwingEv
+0x2d5cc	0	__ZN5swift24getOverride_asyncLet_endEv
+0x2d610	0	__ZN5swift24getOverride_asyncLet_getEv
+0x2d654	0	__ZN5swift33getOverride_asyncLet_get_throwingEv
+0x2d698	0	__ZN5swift28getOverride_asyncLet_consumeEv
+0x2d6dc	0	__ZN5swift37getOverride_asyncLet_consume_throwingEv
+0x2d720	0	__ZN5swift27getOverride_asyncLet_finishEv
+0x2d764	0	__ZN5swift32getOverride_taskGroup_initializeEv
+0x2d7a8	0	__ZN5swift33getOverride_taskGroup_attachChildEv
+0x2d7ec	0	__ZN5swift29getOverride_taskGroup_destroyEv
+0x2d830	0	__ZN5swift40getOverride_taskGroup_wait_next_throwingEv
+0x2d874	0	__ZN5swift29getOverride_taskGroup_isEmptyEv
+0x2d8b8	0	__ZN5swift33getOverride_taskGroup_isCancelledEv
+0x2d8fc	0	__ZN5swift31getOverride_taskGroup_cancelAllEv
+0x2d940	0	__ZN5swift32getOverride_taskGroup_addPendingEv
+0x2d984	0	__ZN5swift65getOverride_task_reportIllegalTaskLocalBindingWithinWithTaskGroupEv
+0x2d9c8	0	__ZN5swift31getOverride_task_localValuePushEv
+0x2da0c	0	__ZN5swift30getOverride_task_localValueGetEv
+0x2da50	0	__ZN5swift30getOverride_task_localValuePopEv
+0x2da94	0	__ZN5swift29getOverride_task_localsCopyToEv
+0x2dad8	0	__ZN5swift32getOverride_task_addStatusRecordEv
+0x2db1c	0	__ZN5swift35getOverride_task_tryAddStatusRecordEv
+0x2db60	0	__ZN5swift35getOverride_task_removeStatusRecordEv
+0x2dba4	0	__ZN5swift41getOverride_task_hasTaskGroupStatusRecordEv
+0x2dbe8	0	__ZN5swift28getOverride_task_attachChildEv
+0x2dc2c	0	__ZN5swift28getOverride_task_detachChildEv
+0x2dc70	0	__ZN5swift23getOverride_task_cancelEv
+0x2dcb4	0	__ZN5swift41getOverride_task_cancel_group_child_tasksEv
+0x2dcf8	0	__ZN5swift25getOverride_task_escalateEv
+0x2dd3c	0	__ZN5swift35getOverride_task_getNearestDeadlineEv
+0x2ddcc	0	
+0x2de9c	0	
+0x2df88	0	__ZN5swift16adoptTaskVoucherEPNS_9AsyncTaskE
+0x2dffc	0	__ZN5swift18restoreTaskVoucherEPNS_9AsyncTaskE
+0x2e04c	0	
+0x2e054	0	
+0x2e088	0	
+0x2e0a0	0	
+0x2e230	0	
+0x2e26c	0	
+0x2e300	0	
+0x2e30c	0	_swift_defaultActor_destroy
+0x2e384	0	_swift_defaultActor_enqueue
+0x2e438	0	
+0x2e500	0	_swift_defaultActor_deallocateResilient
+0x2e5f0	0	
+0x2e7a0	0	_swift_job_run
+0x2e820	0	
+0x2e8f4	0	
+0x2e990	0	
+0x2ea88	0	
+0x2eb18	0	
+0x2ee74	0	
+0x2eed8	0	
+0x2eef0	0	
+0x2efe0	0	
+0x2f464	0	
+0x2f630	0	
+0x2f804	0	
+0x2f8e4	0	
+0x2f940	0	
+0x2f9fc	0	
+0x2fa24	0	_swift_asyncLet_start
+0x2fa54	0	_swift_asyncLet_begin
+0x2fa84	0	__ZNK5swift8AsyncLet7getTaskEv
+0x2fa90	0	__ZN5swift8AsyncLet20getPreallocatedSpaceEv
+0x2fa98	0	__ZN5swift8AsyncLet26getSizeOfPreallocatedSpaceEv
+0x2faa0	0	__ZN5swift8AsyncLet25didAllocateFromParentTaskEv
+0x2faac	0	__ZN5swift8AsyncLet28setDidAllocateFromParentTaskEb
+0x2facc	0	_swift_asyncLet_wait
+0x2fb78	0	_swift_asyncLet_wait_throwing
+0x2fc28	0	_swift_asyncLet_end
+0x2fcdc	0	_swift_asyncLet_get
+0x2fdc0	0	_swift_asyncLet_get_throwing
+0x2fecc	0	_swift_asyncLet_consume
+0x2ffe8	0	_swift_asyncLet_consume_throwing
+0x30104	0	_swift_asyncLet_finish
+0x304f8	0	_swift_task_enqueueOnDispatchQueue
+0x30518	0	_swift_task_enqueueGlobal
+0x3063c	0	_swift_task_enqueueGlobalWithDelay
+0x30720	0	_swift_task_enqueueMainExecutor
+0x30780	0	_swift_task_getMainExecutor
+0x30794	0	__ZNK5swift11ExecutorRef14isMainExecutorEv
+0x307e8	0	__ZN5swift28swift_Concurrency_fatalErrorEjPKcz
+0x307f4	0	__ZN5swift9AsyncTask14FutureFragment7destroyEv
+0x30834	0	__ZN5swift9AsyncTask10waitFutureEPS0_PNS_12AsyncContextEPU14swiftasynccallFvU19swift_async_contextS3_ES3_PNS_11OpaqueValueE
+0x30a54	0	__ZN5swift22NullaryContinuationJob7processEPNS_3JobE
+0x30b04	0	_swift_continuation_resume
+0x30bb0	0	__ZN5swift9AsyncTask14completeFutureEPNS_12AsyncContextE
+0x30cb4	0	__ZN5swift9AsyncTaskD2Ev
+0x30d4c	0	__ZN5swift9AsyncTaskD1Ev
+0x30d50	0	__ZN5swift9AsyncTask9setTaskIdEv
+0x30db8	0	_swift_task_create
+0x30e6c	0	_swift_task_create_common
+0x30f1c	0	__Z35swift_task_future_wait_throwingImplPN5swift11OpaqueValueEPNS_12AsyncContextEPNS_9AsyncTaskEPU14swiftasynccallFvU19swift_async_contextS3_U13swift_contextPvES3_
+0x31034	0	_swift_task_getJobFlags
+0x3103c	0	_swift_task_isCancelled
+0x31054	0	_swift_continuation_logFailedCheck
+0x315c8	0	_swift_task_future_wait
+0x31748	0	_swift_task_future_wait_throwing
+0x3184c	0	_swift_continuation_throwingResume
+0x31960	0	_swift_continuation_throwingResumeWithError
+0x31a84	0	_swift_task_addCancellationHandler
+0x31b70	0	_swift_task_removeCancellationHandler
+0x31bf8	0	_swift_task_createNullaryContinuationJob
+0x31d4c	0	_swift_task_asyncMainDrainQueue
+0x31db8	0	_swift_task_suspend
+0x31ea8	0	_swift_continuation_init
+0x32008	0	_swift_continuation_await
+0x32540	0	_swift_task_alloc
+0x3262c	0	__ZN5swift26_swift_task_alloc_specificEPNS_9AsyncTaskEm
+0x32718	0	_swift_task_dealloc
+0x32804	0	__ZN5swift28_swift_task_dealloc_specificEPNS_9AsyncTaskEPv
+0x32a48	0	__ZN5swift9AsyncTask18flagAsRunning_slowEv
+0x32ba8	0	__ZN5swift9AsyncTask20flagAsSuspended_slowEv
+0x32d08	0	_swift_taskGroup_attachChild
+0x32ed8	0	_swift_task_addStatusRecord
+0x33084	0	_swift_task_tryAddStatusRecord
+0x33270	0	_swift_task_removeStatusRecord
+0x334a8	0	_swift_task_hasTaskGroupStatusRecord
+0x33668	0	_swift_task_attachChild
+0x337c0	0	_swift_task_detachChild
+0x338a4	0	_swift_task_cancel
+0x33ae0	0	_swift_task_cancel_group_child_tasks
+0x33ca0	0	_swift_task_escalate
+0x33ea4	0	_swift_task_getNearestDeadline
+0x34454	0	__ZN5swift9TaskGroup13getTaskRecordEv
+0x34458	0	__ZN5swift9TaskGroup12addChildTaskEPNS_9AsyncTaskE
+0x34474	0	__ZN5swift9TaskGroup5offerEPNS_9AsyncTaskEPNS_12AsyncContextE
+0x34f8c	0	__ZN5swift9TaskGroup11isCancelledEv
+0x34f98	0	_swift_taskGroup_initialize
+0x350d8	0	_swift_taskGroup_destroy
+0x35170	0	_swift_taskGroup_wait_next_throwing
+0x35570	0	_swift_taskGroup_isEmpty
+0x355e4	0	_swift_taskGroup_isCancelled
+0x35650	0	_swift_taskGroup_cancelAll
+0x356f0	0	_swift_taskGroup_addPending
+0x35984	0	__ZN5swift9TaskLocal7Storage20initializeLinkParentEPNS_9AsyncTaskES3_
+0x359e8	0	__ZN5swift9TaskLocal4Item16createParentLinkEPNS_9AsyncTaskES3_
+0x35a40	0	__ZN5swift9TaskLocal4Item10createLinkEPNS_9AsyncTaskEPKNS_10HeapObjectEPKNS_14TargetMetadataINS_9InProcessEEE
+0x35ad8	0	__ZN5swift9TaskLocal4Item6copyToEPNS_9AsyncTaskE
+0x35bbc	0	__ZN5swift9TaskLocal4Item7destroyEPNS_9AsyncTaskE
+0x35c1c	0	__ZN5swift9TaskLocal7Storage7destroyEPNS_9AsyncTaskE
+0x35d08	0	__ZN5swift9TaskLocal7Storage9pushValueEPNS_9AsyncTaskEPKNS_10HeapObjectEPNS_11OpaqueValueEPKNS_14TargetMetadataINS_9InProcessEEE
+0x35de4	0	__ZN5swift9TaskLocal7Storage8popValueEPNS_9AsyncTaskE
+0x35e68	0	__ZN5swift9TaskLocal7Storage8getValueEPNS_9AsyncTaskEPKNS_10HeapObjectE
+0x35ebc	0	__ZN5swift9TaskLocal7Storage6copyToEPNS_9AsyncTaskE
+0x35ff8	0	_swift_task_reportIllegalTaskLocalBindingWithinWithTaskGroup
+0x36130	0	_swift_task_localValuePush
+0x362c0	0	_swift_task_localValueGet
+0x363c0	0	_swift_task_localValuePop
+0x364e0	0	_swift_task_localsCopyTo
+0x368ac	0	__ZN5swift19_swift_tsan_acquireEPv
+0x368c0	0	__ZN5swift19_swift_tsan_releaseEPv
+0x368d4	0	___tsan_on_initialize
+0x36914	0	__ZN5swift27ReadWriteLockPlatformHelper4initER24_opaque_pthread_rwlock_t
+0x369dc	0	__ZN5swift27ReadWriteLockPlatformHelper7destroyER24_opaque_pthread_rwlock_t
+0x36a2c	0	__ZN5swift27ReadWriteLockPlatformHelper8readLockER24_opaque_pthread_rwlock_t
+0x36a7c	0	__ZN5swift27ReadWriteLockPlatformHelper12try_readLockER24_opaque_pthread_rwlock_t
+0x36ae0	0	__ZN5swift27ReadWriteLockPlatformHelper9writeLockER24_opaque_pthread_rwlock_t
+0x36b30	0	__ZN5swift27ReadWriteLockPlatformHelper13try_writeLockER24_opaque_pthread_rwlock_t
+0x36b94	0	__ZN5swift27ReadWriteLockPlatformHelper10readUnlockER24_opaque_pthread_rwlock_t
+0x36be4	0	__ZN5swift27ReadWriteLockPlatformHelper11writeUnlockER24_opaque_pthread_rwlock_t
+0x36c34	0	__ZN5swift23ConditionPlatformHelper4initER22_opaque_pthread_cond_t
+0x36c88	0	__ZN5swift23ConditionPlatformHelper7destroyER22_opaque_pthread_cond_t
+0x36cd8	0	__ZN5swift23ConditionPlatformHelper9notifyOneER22_opaque_pthread_cond_t
+0x36d28	0	__ZN5swift23ConditionPlatformHelper9notifyAllER22_opaque_pthread_cond_t
+0x36d78	0	__ZN5swift23ConditionPlatformHelper4waitER22_opaque_pthread_cond_tR23_opaque_pthread_mutex_t
+0x36dc8	0	__ZN5swift17ConditionVariable5MutexC2Eb
+0x36ec8	0	__ZN5swift17ConditionVariable5MutexC1Eb
+0x36ecc	0	__ZN5swift17ConditionVariable5MutexD2Ev
+0x36f24	0	__ZN5swift17ConditionVariable5MutexD1Ev
+0x36f7c	0	__ZN5swift17ConditionVariable5Mutex4lockEv
+0x36fcc	0	__ZN5swift17ConditionVariable5Mutex6unlockEv
+0x3701c	0	__ZN5swift17ConditionVariable5Mutex8try_lockEv
+0x37080	0	__ZN5swift17ConditionVariable5Mutex4waitERS0_
+0x370dc	0	__swift_async_stream_lock_size
+0x370e4	0	__swift_async_stream_lock_init
+0x370ec	0	__swift_async_stream_lock_lock
+0x37100	0	__swift_async_stream_lock_unlock
+0x37114	0	_swift_task_enterThreadLocalContextBackDeploy
+0x37118	0	_swift_task_exitThreadLocalContextBackDeploy
+0x3711c	0	ctor_0
+0x37130	0	_swift_getFunctionTypeMetadataGlobalActorStandalone
+0x38568	0	
+0x38574	0	
+0x385a8	0	
+0x385b0	0	
+0x385d4	0	
+0x385e4	0	
+0x38634	0	
+0x38788	0	
+0x38910	0	
+0x38918	0	
+0x38c49	0	
+0x3c359	0	$ld$install_name$os7.0$@rpath/libswift_Concurrency.dylib
+0x3c35a	0	$ld$install_name$os7.1$@rpath/libswift_Concurrency.dylib
+0x3c35b	0	$ld$install_name$os8.0$@rpath/libswift_Concurrency.dylib
+0x3c35c	0	$ld$install_name$os8.1$@rpath/libswift_Concurrency.dylib
+0x3c35d	0	$ld$install_name$os8.2$@rpath/libswift_Concurrency.dylib
+0x3c35e	0	$ld$install_name$os8.3$@rpath/libswift_Concurrency.dylib
+0x3c35f	0	$ld$install_name$os8.4$@rpath/libswift_Concurrency.dylib
+0x3c360	0	$ld$install_name$os9.0$@rpath/libswift_Concurrency.dylib
+0x3c361	0	$ld$install_name$os9.1$@rpath/libswift_Concurrency.dylib
+0x3c362	0	$ld$install_name$os9.2$@rpath/libswift_Concurrency.dylib
+0x3c363	0	$ld$install_name$os9.3$@rpath/libswift_Concurrency.dylib
+0x3c364	0	$ld$install_name$os10.0$@rpath/libswift_Concurrency.dylib
+0x3c365	0	$ld$install_name$os10.1$@rpath/libswift_Concurrency.dylib
+0x3c366	0	$ld$install_name$os10.2$@rpath/libswift_Concurrency.dylib
+0x3c367	0	$ld$install_name$os10.3$@rpath/libswift_Concurrency.dylib
+0x3c368	0	$ld$install_name$os11.0$@rpath/libswift_Concurrency.dylib
+0x3c369	0	$ld$install_name$os11.1$@rpath/libswift_Concurrency.dylib
+0x3c36a	0	$ld$install_name$os11.2$@rpath/libswift_Concurrency.dylib
+0x3c36b	0	$ld$install_name$os11.3$@rpath/libswift_Concurrency.dylib
+0x3c36c	0	$ld$install_name$os11.4$@rpath/libswift_Concurrency.dylib
+0x3c36d	0	$ld$install_name$os12.0$@rpath/libswift_Concurrency.dylib
+0x3c36e	0	$ld$install_name$os12.1$@rpath/libswift_Concurrency.dylib
+0x3c36f	0	$ld$install_name$os12.2$@rpath/libswift_Concurrency.dylib
+0x3c370	0	$ld$install_name$os12.3$@rpath/libswift_Concurrency.dylib
+0x3c371	0	$ld$install_name$os12.4$@rpath/libswift_Concurrency.dylib
+0x3c372	0	$ld$install_name$os12.5$@rpath/libswift_Concurrency.dylib
+0x3c373	0	$ld$install_name$os13.0$@rpath/libswift_Concurrency.dylib
+0x3c374	0	$ld$install_name$os13.1$@rpath/libswift_Concurrency.dylib
+0x3c375	0	$ld$install_name$os13.2$@rpath/libswift_Concurrency.dylib
+0x3c376	0	$ld$install_name$os13.3$@rpath/libswift_Concurrency.dylib
+0x3c377	0	$ld$install_name$os13.4$@rpath/libswift_Concurrency.dylib
+0x3c378	0	$ld$install_name$os13.5$@rpath/libswift_Concurrency.dylib
+0x3c379	0	$ld$install_name$os13.6$@rpath/libswift_Concurrency.dylib
+0x3c37a	0	$ld$install_name$os13.7$@rpath/libswift_Concurrency.dylib
+0x3c37b	0	$ld$install_name$os14.0$@rpath/libswift_Concurrency.dylib
+0x3c37c	0	$ld$install_name$os14.1$@rpath/libswift_Concurrency.dylib
+0x3c37d	0	$ld$install_name$os14.2$@rpath/libswift_Concurrency.dylib
+0x3c37e	0	$ld$install_name$os14.3$@rpath/libswift_Concurrency.dylib
+0x3c37f	0	$ld$install_name$os14.4$@rpath/libswift_Concurrency.dylib
+0x3c380	0	$ld$install_name$os14.5$@rpath/libswift_Concurrency.dylib
+0x3c381	0	$ld$install_name$os14.6$@rpath/libswift_Concurrency.dylib
+0x3c382	0	$ld$install_name$os14.7$@rpath/libswift_Concurrency.dylib
+0x3c383	0	$ld$install_name$os14.8$@rpath/libswift_Concurrency.dylib
+0x461b0	0	__swift_concurrency_debug_asyncTaskSlabMetadata
+0x461b8	0	__swift_concurrency_debug_jobMetadata
+0x461c0	0	__swift_concurrency_debug_asyncTaskMetadata
+0x46720	0	_OBJC_CLASS_$_SwiftNativeNSObject
+0x46748	0	_OBJC_METACLASS_$_SwiftNativeNSObject
+0x46798	0	_swift_deletedAsyncMethodErrorTu
+0x471d0	0	__ZN5swift15jobHeapMetadataE
+0x47260	0	__ZZN7__swift9__runtime4llvm7hashing6detail18get_execution_seedEvE4seed
+0x47268	0	__ZGVZN7__swift9__runtime4llvm7hashing6detail18get_execution_seedEvE4seed
+0x4b1d8	0	__ZN5swift17MainActorMetadataE
+0x4b1e0	0	_swift_task_enqueueGlobal_hook
+0x4b1e8	0	_swift_task_enqueueGlobalWithDelay_hook
+0x4b1f0	0	_swift_task_enqueueMainExecutor_hook
+0x4b1f8	0	__ZN5swift25TaskAllocatorSlabMetadataE
+0x4b200	0	__ZN24FallbackTaskLocalStorage5ValueE
+0x4b208	0	__ZN7__swift9__runtime4llvm7hashing6detail19fixed_seed_overrideE

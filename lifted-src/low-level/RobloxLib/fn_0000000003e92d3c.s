@@ -1,0 +1,20 @@
+; instruction-faithful ARM64 fallback for RobloxLib::function_3e92d3c
+0x0000000003e92d3c: stp        x20, x19, [sp, #-0x20]!
+0x0000000003e92d40: stp        x29, x30, [sp, #0x10]
+0x0000000003e92d44: add        x29, sp, #0x10
+0x0000000003e92d48: mov        x19, x2
+0x0000000003e92d4c: add        x8, x1, #0x98
+0x0000000003e92d50: cmp        x1, #0
+0x0000000003e92d54: csel       x9, xzr, x8, eq
+0x0000000003e92d58: ldp        x8, x10, [x0, #8]
+0x0000000003e92d5c: add        x0, x9, x10, asr #1
+0x0000000003e92d60: tbz        w10, #0, #0x3e92d6c
+0x0000000003e92d64: ldr        x9, [x0]
+0x0000000003e92d68: ldr        x8, [x9, w8, uxtw]
+0x0000000003e92d6c: blr        x8
+0x0000000003e92d70: ldrb       w8, [x19]
+0x0000000003e92d74: cmp        w8, w0
+0x0000000003e92d78: cset       w0, eq
+0x0000000003e92d7c: ldp        x29, x30, [sp, #0x10]
+0x0000000003e92d80: ldp        x20, x19, [sp], #0x20
+0x0000000003e92d84: ret        

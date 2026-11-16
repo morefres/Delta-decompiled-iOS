@@ -1,0 +1,291 @@
+/*
+ * Evidence-based lift for Roblox::function_48dec4
+ * Start VA: 0x10048dec4; image-relative: 0x48dec4; bytes: 1136
+ * This is generated pseudocode, not original source. Unknown semantics are preserved as comments.
+ */
+void function_48dec4__at_48dec4(void) {
+    /* sub sp, sp, #0x160 */
+    /* memory stp d9, d8, [sp, #0xf0] */
+    /* memory stp x28, x27, [sp, #0x100] */
+    /* memory stp x26, x25, [sp, #0x110] */
+    /* memory stp x24, x23, [sp, #0x120] */
+    /* memory stp x22, x21, [sp, #0x130] */
+    /* memory stp x20, x19, [sp, #0x140] */
+    /* memory stp x29, x30, [sp, #0x150] */
+    /* add x29, sp, #0x150 */
+    /* mov x23, x3 */
+    /* mov x21, x2 */
+    /* mov x20, x1 */
+    /* adrp x8, #0x1007c6000 */
+    /* memory ldr x8, [x8, #0x4a8] */
+    /* memory ldr x8, [x8] */
+    /* memory stur x8, [x29, #-0x70] */
+    /* call #0x1005c113c; return value/ABI effects unresolved */
+    /* mov x19, x0 */
+    /* mov x0, x20 */
+    /* call #0x1005c113c; return value/ABI effects unresolved */
+    /* mov x20, x0 */
+    /* mov x0, x21 */
+    /* call #0x1005c113c; return value/ABI effects unresolved */
+    /* mov x21, x0 */
+    /* mov x0, x20 */
+    /* mov w1, #2 */
+    /* mov x2, x23 */
+    /* call #0x10048f300; return value/ABI effects unresolved */
+    /* conditional branch tbz w0, #0, #0x10048dfac; control-flow target retained in assembly fallback */
+    /* mov x0, x19 */
+    /* call #0x1005e7580; return value/ABI effects unresolved */
+    /* conditional branch cbz x0, #0x10048dfc8; control-flow target retained in assembly fallback */
+    /* mov x0, x20 */
+    /* call #0x1005cf280; return value/ABI effects unresolved */
+    /* conditional branch cbz x0, #0x10048dfc8; control-flow target retained in assembly fallback */
+    /* mov x0, x20 */
+    /* mov x2, #0 */
+    /* call #0x1005ec460; return value/ABI effects unresolved */
+    /* mov x29, x29 */
+    /* call #0x1005c1160; return value/ABI effects unresolved */
+    /* mov x24, x0 */
+    /* mov x2, x23 */
+    /* call #0x10060a640; return value/ABI effects unresolved */
+    /* mov x29, x29 */
+    /* call #0x1005c1160; return value/ABI effects unresolved */
+    /* mov x27, x0 */
+    /* mov x0, x24 */
+    /* call #0x1005c1130; return value/ABI effects unresolved */
+    /* memory ldr x8, [x23] */
+    /* conditional branch cbz x8, #0x10048e090; control-flow target retained in assembly fallback */
+    /* adrp x8, #0x1008d3000 */
+    /* memory ldr x0, [x8, #0xea8] */
+    /* call #0x100607740; return value/ABI effects unresolved */
+    /* mov x29, x29 */
+    /* call #0x1005c1160; return value/ABI effects unresolved */
+    /* mov x25, x0 */
+    /* mov x0, x27 */
+    goto label__0x10048e034;
+    /* adrp x8, #0x1008d3000 */
+    /* memory ldr x0, [x8, #0xea8] */
+    /* call #0x100607740; return value/ABI effects unresolved */
+    /* mov x29, x29 */
+    /* call #0x1005c1160; return value/ABI effects unresolved */
+    /* mov x25, x0 */
+    goto label__0x10048e038;
+    /* adrp x8, #0x1008d3000 */
+    /* memory ldr x0, [x8, #0xed8] */
+    /* call #0x1005c0fc8; return value/ABI effects unresolved */
+    /* mov x2, x19 */
+    /* call #0x1005e1fc0; return value/ABI effects unresolved */
+    /* mov x22, x0 */
+    /* adrp x8, #0x1008d3000 */
+    /* memory ldr x23, [x8, #0xeb0] */
+    /* memory stur x0, [x29, #-0x78] */
+    /* adrp x8, #0x1008d1000 */
+    /* memory ldr x0, [x8, #0xe28] */
+    /* sub x2, x29, #0x78 */
+    /* mov w3, #1 */
+    /* call #0x1005c8de0; return value/ABI effects unresolved */
+    /* mov x29, x29 */
+    /* call #0x1005c1160; return value/ABI effects unresolved */
+    /* mov x24, x0 */
+    /* mov x0, x23 */
+    /* mov x2, x24 */
+    /* mov x3, x21 */
+    /* call #0x1005c8d20; return value/ABI effects unresolved */
+    /* mov x29, x29 */
+    /* call #0x1005c1160; return value/ABI effects unresolved */
+    /* mov x25, x0 */
+    /* mov x0, x24 */
+    /* call #0x1005c1130; return value/ABI effects unresolved */
+    /* mov x0, x22 */
+    /* call #0x1005c1130; return value/ABI effects unresolved */
+    /* mov x0, x21 */
+    /* call #0x1005c1130; return value/ABI effects unresolved */
+    /* mov x0, x20 */
+    /* call #0x1005c1130; return value/ABI effects unresolved */
+    /* mov x0, x19 */
+    /* call #0x1005c1130; return value/ABI effects unresolved */
+    /* memory ldur x8, [x29, #-0x70] */
+    /* adrp x9, #0x1007c6000 */
+    /* memory ldr x9, [x9, #0x4a8] */
+    /* memory ldr x9, [x9] */
+    /* condition cmp x9, x8 */
+    /* conditional branch b.ne #0x10048e330; control-flow target retained in assembly fallback */
+    /* mov x0, x25 */
+    /* memory ldp x29, x30, [sp, #0x150] */
+    /* memory ldp x20, x19, [sp, #0x140] */
+    /* memory ldp x22, x21, [sp, #0x130] */
+    /* memory ldp x24, x23, [sp, #0x120] */
+    /* memory ldp x26, x25, [sp, #0x110] */
+    /* memory ldp x28, x27, [sp, #0x100] */
+    /* memory ldp d9, d8, [sp, #0xf0] */
+    /* add sp, sp, #0x160 */
+    goto label__0x1005c1004;
+    /* mov x0, x20 */
+    /* call #0x1005cf280; return value/ABI effects unresolved */
+    /* condition cmp x0, #2 */
+    /* conditional branch b.lo #0x10048e0e8; control-flow target retained in assembly fallback */
+    /* mov x0, x20 */
+    /* mov w2, #1 */
+    /* call #0x1005ec460; return value/ABI effects unresolved */
+    /* mov x29, x29 */
+    /* call #0x1005c1160; return value/ABI effects unresolved */
+    /* mov x24, x0 */
+    /* mov x2, x23 */
+    /* call #0x1005d41c0; return value/ABI effects unresolved */
+    /* fmov d8, d0 */
+    /* mov x0, x24 */
+    /* call #0x1005c1130; return value/ABI effects unresolved */
+    /* memory ldr x8, [x23] */
+    /* conditional branch cbnz x8, #0x10048df8c; control-flow target retained in assembly fallback */
+    /* fmov d0, d8 */
+    /* call #0x10048f3c8; return value/ABI effects unresolved */
+    /* conditional branch cbz w0, #0x10048e308; control-flow target retained in assembly fallback */
+    /* mov w28, w0 */
+    goto label__0x10048e0ec;
+    /* mov x28, #0x7fffffffffffffff */
+    /* mov x0, x27 */
+    /* call #0x1005e7580; return value/ABI effects unresolved */
+    /* mov x24, x0 */
+    /* adrp x8, #0x1008d1000 */
+    /* memory ldr x0, [x8, #0xcd8] */
+    /* call #0x1005c0fc8; return value/ABI effects unresolved */
+    /* call #0x1005de840; return value/ABI effects unresolved */
+    /* mov x23, x0 */
+    /* conditional branch cbz x24, #0x10048e244; control-flow target retained in assembly fallback */
+    /* memory stp x28, x27, [sp] */
+    /* mov x0, x19 */
+    /* mov x2, x27 */
+    /* call #0x1005cde40; return value/ABI effects unresolved */
+    /* mov x29, x29 */
+    /* call #0x1005c1160; return value/ABI effects unresolved */
+    /* mov x24, x0 */
+    /* movi v0.16b, #0 */
+    /* memory stp q0, q0, [sp, #0x10] */
+    /* memory stp q0, q0, [sp, #0x30] */
+    /* add x2, sp, #0x10 */
+    /* add x3, sp, #0x58 */
+    /* mov w4, #0x10 */
+    /* call #0x1005cf2a0; return value/ABI effects unresolved */
+    /* conditional branch cbz x0, #0x10048e1d0; control-flow target retained in assembly fallback */
+    /* mov x25, x0 */
+    /* memory ldr x8, [sp, #0x20] */
+    /* memory ldr x28, [x8] */
+    /* adrp x22, #0x1008d3000 */
+    /* mov x27, #0 */
+    /* memory ldr x8, [sp, #0x20] */
+    /* memory ldr x8, [x8] */
+    /* condition cmp x8, x28 */
+    /* conditional branch b.eq #0x10048e178; control-flow target retained in assembly fallback */
+    /* mov x0, x24 */
+    /* call #0x1005c1058; return value/ABI effects unresolved */
+    /* memory ldr x8, [sp, #0x18] */
+    /* memory ldr x26, [x8, x27, lsl #3] */
+    /* memory ldr x0, [x22, #0xed8] */
+    /* call #0x1005c0fc8; return value/ABI effects unresolved */
+    /* mov x2, x26 */
+    /* call #0x1005e1fc0; return value/ABI effects unresolved */
+    /* mov x26, x0 */
+    /* mov x0, x23 */
+    /* mov x2, x26 */
+    /* call #0x1005c5d80; return value/ABI effects unresolved */
+    /* mov x0, x26 */
+    /* call #0x1005c1130; return value/ABI effects unresolved */
+    /* add x27, x27, #1 */
+    /* condition cmp x25, x27 */
+    /* conditional branch b.ne #0x10048e160; control-flow target retained in assembly fallback */
+    /* add x2, sp, #0x10 */
+    /* add x3, sp, #0x58 */
+    /* mov x0, x24 */
+    /* mov w4, #0x10 */
+    /* call #0x1005cf2a0; return value/ABI effects unresolved */
+    /* mov x25, x0 */
+    /* conditional branch cbnz x0, #0x10048e15c; control-flow target retained in assembly fallback */
+    /* memory ldr x8, [sp] */
+    /* scvtf d8, x8 */
+    /* mov x0, x23 */
+    /* call #0x1005cf280; return value/ABI effects unresolved */
+    /* ucvtf d0, x0 */
+    /* fminnm d0, d8, d0 */
+    /* fcvtzu x3, d0 */
+    /* mov x0, x23 */
+    /* mov x2, #0 */
+    /* call #0x10060a880; return value/ABI effects unresolved */
+    /* mov x29, x29 */
+    /* call #0x1005c1160; return value/ABI effects unresolved */
+    /* mov x26, x0 */
+    /* adrp x8, #0x1008d3000 */
+    /* memory ldr x0, [x8, #0xeb0] */
+    /* mov x2, x26 */
+    /* mov x3, x21 */
+    /* call #0x1005c8d20; return value/ABI effects unresolved */
+    /* mov x29, x29 */
+    /* call #0x1005c1160; return value/ABI effects unresolved */
+    /* mov x25, x0 */
+    /* mov x0, x26 */
+    /* call #0x1005c1130; return value/ABI effects unresolved */
+    /* mov x0, x24 */
+    /* call #0x1005c1130; return value/ABI effects unresolved */
+    /* mov x0, x23 */
+    /* call #0x1005c1130; return value/ABI effects unresolved */
+    /* memory ldr x27, [sp, #8] */
+    goto label__0x10048dfa4;
+    /* mov x0, x19 */
+    /* call #0x1005e7580; return value/ABI effects unresolved */
+    /* conditional branch cbz x0, #0x10048e2c4; control-flow target retained in assembly fallback */
+    /* conditional branch cbz x28, #0x10048e2c4; control-flow target retained in assembly fallback */
+    /* mov x24, #0 */
+    /* adrp x22, #0x1008d3000 */
+    /* mov x0, x19 */
+    /* mov x2, x24 */
+    /* mov w3, #1 */
+    /* call #0x10060aa20; return value/ABI effects unresolved */
+    /* mov x29, x29 */
+    /* call #0x1005c1160; return value/ABI effects unresolved */
+    /* mov x25, x0 */
+    /* memory ldr x0, [x22, #0xed8] */
+    /* call #0x1005c0fc8; return value/ABI effects unresolved */
+    /* mov x2, x25 */
+    /* call #0x1005e1fc0; return value/ABI effects unresolved */
+    /* mov x26, x0 */
+    /* mov x0, x23 */
+    /* mov x2, x26 */
+    /* call #0x1005c5d80; return value/ABI effects unresolved */
+    /* mov x0, x26 */
+    /* call #0x1005c1130; return value/ABI effects unresolved */
+    /* mov x0, x25 */
+    /* call #0x1005c1130; return value/ABI effects unresolved */
+    /* add x24, x24, #1 */
+    /* mov x0, x19 */
+    /* call #0x1005e7580; return value/ABI effects unresolved */
+    /* condition cmp x0, x24 */
+    /* conditional branch b.ls #0x10048e2c4; control-flow target retained in assembly fallback */
+    /* condition cmp x28, x24 */
+    /* conditional branch b.hi #0x10048e25c; control-flow target retained in assembly fallback */
+    /* adrp x8, #0x1008d3000 */
+    /* memory ldr x24, [x8, #0xeb0] */
+    /* mov x0, x23 */
+    /* call #0x1005cf0c0; return value/ABI effects unresolved */
+    /* mov x26, x0 */
+    /* mov x0, x24 */
+    /* mov x2, x26 */
+    /* mov x3, x21 */
+    /* call #0x1005c8d20; return value/ABI effects unresolved */
+    /* mov x29, x29 */
+    /* call #0x1005c1160; return value/ABI effects unresolved */
+    /* mov x25, x0 */
+    /* mov x0, x26 */
+    /* call #0x1005c1130; return value/ABI effects unresolved */
+    /* mov x0, x23 */
+    /* call #0x1005c1130; return value/ABI effects unresolved */
+    goto label__0x10048dfa4;
+    /* adrp x8, #0x1008d3000 */
+    /* memory ldr x0, [x8, #0xeb0] */
+    /* adrp x8, #0x1007c6000 */
+    /* memory ldr x8, [x8, #0xe60] */
+    /* memory ldr x2, [x8] */
+    /* mov x3, x21 */
+    /* call #0x1005c8d20; return value/ABI effects unresolved */
+    /* mov x29, x29 */
+    /* call #0x1005c1160; return value/ABI effects unresolved */
+    goto label__0x10048dfa0;
+    /* call #0x1005c095c; return value/ABI effects unresolved */
+}

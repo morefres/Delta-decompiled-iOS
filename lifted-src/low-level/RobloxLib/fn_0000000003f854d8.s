@@ -1,0 +1,17 @@
+; instruction-faithful ARM64 fallback for RobloxLib::function_3f854d8
+0x0000000003f854d8: fmov       s1, #3.00000000
+0x0000000003f854dc: fcmp       s0, s1
+0x0000000003f854e0: b.pl       #0x3f854f0
+0x0000000003f854e4: add        x0, x0, #0xa0
+0x0000000003f854e8: fmov       s0, #1.00000000
+0x0000000003f854ec: b          #0x3e9869c
+0x0000000003f854f0: fmov       s1, #6.00000000
+0x0000000003f854f4: add        x0, x0, #0xa0
+0x0000000003f854f8: fcmp       s0, s1
+0x0000000003f854fc: b.pl       #0x3f85508
+0x0000000003f85500: fmov       s0, #0.50000000
+0x0000000003f85504: b          #0x3e9869c
+0x0000000003f85508: fmov       s0, wzr
+0x0000000003f8550c: b          #0x3e9869c
+0x0000000003f85510: sub        x0, x0, #0x140
+0x0000000003f85514: b          #0x3f854d8

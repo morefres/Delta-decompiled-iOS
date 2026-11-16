@@ -1,0 +1,16 @@
+; instruction-faithful ARM64 fallback for Roblox::function_509c58
+; start_va=0x100509c58 image_relative=0x509c58 bytes=56
+0x0000000100509c58: mov        w2, #0x243
+0x0000000100509c5c: b          #0x1005c089c
+0x0000000100509c60: mov        w2, #0x240
+0x0000000100509c64: b          #0x1005c089c
+0x0000000100509c68: mov        w2, #0x5a9
+0x0000000100509c6c: b          #0x1005c089c
+0x0000000100509c70: mov        w2, #0x2f6
+0x0000000100509c74: b          #0x1005c089c
+0x0000000100509c78: mov        w2, #0x395
+0x0000000100509c7c: b          #0x1005c089c
+0x0000000100509c80: mov        w2, #0x379
+0x0000000100509c84: b          #0x1005c089c
+0x0000000100509c88: mov        w2, #0xdd
+0x0000000100509c8c: b          #0x1005c089c

@@ -1,0 +1,136 @@
+Command: ID_DYLIB
+Offset:  0xdb0
+Size:    0x40
+name=@rpath/RobloxLib.framework/RobloxLib, timestamp=1, current_version=0.0.0,  compatibility_version=0.0.0
+Command: LOAD_WEAK_DYLIB
+Offset:  0xee8
+Size:    0x30
+name=/usr/lib/libhvf.dylib, timestamp=2, current_version=0.0.0,  compatibility_version=0.0.0
+Command: LOAD_DYLIB
+Offset:  0xf18
+Size:    0x50
+name=/System/Library/Frameworks/Contacts.framework/Contacts, timestamp=2, current_version=3804.255.31,  compatibility_version=0.0.0
+Command: LOAD_WEAK_DYLIB
+Offset:  0xf68
+Size:    0x70
+name=/System/Library/Frameworks/UniformTypeIdentifiers.framework/UniformTypeIdentifiers, timestamp=2, current_version=709.0.0,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0xfd8
+Size:    0x50
+name=/System/Library/Frameworks/WebKit.framework/WebKit, timestamp=2, current_version=623.1.14,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0x1028
+Size:    0x58
+name=/System/Library/Frameworks/CoreHaptics.framework/CoreHaptics, timestamp=2, current_version=1.0.0,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0x1080
+Size:    0x58
+name=/System/Library/Frameworks/CoreMotion.framework/CoreMotion, timestamp=2, current_version=3064.0.10,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0x10d8
+Size:    0x60
+name=/System/Library/Frameworks/GameController.framework/GameController, timestamp=2, current_version=13.2.8,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0x1138
+Size:    0x58
+name=/System/Library/Frameworks/CoreServices.framework/CoreServices, timestamp=2, current_version=1226.0.0,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0x1190
+Size:    0x50
+name=/System/Library/Frameworks/CallKit.framework/CallKit, timestamp=2, current_version=1.0.0,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0x11e0
+Size:    0x58
+name=/System/Library/Frameworks/DeviceCheck.framework/DeviceCheck, timestamp=2, current_version=1.0.0,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0x1238
+Size:    0x50
+name=/System/Library/Frameworks/CoreText.framework/CoreText, timestamp=2, current_version=877.2.0,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0x1288
+Size:    0x50
+name=/System/Library/Frameworks/Photos.framework/Photos, timestamp=2, current_version=822.0.140,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0x12d8
+Size:    0x58
+name=/System/Library/Frameworks/AVFoundation.framework/AVFoundation, timestamp=2, current_version=2.0.0,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0x1330
+Size:    0x58
+name=/System/Library/Frameworks/CoreMedia.framework/CoreMedia, timestamp=2, current_version=3290.6.1,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0x1388
+Size:    0x58
+name=/System/Library/Frameworks/IOSurface.framework/IOSurface, timestamp=2, current_version=1.0.0,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0x13e0
+Size:    0x58
+name=/System/Library/Frameworks/VideoToolbox.framework/VideoToolbox, timestamp=2, current_version=3290.6.1,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0x1438
+Size:    0x58
+name=/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics, timestamp=2, current_version=1965.2.3,  compatibility_version=64.0.0
+Command: LOAD_DYLIB
+Offset:  0x1490
+Size:    0x58
+name=/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox, timestamp=2, current_version=1000.0.0,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0x14e8
+Size:    0x58
+name=/System/Library/Frameworks/CoreAudio.framework/CoreAudio, timestamp=2, current_version=1.0.0,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0x1540
+Size:    0x60
+name=/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation, timestamp=2, current_version=4201.0.0,  compatibility_version=150.0.0
+Command: LOAD_DYLIB
+Offset:  0x15a0
+Size:    0x38
+name=/usr/lib/libSystem.B.dylib, timestamp=2, current_version=1356.0.0,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0x15d8
+Size:    0x58
+name=/System/Library/Frameworks/Foundation.framework/Foundation, timestamp=2, current_version=4201.0.0,  compatibility_version=300.0.0
+Command: LOAD_DYLIB
+Offset:  0x1630
+Size:    0x50
+name=/System/Library/Frameworks/CoreML.framework/CoreML, timestamp=2, current_version=1.0.0,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0x1680
+Size:    0x58
+name=/System/Library/Frameworks/CoreVideo.framework/CoreVideo, timestamp=2, current_version=726.2.0,  compatibility_version=1.2.0
+Command: LOAD_DYLIB
+Offset:  0x16d8
+Size:    0x50
+name=/System/Library/Frameworks/Network.framework/Network, timestamp=2, current_version=5569.60.39,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0x1728
+Size:    0x50
+name=/System/Library/Frameworks/Metal.framework/Metal, timestamp=2, current_version=370.64.2,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0x1778
+Size:    0x58
+name=/System/Library/Frameworks/QuartzCore.framework/QuartzCore, timestamp=2, current_version=1193.47.2,  compatibility_version=1.2.0
+Command: LOAD_DYLIB
+Offset:  0x17d0
+Size:    0x50
+name=/System/Library/Frameworks/OpenGLES.framework/OpenGLES, timestamp=2, current_version=1.0.0,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0x1820
+Size:    0x38
+name=/usr/lib/libresolv.9.dylib, timestamp=2, current_version=1.0.0,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0x1858
+Size:    0x50
+name=/System/Library/Frameworks/UIKit.framework/UIKit, timestamp=2, current_version=9126.2.4,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0x18a8
+Size:    0x68
+name=/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration, timestamp=2, current_version=1385.60.3,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0x1910
+Size:    0x38
+name=/usr/lib/libobjc.A.dylib, timestamp=2, current_version=228.0.0,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0x1948
+Size:    0x30
+name=/usr/lib/libc++.1.dylib, timestamp=2, current_version=2000.67.0,  compatibility_version=1.0.0

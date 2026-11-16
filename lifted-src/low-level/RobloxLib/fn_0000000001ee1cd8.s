@@ -1,0 +1,7 @@
+; instruction-faithful ARM64 fallback for RobloxLib::function_1ee1cd8
+0x0000000001ee1cd8: mov        x3, x2
+0x0000000001ee1cdc: mov        x8, x1
+0x0000000001ee1ce0: ldp        x1, x2, [x0, #0xa8]
+0x0000000001ee1ce4: mov        x0, x8
+0x0000000001ee1ce8: mov        x4, #0
+0x0000000001ee1cec: b          #0x1ee1cf0

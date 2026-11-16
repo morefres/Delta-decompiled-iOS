@@ -1,0 +1,3080 @@
+[
+  {
+    "path": "GoogleService-Info.plist",
+    "type": "plist",
+    "keys": [
+      "ANDROID_CLIENT_ID",
+      "API_KEY",
+      "BUNDLE_ID",
+      "DATABASE_URL",
+      "GCM_SENDER_ID",
+      "GOOGLE_APP_ID",
+      "IS_ADS_ENABLED",
+      "IS_ANALYTICS_ENABLED",
+      "IS_APPINVITE_ENABLED",
+      "IS_GCM_ENABLED",
+      "IS_SIGNIN_ENABLED",
+      "PLIST_VERSION",
+      "PROJECT_ID",
+      "STORAGE_BUCKET"
+    ],
+    "value": null
+  },
+  {
+    "path": "Info.plist",
+    "type": "plist",
+    "keys": [
+      "AppUpgradeKey",
+      "AppsFlyerDevKey",
+      "BGTaskSchedulerPermittedIdentifiers",
+      "BuildMachineOSBuild",
+      "CADisableMinimumFrameDurationOnPhone",
+      "CFBundleDevelopmentRegion",
+      "CFBundleDisplayName",
+      "CFBundleExecutable",
+      "CFBundleIcons",
+      "CFBundleIcons~ipad",
+      "CFBundleIdentifier",
+      "CFBundleInfoDictionaryVersion",
+      "CFBundleLocalizations",
+      "CFBundleName",
+      "CFBundlePackageType",
+      "CFBundleShortVersionString",
+      "CFBundleSignature",
+      "CFBundleSupportedPlatforms",
+      "CFBundleURLTypes",
+      "CFBundleVersion",
+      "DTAppStoreToolsBuild",
+      "DTCompiler",
+      "DTPlatformBuild",
+      "DTPlatformName",
+      "DTPlatformVersion",
+      "DTSDKBuild",
+      "DTSDKName",
+      "DTXcode",
+      "DTXcodeBuild",
+      "DistributionType",
+      "FIREBASE_ANALYTICS_COLLECTION_ENABLED",
+      "FirebaseAutomaticScreenReportingEnabled",
+      "GADApplicationIdentifier",
+      "GCSupportsGameMode",
+      "GIDClientID",
+      "GIDServerClientID",
+      "GOOGLE_ANALYTICS_DEFAULT_ALLOW_AD_PERSONALIZATION_SIGNALS",
+      "GuiBuilderDisplayStatsIndex",
+      "HockeySDKAppId",
+      "ITSAppUsesNonExemptEncryption",
+      "LSApplicationQueriesSchemes",
+      "LSRequiresIPhoneOS",
+      "LSSupportsGameMode",
+      "LSSupportsOpeningDocumentsInPlace",
+      "MinimumOSVersion",
+      "NSAdvertisingAttributionReportEndpoint",
+      "NSBonjourServices",
+      "NSCameraUsageDescription",
+      "NSContactsUsageDescription",
+      "NSHumanReadableCopyright",
+      "NSLocalNetworkUsageDescription",
+      "NSLocationWhenInUseUsageDescription",
+      "NSMicrophoneUsageDescription",
+      "NSMotionUsageDescription",
+      "NSPhotoLibraryAddUsageDescription",
+      "NSPhotoLibraryUsageDescription",
+      "NSUserActivityTypes",
+      "PioneerPlaceId",
+      "RBWhitelistedDomain",
+      "RbxBaseUrl",
+      "RobloxChannel",
+      "SKAdNetworkItems",
+      "UIAppFonts",
+      "UIBackgroundModes",
+      "UIDeviceFamily",
+      "UIFileSharingEnabled",
+      "UILaunchStoryboardName",
+      "UIPrerenderedIcon",
+      "UIRequiredDeviceCapabilities",
+      "UIRequiresFullScreen",
+      "UIStatusBarHidden",
+      "UIStatusBarHidden~ipad",
+      "UIStatusBarStyle",
+      "UISupportedInterfaceOrientations",
+      "UISupportedInterfaceOrientations~ipad",
+      "UIViewControllerBasedStatusBarAppearance",
+      "iTunesAppId"
+    ],
+    "value": {
+      "AppUpgradeKey": "AppiOSV",
+      "AppsFlyerDevKey": "Quwp4RGsFwE6rVnyTFm6jQ",
+      "BGTaskSchedulerPermittedIdentifiers": [
+        "com.roblox.RobloxMobile.refreshtask"
+      ],
+      "BuildMachineOSBuild": "25C56",
+      "CADisableMinimumFrameDurationOnPhone": true,
+      "CFBundleDevelopmentRegion": "English",
+      "CFBundleDisplayName": "Delta",
+      "CFBundleExecutable": "Roblox",
+      "CFBundleIcons": {
+        "CFBundleAlternateIcons": {
+          "AppIcon-Classic": {
+            "CFBundleIconFiles": [
+              "AppIcon-Classic60x60",
+              "AppIcon-Classic76x76"
+            ],
+            "CFBundleIconName": "AppIcon-Classic"
+          },
+          "AppIcon-Deprecated": {
+            "CFBundleIconFiles": [
+              "AppIcon-Deprecated60x60",
+              "AppIcon-Deprecated76x76"
+            ],
+            "CFBundleIconName": "AppIcon-Deprecated"
+          },
+          "AppIcon-Halloween2026": {
+            "CFBundleIconName": "AppIcon-Halloween2026"
+          }
+        },
+        "CFBundlePrimaryIcon": {
+          "CFBundleIconFiles": [
+            "AppIcon60x60"
+          ],
+          "CFBundleIconName": "AppIcon"
+        }
+      },
+      "CFBundleIcons~ipad": {
+        "CFBundleAlternateIcons": {
+          "AppIcon-Classic": {
+            "CFBundleIconFiles": [
+              "AppIcon-Classic60x60",
+              "AppIcon-Classic76x76"
+            ],
+            "CFBundleIconName": "AppIcon-Classic"
+          },
+          "AppIcon-Deprecated": {
+            "CFBundleIconFiles": [
+              "AppIcon-Deprecated60x60",
+              "AppIcon-Deprecated76x76"
+            ],
+            "CFBundleIconName": "AppIcon-Deprecated"
+          },
+          "AppIcon-Halloween2026": {
+            "CFBundleIconName": "AppIcon-Halloween2026"
+          }
+        },
+        "CFBundlePrimaryIcon": {
+          "CFBundleIconFiles": [
+            "AppIcon60x60",
+            "AppIcon76x76"
+          ],
+          "CFBundleIconName": "AppIcon"
+        }
+      },
+      "CFBundleIdentifier": "com.gloop.deltamobile",
+      "CFBundleInfoDictionaryVersion": "6.0",
+      "CFBundleLocalizations": [
+        "en"
+      ],
+      "CFBundleName": "Delta",
+      "CFBundlePackageType": "APPL",
+      "CFBundleShortVersionString": "2.745.1138",
+      "CFBundleSignature": "????",
+      "CFBundleSupportedPlatforms": [
+        "iPhoneOS"
+      ],
+      "CFBundleURLTypes": [
+        {
+          "CFBundleTypeRole": "Editor",
+          "CFBundleURLSchemes": [
+            "hac83e1a818f2440b8a39f837473a64af8"
+          ]
+        },
+        {
+          "CFBundleTypeRole": "Editor",
+          "CFBundleURLName": "com.roblox.robloxmobile.app",
+          "CFBundleURLSchemes": [
+            "robloxglobal",
+            "roblox",
+            "robloxmobile",
+            "fb190191627665278"
+          ]
+        },
+        {
+          "CFBundleTypeRole": "Editor",
+          "CFBundleURLSchemes": [
+            "com.roblox.robloxmobile"
+          ]
+        },
+        {
+          "CFBundleTypeRole": "Editor",
+          "CFBundleURLSchemes": [
+            "com.googleusercontent.apps.56711522248-o1goha4j4bt6lfs4fv04plq8gpljnvo9"
+          ]
+        }
+      ],
+      "CFBundleVersion": "2.745.1138",
+      "DTAppStoreToolsBuild": "27B47",
+      "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+      "DTPlatformBuild": "23C57",
+      "DTPlatformName": "iphoneos",
+      "DTPlatformVersion": "26.2",
+      "DTSDKBuild": "23C57",
+      "DTSDKName": "iphoneos26.2",
+      "DTXcode": "2630",
+      "DTXcodeBuild": "17C529",
+      "DistributionType": "GlobalDist",
+      "FIREBASE_ANALYTICS_COLLECTION_ENABLED": false,
+      "FirebaseAutomaticScreenReportingEnabled": false,
+      "GADApplicationIdentifier": "ca-app-pub-6934957019599250~8217636443",
+      "GCSupportsGameMode": true,
+      "GIDClientID": "56711522248-o1goha4j4bt6lfs4fv04plq8gpljnvo9.apps.googleusercontent.com",
+      "GIDServerClientID": "56711522248-1fcarhkgvhgirrt22fr0ml64mpcgcqop.apps.googleusercontent.com",
+      "GOOGLE_ANALYTICS_DEFAULT_ALLOW_AD_PERSONALIZATION_SIGNALS": false,
+      "GuiBuilderDisplayStatsIndex": 0,
+      "HockeySDKAppId": "c83e1a818f2440b8a39f837473a64af8",
+      "ITSAppUsesNonExemptEncryption": false,
+      "LSApplicationQueriesSchemes": [
+        "robloxvng"
+      ],
+      "LSRequiresIPhoneOS": true,
+      "LSSupportsGameMode": true,
+      "LSSupportsOpeningDocumentsInPlace": true,
+      "MinimumOSVersion": "14.0",
+      "NSAdvertisingAttributionReportEndpoint": "https://appsflyer-skadnetwork.com/",
+      "NSBonjourServices": [
+        "_bonjour._tcp",
+        "_lnp._tcp."
+      ],
+      "NSCameraUsageDescription": "Roblox uses your camera to check your age, animate your avatar, and scan QR codes.",
+      "NSContactsUsageDescription": "Connect with friends on Roblox. Your contacts will be regularly synced and matches with other Roblox users will be stored to help you find friends. You can manage this any time in settings.",
+      "NSHumanReadableCopyright": "2014 ROBLOX Inc.",
+      "NSLocalNetworkUsageDescription": "Roblox needs access to local networks to connect to players around you.",
+      "NSLocationWhenInUseUsageDescription": "Roblox needs access to your location to improve your user experience",
+      "NSMicrophoneUsageDescription": "Roblox needs access to your microphone for voice chat.",
+      "NSMotionUsageDescription": "Roblox needs access to the accelerometer to enhance your play experience.",
+      "NSPhotoLibraryAddUsageDescription": "Allow Roblox to access your photo library so you can save images and videos to your device's camera roll.",
+      "NSPhotoLibraryUsageDescription": "Roblox needs access to your photos to enhance your play experience.",
+      "NSUserActivityTypes": [
+        "INSendMessageIntent"
+      ],
+      "PioneerPlaceId": "",
+      "RBWhitelistedDomain": "www.kidsafeseal.com",
+      "RbxBaseUrl": "roblox.com",
+      "RobloxChannel": "",
+      "SKAdNetworkItems": [
+        {
+          "SKAdNetworkIdentifier": "cstr6suwn9.skadnetwork"
+        },
+        {
+          "SKAdNetworkIdentifier": "p78axxw29g.skadnetwork"
+        },
+        {
+          "SKAdNetworkIdentifier": "kbmxgpxpgc.skadnetwork"
+        },
+        {
+          "SKAdNetworkIdentifier": "9t245vhmpl.skadnetwork"
+        },
+        {
+          "SKAdNetworkIdentifier": "k674qkevps.skadnetwork"
+        },
+        {
+          "SKAdNetworkIdentifier": "7ug5zh24hu.skadnetwork"
+        }
+      ],
+      "UIAppFonts": [
+        "SourceSansPro-Regular.ttf",
+        "GothamSSm-Bold.otf"
+      ],
+      "UIBackgroundModes": [
+        "remote-notification",
+        "voip",
+        "fetch"
+      ],
+      "UIDeviceFamily": [
+        1,
+        2
+      ],
+      "UIFileSharingEnabled": true,
+      "UILaunchStoryboardName": "LaunchScreen",
+      "UIPrerenderedIcon": true,
+      "UIRequiredDeviceCapabilities": [
+        "arm64"
+      ],
+      "UIRequiresFullScreen": true,
+      "UIStatusBarHidden": false,
+      "UIStatusBarHidden~ipad": false,
+      "UIStatusBarStyle": "UIStatusBarStyleDefault",
+      "UISupportedInterfaceOrientations": [
+        "UIInterfaceOrientationPortrait",
+        "UIInterfaceOrientationPortraitUpsideDown",
+        "UIInterfaceOrientationLandscapeLeft",
+        "UIInterfaceOrientationLandscapeRight"
+      ],
+      "UISupportedInterfaceOrientations~ipad": [
+        "UIInterfaceOrientationLandscapeLeft",
+        "UIInterfaceOrientationLandscapeRight",
+        "UIInterfaceOrientationPortrait",
+        "UIInterfaceOrientationPortraitUpsideDown"
+      ],
+      "UIViewControllerBasedStatusBarAppearance": true,
+      "iTunesAppId": "431946152"
+    }
+  },
+  {
+    "path": "PlugIns/RBWidgetExtension.appex/Info.plist",
+    "type": "plist",
+    "keys": [
+      "BuildMachineOSBuild",
+      "CFBundleDevelopmentRegion",
+      "CFBundleDisplayName",
+      "CFBundleExecutable",
+      "CFBundleIcons",
+      "CFBundleIcons~ipad",
+      "CFBundleIdentifier",
+      "CFBundleInfoDictionaryVersion",
+      "CFBundleName",
+      "CFBundlePackageType",
+      "CFBundleShortVersionString",
+      "CFBundleSupportedPlatforms",
+      "CFBundleVersion",
+      "DTCompiler",
+      "DTPlatformBuild",
+      "DTPlatformName",
+      "DTPlatformVersion",
+      "DTSDKBuild",
+      "DTSDKName",
+      "DTXcode",
+      "DTXcodeBuild",
+      "MinimumOSVersion",
+      "NSExtension",
+      "UIDeviceFamily",
+      "UIRequiredDeviceCapabilities"
+    ],
+    "value": {
+      "BuildMachineOSBuild": "25C56",
+      "CFBundleDevelopmentRegion": "English",
+      "CFBundleDisplayName": "RBWidgetExtension",
+      "CFBundleExecutable": "RBWidgetExtension",
+      "CFBundleIcons": {
+        "CFBundlePrimaryIcon": {
+          "CFBundleIconFiles": [
+            "AppIcon60x60"
+          ],
+          "CFBundleIconName": "AppIcon"
+        }
+      },
+      "CFBundleIcons~ipad": {
+        "CFBundlePrimaryIcon": {
+          "CFBundleIconFiles": [
+            "AppIcon60x60",
+            "AppIcon76x76"
+          ],
+          "CFBundleIconName": "AppIcon"
+        }
+      },
+      "CFBundleIdentifier": "com.gloop.deltamobile.RBWidgetExtension",
+      "CFBundleInfoDictionaryVersion": "6.0",
+      "CFBundleName": "RBWidgetExtension",
+      "CFBundlePackageType": "XPC!",
+      "CFBundleShortVersionString": "2.745.1138",
+      "CFBundleSupportedPlatforms": [
+        "iPhoneOS"
+      ],
+      "CFBundleVersion": "2.745.1138",
+      "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+      "DTPlatformBuild": "23C57",
+      "DTPlatformName": "iphoneos",
+      "DTPlatformVersion": "26.2",
+      "DTSDKBuild": "23C57",
+      "DTSDKName": "iphoneos26.2",
+      "DTXcode": "2630",
+      "DTXcodeBuild": "17C529",
+      "MinimumOSVersion": "16.0",
+      "NSExtension": {
+        "NSExtensionPointIdentifier": "com.apple.widgetkit-extension"
+      },
+      "UIDeviceFamily": [
+        1,
+        2
+      ],
+      "UIRequiredDeviceCapabilities": [
+        "arm64"
+      ]
+    }
+  },
+  {
+    "path": "PlugIns/RBNotificationServiceExtension.appex/Info.plist",
+    "type": "plist",
+    "keys": [
+      "BuildMachineOSBuild",
+      "CFBundleDevelopmentRegion",
+      "CFBundleDisplayName",
+      "CFBundleExecutable",
+      "CFBundleIdentifier",
+      "CFBundleInfoDictionaryVersion",
+      "CFBundleName",
+      "CFBundlePackageType",
+      "CFBundleShortVersionString",
+      "CFBundleSupportedPlatforms",
+      "CFBundleVersion",
+      "DTCompiler",
+      "DTPlatformBuild",
+      "DTPlatformName",
+      "DTPlatformVersion",
+      "DTSDKBuild",
+      "DTSDKName",
+      "DTXcode",
+      "DTXcodeBuild",
+      "MinimumOSVersion",
+      "NSExtension",
+      "NSHumanReadableCopyright",
+      "UIDeviceFamily",
+      "UIRequiredDeviceCapabilities"
+    ],
+    "value": {
+      "BuildMachineOSBuild": "25C56",
+      "CFBundleDevelopmentRegion": "English",
+      "CFBundleDisplayName": "RBNotificationServiceExtension",
+      "CFBundleExecutable": "RBNotificationServiceExtension",
+      "CFBundleIdentifier": "com.gloop.deltamobile.RBNotificationServiceExtension",
+      "CFBundleInfoDictionaryVersion": "6.0",
+      "CFBundleName": "RBNotificationServiceExtension",
+      "CFBundlePackageType": "XPC!",
+      "CFBundleShortVersionString": "2.745.1138",
+      "CFBundleSupportedPlatforms": [
+        "iPhoneOS"
+      ],
+      "CFBundleVersion": "2.745.1138",
+      "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+      "DTPlatformBuild": "23C57",
+      "DTPlatformName": "iphoneos",
+      "DTPlatformVersion": "26.2",
+      "DTSDKBuild": "23C57",
+      "DTSDKName": "iphoneos26.2",
+      "DTXcode": "2630",
+      "DTXcodeBuild": "17C529",
+      "MinimumOSVersion": "14.0",
+      "NSExtension": {
+        "NSExtensionAttributes": {
+          "IntentsSupported": [
+            "INSendMessageIntent"
+          ]
+        },
+        "NSExtensionPointIdentifier": "com.apple.usernotifications.service",
+        "NSExtensionPrincipalClass": "NotificationService"
+      },
+      "NSHumanReadableCopyright": "2014 ROBLOX Inc.",
+      "UIDeviceFamily": [
+        1,
+        2
+      ],
+      "UIRequiredDeviceCapabilities": [
+        "arm64"
+      ]
+    }
+  },
+  {
+    "path": "Frameworks/Persona2.framework/government_id_nfc_scan_front_closed.json",
+    "type": "json",
+    "keys": [
+      "v",
+      "fr",
+      "ip",
+      "op",
+      "w",
+      "h",
+      "assets",
+      "layers"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/Persona2.framework/isometric_passport_front_inside.json",
+    "type": "json",
+    "keys": [
+      "v",
+      "fr",
+      "ip",
+      "op",
+      "w",
+      "h",
+      "assets",
+      "layers"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/Persona2.framework/check_success_v2.json",
+    "type": "json",
+    "keys": [
+      "v",
+      "fr",
+      "ip",
+      "op",
+      "w",
+      "h",
+      "assets",
+      "layers"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/Persona2.framework/government_id_nfc_scan_back_closed.json",
+    "type": "json",
+    "keys": [
+      "v",
+      "fr",
+      "ip",
+      "op",
+      "w",
+      "h",
+      "assets",
+      "layers"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/Persona2.framework/isometric_id_under_scanner.json",
+    "type": "json",
+    "keys": [
+      "v",
+      "fr",
+      "ip",
+      "op",
+      "w",
+      "h",
+      "assets",
+      "layers"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/Persona2.framework/loading.json",
+    "type": "json",
+    "keys": [
+      "v",
+      "fr",
+      "ip",
+      "op",
+      "w",
+      "h",
+      "assets",
+      "layers"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/Persona2.framework/isometric_passport_back_inside.json",
+    "type": "json",
+    "keys": [
+      "v",
+      "fr",
+      "ip",
+      "op",
+      "w",
+      "h",
+      "assets",
+      "layers"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/Persona2.framework/government_id_nfc_scan_inside_front_cover.json",
+    "type": "json",
+    "keys": [
+      "v",
+      "fr",
+      "ip",
+      "op",
+      "w",
+      "h",
+      "assets",
+      "layers"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/Persona2.framework/selfie_intro.json",
+    "type": "json",
+    "keys": [
+      "v",
+      "fr",
+      "ip",
+      "op",
+      "w",
+      "h",
+      "assets",
+      "layers"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/Persona2.framework/government_id_nfc_scan_photo_page.json",
+    "type": "json",
+    "keys": [
+      "v",
+      "fr",
+      "ip",
+      "op",
+      "w",
+      "h",
+      "assets",
+      "layers"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/Persona2.framework/selfie_capture_success.json",
+    "type": "json",
+    "keys": [
+      "v",
+      "fr",
+      "ip",
+      "op",
+      "w",
+      "h",
+      "assets",
+      "layers"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/Persona2.framework/horizontal_passport_scan.json",
+    "type": "json",
+    "keys": [
+      "v",
+      "fr",
+      "ip",
+      "op",
+      "w",
+      "h",
+      "assets",
+      "layers"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/Persona2.framework/processing_id.json",
+    "type": "json",
+    "keys": [
+      "v",
+      "fr",
+      "ip",
+      "op",
+      "w",
+      "h",
+      "assets",
+      "layers"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/Persona2.framework/selfie_left_pose.json",
+    "type": "json",
+    "keys": [
+      "v",
+      "fr",
+      "ip",
+      "op",
+      "w",
+      "h",
+      "assets",
+      "layers"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/Persona2.framework/PhoneNumberMetadata.json",
+    "type": "json",
+    "keys": [
+      "phoneNumberMetadata"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/Persona2.framework/government_id_nfc_scan_back_then_front.json",
+    "type": "json",
+    "keys": [
+      "v",
+      "fr",
+      "ip",
+      "op",
+      "w",
+      "h",
+      "assets",
+      "layers"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/Persona2.framework/government_id_nfc_scan_inside_back_cover.json",
+    "type": "json",
+    "keys": [
+      "v",
+      "fr",
+      "ip",
+      "op",
+      "w",
+      "h",
+      "assets",
+      "layers"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/Persona2.framework/processing_document.json",
+    "type": "json",
+    "keys": [
+      "v",
+      "fr",
+      "ip",
+      "op",
+      "w",
+      "h",
+      "assets",
+      "layers"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/Persona2.framework/wallet_removal.json",
+    "type": "json",
+    "keys": [
+      "v",
+      "fr",
+      "ip",
+      "op",
+      "w",
+      "h",
+      "assets",
+      "layers"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/Persona2.framework/case_removal.json",
+    "type": "json",
+    "keys": [
+      "v",
+      "fr",
+      "ip",
+      "op",
+      "w",
+      "h",
+      "assets",
+      "layers"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/Persona2.framework/FaceScopedScanAnimation.json",
+    "type": "json",
+    "keys": [
+      "v",
+      "fr",
+      "ip",
+      "op",
+      "w",
+      "h",
+      "nm",
+      "ddd",
+      "assets",
+      "layers",
+      "markers"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/Persona2.framework/isometric_id_on_top_of_scanner.json",
+    "type": "json",
+    "keys": [
+      "v",
+      "fr",
+      "ip",
+      "op",
+      "w",
+      "h",
+      "assets",
+      "layers"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/Persona2.framework/selfie_right_pose.json",
+    "type": "json",
+    "keys": [
+      "v",
+      "fr",
+      "ip",
+      "op",
+      "w",
+      "h",
+      "assets",
+      "layers"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/Persona2.framework/Info.plist",
+    "type": "plist",
+    "keys": [
+      "BuildMachineOSBuild",
+      "CFBundleDevelopmentRegion",
+      "CFBundleExecutable",
+      "CFBundleIdentifier",
+      "CFBundleInfoDictionaryVersion",
+      "CFBundleName",
+      "CFBundlePackageType",
+      "CFBundleShortVersionString",
+      "CFBundleSupportedPlatforms",
+      "CFBundleVersion",
+      "DTCompiler",
+      "DTPlatformBuild",
+      "DTPlatformName",
+      "DTPlatformVersion",
+      "DTSDKBuild",
+      "DTSDKName",
+      "DTXcode",
+      "DTXcodeBuild",
+      "MinimumOSVersion",
+      "NSCameraUsageDescription",
+      "NSMicrophoneUsageDescription",
+      "UIDeviceFamily",
+      "UIRequiredDeviceCapabilities"
+    ],
+    "value": {
+      "BuildMachineOSBuild": "24G90",
+      "CFBundleDevelopmentRegion": "en",
+      "CFBundleExecutable": "Persona2",
+      "CFBundleIdentifier": "com.withpersona.sdk.Persona2",
+      "CFBundleInfoDictionaryVersion": "6.0",
+      "CFBundleName": "Persona2",
+      "CFBundlePackageType": "FMWK",
+      "CFBundleShortVersionString": "2.38.0",
+      "CFBundleSupportedPlatforms": [
+        "iPhoneOS"
+      ],
+      "CFBundleVersion": "1",
+      "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+      "DTPlatformBuild": "22B74",
+      "DTPlatformName": "iphoneos",
+      "DTPlatformVersion": "18.1",
+      "DTSDKBuild": "22B74",
+      "DTSDKName": "iphoneos18.1",
+      "DTXcode": "1610",
+      "DTXcodeBuild": "16B40",
+      "MinimumOSVersion": "13.0",
+      "NSCameraUsageDescription": "Camera access is required.",
+      "NSMicrophoneUsageDescription": "Microphone access is required.",
+      "UIDeviceFamily": [
+        1,
+        2
+      ],
+      "UIRequiredDeviceCapabilities": [
+        "arm64"
+      ]
+    }
+  },
+  {
+    "path": "Frameworks/Persona2.framework/government_id_nfc_scan_id_card.json",
+    "type": "json",
+    "keys": [
+      "v",
+      "fr",
+      "ip",
+      "op",
+      "w",
+      "h",
+      "assets",
+      "layers"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/Info.plist",
+    "type": "plist",
+    "keys": [
+      "BuildMachineOSBuild",
+      "CFBundleDevelopmentRegion",
+      "CFBundleExecutable",
+      "CFBundleIdentifier",
+      "CFBundleInfoDictionaryVersion",
+      "CFBundlePackageType",
+      "CFBundleShortVersionString",
+      "CFBundleSignature",
+      "CFBundleSupportedPlatforms",
+      "CFBundleVersion",
+      "CSResourcesFileMapped",
+      "DTCompiler",
+      "DTPlatformBuild",
+      "DTPlatformName",
+      "DTPlatformVersion",
+      "DTSDKBuild",
+      "DTSDKName",
+      "DTXcode",
+      "DTXcodeBuild",
+      "MinimumOSVersion",
+      "UIDeviceFamily",
+      "UIRequiredDeviceCapabilities"
+    ],
+    "value": {
+      "BuildMachineOSBuild": "25C56",
+      "CFBundleDevelopmentRegion": "English",
+      "CFBundleExecutable": "RobloxLib",
+      "CFBundleIdentifier": "com.roblox.RobloxLib",
+      "CFBundleInfoDictionaryVersion": "6.0",
+      "CFBundlePackageType": "FMWK",
+      "CFBundleShortVersionString": "2.745.1138",
+      "CFBundleSignature": "????",
+      "CFBundleSupportedPlatforms": [
+        "iPhoneOS"
+      ],
+      "CFBundleVersion": "2.745.1138",
+      "CSResourcesFileMapped": true,
+      "DTCompiler": "rbx.xcode-26.3.86e7edf29360594c245eed3f6fd126a30e93c960",
+      "DTPlatformBuild": "23C57",
+      "DTPlatformName": "iphoneos",
+      "DTPlatformVersion": "26.2",
+      "DTSDKBuild": "23C57",
+      "DTSDKName": "iphoneos26.2",
+      "DTXcode": "2630",
+      "DTXcodeBuild": "17C529",
+      "MinimumOSVersion": "13.0",
+      "UIDeviceFamily": [
+        1
+      ],
+      "UIRequiredDeviceCapabilities": [
+        "arm64"
+      ]
+    }
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/ExtraContent/LuaPackages/Packages/_Index/RbxDesignFoundations-31ab8d40-2.0.163/RbxDesignFoundations/tokens/DeprecatedTokens.json",
+    "type": "json",
+    "keys": [
+      "Platform.Base",
+      "Platform.Rem",
+      "Platform.Scale",
+      "Global.Color.Black",
+      "Global.Color.Obsidian",
+      "Global.Color.Carbon",
+      "Global.Color.Slate",
+      "Global.Color.Flint",
+      "Global.Color.Smoke",
+      "Global.Color.Graphite",
+      "Global.Color.Pumice",
+      "Global.Color.Chalk",
+      "Global.Color.Ash",
+      "Global.Color.Alabaster",
+      "Global.Color.White",
+      "Global.Color.Green",
+      "Global.Color.Red",
+      "Global.Color.Blue",
+      "Global.Color.None",
+      "Global.Family.Standard",
+      "Global.FontSize_25",
+      "Global.FontSize_50",
+      "Global.FontSize_75",
+      "Global.FontSize_100",
+      "Global.FontSize_200",
+      "Global.FontSize_300",
+      "Global.FontSize_400",
+      "Global.FontSize_500",
+      "Global.FontSize_600",
+      "Global.FontSize_700",
+      "Global.FontSize_800",
+      "Global.FontSize_900",
+      "Global.FontSize_1000",
+      "Global.LetterSpacing.Default",
+      "Global.LineHeight_100",
+      "Global.LineHeight_200",
+      "Global.LineHeight_300",
+      "Global.LineHeight_400",
+      "Global.Opacity_0",
+      "Global.Opacity_8",
+      "Global.Opacity_12",
+      "Global.Opacity_16",
+      "Global.Opacity_32",
+      "Global.Opacity_68",
+      "Global.Opacity_84",
+      "Global.Opacity_88",
+      "Global.Opacity_92",
+      "Global.Opacity_100",
+      "Global.Size_0",
+      "Global.Size_25",
+      "Global.Size_50",
+      "Global.Size_75",
+      "Global.Size_100",
+      "Global.Size_150",
+      "Global.Size_200",
+      "Global.Size_250",
+      "Global.Size_300",
+      "Global.Size_350",
+      "Global.Size_400",
+      "Global.Size_450",
+      "Global.Size_500",
+      "Global.Size_600",
+      "Global.Size_700",
+      "Global.Size_800",
+      "Global.Size_900",
+      "Global.Size_1000",
+      "Global.Size_1100",
+      "Global.Size_1200",
+      "Global.Size_1300",
+      "Global.Size_1400",
+      "Global.Space_0",
+      "Global.Space_25",
+      "Global.Space_50",
+      "Global.Space_75",
+      "Global.Space_100",
+      "Global.Space_150",
+      "Global.Space_200",
+      "Global.Space_250",
+      "Global.Space_300",
+      "Global.Space_400",
+      "Global.Space_500",
+      "Global.Space_600",
+      "Global.Space_800",
+      "Global.Space_1000",
+      "Global.Stroke_50",
+      "Global.Stroke_100",
+      "Global.Stroke_150",
+      "Global.Stroke_200",
+      "Global.Stroke_250",
+      "Global.Stroke_300",
+      "Global.Stroke_400",
+      "Global.Weight_300",
+      "Global.Weight_400",
+      "Global.Weight_600",
+      "Global.Weight_700",
+      "Global.Weight_900",
+      "Semantic.Color.Background.Default",
+      "Semantic.Color.Background.Contrast",
+      "Semantic.Color.Background.Muted",
+      "Semantic.Color.Background.OnHover",
+      "Semantic.Color.Background.OnPress",
+      "Semantic.Color.BackgroundUi.Default",
+      "Semantic.Color.BackgroundUi.Contrast",
+      "Semantic.Color.Ui.Default",
+      "Semantic.Color.Ui.Muted",
+      "Semantic.Color.Ui.Emphasis",
+      "Semantic.Color.Focus.Start",
+      "Semantic.Color.Focus.End",
+      "Semantic.Color.Focus.Gradient",
+      "Semantic.Color.State.Standard.Default",
+      "Semantic.Color.State.Standard.Hover",
+      "Semantic.Color.State.Standard.Pressed",
+      "Semantic.Color.State.Inverse.Default",
+      "Semantic.Color.State.Inverse.Hover",
+      "Semantic.Color.State.Inverse.Pressed",
+      "Semantic.Color.State.Darken.Default",
+      "Semantic.Color.State.Darken.Hover",
+      "Semantic.Color.State.Darken.Pressed",
+      "Semantic.Color.State.Lighten.Default",
+      "Semantic.Color.State.Lighten.Hover",
+      "Semantic.Color.State.Lighten.Pressed",
+      "Semantic.Color.Text.Emphasis",
+      "Semantic.Color.Text.Default",
+      "Semantic.Color.Text.Muted",
+      "Semantic.Color.Text.Link",
+      "Semantic.Color.Text.Inverse",
+      "Semantic.Color.Icon.Emphasis",
+      "Semantic.Color.Icon.Default",
+      "Semantic.Color.Icon.OnHover",
+      "Semantic.Color.Common.Divider",
+      "Semantic.Color.Common.Overlay",
+      "Semantic.Color.Common.DropShadow",
+      "Semantic.Color.Common.NavigationBar",
+      "Semantic.Color.Common.Placeholder",
+      "Semantic.Color.Common.Badge",
+      "Semantic.Color.Common.BadgeContent",
+      "Semantic.Color.Common.Online",
+      "Semantic.Color.Common.Offline",
+      "Semantic.Color.Common.Alert",
+      "Semantic.Color.Common.Success",
+      "Semantic.Color.Action.PrimaryBrand.Background",
+      "Semantic.Color.Action.PrimaryBrand.Content",
+      "Semantic.Color.Action.PrimaryBrand.Border",
+      "Semantic.Color.Action.Primary.Background",
+      "Semantic.Color.Action.Primary.Content",
+      "Semantic.Color.Action.Primary.Border",
+      "Semantic.Color.Action.Secondary.Background",
+      "Semantic.Color.Action.Secondary.Content",
+      "Semantic.Color.Action.Secondary.Border",
+      "Semantic.Color.Action.Subtle.Background",
+      "Semantic.Color.Action.Subtle.Content",
+      "Semantic.Color.Action.Subtle.Border",
+      "Semantic.Color.Action.Alert.Background",
+      "Semantic.Color.Action.Alert.Content",
+      "Semantic.Color.Action.Alert.Border",
+      "Semantic.Icon.Size.Small",
+      "Semantic.Icon.Size.Medium",
+      "Semantic.Icon.Size.Large",
+      "Semantic.Icon.Size.XLarge",
+      "Semantic.Icon.Size.XXLarge",
+      "Semantic.Offset.Focus.Standard",
+      "Semantic.Offset.Focus.Inset",
+      "Semantic.Opacity.State.Lighten.Hover",
+      "Semantic.Opacity.State.Lighten.Pressed",
+      "Semantic.Opacity.State.Darken.Hover",
+      "Semantic.Opacity.State.Darken.Pressed",
+      "Semantic.Radius.None",
+      "Semantic.Radius.Small",
+      "Semantic.Radius.Medium",
+      "Semantic.Radius.Large",
+      "Semantic.Radius.XLarge",
+      "Semantic.Radius.Circle",
+      "Semantic.Stroke.Input",
+      "Semantic.Stroke.Focus",
+      "Semantic.Typography.Title",
+      "Semantic.Typography.Header",
+      "Semantic.Typography.Subheader",
+      "Semantic.Typography.Body",
+      "Semantic.Typography.CaptionHeader",
+      "Semantic.Typography.CaptionBody",
+      "Semantic.Typography.Footer",
+      "Component.VerticalTile.Base.Container.Background",
+      "Component.VerticalTile.Base.Container.BorderWidth",
+      "Component.VerticalTile.Base.Container.BorderColor",
+      "Component.VerticalTile.Base.Container.DropShadow.X",
+      "Component.VerticalTile.Base.Container.DropShadow.Y",
+      "Component.VerticalTile.Base.Container.DropShadow.Blur",
+      "Component.VerticalTile.Base.Container.DropShadow.Color",
+      "Component.VerticalTile.Base.Container.BorderRadius.LeadingTop",
+      "Component.VerticalTile.Base.Container.BorderRadius.TrailingTop",
+      "Component.VerticalTile.Base.Container.BorderRadius.TrailingBottom",
+      "Component.VerticalTile.Base.Container.BorderRadius.LeadingBottom",
+      "Component.VerticalTile.Base.ContentTop.Spacing.Top",
+      "Component.VerticalTile.Base.ContentTop.Spacing.Trailing",
+      "Component.VerticalTile.Base.ContentTop.Spacing.Bottom",
+      "Component.VerticalTile.Base.ContentTop.Spacing.Leading",
+      "Component.VerticalTile.Base.ContentBottom.Spacing.Top",
+      "Component.VerticalTile.Base.ContentBottom.Spacing.Trailing",
+      "Component.VerticalTile.Base.ContentBottom.Spacing.Bottom",
+      "Component.VerticalTile.Base.ContentBottom.Spacing.Leading",
+      "Component.PlayerTileSmall.Base.Container.Gap",
+      "Component.PlayerTileSmall.Base.Container.Spacing.Top",
+      "Component.PlayerTileSmall.Base.Container.Spacing.Trailing",
+      "Component.PlayerTileSmall.Base.Container.Spacing.Bottom",
+      "Component.PlayerTileSmall.Base.Container.Spacing.Leading",
+      "Component.PlayerTileSmall.Base.Image.Size",
+      "Component.PlayerTileSmall.Base.Image.BackgroundColor",
+      "Component.PlayerTileSmall.Base.Image.BorderColor",
+      "Component.PlayerTileSmall.Base.Image.BorderRadius",
+      "Component.PlayerTileSmall.Base.Image.BorderWidth",
+      "Component.PlayerTileSmall.Base.Status.Size",
+      "Component.PlayerTileSmall.Base.Status.BackgroundColor",
+      "Component.PlayerTileSmall.Base.Status.BorderColor",
+      "Component.PlayerTileSmall.Base.Status.BorderWidth",
+      "Component.PlayerTileSmall.Base.Content.Gap",
+      "Component.PlayerTileSmall.Base.Content.Typography",
+      "Component.PlayerTileSmall.Base.Content.ContentColor",
+      "Component.PlayerTileSmall.Base.Icon.Size",
+      "Component.PlayerTileSmall.Base.Presence.ContentColor",
+      "Component.Facepile.Container.Gap",
+      "Component.Facepile.FaceGroup.Gap",
+      "Component.Facepile.Face.BackgroundColor",
+      "Component.Facepile.Face.BorderWidth",
+      "Component.Facepile.Face.BorderColor",
+      "Component.Facepile.Face.BorderRadius",
+      "Component.Facepile.Face.Width",
+      "Component.Facepile.Face.Height",
+      "Component.Facepile.Badge.BackgroundColor",
+      "Component.Facepile.Badge.BorderWidth",
+      "Component.Facepile.Badge.BorderColor",
+      "Component.Facepile.Badge.BorderRadius",
+      "Component.Facepile.Badge.Spacing",
+      "Component.Facepile.Badge.Height",
+      "Component.Facepile.Badge.MinWidth",
+      "Component.Facepile.Badge.ContentColor",
+      "Component.Facepile.Badge.Typography",
+      "Component.Facepile.Label.ContentColor",
+      "Component.Facepile.Label.Typography",
+      "Component.ControllerBar.BackgroundColor",
+      "Component.ControllerBar.BorderRadius.LeadingTop",
+      "Component.ControllerBar.BorderRadius.TrailingTop",
+      "Component.ControllerBar.BorderRadius.TrailingBottom",
+      "Component.ControllerBar.BorderRadius.LeadingBottom",
+      "Component.ControllerBar.Spacing.Top",
+      "Component.ControllerBar.Spacing.Trailing",
+      "Component.ControllerBar.Spacing.Bottom",
+      "Component.ControllerBar.Spacing.Leading",
+      "Component.ControllerBar.Gap",
+      "Component.ControllerBarShortcut.Container.Gap",
+      "Component.ControllerBarShortcut.Container.ContentColor",
+      "Component.ControllerBarShortcut.Icon.Size",
+      "Component.ControllerBarShortcut.Label.Typography",
+      "Component.SelectionCursor.BorderWidth",
+      "Component.SelectionCursor.Offset",
+      "Component.SelectionCursor.Inset",
+      "Component.SelectionCursor.Gradient.Start",
+      "Component.SelectionCursor.Gradient.End",
+      "Component.StateLayer.Base.BorderWidth",
+      "Component.StateLayer.Standard.Initialize.Color",
+      "Component.StateLayer.Standard.Default.Color",
+      "Component.StateLayer.Standard.Hover.Color",
+      "Component.StateLayer.Standard.Pressed.Color",
+      "Component.StateLayer.Standard.Selected.Color",
+      "Component.StateLayer.Standard.SelectedPressed.Color",
+      "Component.StateLayer.Standard.Disabled.Color",
+      "Component.StateLayer.Lighten.Initialize.Color",
+      "Component.StateLayer.Lighten.Default.Color",
+      "Component.StateLayer.Lighten.Hover.Color",
+      "Component.StateLayer.Lighten.Pressed.Color",
+      "Component.StateLayer.Lighten.Selected.Color",
+      "Component.StateLayer.Lighten.SelectedPressed.Color",
+      "Component.StateLayer.Lighten.Disabled.Color",
+      "Component.StateLayer.Inverse.Initialize.Color",
+      "Component.StateLayer.Inverse.Default.Color",
+      "Component.StateLayer.Inverse.Hover.Color",
+      "Component.StateLayer.Inverse.Pressed.Color",
+      "Component.StateLayer.Inverse.Selected.Color",
+      "Component.StateLayer.Inverse.SelectedPressed.Color",
+      "Component.StateLayer.Inverse.Disabled.Color",
+      "Component.StateLayer.Darken.Initialize.Color",
+      "Component.StateLayer.Darken.Default.Color",
+      "Component.StateLayer.Darken.Hover.Color",
+      "Component.StateLayer.Darken.Pressed.Color",
+      "Component.StateLayer.Darken.Selected.Color",
+      "Component.StateLayer.Darken.SelectedPressed.Color",
+      "Component.StateLayer.Darken.Disabled.Color",
+      "Component.MenuCell.Base.Container.Height",
+      "Component.MenuCell.Base.Container.ContentColor",
+      "Component.MenuCell.Base.Container.BackgroundColor",
+      "Component.MenuCell.Base.Container.BorderColor",
+      "Component.MenuCell.Base.Container.BorderRadius.TopLeading",
+      "Component.MenuCell.Base.Container.BorderRadius.TopTrailing",
+      "Component.MenuCell.Base.Container.BorderRadius.BottomTrailing",
+      "Component.MenuCell.Base.Container.BorderRadius.BottomLeading",
+      "Component.MenuCell.Base.Container.BorderWidth",
+      "Component.MenuCell.Base.Container.Spacing.Top",
+      "Component.MenuCell.Base.Container.Spacing.Trailing",
+      "Component.MenuCell.Base.Container.Spacing.Bottom",
+      "Component.MenuCell.Base.Container.Spacing.Leading",
+      "Component.MenuCell.Base.IconFrame.Size",
+      "Component.MenuCell.Base.TextFrame.Spacing.Top",
+      "Component.MenuCell.Base.TextFrame.Spacing.Trailing",
+      "Component.MenuCell.Base.TextFrame.Spacing.Bottom",
+      "Component.MenuCell.Base.TextFrame.Spacing.Leading",
+      "Component.MenuCell.Base.Text.Typography",
+      "Component.MenuCell.Base.CheckFrame.Size",
+      "Component.MenuCell.Divider.Container.BorderWidth",
+      "Component.MenuCell.Disabled.Container.ContentColor",
+      "Component.MenuCell.HasRoundBottom.Container.BorderRadius.BottomTrailing",
+      "Component.MenuCell.HasRoundBottom.Container.BorderRadius.BottomLeading",
+      "Component.MenuCell.HasRoundTop.Container.BorderRadius.TopLeading",
+      "Component.MenuCell.HasRoundTop.Container.BorderRadius.TopTrailing",
+      "Component.BaseMenu.BorderRadius",
+      "Component.BaseMenu.BackgroundColor",
+      "Component.StatGroup.Gap",
+      "Component.StatItem.Container.Gap",
+      "Component.StatItem.Container.ContentColor",
+      "Component.StatItem.Icon.Size",
+      "Component.StatItem.Label.Typography",
+      "Component.MediaTile.Container.BorderRadius",
+      "Component.MediaTile.Icon.Size",
+      "Component.StatWidget.Container.Gap",
+      "Component.StatWidget.Container.ContentColor",
+      "Component.StatWidget.Icon.Size",
+      "Component.StatWidget.DataGroup.Gap",
+      "Component.StatWidget.Data.Typography",
+      "Component.StatWidget.Label.Typography",
+      "Component.RateCount.Container.Spacing",
+      "Component.RateCount.Container.Gap",
+      "Component.RateCount.Container.BorderRadius",
+      "Component.RateCount.Container.BackgroundColor",
+      "Component.RateCount.ButtonGroup.Gap",
+      "Component.PlayerCount.Container.Spacing",
+      "Component.PlayerCount.Container.BorderRadius",
+      "Component.PlayerCount.Container.BackgroundColor",
+      "Component.VerticalScrollView.Base.Handle.BackgroundColor",
+      "Component.VerticalScrollView.Base.Handle.ContentColor",
+      "Component.VerticalScrollView.Base.Handle.BorderRadius",
+      "Component.VerticalScrollView.Base.Icon.Size",
+      "Component.VerticalScrollView.Base.Track.Opacity",
+      "Component.VerticalScrollView.Base.Track.Spacing.Top",
+      "Component.VerticalScrollView.Base.Track.Spacing.Bottom",
+      "Component.VerticalScrollView.Compact.Handle.Width",
+      "Component.VerticalScrollView.Compact.Track.Width",
+      "Component.VerticalScrollView.Wide.Handle.Width",
+      "Component.VerticalScrollView.Wide.Track.Width",
+      "Component.VerticalScrollView.Gamepad.Handle.Width",
+      "Component.VerticalScrollView.Gamepad.Track.Width",
+      "Component.TextField.Base.Field.BorderColor",
+      "Component.TextField.Base.Field.BorderRadius",
+      "Component.TextField.Base.Field.Typography",
+      "Component.TextField.Base.Field.Spacing.Leading",
+      "Component.TextField.Base.Field.Spacing.Trailing",
+      "Component.TextField.Base.Field.Gap",
+      "Component.TextField.Base.Field.Opacity",
+      "Component.TextField.Base.PlaceholderText.ContentColor",
+      "Component.TextField.Base.FieldValue.ContentColor",
+      "Component.TextField.Base.IconLeading.ContentColor",
+      "Component.TextField.Base.IconLeading.Size",
+      "Component.TextField.Error.Field.BorderColor",
+      "Component.TextField.Disabled.Field.Opacity",
+      "Component.InputLabel.Base.Typography",
+      "Component.InputLabel.Base.ContentColor",
+      "Component.InputLabel.Base.Spacing.Bottom",
+      "Component.InputLabel.Base.Opacity",
+      "Component.InputLabel.Disabled.Opacity",
+      "Component.HelperText.Base.Typography",
+      "Component.HelperText.Base.ContentColor",
+      "Component.HelperText.Base.Padding.Top",
+      "Component.HelperText.Base.Opacity",
+      "Component.HelperText.Error.ContentColor"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/ExtraContent/LuaPackages/Packages/_Index/BuilderIcons/BuilderIcons/BuilderIcons.json",
+    "type": "json",
+    "keys": [
+      "name",
+      "loadStrategy",
+      "faces"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/ExtraContent/LuaPackages/Packages/_Index/UGCValidation/UGCValidation/.vscode/settings.json",
+    "type": "json",
+    "keys": [
+      "stylua.targetReleaseVersion"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/guac/defaultConfigs/GuacDefaultPolicy-CJVDist.json",
+    "type": "json",
+    "keys": [
+      "ChatConversationHeaderGroupDetails",
+      "ChatHeaderSearch",
+      "ChatHeaderCreateChatGroup",
+      "ChatHeaderHomeButton",
+      "ChatHeaderNotifications",
+      "ChatPlayTogether",
+      "ChatShareGameToChatFromChat",
+      "ChatTapConversationThumbnail",
+      "GamesPageCreationCenterTitle",
+      "GameDetailsMorePage",
+      "GameDetailsSubtitle",
+      "GameInfoList",
+      "GameInfoListDeveloper",
+      "GamePlaysAndRatings",
+      "GamesDropDownList",
+      "Notifications",
+      "RecommendedGames",
+      "SearchBar",
+      "MorePageType",
+      "SocialLinks",
+      "SiteMessageBanner",
+      "UseWidthBasedFormFactorRule",
+      "UseHomePageWithAvatarAndPanel",
+      "UseBottomBar",
+      "AvatarHeaderIcon",
+      "AvatarEditorShowBuyRobuxOnTopBar",
+      "HomeIcon",
+      "ShowYouTubeAgeAlert",
+      "ShareToAccountProvider",
+      "InviteFromAccountProvider",
+      "GameDetailsShareButton",
+      "SystemBarPlacement",
+      "EnableInGameHomeIcon",
+      "UseExternalBrowserForDisclaimerLinks",
+      "ShowExitFullscreenToast",
+      "OfficialStoreEnabled",
+      "EnableShareCaptureCTA",
+      "AddUserAgreementIdsToSignupRequest",
+      "shouldHideAdditionalCiUpsell",
+      "HomeLocalFeedItems",
+      "RealNamesInDisplayNamesEnabled",
+      "ForceTheme",
+      "UseNewDropDown",
+      "CatalogReportingDisabled",
+      "UAppBlockPageTextMapKey",
+      "GameInfoShowCreated",
+      "enableDualLogin",
+      "crossPlayUri",
+      "Routes",
+      "CatalogShareButton",
+      "contactImporterEncouraged",
+      "DiscoverabilitySensitive",
+      "AlwaysFetchFriendRecommendations",
+      "FriendFinder",
+      "GameInfoShowGenre",
+      "ProfileCopyLinkEnabled",
+      "CheckUserAgreementsUpdatedOnLogin",
+      "ProfileShareEnabled",
+      "CanShowUnifiedChatU13Upsell",
+      "crossPlayQueryParam",
+      "GamePlayerCounts",
+      "GameInfoShowUpdated",
+      "UseLuobuAuthentication",
+      "UseWechatQQAuthentication",
+      "renameParentEmailForVerificationUpsell",
+      "GameInfoShowServers",
+      "AccountProviderName",
+      "EnableVoiceReportAbuseMenu",
+      "ContactImporterEnabled",
+      "VideoSharingTestContent",
+      "ShowVoiceUpsell",
+      "CommunityLinksEnabled",
+      "platformDisplayName",
+      "renamePrivacyToPrivacyContentRestrictionsTab",
+      "notificationsCanAccessToast",
+      "GameInfoShowMaxPlayers",
+      "ShowUserAlias",
+      "GameDetailsShowGlobalCounters",
+      "ChatReportingDisabled",
+      "ShowAgeVerificationOverlayEnabled",
+      "ShouldShowGroupsTile",
+      "EnableContinuousLoad",
+      "MorePageContent",
+      "MorePageExitButtonEnabled",
+      "EnableNotificationPreferencesPage",
+      "EnablePurchaseWarningChecks",
+      "notificationsCanAccessEmail",
+      "UAppBlockPageShouldDisableLogOut",
+      "ShouldShowCameraPermissionInAgreementsPrompt",
+      "InExperienceCanListPeopleInSameServer",
+      "EligibleForSelfieViewFeature",
+      "CanSeeChatTab",
+      "ShowVideoThumbnails",
+      "CanUsePlatformChat",
+      "PromotionalEmailsOptInByDefault",
+      "EnableUAppAccessBlock",
+      "ShowDisplayName",
+      "ChatViewProfileOption",
+      "renamePaymentsToSpendingTab",
+      "CatalogShow3dView",
+      "PrivacyPolicyLink",
+      "UsePhoneSearchDiscoverEntry",
+      "EnableHomePageAgeBlock",
+      "notificationsCanAccessStream",
+      "ShowVoiceUpsellV2",
+      "SettingsPageType",
+      "ExperienceInviteShareLinkEnabled",
+      "InExperienceCanViewEducationalPopup",
+      "CatalogCommunityCreations",
+      "ShowVNGLoginWithExistingAccountQuickLoginButton",
+      "EligibleForContentPostFeed",
+      "ShareToAccountProviderTimeout",
+      "UseOmniRecommendation",
+      "PlatformGroup",
+      "CatalogPremiumContent",
+      "luaProfileEnabled",
+      "ProfileShareLinkEnabled",
+      "DisableSignupCheckbox",
+      "UseAvatarExperienceLandingPage",
+      "UseGridCarouselSeeAllTiles",
+      "InExperienceCanDisplayPeoplesUsernames",
+      "GameDetailsPlayWithFriends",
+      "EnablePremiumUserFeatures",
+      "TermsOfUseLink",
+      "showUpdatedCameraPath",
+      "useCrossPlaySystemUi",
+      "GameInfoShowChatFeatures",
+      "SocialGroupLinks",
+      "EnableAggregateLikesFavoritesCount",
+      "InExperienceCanNavigateHome",
+      "GameInfoListShowRNVDeveloper",
+      "EligibleForCapturesFeature",
+      "notificationsCanAccessExperience",
+      "FriendCodeQrCodeScannerEnabled",
+      "EnableCapturesBulkManagement",
+      "EnableKeystrokeCollection",
+      "DisplayCheckboxInVoiceConsent",
+      "VngAppUpsell",
+      "RobloxCreatedItemsCreatedByLuobu",
+      "ShowShareTargetGameCreator",
+      "GameInfoShowBadges",
+      "GameInfoShowSubgenre",
+      "notificationsCanAccessPush",
+      "GameReportingDisabled",
+      "EligibleForVideoCapture",
+      "SearchAutoComplete",
+      "HomePageFriendSection",
+      "FriendCarouselSorting",
+      "PromotionalEmailsCheckboxEnabled",
+      "QrFriendingEnabled",
+      "CsatSurveyRestrictTextInput",
+      "renamePrivacyToPrivacyContentMaturityTab",
+      "PurchasePromptIncludingWarning",
+      "EligibleForExternalContentSharing",
+      "HomePageProfileLink",
+      "ShouldShowPhoneUpsell",
+      "EnableLuaFriendsLandingPage",
+      "CatalogPremiumCategory",
+      "ExitFullscreenToastEnabled",
+      "AboutPageType",
+      "GiftCardsEnabled",
+      "ItemDetailsFullView",
+      "EnableProfileQrCode",
+      "shouldShowVpcPlayButtonUpsells",
+      "CustomCostumeNames",
+      "GameInfoShowGamepasses",
+      "CanShowUnifiedChatUpsell",
+      "renameFriendsToConnections",
+      "canAccessTrustedContacts",
+      "requiresOSAFriendingEducation",
+      "SocialGraphSyncEnabled",
+      "HasVideoCaptureCapability",
+      "experienceDetailsNoticeType",
+      "hasWebViewSupportForFAE",
+      "ScreentimeMoreTimeOptionEnabled",
+      "GiftCardSourceRefOverride",
+      "ExperienceChatAvailability",
+      "InCommsRegionBubble",
+      "ShowInExpFAEUpsell",
+      "UseAgeInput",
+      "DisableEmailOTPLogin",
+      "LoginUsernameOnly",
+      "DisableLogOutEmailUpsell",
+      "DisableLoginForgotButton",
+      "CanAccessParty",
+      "ShowVNGTosForRobuxUpsell",
+      "ExcludePasskeySignIn",
+      "ExcludeUsernamePasswordSignIn",
+      "ExcludeEmailPasswordSignIn",
+      "ExcludePhoneNumberPasswordSignIn",
+      "ExcludeCrossDeviceSignIn",
+      "ExcludeSignInPasskeyUpsell",
+      "ExcludeAccountSwitcher",
+      "ExcludeUsernameUpdateModeration",
+      "ShouldUseDMCCALegalDisclosureInApp",
+      "RedeemTileEnabled",
+      "ShowFOMOUpsell",
+      "ShowCrossAgeExpChat",
+      "StickyShortcutBarEnabled",
+      "CanRenderTransferOnProfile",
+      "shareSheetEnabled",
+      "ShouldUseVibrationInsteadOfHaptics",
+      "HidesGamesTab",
+      "AccountType",
+      "VngAppUpsellPcLayout",
+      "ShowsTvBetaModal",
+      "CoreContentBadgeText",
+      "CoreContentTheme",
+      "WebAgeThemeControl",
+      "WebAgeBadgeControl",
+      "ShowUncheckedBadge",
+      "ChatWithOnlyTF",
+      "DisablePlayableWhenLoading",
+      "DisplayMomentsMoreTabTile",
+      "DevicePreferencesPersistentPresenceVariant",
+      "ShouldShowFaceIDText",
+      "SupportCenterEnabled",
+      "canSeeChatTerminology",
+      "CancelSearchOnLostFocus",
+      "CanSeeChatTab2",
+      "CanUsePlatformChat2",
+      "AccountSwitcherEnabled",
+      "AccountPickerEnabled",
+      "MomentsCanAutoPlay",
+      "MomentsInfiniteScrollEnabled",
+      "CanViewBuild",
+      "CanUseBuild",
+      "ShowLoginRevamp",
+      "FriendsTabRequiredCapabilities",
+      "UseConsoleGameJoinCard",
+      "UseAmpV2WizardForVpc",
+      "UseCrossDeviceLoginByDefault",
+      "MorePageContent2",
+      "MomentsFeatureList",
+      "PinExperienceTargetDestination",
+      "isPioneerPlatform",
+      "AmpV2VpcExcludedRequestTypes",
+      "LearnPlaceEnabled",
+      "FlyoutSidePanelEnabled",
+      "ExcludeExternalIdentityLogin",
+      "ExcludeExternalIdentityOtherSignInOptions",
+      "ExternalIdentityAppleUsesBrowserSignIn",
+      "ShouldDeeplinkToReferral"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/guac/defaultConfigs/GuacDefaultPolicy-VNGGamesDist.json",
+    "type": "json",
+    "keys": [
+      "ChatConversationHeaderGroupDetails",
+      "ChatHeaderSearch",
+      "ChatHeaderCreateChatGroup",
+      "ChatHeaderHomeButton",
+      "ChatHeaderNotifications",
+      "ChatPlayTogether",
+      "ChatShareGameToChatFromChat",
+      "ChatTapConversationThumbnail",
+      "ChatViewProfileOption",
+      "GamesDropDownList",
+      "UseNewDropDown",
+      "GameDetailsMorePage",
+      "GameDetailsShowGlobalCounters",
+      "GameDetailsPlayWithFriends",
+      "GameDetailsSubtitle",
+      "GameInfoList",
+      "GameInfoListDeveloper",
+      "GamePlaysAndRatings",
+      "GameInfoShowBadges",
+      "GameInfoShowCreated",
+      "GameInfoShowGamepasses",
+      "GameInfoShowGenre",
+      "GameInfoShowMaxPlayers",
+      "GameInfoShowServers",
+      "GameInfoShowUpdated",
+      "GameReportingDisabled",
+      "GamePlayerCounts",
+      "GiftCardsEnabled",
+      "Notifications",
+      "OfficialStoreEnabled",
+      "RecommendedGames",
+      "SearchBar",
+      "MorePageType",
+      "AboutPageType",
+      "FriendFinder",
+      "SocialLinks",
+      "SocialGroupLinks",
+      "EligibleForCapturesFeature",
+      "EnableCapturesBulkManagement",
+      "EnableShareCaptureCTA",
+      "EligibleForVideoCapture",
+      "SiteMessageBanner",
+      "UseWidthBasedFormFactorRule",
+      "UseHomePageWithAvatarAndPanel",
+      "UseBottomBar",
+      "AvatarHeaderIcon",
+      "AvatarEditorShowBuyRobuxOnTopBar",
+      "HomeIcon",
+      "ShowYouTubeAgeAlert",
+      "GameDetailsShareButton",
+      "CatalogShareButton",
+      "AccountProviderName",
+      "InviteFromAccountProvider",
+      "ShareToAccountProvider",
+      "ShareToAccountProviderTimeout",
+      "ShowDisplayName",
+      "GamesPageCreationCenterTitle",
+      "ShowShareTargetGameCreator",
+      "SearchAutoComplete",
+      "CatalogShow3dView",
+      "CatalogReportingDisabled",
+      "CatalogCommunityCreations",
+      "CatalogPremiumCategory",
+      "CatalogPremiumContent",
+      "ItemDetailsFullView",
+      "UseAvatarExperienceLandingPage",
+      "HomePageFriendSection",
+      "HomePageProfileLink",
+      "PurchasePromptIncludingWarning",
+      "ShowVideoThumbnails",
+      "VideoSharingTestContent",
+      "SystemBarPlacement",
+      "EnableInGameHomeIcon",
+      "UseExternalBrowserForDisclaimerLinks",
+      "ShowExitFullscreenToast",
+      "ExitFullscreenToastEnabled",
+      "UseLuobuAuthentication",
+      "CheckUserAgreementsUpdatedOnLogin",
+      "AddUserAgreementIdsToSignupRequest",
+      "UseOmniRecommendation",
+      "ShowAgeVerificationOverlayEnabled",
+      "ShouldShowGroupsTile",
+      "ShowVoiceUpsell",
+      "ProfileShareEnabled",
+      "ProfileShareLinkEnabled",
+      "ProfileCopyLinkEnabled",
+      "ContactImporterEnabled",
+      "FriendCodeQrCodeScannerEnabled",
+      "RealNamesInDisplayNamesEnabled",
+      "CsatSurveyRestrictTextInput",
+      "RobloxCreatedItemsCreatedByLuobu",
+      "GameInfoShowChatFeatures",
+      "PlatformGroup",
+      "UsePhoneSearchDiscoverEntry",
+      "ShowVoiceUpsellV2",
+      "HomeLocalFeedItems",
+      "Routes",
+      "PromotionalEmailsCheckboxEnabled",
+      "PromotionalEmailsOptInByDefault",
+      "EnablePremiumUserFeatures",
+      "CanShowUnifiedChatU13Upsell",
+      "CanShowUnifiedChatUpsell",
+      "CommunityLinksEnabled",
+      "EnableProfileQrCode",
+      "enableDualLogin",
+      "luaProfileEnabled",
+      "AlwaysFetchFriendRecommendations",
+      "FriendCarouselSorting",
+      "ShouldShowPhoneUpsell",
+      "TermsOfUseLink",
+      "PrivacyPolicyLink",
+      "UseVNGUserAgreementPopup",
+      "ShowVNGAge12Badge",
+      "ShowVNGLoginWithExistingAccountQuickLoginButton",
+      "VNGFormRequired",
+      "ShowBadgeOver12",
+      "shouldHideAdditionalCiUpsell",
+      "ForceTheme",
+      "UAppBlockPageTextMapKey",
+      "crossPlayUri",
+      "contactImporterEncouraged",
+      "DiscoverabilitySensitive",
+      "crossPlayQueryParam",
+      "UseWechatQQAuthentication",
+      "renameParentEmailForVerificationUpsell",
+      "EnableVoiceReportAbuseMenu",
+      "platformDisplayName",
+      "renamePrivacyToPrivacyContentRestrictionsTab",
+      "notificationsCanAccessToast",
+      "EnableContinuousLoad",
+      "MorePageContent",
+      "MorePageExitButtonEnabled",
+      "EnableNotificationPreferencesPage",
+      "notificationsCanAccessEmail",
+      "UAppBlockPageShouldDisableLogOut",
+      "InExperienceCanListPeopleInSameServer",
+      "EligibleForSelfieViewFeature",
+      "CanSeeChatTab",
+      "CanUsePlatformChat",
+      "EnableUAppAccessBlock",
+      "renamePaymentsToSpendingTab",
+      "RedirectBuyRobuxToVNG",
+      "DisablePremiumEntryPoint",
+      "EnableHomePageAgeBlock",
+      "notificationsCanAccessStream",
+      "ExperienceInviteShareLinkEnabled",
+      "InExperienceCanViewEducationalPopup",
+      "EligibleForContentPostFeed",
+      "DisableSignupCheckbox",
+      "UseGridCarouselSeeAllTiles",
+      "InExperienceCanDisplayPeoplesUsernames",
+      "showUpdatedCameraPath",
+      "useCrossPlaySystemUi",
+      "EnableAggregateLikesFavoritesCount",
+      "InExperienceCanNavigateHome",
+      "notificationsCanAccessExperience",
+      "EnableKeystrokeCollection",
+      "DisplayCheckboxInVoiceConsent",
+      "VngAppUpsell",
+      "GameInfoShowSubgenre",
+      "notificationsCanAccessPush",
+      "BlockVNGU12SignUpOnClientSide",
+      "renamePrivacyToPrivacyContentMaturityTab",
+      "EligibleForExternalContentSharing",
+      "shouldShowVpcPlayButtonUpsells",
+      "renameFriendsToConnections",
+      "canAccessTrustedContacts",
+      "requiresOSAFriendingEducation",
+      "SocialGraphSyncEnabled",
+      "HasVideoCaptureCapability",
+      "experienceDetailsNoticeType",
+      "hasWebViewSupportForFAE",
+      "ScreentimeMoreTimeOptionEnabled",
+      "GiftCardSourceRefOverride",
+      "ExperienceChatAvailability",
+      "InCommsRegionBubble",
+      "ShowInExpFAEUpsell",
+      "UseAgeInput",
+      "DisableEmailOTPLogin",
+      "LoginUsernameOnly",
+      "DisableLogOutEmailUpsell",
+      "DisableLoginForgotButton",
+      "CanAccessParty",
+      "ShowVNGTosForRobuxUpsell",
+      "ExcludePasskeySignIn",
+      "ExcludeUsernamePasswordSignIn",
+      "ExcludeEmailPasswordSignIn",
+      "ExcludePhoneNumberPasswordSignIn",
+      "ExcludeCrossDeviceSignIn",
+      "ExcludeSignInPasskeyUpsell",
+      "ExcludeAccountSwitcher",
+      "ExcludeUsernameUpdateModeration",
+      "ShouldUseDMCCALegalDisclosureInApp",
+      "RedeemTileEnabled",
+      "ShowFOMOUpsell",
+      "ShowCrossAgeExpChat",
+      "StickyShortcutBarEnabled",
+      "CanRenderTransferOnProfile",
+      "shareSheetEnabled",
+      "DisableBlackbirdEntrypoints",
+      "ShouldUseVibrationInsteadOfHaptics",
+      "HidesGamesTab",
+      "AccountType",
+      "DisableRobloxPlusEntrypoints",
+      "VngAppUpsellPcLayout",
+      "ShowsTvBetaModal",
+      "CoreContentBadgeText",
+      "CoreContentTheme",
+      "WebAgeThemeControl",
+      "WebAgeBadgeControl",
+      "ShowUncheckedBadge",
+      "ChatWithOnlyTF",
+      "DisablePlayableWhenLoading",
+      "DisplayMomentsMoreTabTile",
+      "DevicePreferencesPersistentPresenceVariant",
+      "ShouldShowFaceIDText",
+      "SupportCenterEnabled",
+      "canSeeChatTerminology",
+      "CancelSearchOnLostFocus",
+      "CanSeeChatTab2",
+      "CanUsePlatformChat2",
+      "AccountSwitcherEnabled",
+      "AccountPickerEnabled",
+      "MomentsCanAutoPlay",
+      "MomentsInfiniteScrollEnabled",
+      "CanViewBuild",
+      "CanUseBuild",
+      "ShowLoginRevamp",
+      "FriendsTabRequiredCapabilities",
+      "UseConsoleGameJoinCard",
+      "UseAmpV2WizardForVpc",
+      "UseCrossDeviceLoginByDefault",
+      "MorePageContent2",
+      "MomentsFeatureList",
+      "PinExperienceTargetDestination",
+      "isPioneerPlatform",
+      "AmpV2VpcExcludedRequestTypes",
+      "LearnPlaceEnabled",
+      "FlyoutSidePanelEnabled",
+      "ExcludeExternalIdentityLogin",
+      "ExcludeExternalIdentityOtherSignInOptions",
+      "ExternalIdentityAppleUsesBrowserSignIn",
+      "ShouldDeeplinkToReferral"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/guac/defaultConfigs/GuacDefaultPolicy-GlobalDist.json",
+    "type": "json",
+    "keys": [
+      "ChatConversationHeaderGroupDetails",
+      "ChatHeaderSearch",
+      "ChatHeaderCreateChatGroup",
+      "ChatHeaderHomeButton",
+      "ChatHeaderNotifications",
+      "ChatPlayTogether",
+      "ChatShareGameToChatFromChat",
+      "ChatTapConversationThumbnail",
+      "GameDetailsMorePage",
+      "GameDetailsSubtitle",
+      "GameInfoList",
+      "GameInfoListDeveloper",
+      "GamePlaysAndRatings",
+      "GamesDropDownList",
+      "Notifications",
+      "RecommendedGames",
+      "SearchBar",
+      "MorePageType",
+      "SocialLinks",
+      "SiteMessageBanner",
+      "UseWidthBasedFormFactorRule",
+      "UseHomePageWithAvatarAndPanel",
+      "UseBottomBar",
+      "AvatarHeaderIcon",
+      "AvatarEditorShowBuyRobuxOnTopBar",
+      "HomeIcon",
+      "ShowYouTubeAgeAlert",
+      "ShareToAccountProvider",
+      "InviteFromAccountProvider",
+      "GameDetailsShareButton",
+      "SystemBarPlacement",
+      "EnableInGameHomeIcon",
+      "UseExternalBrowserForDisclaimerLinks",
+      "ShowExitFullscreenToast",
+      "OfficialStoreEnabled",
+      "EnableShareCaptureCTA",
+      "AddUserAgreementIdsToSignupRequest",
+      "shouldHideAdditionalCiUpsell",
+      "HomeLocalFeedItems",
+      "RealNamesInDisplayNamesEnabled",
+      "ForceTheme",
+      "UseNewDropDown",
+      "CatalogReportingDisabled",
+      "UAppBlockPageTextMapKey",
+      "GameInfoShowCreated",
+      "enableDualLogin",
+      "crossPlayUri",
+      "Routes",
+      "CatalogShareButton",
+      "contactImporterEncouraged",
+      "DiscoverabilitySensitive",
+      "AlwaysFetchFriendRecommendations",
+      "FriendFinder",
+      "GameInfoShowGenre",
+      "ProfileCopyLinkEnabled",
+      "CheckUserAgreementsUpdatedOnLogin",
+      "ProfileShareEnabled",
+      "CanShowUnifiedChatU13Upsell",
+      "crossPlayQueryParam",
+      "GamePlayerCounts",
+      "GameInfoShowUpdated",
+      "UseLuobuAuthentication",
+      "UseWechatQQAuthentication",
+      "renameParentEmailForVerificationUpsell",
+      "GameInfoShowServers",
+      "AccountProviderName",
+      "EnableVoiceReportAbuseMenu",
+      "ContactImporterEnabled",
+      "VideoSharingTestContent",
+      "ShowVoiceUpsell",
+      "CommunityLinksEnabled",
+      "platformDisplayName",
+      "renamePrivacyToPrivacyContentRestrictionsTab",
+      "notificationsCanAccessToast",
+      "GameInfoShowMaxPlayers",
+      "GameDetailsShowGlobalCounters",
+      "ShowAgeVerificationOverlayEnabled",
+      "ShouldShowGroupsTile",
+      "EnableContinuousLoad",
+      "MorePageContent",
+      "MorePageExitButtonEnabled",
+      "EnableNotificationPreferencesPage",
+      "notificationsCanAccessEmail",
+      "UAppBlockPageShouldDisableLogOut",
+      "InExperienceCanListPeopleInSameServer",
+      "EligibleForSelfieViewFeature",
+      "CanSeeChatTab",
+      "ShowVideoThumbnails",
+      "CanUsePlatformChat",
+      "PromotionalEmailsOptInByDefault",
+      "EnableUAppAccessBlock",
+      "ShowDisplayName",
+      "ChatViewProfileOption",
+      "renamePaymentsToSpendingTab",
+      "CatalogShow3dView",
+      "PrivacyPolicyLink",
+      "UsePhoneSearchDiscoverEntry",
+      "EnableHomePageAgeBlock",
+      "notificationsCanAccessStream",
+      "ShowVoiceUpsellV2",
+      "ExperienceInviteShareLinkEnabled",
+      "InExperienceCanViewEducationalPopup",
+      "CatalogCommunityCreations",
+      "ShowVNGLoginWithExistingAccountQuickLoginButton",
+      "EligibleForContentPostFeed",
+      "ShareToAccountProviderTimeout",
+      "UseOmniRecommendation",
+      "PlatformGroup",
+      "CatalogPremiumContent",
+      "luaProfileEnabled",
+      "ProfileShareLinkEnabled",
+      "DisableSignupCheckbox",
+      "UseAvatarExperienceLandingPage",
+      "UseGridCarouselSeeAllTiles",
+      "InExperienceCanDisplayPeoplesUsernames",
+      "GameDetailsPlayWithFriends",
+      "EnablePremiumUserFeatures",
+      "TermsOfUseLink",
+      "showUpdatedCameraPath",
+      "useCrossPlaySystemUi",
+      "GameInfoShowChatFeatures",
+      "SocialGroupLinks",
+      "EnableAggregateLikesFavoritesCount",
+      "InExperienceCanNavigateHome",
+      "EligibleForCapturesFeature",
+      "notificationsCanAccessExperience",
+      "FriendCodeQrCodeScannerEnabled",
+      "EnableCapturesBulkManagement",
+      "EnableKeystrokeCollection",
+      "DisplayCheckboxInVoiceConsent",
+      "VngAppUpsell",
+      "RobloxCreatedItemsCreatedByLuobu",
+      "ShowShareTargetGameCreator",
+      "GameInfoShowBadges",
+      "GameInfoShowSubgenre",
+      "notificationsCanAccessPush",
+      "GameReportingDisabled",
+      "EligibleForVideoCapture",
+      "SearchAutoComplete",
+      "HomePageFriendSection",
+      "FriendCarouselSorting",
+      "PromotionalEmailsCheckboxEnabled",
+      "CsatSurveyRestrictTextInput",
+      "renamePrivacyToPrivacyContentMaturityTab",
+      "PurchasePromptIncludingWarning",
+      "EligibleForExternalContentSharing",
+      "HomePageProfileLink",
+      "ShouldShowPhoneUpsell",
+      "CatalogPremiumCategory",
+      "ExitFullscreenToastEnabled",
+      "AboutPageType",
+      "GamesPageCreationCenterTitle",
+      "GiftCardsEnabled",
+      "ItemDetailsFullView",
+      "EnableProfileQrCode",
+      "shouldShowVpcPlayButtonUpsells",
+      "GameInfoShowGamepasses",
+      "CanShowUnifiedChatUpsell",
+      "renameFriendsToConnections",
+      "canAccessTrustedContacts",
+      "requiresOSAFriendingEducation",
+      "SocialGraphSyncEnabled",
+      "HasVideoCaptureCapability",
+      "experienceDetailsNoticeType",
+      "hasWebViewSupportForFAE",
+      "ScreentimeMoreTimeOptionEnabled",
+      "GiftCardSourceRefOverride",
+      "ExperienceChatAvailability",
+      "InCommsRegionBubble",
+      "ShowInExpFAEUpsell",
+      "UseAgeInput",
+      "DisableEmailOTPLogin",
+      "LoginUsernameOnly",
+      "DisableLogOutEmailUpsell",
+      "DisableLoginForgotButton",
+      "CanAccessParty",
+      "ShowVNGTosForRobuxUpsell",
+      "ExcludePasskeySignIn",
+      "ExcludeUsernamePasswordSignIn",
+      "ExcludeEmailPasswordSignIn",
+      "ExcludePhoneNumberPasswordSignIn",
+      "ExcludeCrossDeviceSignIn",
+      "ExcludeSignInPasskeyUpsell",
+      "ExcludeAccountSwitcher",
+      "ExcludeUsernameUpdateModeration",
+      "ShouldUseDMCCALegalDisclosureInApp",
+      "RedeemTileEnabled",
+      "ShowFOMOUpsell",
+      "ShowCrossAgeExpChat",
+      "StickyShortcutBarEnabled",
+      "CanRenderTransferOnProfile",
+      "shareSheetEnabled",
+      "ShouldUseVibrationInsteadOfHaptics",
+      "HidesGamesTab",
+      "AccountType",
+      "VngAppUpsellPcLayout",
+      "ShowsTvBetaModal",
+      "CoreContentBadgeText",
+      "CoreContentTheme",
+      "WebAgeThemeControl",
+      "WebAgeBadgeControl",
+      "ShowUncheckedBadge",
+      "ChatWithOnlyTF",
+      "DisablePlayableWhenLoading",
+      "DisplayMomentsMoreTabTile",
+      "DevicePreferencesPersistentPresenceVariant",
+      "ShouldShowFaceIDText",
+      "SupportCenterEnabled",
+      "canSeeChatTerminology",
+      "CancelSearchOnLostFocus",
+      "CanSeeChatTab2",
+      "CanUsePlatformChat2",
+      "AccountSwitcherEnabled",
+      "AccountPickerEnabled",
+      "MomentsCanAutoPlay",
+      "MomentsInfiniteScrollEnabled",
+      "CanViewBuild",
+      "CanUseBuild",
+      "ShowLoginRevamp",
+      "FriendsTabRequiredCapabilities",
+      "UseConsoleGameJoinCard",
+      "UseAmpV2WizardForVpc",
+      "UseCrossDeviceLoginByDefault",
+      "MorePageContent2",
+      "MomentsFeatureList",
+      "PinExperienceTargetDestination",
+      "isPioneerPlatform",
+      "AmpV2VpcExcludedRequestTypes",
+      "LearnPlaceEnabled",
+      "FlyoutSidePanelEnabled",
+      "ExcludeExternalIdentityLogin",
+      "ExcludeExternalIdentityOtherSignInOptions",
+      "ExternalIdentityAppleUsesBrowserSignIn",
+      "ShouldDeeplinkToReferral"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/configs/InExperiencePatchConfig/InExperiencePatchConfig.json",
+    "type": "json",
+    "keys": [
+      "AppStorageResetId",
+      "AssetId",
+      "AssetVersion",
+      "IsForcedUpdate",
+      "LocalAssetURI",
+      "LocalAssetHash",
+      "MaxAppVersion"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/configs/DateTimeLocaleConfigs/en-au.json",
+    "type": "json",
+    "keys": [
+      "months",
+      "monthsShort",
+      "weekdays",
+      "weekdaysShort",
+      "weekdaysMin",
+      "longDateFormat",
+      "meridiem",
+      "week"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/configs/DateTimeLocaleConfigs/en-ca.json",
+    "type": "json",
+    "keys": [
+      "months",
+      "monthsShort",
+      "weekdays",
+      "weekdaysShort",
+      "weekdaysMin",
+      "longDateFormat",
+      "meridiem"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/configs/DateTimeLocaleConfigs/it-it.json",
+    "type": "json",
+    "keys": [
+      "months",
+      "monthsShort",
+      "weekdays",
+      "weekdaysShort",
+      "weekdaysMin",
+      "longDateFormat",
+      "meridiem",
+      "week"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/configs/DateTimeLocaleConfigs/ko-kr.json",
+    "type": "json",
+    "keys": [
+      "months",
+      "monthsShort",
+      "weekdays",
+      "weekdaysShort",
+      "weekdaysMin",
+      "longDateFormat",
+      "meridiem"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/configs/DateTimeLocaleConfigs/es-es.json",
+    "type": "json",
+    "keys": [
+      "months",
+      "monthsShort",
+      "weekdays",
+      "weekdaysShort",
+      "weekdaysMin",
+      "longDateFormat",
+      "meridiem",
+      "week"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/configs/DateTimeLocaleConfigs/en-nz.json",
+    "type": "json",
+    "keys": [
+      "months",
+      "monthsShort",
+      "weekdays",
+      "weekdaysShort",
+      "weekdaysMin",
+      "longDateFormat",
+      "meridiem",
+      "week"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/configs/DateTimeLocaleConfigs/ja-jp.json",
+    "type": "json",
+    "keys": [
+      "months",
+      "monthsShort",
+      "weekdays",
+      "weekdaysShort",
+      "weekdaysMin",
+      "longDateFormat",
+      "meridiem"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/configs/DateTimeLocaleConfigs/zh-cn.json",
+    "type": "json",
+    "keys": [
+      "months",
+      "monthsShort",
+      "weekdays",
+      "weekdaysShort",
+      "weekdaysMin",
+      "longDateFormat",
+      "meridiem",
+      "week"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/configs/DateTimeLocaleConfigs/zh-hk.json",
+    "type": "json",
+    "keys": [
+      "months",
+      "monthsShort",
+      "weekdays",
+      "weekdaysShort",
+      "weekdaysMin",
+      "longDateFormat",
+      "meridiem",
+      "week"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/configs/DateTimeLocaleConfigs/pt-pt.json",
+    "type": "json",
+    "keys": [
+      "months",
+      "monthsShort",
+      "weekdays",
+      "weekdaysShort",
+      "weekdaysMin",
+      "longDateFormat",
+      "meridiem",
+      "week"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/configs/DateTimeLocaleConfigs/en-150.json",
+    "type": "json",
+    "keys": [
+      "months",
+      "monthsShort",
+      "weekdays",
+      "weekdaysShort",
+      "weekdaysMin",
+      "longDateFormat",
+      "meridiem",
+      "week"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/configs/DateTimeLocaleConfigs/fr-ca.json",
+    "type": "json",
+    "keys": [
+      "months",
+      "monthsShort",
+      "weekdays",
+      "weekdaysShort",
+      "weekdaysMin",
+      "longDateFormat",
+      "meridiem"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/configs/DateTimeLocaleConfigs/ar-001.json",
+    "type": "json",
+    "keys": [
+      "months",
+      "monthsShort",
+      "weekdays",
+      "weekdaysShort",
+      "weekdaysMin",
+      "longDateFormat",
+      "meridiem",
+      "week"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/configs/DateTimeLocaleConfigs/zh-hans.json",
+    "type": "json",
+    "keys": [
+      "months",
+      "monthsShort",
+      "weekdays",
+      "weekdaysShort",
+      "weekdaysMin",
+      "longDateFormat",
+      "meridiem",
+      "week"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/configs/DateTimeLocaleConfigs/pt-br.json",
+    "type": "json",
+    "keys": [
+      "months",
+      "monthsShort",
+      "weekdays",
+      "weekdaysShort",
+      "weekdaysMin",
+      "longDateFormat",
+      "meridiem"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/configs/DateTimeLocaleConfigs/de-de.json",
+    "type": "json",
+    "keys": [
+      "months",
+      "monthsShort",
+      "weekdays",
+      "weekdaysShort",
+      "weekdaysMin",
+      "longDateFormat",
+      "meridiem",
+      "week"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/configs/DateTimeLocaleConfigs/fr-fr.json",
+    "type": "json",
+    "keys": [
+      "months",
+      "monthsShort",
+      "weekdays",
+      "weekdaysShort",
+      "weekdaysMin",
+      "longDateFormat",
+      "meridiem",
+      "week"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/configs/DateTimeLocaleConfigs/zh-tw.json",
+    "type": "json",
+    "keys": [
+      "months",
+      "monthsShort",
+      "weekdays",
+      "weekdaysShort",
+      "weekdaysMin",
+      "longDateFormat",
+      "meridiem",
+      "week"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/configs/DateTimeLocaleConfigs/ru-ru.json",
+    "type": "json",
+    "keys": [
+      "months",
+      "monthsShort",
+      "weekdays",
+      "weekdaysShort",
+      "weekdaysMin",
+      "longDateFormat",
+      "meridiem",
+      "week"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/configs/DateTimeLocaleConfigs/nl-nl.json",
+    "type": "json",
+    "keys": [
+      "months",
+      "monthsShort",
+      "weekdays",
+      "weekdaysShort",
+      "weekdaysMin",
+      "longDateFormat",
+      "meridiem",
+      "week"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/configs/DateTimeLocaleConfigs/en-us.json",
+    "type": "json",
+    "keys": [
+      "months",
+      "monthsShort",
+      "weekdays",
+      "weekdaysShort",
+      "weekdaysMin",
+      "longDateFormat",
+      "meridiem",
+      "week"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/configs/DateTimeLocaleConfigs/en-gb.json",
+    "type": "json",
+    "keys": [
+      "months",
+      "monthsShort",
+      "weekdays",
+      "weekdaysShort",
+      "weekdaysMin",
+      "longDateFormat",
+      "meridiem",
+      "week"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/configs/DateTimeLocaleConfigs/zh-hant.json",
+    "type": "json",
+    "keys": [
+      "months",
+      "monthsShort",
+      "weekdays",
+      "weekdaysShort",
+      "weekdaysMin",
+      "longDateFormat",
+      "meridiem",
+      "week"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/configs/DateTimeLocaleConfigs/es-mx.json",
+    "type": "json",
+    "keys": [
+      "months",
+      "monthsShort",
+      "weekdays",
+      "weekdaysShort",
+      "weekdaysMin",
+      "longDateFormat",
+      "meridiem",
+      "week"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/configs/DateTimeLocaleConfigs/zh-cjv.json",
+    "type": "json",
+    "keys": [
+      "months",
+      "monthsShort",
+      "weekdays",
+      "weekdaysShort",
+      "weekdaysMin",
+      "longDateFormat",
+      "meridiem",
+      "week"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/configs/DataModelPatchConfig/DataModelPatchConfig.json",
+    "type": "json",
+    "keys": [
+      "AppStorageResetId",
+      "AssetId",
+      "AssetVersion",
+      "IsForcedUpdate",
+      "LocalAssetURI",
+      "LocalAssetHash",
+      "MaxAppVersion"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/configs/PlaybackAppPatchConfig/PlaybackAppPatchConfig.json",
+    "type": "json",
+    "keys": [
+      "LocalAssetURI"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/configs/CrossExpVoicePatchConfig/CrossExpVoicePatchConfig.json",
+    "type": "json",
+    "keys": [
+      "LocalAssetURI"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/configs/OtaPatchConfigs/DiscoveryOtaPatchConfig.json",
+    "type": "json",
+    "keys": [
+      "AppStorageResetId",
+      "AssetId",
+      "AssetVersion",
+      "IsForcedUpdate",
+      "LocalAssetHash",
+      "MaxAppVersion"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/configs/UniversalAppPatchConfig/UniversalAppPatchConfig.json",
+    "type": "json",
+    "keys": [
+      "AppStorageResetId",
+      "AssetId",
+      "AssetVersion",
+      "IsForcedUpdate",
+      "LocalAssetURI",
+      "LocalAssetHash",
+      "MaxAppVersion"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/configs/ReflectionLoggerConfig/EphemeralCounterWhitelist.json",
+    "type": "json",
+    "keys": [
+      "LocalizationService",
+      "LocalizationTable"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/configs/ReflectionLoggerConfig/EphemeralCounterWhitelistMock.json",
+    "type": "json",
+    "keys": [
+      "LocalizationService",
+      "LocalizationTable"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/fonts/families/Montserrat.json",
+    "type": "json",
+    "keys": [
+      "name",
+      "faces"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/fonts/families/PermanentMarker.json",
+    "type": "json",
+    "keys": [
+      "name",
+      "faces"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/fonts/families/GrenzeGotisch.json",
+    "type": "json",
+    "keys": [
+      "name",
+      "faces"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/fonts/families/BuilderSans.json",
+    "type": "json",
+    "keys": [
+      "name",
+      "faces"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/fonts/families/RobotoCondensed.json",
+    "type": "json",
+    "keys": [
+      "name",
+      "faces"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/fonts/families/AmaticSC.json",
+    "type": "json",
+    "keys": [
+      "name",
+      "faces"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/fonts/families/SourceSansPro.json",
+    "type": "json",
+    "keys": [
+      "name",
+      "faces"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/fonts/families/Oswald.json",
+    "type": "json",
+    "keys": [
+      "name",
+      "faces"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/fonts/families/Jura.json",
+    "type": "json",
+    "keys": [
+      "name",
+      "faces"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/fonts/families/LuckiestGuy.json",
+    "type": "json",
+    "keys": [
+      "name",
+      "faces"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/fonts/families/HighwayGothic.json",
+    "type": "json",
+    "keys": [
+      "name",
+      "faces"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/fonts/families/AccanthisADFStd.json",
+    "type": "json",
+    "keys": [
+      "name",
+      "faces"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/fonts/families/Zekton.json",
+    "type": "json",
+    "keys": [
+      "name",
+      "faces"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/fonts/families/FredokaOne.json",
+    "type": "json",
+    "keys": [
+      "name",
+      "faces"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/fonts/families/Creepster.json",
+    "type": "json",
+    "keys": [
+      "name",
+      "faces"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/fonts/families/PatrickHand.json",
+    "type": "json",
+    "keys": [
+      "name",
+      "faces"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/fonts/families/PressStart2P.json",
+    "type": "json",
+    "keys": [
+      "name",
+      "faces"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/fonts/families/Roboto.json",
+    "type": "json",
+    "keys": [
+      "name",
+      "faces"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/fonts/families/Ubuntu.json",
+    "type": "json",
+    "keys": [
+      "name",
+      "faces"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/fonts/families/RomanAntique.json",
+    "type": "json",
+    "keys": [
+      "name",
+      "faces"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/fonts/families/Inconsolata.json",
+    "type": "json",
+    "keys": [
+      "name",
+      "faces"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/fonts/families/BuilderExtended.json",
+    "type": "json",
+    "keys": [
+      "name",
+      "faces"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/fonts/families/Sarpanch.json",
+    "type": "json",
+    "keys": [
+      "name",
+      "faces"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/fonts/families/Kalam.json",
+    "type": "json",
+    "keys": [
+      "name",
+      "faces"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/fonts/families/NotoSansCJKFallback.json",
+    "type": "json",
+    "keys": [
+      "name",
+      "loadStrategy",
+      "faces"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/fonts/families/Michroma.json",
+    "type": "json",
+    "keys": [
+      "name",
+      "faces"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/fonts/families/DenkOne.json",
+    "type": "json",
+    "keys": [
+      "name",
+      "faces"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/fonts/families/Fondamento.json",
+    "type": "json",
+    "keys": [
+      "name",
+      "faces"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/fonts/families/Nunito.json",
+    "type": "json",
+    "keys": [
+      "name",
+      "faces"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/fonts/families/Balthazar.json",
+    "type": "json",
+    "keys": [
+      "name",
+      "faces"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/fonts/families/IndieFlower.json",
+    "type": "json",
+    "keys": [
+      "name",
+      "faces"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/fonts/families/LegacyArimo.json",
+    "type": "json",
+    "keys": [
+      "name",
+      "faces"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/fonts/families/Bangers.json",
+    "type": "json",
+    "keys": [
+      "name",
+      "faces"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/fonts/families/Guru.json",
+    "type": "json",
+    "keys": [
+      "name",
+      "faces"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/fonts/families/LegacyArial.json",
+    "type": "json",
+    "keys": [
+      "name",
+      "faces"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/fonts/families/SpecialElite.json",
+    "type": "json",
+    "keys": [
+      "name",
+      "faces"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/fonts/families/RobotoMono.json",
+    "type": "json",
+    "keys": [
+      "name",
+      "faces"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/fonts/families/Merriweather.json",
+    "type": "json",
+    "keys": [
+      "name",
+      "faces"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/fonts/families/BuilderMono.json",
+    "type": "json",
+    "keys": [
+      "name",
+      "faces"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/fonts/families/JosefinSans.json",
+    "type": "json",
+    "keys": [
+      "name",
+      "faces"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/fonts/families/Arimo.json",
+    "type": "json",
+    "keys": [
+      "name",
+      "faces"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/fonts/families/TitilliumWeb.json",
+    "type": "json",
+    "keys": [
+      "name",
+      "faces"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/fonts/families/ComicNeueAngular.json",
+    "type": "json",
+    "keys": [
+      "name",
+      "faces"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/content/localization/numberFormats.json",
+    "type": "json",
+    "keys": [
+      "zh-tw",
+      "zh-cn",
+      "si-lk",
+      "kk-kz",
+      "bg-bg",
+      "fil-ph",
+      "bs-ba",
+      "lt-lt",
+      "pt-br",
+      "id-id",
+      "ms-my",
+      "pl-pl",
+      "sr-rs",
+      "fr-fr",
+      "uk-ua",
+      "th-th",
+      "el-gr",
+      "ka-ge",
+      "en-us",
+      "ja-jp",
+      "nb-no",
+      "ru-ru",
+      "ko-kr",
+      "sq-al",
+      "de-de",
+      "da-dk",
+      "fi-fi",
+      "my-mm",
+      "vi-vn",
+      "hu-hu",
+      "et-ee",
+      "lv-lv",
+      "cs-cz",
+      "km-kh",
+      "hi-in",
+      "hr-hr",
+      "it-it",
+      "nl-nl",
+      "sk-sk",
+      "tr-tr",
+      "sl-sl",
+      "sv-se",
+      "es-es",
+      "bn-bd",
+      "ro-ro"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/ios/terrain/materials2022.json",
+    "type": "json",
+    "keys": [
+      "platform",
+      "atlas",
+      "materials"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/RobloxLib.framework/ios/terrain/materials.json",
+    "type": "json",
+    "keys": [
+      "platform",
+      "atlas",
+      "materials"
+    ],
+    "value": null
+  },
+  {
+    "path": "Frameworks/Reaper.framework/Info.plist",
+    "type": "plist",
+    "keys": [
+      "BuildMachineOSBuild",
+      "CFBundleDevelopmentRegion",
+      "CFBundleExecutable",
+      "CFBundleIdentifier",
+      "CFBundleInfoDictionaryVersion",
+      "CFBundleName",
+      "CFBundlePackageType",
+      "CFBundleShortVersionString",
+      "CFBundleSupportedPlatforms",
+      "CFBundleVersion",
+      "DTCompiler",
+      "DTPlatformBuild",
+      "DTPlatformName",
+      "DTPlatformVersion",
+      "DTSDKBuild",
+      "DTSDKName",
+      "DTXcode",
+      "DTXcodeBuild",
+      "MinimumOSVersion",
+      "UIDeviceFamily",
+      "UIRequiredDeviceCapabilities"
+    ],
+    "value": {
+      "BuildMachineOSBuild": "25F80",
+      "CFBundleDevelopmentRegion": "en",
+      "CFBundleExecutable": "Reaper",
+      "CFBundleIdentifier": "reaper-ios.Reaper",
+      "CFBundleInfoDictionaryVersion": "6.0",
+      "CFBundleName": "Reaper",
+      "CFBundlePackageType": "FMWK",
+      "CFBundleShortVersionString": "1.0",
+      "CFBundleSupportedPlatforms": [
+        "iPhoneOS"
+      ],
+      "CFBundleVersion": "1",
+      "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+      "DTPlatformBuild": "23C57",
+      "DTPlatformName": "iphoneos",
+      "DTPlatformVersion": "26.2",
+      "DTSDKBuild": "23C57",
+      "DTSDKName": "iphoneos26.2",
+      "DTXcode": "2630",
+      "DTXcodeBuild": "17C529",
+      "MinimumOSVersion": "13.0",
+      "UIDeviceFamily": [
+        1,
+        2
+      ],
+      "UIRequiredDeviceCapabilities": [
+        "arm64"
+      ]
+    }
+  },
+  {
+    "path": "Metadata.appintents/version.json",
+    "type": "json",
+    "keys": [
+      "toolsVersion",
+      "version"
+    ],
+    "value": null
+  },
+  {
+    "path": "SC_Info/Manifest.plist",
+    "type": "plist",
+    "keys": [
+      "SinfPaths",
+      "SinfReplicationPaths"
+    ],
+    "value": null
+  }
+]

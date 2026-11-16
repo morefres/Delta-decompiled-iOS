@@ -1,0 +1,67 @@
+/* Evidence-based generated lift; not original source. */
+/* RobloxLib::function_2c23f74 start_va=0x2c23f74 image_relative=0x2c23f74 bytes=252 */
+void function_2c23f74__at_2c23f74(void) {
+    /* sub sp, sp, #0x40 */
+    /* stp d9, d8, [sp, #0x10] */
+    /* stp x20, x19, [sp, #0x20] */
+    /* stp x29, x30, [sp, #0x30] */
+    /* add x29, sp, #0x30 */
+    /* ldp x9, x8, [x0, #0x168] */
+    /* sub x8, x8, x9 */
+    /* asr x8, x8, #4 */
+    /* mov x9, #-0x5555555555555556 */
+    /* movk x9, #0xaaab */
+    /* mul x8, x8, x9 */
+    /* cmp x8, #1 */
+    /* b.ls #0x2c24064 */
+    /* fmov s8, s0 */
+    /* mov x19, x0 */
+    /* adrp x8, #0x6169000 */
+    /* ldr w8, [x8, #0x620] */
+    /* cmp w8, #1 */
+    /* b.lt #0x2c2401c */
+    /* call #0x440dd9c; ABI effects unresolved */
+    /* mov x20, x0 */
+    /* ldp x0, x8, [x0, #0x30] */
+    /* cbz x8, #0x2c23fdc */
+    /* ldr x1, [x20, #0x20] */
+    /* call x8; ABI effects unresolved */
+    /* stp x0, xzr, [x20, #0x30] */
+    /* tbnz w0, #3, #0x2c2401c */
+    /* ldp x9, x8, [x19, #0x168] */
+    /* sub x8, x8, x9 */
+    /* asr x8, x8, #4 */
+    /* mov x9, #-0x5555555555555556 */
+    /* movk x9, #0xaaab */
+    /* mul x8, x8, x9 */
+    /* str x8, [sp, #8] */
+    /* adrp x0, #0x6420000 */
+    /* add x0, x0, #0x5f8 */
+    /* adrp x1, #0x2c22000 */
+    /* add x1, x1, #0xd9c */
+    /* adrp x2, #0x5404000 */
+    /* add x2, x2, #0x4d7 */
+    /* add x3, sp, #8 */
+    /* call #0x2c24070; ABI effects unresolved */
+    /* ldrb w8, [x19, #0x140] */
+    /* cmp w8, #1 */
+    /* b.ne #0x2c24030 */
+    /* mov x0, x19 */
+    /* call #0x2c238f8; ABI effects unresolved */
+    /* fcmp s8, #0.0 */
+    /* fmov s0, wzr */
+    /* fcsel s0, s0, s8, mi */
+    /* fmov s1, #1.00000000 */
+    /* fcmp s0, s1 */
+    /* fcsel s0, s1, s0, gt */
+    /* add x0, x19, #0x180 */
+    /* call #0x2c240fc; ABI effects unresolved */
+    /* ldp x29, x30, [sp, #0x30] */
+    /* ldp x20, x19, [sp, #0x20] */
+    /* ldp d9, d8, [sp, #0x10] */
+    /* add sp, sp, #0x40 */
+    return;
+    /* adrp x0, #0x5410000 */
+    /* add x0, x0, #0x18c */
+    /* call #0x47ee168; ABI effects unresolved */
+}

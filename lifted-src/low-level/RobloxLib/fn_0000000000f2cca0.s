@@ -1,0 +1,18 @@
+; instruction-faithful ARM64 fallback for RobloxLib::function_f2cca0
+0x0000000000f2cca0: ldr        q0, [x1]
+0x0000000000f2cca4: str        q0, [x0]
+0x0000000000f2cca8: stp        xzr, xzr, [x1]
+0x0000000000f2ccac: ldr        q0, [x1, #0x10]
+0x0000000000f2ccb0: str        q0, [x0, #0x10]
+0x0000000000f2ccb4: stp        xzr, xzr, [x1, #0x10]
+0x0000000000f2ccb8: ldr        q0, [x1, #0x20]
+0x0000000000f2ccbc: ldr        x8, [x1, #0x30]
+0x0000000000f2ccc0: str        x8, [x0, #0x30]
+0x0000000000f2ccc4: str        q0, [x0, #0x20]
+0x0000000000f2ccc8: stp        xzr, xzr, [x1, #0x28]
+0x0000000000f2cccc: str        xzr, [x1, #0x20]
+0x0000000000f2ccd0: ldr        w8, [x1, #0x38]
+0x0000000000f2ccd4: ldrh       w9, [x1, #0x3c]
+0x0000000000f2ccd8: strh       w9, [x0, #0x3c]
+0x0000000000f2ccdc: str        w8, [x0, #0x38]
+0x0000000000f2cce0: ret        

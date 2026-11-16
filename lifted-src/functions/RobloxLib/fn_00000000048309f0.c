@@ -1,0 +1,71 @@
+/* Evidence-based generated lift; not original source. */
+/* RobloxLib::function_48309f0 start_va=0x48309f0 image_relative=0x48309f0 bytes=268 */
+void function_48309f0__at_48309f0(void) {
+    /* stp x28, x27, [sp, #-0x30]! */
+    /* stp x20, x19, [sp, #0x10] */
+    /* stp x29, x30, [sp, #0x20] */
+    /* add x29, sp, #0x20 */
+    /* sub sp, sp, #0x3b0 */
+    /* adrp x8, #0x5ba4000 */
+    /* ldr x8, [x8, #0x338] */
+    /* ldr x8, [x8] */
+    /* stur x8, [x29, #-0x28] */
+    /* cbz x0, #0x4830adc */
+    /* ldr w8, [x0] */
+    /* cbz w8, #0x4830a38 */
+    /* tbz w8, #7, #0x4830adc */
+    /* mov x19, x1 */
+    /* mov x20, x2 */
+    /* call #0x4864e50; ABI effects unresolved */
+    /* mov x2, x20 */
+    /* mov x1, x19 */
+    /* mov w8, #0 */
+    /* cmp w2, #0x20 */
+    /* b.hi #0x4830aac */
+    /* cbz x0, #0x4830aac */
+    /* ldr w8, [x0, #0x48] */
+    /* mov w2, w2 */
+    /* str w8, [sp, #8] */
+    /* str x2, [sp, #0x258] */
+    /* add x8, sp, #8 */
+    /* mov x20, x0 */
+    /* add x0, x8, #0x258 */
+    /* mov w3, #0x148 */
+    /* call #0x4b985cc; ABI effects unresolved */
+    /* mov x19, x20 */
+    /* ldr x8, [x20, #0xb88] */
+    /* ldr x0, [x8, #0x3e8] */
+    /* call #0x498d890; ABI effects unresolved */
+    /* cbz w0, #0x4830adc */
+    /* mov x20, x19 */
+    /* ldr x8, [x19, #0xb88] */
+    /* ldr x0, [x8, #0x30] */
+    /* add x1, sp, #8 */
+    /* call #0x49745c4; ABI effects unresolved */
+    /* mov x19, x0 */
+    /* ldr x8, [x20, #0xb88] */
+    /* ldr x0, [x8, #0x3e8] */
+    /* call #0x498d8c8; ABI effects unresolved */
+    /* cmp x19, #0 */
+    /* cset w8, ne */
+    /* ldur x9, [x29, #-0x28] */
+    /* adrp x10, #0x5ba4000 */
+    /* ldr x10, [x10, #0x338] */
+    /* ldr x10, [x10] */
+    /* cmp x10, x9 */
+    /* b.ne #0x4830af8 */
+    /* mov x0, x8 */
+    /* add sp, sp, #0x3b0 */
+    /* ldp x29, x30, [sp, #0x20] */
+    /* ldp x20, x19, [sp, #0x10] */
+    /* ldp x28, x27, [sp], #0x30 */
+    return;
+    /* mov w8, #0 */
+    /* ldur x9, [x29, #-0x28] */
+    /* adrp x10, #0x5ba4000 */
+    /* ldr x10, [x10, #0x338] */
+    /* ldr x10, [x10] */
+    /* cmp x10, x9 */
+    /* b.eq #0x4830ac4 */
+    /* call #0x4b98620; ABI effects unresolved */
+}

@@ -1,0 +1,479 @@
+{
+  "image": "Frameworks/Reaper.framework/Reaper",
+  "text_address": "0x4000",
+  "text_size": 11188,
+  "functions": [
+    {
+      "file": "fn_0000000000004000.c",
+      "start_va": "0x4000",
+      "image_relative": "0x4000",
+      "bytes": 92,
+      "symbol": "",
+      "instructions": 23
+    },
+    {
+      "file": "fn_000000000000405c.c",
+      "start_va": "0x405c",
+      "image_relative": "0x405c",
+      "bytes": 148,
+      "symbol": "",
+      "instructions": 37
+    },
+    {
+      "file": "fn_00000000000040f0.c",
+      "start_va": "0x40f0",
+      "image_relative": "0x40f0",
+      "bytes": 492,
+      "symbol": "",
+      "instructions": 123
+    },
+    {
+      "file": "fn_00000000000042dc.c",
+      "start_va": "0x42dc",
+      "image_relative": "0x42dc",
+      "bytes": 92,
+      "symbol": "",
+      "instructions": 23
+    },
+    {
+      "file": "fn_0000000000004338.c",
+      "start_va": "0x4338",
+      "image_relative": "0x4338",
+      "bytes": 8,
+      "symbol": "",
+      "instructions": 2
+    },
+    {
+      "file": "fn_0000000000004340.c",
+      "start_va": "0x4340",
+      "image_relative": "0x4340",
+      "bytes": 88,
+      "symbol": "",
+      "instructions": 22
+    },
+    {
+      "file": "fn_0000000000004398.c",
+      "start_va": "0x4398",
+      "image_relative": "0x4398",
+      "bytes": 36,
+      "symbol": "",
+      "instructions": 9
+    },
+    {
+      "file": "fn_00000000000043bc.c",
+      "start_va": "0x43bc",
+      "image_relative": "0x43bc",
+      "bytes": 16,
+      "symbol": "",
+      "instructions": 4
+    },
+    {
+      "file": "fn_00000000000043cc.c",
+      "start_va": "0x43cc",
+      "image_relative": "0x43cc",
+      "bytes": 104,
+      "symbol": "",
+      "instructions": 26
+    },
+    {
+      "file": "fn_0000000000004434.c",
+      "start_va": "0x4434",
+      "image_relative": "0x4434",
+      "bytes": 36,
+      "symbol": "",
+      "instructions": 9
+    },
+    {
+      "file": "fn_0000000000004458.c",
+      "start_va": "0x4458",
+      "image_relative": "0x4458",
+      "bytes": 64,
+      "symbol": "__Z23is_swift_singleton_usedP10swift_type",
+      "instructions": 16
+    },
+    {
+      "file": "fn_0000000000004498.c",
+      "start_va": "0x4498",
+      "image_relative": "0x4498",
+      "bytes": 140,
+      "symbol": "",
+      "instructions": 35
+    },
+    {
+      "file": "fn_0000000000004524.c",
+      "start_va": "0x4524",
+      "image_relative": "0x4524",
+      "bytes": 372,
+      "symbol": "",
+      "instructions": 93
+    },
+    {
+      "file": "fn_0000000000004698.c",
+      "start_va": "0x4698",
+      "image_relative": "0x4698",
+      "bytes": 480,
+      "symbol": "",
+      "instructions": 120
+    },
+    {
+      "file": "fn_0000000000004878.c",
+      "start_va": "0x4878",
+      "image_relative": "0x4878",
+      "bytes": 832,
+      "symbol": "",
+      "instructions": 208
+    },
+    {
+      "file": "fn_0000000000004bb8.c",
+      "start_va": "0x4bb8",
+      "image_relative": "0x4bb8",
+      "bytes": 60,
+      "symbol": "",
+      "instructions": 15
+    },
+    {
+      "file": "fn_0000000000004bf4.c",
+      "start_va": "0x4bf4",
+      "image_relative": "0x4bf4",
+      "bytes": 16,
+      "symbol": "",
+      "instructions": 4
+    },
+    {
+      "file": "fn_0000000000004c04.c",
+      "start_va": "0x4c04",
+      "image_relative": "0x4c04",
+      "bytes": 36,
+      "symbol": "_emg_terminateNotificationName",
+      "instructions": 9
+    },
+    {
+      "file": "fn_0000000000004c28.c",
+      "start_va": "0x4c28",
+      "image_relative": "0x4c28",
+      "bytes": 80,
+      "symbol": "",
+      "instructions": 20
+    },
+    {
+      "file": "fn_0000000000004c78.c",
+      "start_va": "0x4c78",
+      "image_relative": "0x4c78",
+      "bytes": 172,
+      "symbol": "",
+      "instructions": 43
+    },
+    {
+      "file": "fn_0000000000004d24.c",
+      "start_va": "0x4d24",
+      "image_relative": "0x4d24",
+      "bytes": 80,
+      "symbol": "",
+      "instructions": 20
+    },
+    {
+      "file": "fn_0000000000004d74.c",
+      "start_va": "0x4d74",
+      "image_relative": "0x4d74",
+      "bytes": 148,
+      "symbol": "",
+      "instructions": 37
+    },
+    {
+      "file": "fn_0000000000004e08.c",
+      "start_va": "0x4e08",
+      "image_relative": "0x4e08",
+      "bytes": 208,
+      "symbol": "",
+      "instructions": 52
+    },
+    {
+      "file": "fn_0000000000004ed8.c",
+      "start_va": "0x4ed8",
+      "image_relative": "0x4ed8",
+      "bytes": 32,
+      "symbol": "",
+      "instructions": 8
+    },
+    {
+      "file": "fn_0000000000004ef8.c",
+      "start_va": "0x4ef8",
+      "image_relative": "0x4ef8",
+      "bytes": 52,
+      "symbol": "_$s11ReaperSwift10NameFinderCACycfc",
+      "instructions": 13
+    },
+    {
+      "file": "fn_0000000000004f2c.c",
+      "start_va": "0x4f2c",
+      "image_relative": "0x4f2c",
+      "bytes": 60,
+      "symbol": "",
+      "instructions": 15
+    },
+    {
+      "file": "fn_0000000000004f68.c",
+      "start_va": "0x4f68",
+      "image_relative": "0x4f68",
+      "bytes": 52,
+      "symbol": "",
+      "instructions": 13
+    },
+    {
+      "file": "fn_0000000000004f9c.c",
+      "start_va": "0x4f9c",
+      "image_relative": "0x4f9c",
+      "bytes": 80,
+      "symbol": "_$s11ReaperSwift10NameFinderCMa",
+      "instructions": 20
+    },
+    {
+      "file": "fn_0000000000004fec.c",
+      "start_va": "0x4fec",
+      "image_relative": "0x4fec",
+      "bytes": 1300,
+      "symbol": "",
+      "instructions": 325
+    },
+    {
+      "file": "fn_0000000000005500.c",
+      "start_va": "0x5500",
+      "image_relative": "0x5500",
+      "bytes": 96,
+      "symbol": "",
+      "instructions": 24
+    },
+    {
+      "file": "fn_0000000000005560.c",
+      "start_va": "0x5560",
+      "image_relative": "0x5560",
+      "bytes": 688,
+      "symbol": "",
+      "instructions": 172
+    },
+    {
+      "file": "fn_0000000000005810.c",
+      "start_va": "0x5810",
+      "image_relative": "0x5810",
+      "bytes": 284,
+      "symbol": "",
+      "instructions": 71
+    },
+    {
+      "file": "fn_000000000000592c.c",
+      "start_va": "0x592c",
+      "image_relative": "0x592c",
+      "bytes": 140,
+      "symbol": "",
+      "instructions": 35
+    },
+    {
+      "file": "fn_00000000000059b8.c",
+      "start_va": "0x59b8",
+      "image_relative": "0x59b8",
+      "bytes": 324,
+      "symbol": "",
+      "instructions": 81
+    },
+    {
+      "file": "fn_0000000000005afc.c",
+      "start_va": "0x5afc",
+      "image_relative": "0x5afc",
+      "bytes": 204,
+      "symbol": "",
+      "instructions": 51
+    },
+    {
+      "file": "fn_0000000000005bc8.c",
+      "start_va": "0x5bc8",
+      "image_relative": "0x5bc8",
+      "bytes": 452,
+      "symbol": "",
+      "instructions": 113
+    },
+    {
+      "file": "fn_0000000000005d8c.c",
+      "start_va": "0x5d8c",
+      "image_relative": "0x5d8c",
+      "bytes": 56,
+      "symbol": "",
+      "instructions": 14
+    },
+    {
+      "file": "fn_0000000000005dc4.c",
+      "start_va": "0x5dc4",
+      "image_relative": "0x5dc4",
+      "bytes": 72,
+      "symbol": "",
+      "instructions": 18
+    },
+    {
+      "file": "fn_0000000000005e0c.c",
+      "start_va": "0x5e0c",
+      "image_relative": "0x5e0c",
+      "bytes": 40,
+      "symbol": "",
+      "instructions": 10
+    },
+    {
+      "file": "fn_0000000000005e34.c",
+      "start_va": "0x5e34",
+      "image_relative": "0x5e34",
+      "bytes": 580,
+      "symbol": "",
+      "instructions": 145
+    },
+    {
+      "file": "fn_0000000000006078.c",
+      "start_va": "0x6078",
+      "image_relative": "0x6078",
+      "bytes": 232,
+      "symbol": "",
+      "instructions": 58
+    },
+    {
+      "file": "fn_0000000000006160.c",
+      "start_va": "0x6160",
+      "image_relative": "0x6160",
+      "bytes": 8,
+      "symbol": "",
+      "instructions": 2
+    },
+    {
+      "file": "fn_0000000000006168.c",
+      "start_va": "0x6168",
+      "image_relative": "0x6168",
+      "bytes": 272,
+      "symbol": "",
+      "instructions": 68
+    },
+    {
+      "file": "fn_0000000000006278.c",
+      "start_va": "0x6278",
+      "image_relative": "0x6278",
+      "bytes": 32,
+      "symbol": "",
+      "instructions": 8
+    },
+    {
+      "file": "fn_0000000000006298.c",
+      "start_va": "0x6298",
+      "image_relative": "0x6298",
+      "bytes": 704,
+      "symbol": "",
+      "instructions": 176
+    },
+    {
+      "file": "fn_0000000000006558.c",
+      "start_va": "0x6558",
+      "image_relative": "0x6558",
+      "bytes": 128,
+      "symbol": "",
+      "instructions": 32
+    },
+    {
+      "file": "fn_00000000000065d8.c",
+      "start_va": "0x65d8",
+      "image_relative": "0x65d8",
+      "bytes": 232,
+      "symbol": "",
+      "instructions": 58
+    },
+    {
+      "file": "fn_00000000000066c0.c",
+      "start_va": "0x66c0",
+      "image_relative": "0x66c0",
+      "bytes": 24,
+      "symbol": "",
+      "instructions": 6
+    },
+    {
+      "file": "fn_00000000000066d8.c",
+      "start_va": "0x66d8",
+      "image_relative": "0x66d8",
+      "bytes": 12,
+      "symbol": "",
+      "instructions": 3
+    },
+    {
+      "file": "fn_00000000000066e4.c",
+      "start_va": "0x66e4",
+      "image_relative": "0x66e4",
+      "bytes": 8,
+      "symbol": "",
+      "instructions": 2
+    },
+    {
+      "file": "fn_00000000000066ec.c",
+      "start_va": "0x66ec",
+      "image_relative": "0x66ec",
+      "bytes": 272,
+      "symbol": "",
+      "instructions": 68
+    },
+    {
+      "file": "fn_00000000000067fc.c",
+      "start_va": "0x67fc",
+      "image_relative": "0x67fc",
+      "bytes": 56,
+      "symbol": "",
+      "instructions": 14
+    },
+    {
+      "file": "fn_0000000000006834.c",
+      "start_va": "0x6834",
+      "image_relative": "0x6834",
+      "bytes": 244,
+      "symbol": "",
+      "instructions": 61
+    },
+    {
+      "file": "fn_0000000000006928.c",
+      "start_va": "0x6928",
+      "image_relative": "0x6928",
+      "bytes": 24,
+      "symbol": "",
+      "instructions": 6
+    },
+    {
+      "file": "fn_0000000000006940.c",
+      "start_va": "0x6940",
+      "image_relative": "0x6940",
+      "bytes": 240,
+      "symbol": "",
+      "instructions": 60
+    },
+    {
+      "file": "fn_0000000000006a30.c",
+      "start_va": "0x6a30",
+      "image_relative": "0x6a30",
+      "bytes": 60,
+      "symbol": "",
+      "instructions": 15
+    },
+    {
+      "file": "fn_0000000000006a6c.c",
+      "start_va": "0x6a6c",
+      "image_relative": "0x6a6c",
+      "bytes": 40,
+      "symbol": "",
+      "instructions": 10
+    },
+    {
+      "file": "fn_0000000000006a94.c",
+      "start_va": "0x6a94",
+      "image_relative": "0x6a94",
+      "bytes": 240,
+      "symbol": "",
+      "instructions": 60
+    },
+    {
+      "file": "fn_0000000000006b84.c",
+      "start_va": "0x6b84",
+      "image_relative": "0x6b84",
+      "bytes": 48,
+      "symbol": "",
+      "instructions": 12
+    }
+  ]
+}

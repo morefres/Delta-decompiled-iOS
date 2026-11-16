@@ -1,0 +1,33 @@
+; instruction-faithful ARM64 fallback for RobloxLib::function_69426c
+0x000000000069426c: adrp       x0, #0x525b000
+0x0000000000694270: add        x0, x0, #0xb55
+0x0000000000694274: adrp       x1, #0x60f7000
+0x0000000000694278: add        x1, x1, #0xe8
+0x000000000069427c: mov        w2, #1
+0x0000000000694280: b          #0x47e630c
+0x0000000000694284: fmov       d1, #1.00000000
+0x0000000000694288: fcmp       d0, d1
+0x000000000069428c: fcsel      d1, d1, d0, gt
+0x0000000000694290: fmov       x8, d0
+0x0000000000694294: and        x9, x8, #0x7fffffffffffffff
+0x0000000000694298: sub        x10, x9, #1
+0x000000000069429c: mov        x11, #0xfffffffffffff
+0x00000000006942a0: cmp        x10, x11
+0x00000000006942a4: cset       w10, lo
+0x00000000006942a8: mov        x11, #-0x10000000000000
+0x00000000006942ac: add        x11, x9, x11
+0x00000000006942b0: lsr        x11, x11, #0x35
+0x00000000006942b4: cmp        x11, #0x3ff
+0x00000000006942b8: cset       w11, lo
+0x00000000006942bc: cmp        x8, #0
+0x00000000006942c0: csel       w8, wzr, w11, ge
+0x00000000006942c4: csel       w10, wzr, w10, ge
+0x00000000006942c8: mov        x11, #0x7ff0000000000000
+0x00000000006942cc: cmp        x9, x11
+0x00000000006942d0: csinc      w9, w10, wzr, ne
+0x00000000006942d4: csinc      w9, w9, wzr, le
+0x00000000006942d8: orr        w8, w9, w8
+0x00000000006942dc: cmp        w8, #0
+0x00000000006942e0: fmov       d0, xzr
+0x00000000006942e4: fcsel      d0, d0, d1, ne
+0x00000000006942e8: ret        

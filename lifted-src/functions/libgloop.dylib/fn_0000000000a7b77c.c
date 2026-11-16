@@ -1,0 +1,85 @@
+/* Evidence-based generated lift; not original source. */
+/* libgloop.dylib::function_a7b77c start_va=0xa7b77c image_relative=0xa7b77c bytes=324 */
+void function_a7b77c__at_a7b77c(void) {
+    /* mov w8, #8 */
+    /* sub w8, w8, w1 */
+    /* ldrb w9, [x0, #0xf] */
+    /* lsr w10, w9, w8 */
+    /* lsl w9, w9, w1 */
+    /* strb w9, [x2, #0xf] */
+    /* ldrb w9, [x0, #0xe] */
+    /* lsr w11, w9, w8 */
+    /* lsl w9, w9, w1 */
+    /* orr w9, w9, w10 */
+    /* strb w9, [x2, #0xe] */
+    /* ldrb w9, [x0, #0xd] */
+    /* lsr w10, w9, w8 */
+    /* lsl w9, w9, w1 */
+    /* orr w9, w9, w11 */
+    /* strb w9, [x2, #0xd] */
+    /* ldrb w9, [x0, #0xc] */
+    /* lsr w11, w9, w8 */
+    /* lsl w9, w9, w1 */
+    /* orr w9, w9, w10 */
+    /* strb w9, [x2, #0xc] */
+    /* ldrb w9, [x0, #0xb] */
+    /* lsr w10, w9, w8 */
+    /* lsl w9, w9, w1 */
+    /* orr w9, w9, w11 */
+    /* strb w9, [x2, #0xb] */
+    /* ldrb w9, [x0, #0xa] */
+    /* lsr w11, w9, w8 */
+    /* lsl w9, w9, w1 */
+    /* orr w9, w9, w10 */
+    /* strb w9, [x2, #0xa] */
+    /* ldrb w9, [x0, #9] */
+    /* lsr w10, w9, w8 */
+    /* lsl w9, w9, w1 */
+    /* orr w9, w9, w11 */
+    /* strb w9, [x2, #9] */
+    /* ldrb w9, [x0, #8] */
+    /* lsr w11, w9, w8 */
+    /* lsl w9, w9, w1 */
+    /* orr w9, w9, w10 */
+    /* strb w9, [x2, #8] */
+    /* ldrb w9, [x0, #7] */
+    /* lsr w10, w9, w8 */
+    /* lsl w9, w9, w1 */
+    /* orr w9, w9, w11 */
+    /* strb w9, [x2, #7] */
+    /* ldrb w9, [x0, #6] */
+    /* lsr w11, w9, w8 */
+    /* lsl w9, w9, w1 */
+    /* orr w9, w9, w10 */
+    /* strb w9, [x2, #6] */
+    /* ldrb w9, [x0, #5] */
+    /* lsr w10, w9, w8 */
+    /* lsl w9, w9, w1 */
+    /* orr w9, w9, w11 */
+    /* strb w9, [x2, #5] */
+    /* ldrb w9, [x0, #4] */
+    /* lsr w11, w9, w8 */
+    /* lsl w9, w9, w1 */
+    /* orr w9, w9, w10 */
+    /* strb w9, [x2, #4] */
+    /* ldrb w9, [x0, #3] */
+    /* lsr w10, w9, w8 */
+    /* lsl w9, w9, w1 */
+    /* orr w9, w9, w11 */
+    /* strb w9, [x2, #3] */
+    /* ldrb w9, [x0, #2] */
+    /* lsr w11, w9, w8 */
+    /* lsl w9, w9, w1 */
+    /* orr w9, w9, w10 */
+    /* strb w9, [x2, #2] */
+    /* ldrb w9, [x0, #1] */
+    /* lsr w8, w9, w8 */
+    /* lsl w9, w9, w1 */
+    /* orr w9, w9, w11 */
+    /* strb w9, [x2, #1] */
+    /* ldrb w9, [x0] */
+    /* lsl w9, w9, w1 */
+    /* orr w8, w9, w8 */
+    /* strb w8, [x2] */
+    return;
+}

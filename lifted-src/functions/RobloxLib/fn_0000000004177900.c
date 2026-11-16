@@ -1,0 +1,16 @@
+/* Evidence-based generated lift; not original source. */
+/* RobloxLib::function_4177900 start_va=0x4177900 image_relative=0x4177900 bytes=48 */
+void function_4177900__at_4177900(void) {
+    return;
+    /* branch b #0x47e93a8 */
+    /* ldr x0, [x0, #0x10] */
+    /* cbz x0, #0x417791c */
+    /* ldr x8, [x0] */
+    /* ldr x1, [x8, #8] */
+    /* branch br x1 */
+    return;
+    /* mov x0, #0 */
+    return;
+    /* mov x0, #0 */
+    return;
+}

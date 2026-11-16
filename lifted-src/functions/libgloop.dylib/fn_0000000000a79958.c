@@ -1,0 +1,136 @@
+/* Evidence-based generated lift; not original source. */
+/* libgloop.dylib::function_a79958 start_va=0xa79958 image_relative=0xa79958 bytes=528 */
+void function_a79958__at_a79958(void) {
+    /* ldr x8, [x0, #0x38] */
+    /* cbz x8, #0xa7996c */
+    /* mov w8, #-2 */
+    /* mov x0, x8 */
+    return;
+    /* ldr x8, [x0, #0x30] */
+    /* adds x9, x8, x2 */
+    /* cset w10, hs */
+    /* mov w8, #-1 */
+    /* mov x11, #0x2000000000000000 */
+    /* cmp x9, x11 */
+    /* b.hi #0xa79964 */
+    /* tbnz w10, #0, #0xa79964 */
+    /* stp x22, x21, [sp, #-0x30]! */
+    /* stp x20, x19, [sp, #0x10] */
+    /* stp x29, x30, [sp, #0x20] */
+    /* add x29, sp, #0x20 */
+    /* str x9, [x0, #0x30] */
+    /* ldr w9, [x0, #0x17c] */
+    /* cbz w9, #0xa79a18 */
+    /* cbz x2, #0xa79ab8 */
+    /* add x8, x0, #0x40 */
+    /* ldrb w10, [x1], #1 */
+    /* ldrb w11, [x8, w9, uxtw] */
+    /* eor w10, w11, w10 */
+    /* strb w10, [x8, w9, uxtw] */
+    /* sub x21, x2, #1 */
+    /* add w9, w9, #1 */
+    /* ands w9, w9, #0xf */
+    /* b.eq #0xa799dc */
+    /* cmp x2, #1 */
+    /* mov x2, x21 */
+    /* b.ne #0xa799b0 */
+    /* cbnz w9, #0xa79ab8 */
+    /* ldr x9, [x0, #0x170] */
+    /* mov x22, x0 */
+    /* mov x19, x1 */
+    /* add x1, x0, #0x60 */
+    /* mov x0, x8 */
+    /* call x9; ABI effects unresolved */
+    /* mov x1, x19 */
+    /* ands x19, x21, #-0x10 */
+    /* b.ne #0xa79a28 */
+    /* mov x8, x1 */
+    /* cbnz x21, #0xa79a54 */
+    /* mov w9, #0 */
+    /* mov x0, x22 */
+    /* branch b #0xa79ab8 */
+    /* mov x22, x0 */
+    /* mov x21, x2 */
+    /* ands x19, x21, #-0x10 */
+    /* b.eq #0xa79a04 */
+    /* ldr x9, [x22, #0x168] */
+    /* add x0, x22, #0x40 */
+    /* mov x20, x1 */
+    /* add x1, x22, #0x60 */
+    /* mov x2, x20 */
+    /* mov x3, x19 */
+    /* call x9; ABI effects unresolved */
+    /* mov x1, x20 */
+    /* add x8, x20, x19 */
+    /* and x21, x21, #0xf */
+    /* cbz x21, #0xa79a0c */
+    /* cmp x21, #8 */
+    /* mov x0, x22 */
+    /* b.lo #0xa79a84 */
+    /* add x9, x0, #0x40 */
+    /* add x10, x21, x19 */
+    /* add x10, x1, x10 */
+    /* cmp x9, x10 */
+    /* b.hs #0xa79ad0 */
+    /* add x9, x0, x21 */
+    /* add x9, x9, #0x40 */
+    /* cmp x8, x9 */
+    /* b.hs #0xa79ad0 */
+    /* mov x8, #0 */
+    /* sub x9, x21, x8 */
+    /* add x10, x8, x0 */
+    /* add x10, x10, #0x40 */
+    /* add x8, x8, x19 */
+    /* add x8, x1, x8 */
+    /* ldrb w11, [x8], #1 */
+    /* ldrb w12, [x10] */
+    /* eor w11, w12, w11 */
+    /* strb w11, [x10], #1 */
+    /* subs x9, x9, #1 */
+    /* b.ne #0xa79a9c */
+    /* mov x9, x21 */
+    /* str w9, [x0, #0x17c] */
+    /* ldp x29, x30, [sp, #0x20] */
+    /* ldp x20, x19, [sp, #0x10] */
+    /* ldp x22, x21, [sp], #0x30 */
+    /* mov w0, #0 */
+    return;
+    /* cmp x21, #0x20 */
+    /* b.hs #0xa79ae0 */
+    /* mov x8, #0 */
+    /* branch b #0xa79b28 */
+    /* and x8, x21, #0xffffffffffffffe0 */
+    /* add x9, x19, x1 */
+    /* add x9, x9, #0x10 */
+    /* add x10, x0, #0x50 */
+    /* mov x11, x8 */
+    /* ldp q0, q1, [x9, #-0x10] */
+    /* ldp q2, q3, [x10, #-0x10] */
+    /* eor v0.16b, v2.16b, v0.16b */
+    /* eor v1.16b, v3.16b, v1.16b */
+    /* stp q0, q1, [x10, #-0x10] */
+    /* add x9, x9, #0x20 */
+    /* add x10, x10, #0x20 */
+    /* subs x11, x11, #0x20 */
+    /* b.ne #0xa79af4 */
+    /* cmp x21, x8 */
+    /* b.eq #0xa79ab4 */
+    /* tst x21, #0x18 */
+    /* b.eq #0xa79a88 */
+    /* mov x11, x8 */
+    /* and x8, x21, #0xfffffffffffffff8 */
+    /* add x9, x11, x19 */
+    /* add x9, x1, x9 */
+    /* add x10, x11, x0 */
+    /* add x10, x10, #0x40 */
+    /* sub x11, x11, x8 */
+    /* ldr d0, [x9], #8 */
+    /* ldr d1, [x10] */
+    /* eor v0.8b, v1.8b, v0.8b */
+    /* str d0, [x10], #8 */
+    /* adds x11, x11, #8 */
+    /* b.ne #0xa79b44 */
+    /* cmp x21, x8 */
+    /* b.eq #0xa79ab4 */
+    /* branch b #0xa79a88 */
+}

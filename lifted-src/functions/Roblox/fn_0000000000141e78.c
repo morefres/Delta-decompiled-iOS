@@ -1,0 +1,103 @@
+/*
+ * Evidence-based lift for Roblox::function_141e78
+ * Start VA: 0x100141e78; image-relative: 0x141e78; bytes: 384
+ * This is generated pseudocode, not original source. Unknown semantics are preserved as comments.
+ */
+void function_141e78__at_141e78(void) {
+    /* memory stp x20, x19, [sp, #-0x20]! */
+    /* memory stp x29, x30, [sp, #0x10] */
+    /* add x29, sp, #0x10 */
+    /* mov x19, x0 */
+    /* adrp x8, #0x1008d7000 */
+    /* memory ldrsw x8, [x8, #0x490] */
+    /* add x0, x0, x8 */
+    /* mov x1, #0 */
+    /* call #0x1005c11b4; return value/ABI effects unresolved */
+    /* adrp x8, #0x1008d7000 */
+    /* memory ldrsw x8, [x8, #0x48c] */
+    /* add x0, x19, x8 */
+    /* mov x1, #0 */
+    /* call #0x1005c11b4; return value/ABI effects unresolved */
+    /* adrp x8, #0x1008d7000 */
+    /* memory ldrsw x8, [x8, #0x488] */
+    /* add x0, x19, x8 */
+    /* mov x1, #0 */
+    /* call #0x1005c11b4; return value/ABI effects unresolved */
+    /* adrp x8, #0x1008d7000 */
+    /* memory ldrsw x8, [x8, #0x484] */
+    /* add x0, x19, x8 */
+    /* mov x1, #0 */
+    /* call #0x1005c11b4; return value/ABI effects unresolved */
+    /* adrp x8, #0x1008d7000 */
+    /* memory ldrsw x8, [x8, #0x480] */
+    /* add x0, x19, x8 */
+    /* mov x1, #0 */
+    /* call #0x1005c11b4; return value/ABI effects unresolved */
+    /* adrp x8, #0x1008d7000 */
+    /* memory ldrsw x8, [x8, #0x47c] */
+    /* add x0, x19, x8 */
+    /* mov x1, #0 */
+    /* call #0x1005c11b4; return value/ABI effects unresolved */
+    /* adrp x8, #0x1008d7000 */
+    /* memory ldrsw x8, [x8, #0x478] */
+    /* add x0, x19, x8 */
+    /* mov x1, #0 */
+    /* call #0x1005c11b4; return value/ABI effects unresolved */
+    /* adrp x8, #0x1008d7000 */
+    /* memory ldrsw x8, [x8, #0x474] */
+    /* add x0, x19, x8 */
+    /* mov x1, #0 */
+    /* call #0x1005c11b4; return value/ABI effects unresolved */
+    /* adrp x8, #0x1008d7000 */
+    /* memory ldrsw x8, [x8, #0x470] */
+    /* add x0, x19, x8 */
+    /* call #0x1005c1040; return value/ABI effects unresolved */
+    /* adrp x8, #0x1008d7000 */
+    /* memory ldrsw x8, [x8, #0x46c] */
+    /* add x0, x19, x8 */
+    /* call #0x1005c1040; return value/ABI effects unresolved */
+    /* adrp x8, #0x1008d7000 */
+    /* memory ldrsw x8, [x8, #0x468] */
+    /* add x0, x19, x8 */
+    /* call #0x1005c1040; return value/ABI effects unresolved */
+    /* adrp x8, #0x1008d7000 */
+    /* memory ldrsw x8, [x8, #0x464] */
+    /* add x0, x19, x8 */
+    /* call #0x1005c1040; return value/ABI effects unresolved */
+    /* adrp x8, #0x1008d7000 */
+    /* memory ldrsw x8, [x8, #0x460] */
+    /* add x0, x19, x8 */
+    /* call #0x1005c1040; return value/ABI effects unresolved */
+    /* adrp x8, #0x1008d7000 */
+    /* memory ldrsw x8, [x8, #0x45c] */
+    /* add x0, x19, x8 */
+    /* mov x1, #0 */
+    /* call #0x1005c11b4; return value/ABI effects unresolved */
+    /* adrp x8, #0x1008d7000 */
+    /* memory ldrsw x8, [x8, #0x458] */
+    /* add x0, x19, x8 */
+    /* mov x1, #0 */
+    /* call #0x1005c11b4; return value/ABI effects unresolved */
+    /* adrp x8, #0x1008d7000 */
+    /* memory ldrsw x8, [x8, #0x454] */
+    /* add x0, x19, x8 */
+    /* mov x1, #0 */
+    /* call #0x1005c11b4; return value/ABI effects unresolved */
+    /* adrp x8, #0x1008d7000 */
+    /* memory ldrsw x8, [x8, #0x450] */
+    /* add x0, x19, x8 */
+    /* mov x1, #0 */
+    /* call #0x1005c11b4; return value/ABI effects unresolved */
+    /* adrp x8, #0x1008d7000 */
+    /* memory ldrsw x8, [x8, #0x44c] */
+    /* add x0, x19, x8 */
+    /* mov x1, #0 */
+    /* call #0x1005c11b4; return value/ABI effects unresolved */
+    /* adrp x8, #0x1008d7000 */
+    /* memory ldrsw x8, [x8, #0x448] */
+    /* add x0, x19, x8 */
+    /* mov x1, #0 */
+    /* memory ldp x29, x30, [sp, #0x10] */
+    /* memory ldp x20, x19, [sp], #0x20 */
+    goto label__0x1005c11b4;
+}

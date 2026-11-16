@@ -1,0 +1,16 @@
+; instruction-faithful ARM64 fallback for RobloxLib::function_de6f94
+0x0000000000de6f94: ldr        w8, [sp]
+0x0000000000de6f98: ldrb       w9, [sp, #0x28]
+0x0000000000de6f9c: ldr        x10, [sp, #0x20]
+0x0000000000de6fa0: ldrb       w11, [sp, #0x1c]
+0x0000000000de6fa4: ldp        w13, w12, [sp, #0x14]
+0x0000000000de6fa8: ldrb       w14, [sp, #0x10]
+0x0000000000de6fac: ldr        x15, [sp, #8]
+0x0000000000de6fb0: str        x15, [sp, #8]
+0x0000000000de6fb4: strb       w14, [sp, #0x10]
+0x0000000000de6fb8: stp        w13, w12, [sp, #0x14]
+0x0000000000de6fbc: strb       w11, [sp, #0x1c]
+0x0000000000de6fc0: str        x10, [sp, #0x20]
+0x0000000000de6fc4: strb       w9, [sp, #0x28]
+0x0000000000de6fc8: str        w8, [sp]
+0x0000000000de6fcc: b          #0xde6da4

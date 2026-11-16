@@ -1,0 +1,10 @@
+; instruction-faithful ARM64 fallback for RobloxLib::function_12ea4ec
+0x00000000012ea4ec: stp        x20, x19, [sp, #-0x20]!
+0x00000000012ea4f0: stp        x29, x30, [sp, #0x10]
+0x00000000012ea4f4: add        x29, sp, #0x10
+0x00000000012ea4f8: mov        x19, x0
+0x00000000012ea4fc: bl         #0x2459eb8
+0x00000000012ea500: add        x0, x19, #0x250
+0x00000000012ea504: ldp        x29, x30, [sp, #0x10]
+0x00000000012ea508: ldp        x20, x19, [sp], #0x20
+0x00000000012ea50c: b          #0xb6d2b8

@@ -1,0 +1,100 @@
+Command: LOAD_WEAK_DYLIB
+Offset:  0xd48
+Size:    0x50
+name=/System/Library/Frameworks/SwiftUI.framework/SwiftUI, timestamp=2, current_version=7.2.5,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0xd98
+Size:    0x58
+name=/System/Library/Frameworks/WidgetKit.framework/WidgetKit, timestamp=2, current_version=664.2.7,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0xdf0
+Size:    0x58
+name=/System/Library/Frameworks/Foundation.framework/Foundation, timestamp=2, current_version=4201.0.0,  compatibility_version=300.0.0
+Command: LOAD_DYLIB
+Offset:  0xe48
+Size:    0x38
+name=/usr/lib/libobjc.A.dylib, timestamp=2, current_version=228.0.0,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0xe80
+Size:    0x38
+name=/usr/lib/libSystem.B.dylib, timestamp=2, current_version=1356.0.0,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0xeb8
+Size:    0x60
+name=/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation, timestamp=2, current_version=4201.0.0,  compatibility_version=150.0.0
+Command: LOAD_WEAK_DYLIB
+Offset:  0xf18
+Size:    0x50
+name=/System/Library/Frameworks/UIKit.framework/UIKit, timestamp=2, current_version=9126.2.4,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0xf68
+Size:    0x40
+name=/usr/lib/swift/libswiftCore.dylib, timestamp=2, current_version=0.0.0,  compatibility_version=0.0.0
+Command: LOAD_DYLIB
+Offset:  0xfa8
+Size:    0x48
+name=/usr/lib/swift/libswiftCoreFoundation.dylib, timestamp=2, current_version=120.100.0,  compatibility_version=1.0.0
+Command: LOAD_WEAK_DYLIB
+Offset:  0xff0
+Size:    0x40
+name=/usr/lib/swift/libswiftCoreImage.dylib, timestamp=2, current_version=2.2.0,  compatibility_version=1.0.0
+Command: LOAD_WEAK_DYLIB
+Offset:  0x1030
+Size:    0x48
+name=/usr/lib/swift/libswiftCoreLocation.dylib, timestamp=2, current_version=53.0.0,  compatibility_version=1.0.0
+Command: LOAD_WEAK_DYLIB
+Offset:  0x1078
+Size:    0x40
+name=/usr/lib/swift/libswiftDarwin.dylib, timestamp=2, current_version=347.40.2,  compatibility_version=1.0.0
+Command: LOAD_WEAK_DYLIB
+Offset:  0x10b8
+Size:    0x40
+name=/usr/lib/swift/libswiftDispatch.dylib, timestamp=2, current_version=56.0.0,  compatibility_version=1.0.0
+Command: LOAD_WEAK_DYLIB
+Offset:  0x10f8
+Size:    0x40
+name=/usr/lib/swift/libswiftIntents.dylib, timestamp=2, current_version=12.0.0,  compatibility_version=1.0.0
+Command: LOAD_WEAK_DYLIB
+Offset:  0x1138
+Size:    0x40
+name=/usr/lib/swift/libswiftMetal.dylib, timestamp=2, current_version=370.64.2,  compatibility_version=1.0.0
+Command: LOAD_WEAK_DYLIB
+Offset:  0x1178
+Size:    0x40
+name=/usr/lib/swift/libswiftOSLog.dylib, timestamp=2, current_version=10.0.0,  compatibility_version=1.0.0
+Command: LOAD_WEAK_DYLIB
+Offset:  0x11b8
+Size:    0x40
+name=/usr/lib/swift/libswiftObjectiveC.dylib, timestamp=2, current_version=951.1.0,  compatibility_version=1.0.0
+Command: LOAD_WEAK_DYLIB
+Offset:  0x11f8
+Size:    0x40
+name=/usr/lib/swift/libswiftQuartzCore.dylib, timestamp=2, current_version=5.0.0,  compatibility_version=1.0.0
+Command: LOAD_WEAK_DYLIB
+Offset:  0x1238
+Size:    0x40
+name=/usr/lib/swift/libswiftSpatial.dylib, timestamp=2, current_version=1.0.0,  compatibility_version=1.0.0
+Command: LOAD_WEAK_DYLIB
+Offset:  0x1278
+Size:    0x50
+name=/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib, timestamp=2, current_version=879.2.4,  compatibility_version=1.0.0
+Command: LOAD_WEAK_DYLIB
+Offset:  0x12c8
+Size:    0x40
+name=/usr/lib/swift/libswiftXPC.dylib, timestamp=2, current_version=105.0.14,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0x1308
+Size:    0x48
+name=/usr/lib/swift/libswift_Concurrency.dylib, timestamp=2, current_version=0.0.0,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0x1350
+Size:    0x38
+name=/usr/lib/swift/libswiftos.dylib, timestamp=2, current_version=1076.40.2,  compatibility_version=1.0.0
+Command: LOAD_WEAK_DYLIB
+Offset:  0x1388
+Size:    0x40
+name=/usr/lib/swift/libswiftsimd.dylib, timestamp=2, current_version=23.0.0,  compatibility_version=1.0.0
+Command: LOAD_WEAK_DYLIB
+Offset:  0x13c8
+Size:    0x40
+name=/usr/lib/swift/libswiftUIKit.dylib, timestamp=2, current_version=1.0.0,  compatibility_version=1.0.0

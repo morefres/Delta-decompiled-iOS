@@ -1,0 +1,12 @@
+/* Evidence-based generated lift; not original source. */
+/* RobloxLib::_PKCS8_pkey_add1_attr_by_OBJ start_va=0x48b96e8 image_relative=0x48b96e8 bytes=32 */
+void _PKCS8_pkey_add1_attr_by_OBJ__at_48b96e8(void) {
+    /* stp x29, x30, [sp, #-0x10]! */
+    /* mov x29, sp */
+    /* add x0, x0, #0x18 */
+    /* call #0x4a23ac4; ABI effects unresolved */
+    /* cmp x0, #0 */
+    /* cset w0, ne */
+    /* ldp x29, x30, [sp], #0x10 */
+    return;
+}

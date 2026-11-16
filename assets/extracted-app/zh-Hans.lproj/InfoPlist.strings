@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>Delta</string>
+	<key>CFBundleName</key>
+	<string>Delta</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>这允许 Roblox 扫描你周围的蓝牙网络信标。</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Roblox 会使用摄像头验证你的年龄、将你的虚拟形象动画化及扫描二维码。</string>
+	<key>NSContactsUsageDescription</key>
+	<string>与 Roblox 上的好友联系。你的联系人将会定期更新并匹配其他已存储至你设备的其他好友，帮助你找到你的好友。你可以在设置中随时管理此选项。</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>访问Roblox需要你的本地网络权限才能连接至你周围的玩家。</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Roblox 需要访问你的位置才能改善你的用户体验</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Roblox需要你的麦克风权限才能开启语音聊天。</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>允许 Roblox 访问您的照片库，以便您将图像和视频保存到设备的本机照片中。</string>
+</dict>
+</plist>

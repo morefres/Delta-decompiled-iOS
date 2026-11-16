@@ -1,0 +1,40 @@
+; instruction-faithful ARM64 fallback for libgloop.dylib::function_b28f00
+0x0000000000b28f00: stp        x22, x21, [sp, #-0x30]!
+0x0000000000b28f04: stp        x20, x19, [sp, #0x10]
+0x0000000000b28f08: stp        x29, x30, [sp, #0x20]
+0x0000000000b28f0c: add        x29, sp, #0x20
+0x0000000000b28f10: mov        x20, x1
+0x0000000000b28f14: mov        x19, x0
+0x0000000000b28f18: adrp       x1, #0xc7f000
+0x0000000000b28f1c: add        x1, x1, #0xe7c
+0x0000000000b28f20: mov        x0, x20
+0x0000000000b28f24: bl         #0xa54744
+0x0000000000b28f28: cbz        x0, #0xb28f48
+0x0000000000b28f2c: mov        x21, x0
+0x0000000000b28f30: ldr        x0, [x19, #8]
+0x0000000000b28f34: bl         #0xa48f84
+0x0000000000b28f38: mov        x1, x0
+0x0000000000b28f3c: mov        x0, x21
+0x0000000000b28f40: bl         #0xa55a7c
+0x0000000000b28f44: cbz        w0, #0xb28f8c
+0x0000000000b28f48: adrp       x1, #0xc97000
+0x0000000000b28f4c: add        x1, x1, #0xeff
+0x0000000000b28f50: mov        x0, x20
+0x0000000000b28f54: bl         #0xa54744
+0x0000000000b28f58: cbz        x0, #0xb28f88
+0x0000000000b28f5c: mov        x20, x0
+0x0000000000b28f60: add        x0, x19, #0x10
+0x0000000000b28f64: bl         #0x938eac
+0x0000000000b28f68: cbz        x0, #0xb28f78
+0x0000000000b28f6c: bl         #0xa355fc
+0x0000000000b28f70: mov        x1, x0
+0x0000000000b28f74: b          #0xb28f7c
+0x0000000000b28f78: mov        w1, #0
+0x0000000000b28f7c: mov        x0, x20
+0x0000000000b28f80: bl         #0xa549bc
+0x0000000000b28f84: cbz        w0, #0xb28f8c
+0x0000000000b28f88: mov        w0, #1
+0x0000000000b28f8c: ldp        x29, x30, [sp, #0x20]
+0x0000000000b28f90: ldp        x20, x19, [sp, #0x10]
+0x0000000000b28f94: ldp        x22, x21, [sp], #0x30
+0x0000000000b28f98: ret        

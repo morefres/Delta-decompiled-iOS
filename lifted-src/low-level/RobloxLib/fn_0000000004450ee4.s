@@ -1,0 +1,2 @@
+; instruction-faithful ARM64 fallback for RobloxLib::function_4450ee4
+0x0000000004450ee4: b          #0x47e93a8

@@ -1,0 +1,43 @@
+/* Evidence-based generated lift; not original source. */
+/* Persona2::function_2115c8 start_va=0x2115c8 image_relative=0x2115c8 bytes=156 */
+void function_2115c8__at_2115c8(void) {
+    /* stp x24, x23, [sp, #-0x40]! */
+    /* stp x22, x21, [sp, #0x10] */
+    /* stp x20, x19, [sp, #0x20] */
+    /* stp x29, x30, [sp, #0x30] */
+    /* add x29, sp, #0x30 */
+    /* mov x23, x1 */
+    /* mov x21, x0 */
+    /* ldr x19, [x20, #0xd8] */
+    /* cbz x1, #0x211600 */
+    /* mov x0, x21 */
+    /* mov x1, x23 */
+    /* call #0x4c064c; ABI effects unresolved */
+    /* mov x22, x0 */
+    /* branch b #0x211604 */
+    /* mov x22, #0 */
+    /* adrp x8, #0x679000 */
+    /* ldr x1, [x8, #0x8e0] */
+    /* mov x0, x19 */
+    /* mov x2, x22 */
+    /* call #0x4c232c; ABI effects unresolved */
+    /* mov x0, x22 */
+    /* call #0x4c2350; ABI effects unresolved */
+    /* adrp x8, #0x679000 */
+    /* ldr x1, [x8, #0x9d0] */
+    /* mov x0, x19 */
+    /* mov x2, #0 */
+    /* call #0x4c232c; ABI effects unresolved */
+    /* mov x0, x21 */
+    /* mov x1, x23 */
+    /* call #0x26bbc; ABI effects unresolved */
+    /* adrp x8, #0x678000 */
+    /* ldr x1, [x8, #0xe80] */
+    /* and w2, w0, #1 */
+    /* mov x0, x19 */
+    /* ldp x29, x30, [sp, #0x30] */
+    /* ldp x20, x19, [sp, #0x20] */
+    /* ldp x22, x21, [sp, #0x10] */
+    /* ldp x24, x23, [sp], #0x40 */
+    /* branch b #0x4c232c */
+}

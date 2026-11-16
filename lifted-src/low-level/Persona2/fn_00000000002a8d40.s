@@ -1,0 +1,24 @@
+; instruction-faithful ARM64 fallback for Persona2::function_2a8d40
+0x00000000002a8d40: b          #0x2a7ec8
+0x00000000002a8d44: b          #0x2a7f98
+0x00000000002a8d48: b          #0x2a7bc0
+0x00000000002a8d4c: b          #0x2a7bc0
+0x00000000002a8d50: b          #0x2a7bc0
+0x00000000002a8d54: b          #0x2a7bc0
+0x00000000002a8d58: b          #0x2a7bc0
+0x00000000002a8d5c: b          #0x2a7bc0
+0x00000000002a8d60: b          #0x2a7bc0
+0x00000000002a8d64: b          #0x2a7bc0
+0x00000000002a8d68: b          #0x2a7bc0
+0x00000000002a8d6c: b          #0x2a7bc0
+0x00000000002a8d70: b          #0x2a7bc0
+0x00000000002a8d74: b          #0x2a7bc0
+0x00000000002a8d78: b          #0x2a7bc0
+0x00000000002a8d7c: b          #0x2a7bc0
+0x00000000002a8d80: b          #0x2a7bc0
+0x00000000002a8d84: b          #0x2a7bc0
+0x00000000002a8d88: b          #0x2a7bc0
+0x00000000002a8d8c: b          #0x2a7bc0
+0x00000000002a8d90: b          #0x2a7bc0
+0x00000000002a8d94: b          #0x2a7ef0
+0x00000000002a8d98: b          #0x289a68

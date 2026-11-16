@@ -1,0 +1,27 @@
+/* Evidence-based generated lift; not original source. */
+/* RobloxLib::function_4136450 start_va=0x4136450 image_relative=0x4136450 bytes=92 */
+void function_4136450__at_4136450(void) {
+    /* stp x20, x19, [sp, #-0x20]! */
+    /* stp x29, x30, [sp, #0x10] */
+    /* add x29, sp, #0x10 */
+    /* mov x19, x0 */
+    /* ldr w8, [x0] */
+    /* cbz w8, #0x4136494 */
+    /* adrp x0, #0x54ee000 */
+    /* add x0, x0, #0xbe6 */
+    /* adrp x1, #0x54ee000 */
+    /* add x1, x1, #0xbf3 */
+    /* adrp x3, #0x54ee000 */
+    /* add x3, x3, #0xce9 */
+    /* mov w2, #0x1c */
+    /* mov x4, #0 */
+    /* call #0x4127bac; ABI effects unresolved */
+    /* cmp w0, #1 */
+    /* b.eq #0x41364a4 */
+    /* mov x0, x19 */
+    /* ldp x29, x30, [sp, #0x10] */
+    /* ldp x20, x19, [sp], #0x20 */
+    return;
+    /* brk #1 */
+    /* call #0x18bd8; ABI effects unresolved */
+}

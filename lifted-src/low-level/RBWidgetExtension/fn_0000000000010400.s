@@ -1,0 +1,15 @@
+; instruction-faithful ARM64 fallback for RBWidgetExtension::function_10400
+; start_va=0x100010400 image_relative=0x10400 bytes=52
+0x0000000100010400: stp        x29, x30, [sp, #-0x10]!
+0x0000000100010404: mov        x29, sp
+0x0000000100010408: adrp       x0, #0x10002c000
+0x000000010001040c: add        x0, x0, #0xe48
+0x0000000100010410: adrp       x1, #0x10002c000
+0x0000000100010414: add        x1, x1, #0xe50
+0x0000000100010418: adrp       x2, #0x10001d000
+0x000000010001041c: add        x2, x2, #0x690
+0x0000000100010420: adrp       x3, #0x100028000
+0x0000000100010424: ldr        x3, [x3, #0x198]
+0x0000000100010428: bl         #0x10000dc64
+0x000000010001042c: ldp        x29, x30, [sp], #0x10
+0x0000000100010430: ret        

@@ -1,0 +1,86 @@
+/*
+ * Evidence-based lift for Roblox::function_3a2ba4
+ * Start VA: 0x1003a2ba4; image-relative: 0x3a2ba4; bytes: 316
+ * This is generated pseudocode, not original source. Unknown semantics are preserved as comments.
+ */
+void function_3a2ba4__at_3a2ba4(void) {
+    /* sub sp, sp, #0xf0 */
+    /* memory stp x24, x23, [sp, #0xb0] */
+    /* memory stp x22, x21, [sp, #0xc0] */
+    /* memory stp x20, x19, [sp, #0xd0] */
+    /* memory stp x29, x30, [sp, #0xe0] */
+    /* add x29, sp, #0xe0 */
+    /* mov x24, x5 */
+    /* mov x23, x4 */
+    /* mov x19, x3 */
+    /* mov x20, x2 */
+    /* mov x21, x1 */
+    /* mov x22, x0 */
+    /* adrp x8, #0x1007c6000 */
+    /* memory ldr x8, [x8, #0x4a8] */
+    /* memory ldr x8, [x8] */
+    /* memory stur x8, [x29, #-0x38] */
+    /* call #0x1003b29b0; return value/ABI effects unresolved */
+    /* condition cmp w0, #0x19f */
+    /* conditional branch b.ne #0x1003a2c8c; control-flow target retained in assembly fallback */
+    /* memory strh wzr, [sp, #0xa0] */
+    /* movi v0.16b, #0 */
+    /* memory stp q0, q0, [sp, #0x80] */
+    /* memory stp q0, q0, [sp, #0x60] */
+    /* add x0, x22, #0x138 */
+    /* call #0x1003a732c; return value/ABI effects unresolved */
+    /* mov w3, w0 */
+    /* add x8, sp, #0x60 */
+    /* add x8, x3, x8 */
+    /* mov w9, #0xa */
+    /* memory sturb w9, [x8, #-1] */
+    /* add x1, sp, #0x18 */
+    /* add x2, sp, #0x60 */
+    /* mov x0, x22 */
+    /* call #0x1003b51f4; return value/ABI effects unresolved */
+    /* conditional branch cbz w0, #0x1003a2cac; control-flow target retained in assembly fallback */
+    /* adrp x2, #0x100683000 */
+    /* add x2, x2, #0x666 */
+    /* add x1, sp, #0x60 */
+    /* mov x0, x22 */
+    /* mov w3, #0x20 */
+    /* call #0x1003b51f4; return value/ABI effects unresolved */
+    /* conditional branch cbz w0, #0x1003a2cac; control-flow target retained in assembly fallback */
+    /* add x1, sp, #0x18 */
+    /* add x2, sp, #0x18 */
+    /* mov x0, x22 */
+    /* call #0x1003b5200; return value/ABI effects unresolved */
+    /* call #0x1003b1858; return value/ABI effects unresolved */
+    /* mov x1, x0 */
+    /* memory stp x23, x24, [sp] */
+    /* add x2, sp, #0x18 */
+    /* add x3, sp, #0x60 */
+    /* mov x0, x22 */
+    /* mov w4, #0x80 */
+    /* mov x5, x21 */
+    /* mov x6, x20 */
+    /* mov x7, x19 */
+    /* call #0x1003a2ce0; return value/ABI effects unresolved */
+    goto label__0x1003a2cac;
+    /* adrp x3, #0x1006d5000 */
+    /* add x3, x3, #0x899 */
+    /* mov w0, #0xf */
+    /* mov w1, #0 */
+    /* mov w2, #0x82 */
+    /* mov w4, #0x1b7 */
+    /* call #0x1003a3f30; return value/ABI effects unresolved */
+    /* mov w0, #0 */
+    /* memory ldur x8, [x29, #-0x38] */
+    /* adrp x9, #0x1007c6000 */
+    /* memory ldr x9, [x9, #0x4a8] */
+    /* memory ldr x9, [x9] */
+    /* condition cmp x9, x8 */
+    /* conditional branch b.ne #0x1003a2cdc; control-flow target retained in assembly fallback */
+    /* memory ldp x29, x30, [sp, #0xe0] */
+    /* memory ldp x20, x19, [sp, #0xd0] */
+    /* memory ldp x22, x21, [sp, #0xc0] */
+    /* memory ldp x24, x23, [sp, #0xb0] */
+    /* add sp, sp, #0xf0 */
+    return;
+    /* call #0x1005c095c; return value/ABI effects unresolved */
+}

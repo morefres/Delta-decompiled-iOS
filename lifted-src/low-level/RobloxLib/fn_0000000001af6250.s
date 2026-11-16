@@ -1,0 +1,47 @@
+; instruction-faithful ARM64 fallback for RobloxLib::function_1af6250
+0x0000000001af6250: ldr        q0, [x1]
+0x0000000001af6254: ldr        x8, [x1, #0x10]
+0x0000000001af6258: str        x8, [x0, #0x10]
+0x0000000001af625c: str        q0, [x0]
+0x0000000001af6260: ldr        x8, [x1, #0x38]
+0x0000000001af6264: str        x8, [x0, #0x38]
+0x0000000001af6268: ldr        d0, [x1, #0x18]
+0x0000000001af626c: str        d0, [x0, #0x18]
+0x0000000001af6270: ldr        d0, [x1, #0x30]
+0x0000000001af6274: str        d0, [x0, #0x30]
+0x0000000001af6278: ldr        q0, [x1, #0x20]
+0x0000000001af627c: str        q0, [x0, #0x20]
+0x0000000001af6280: movi       v0.16b, #0
+0x0000000001af6284: stur       q0, [x1, #0x28]
+0x0000000001af6288: stur       q0, [x1, #0x18]
+0x0000000001af628c: ldr        x8, [x1, #0x60]
+0x0000000001af6290: str        x8, [x0, #0x60]
+0x0000000001af6294: ldr        d1, [x1, #0x40]
+0x0000000001af6298: str        d1, [x0, #0x40]
+0x0000000001af629c: ldr        d1, [x1, #0x58]
+0x0000000001af62a0: str        d1, [x0, #0x58]
+0x0000000001af62a4: ldur       q1, [x1, #0x48]
+0x0000000001af62a8: stur       q1, [x0, #0x48]
+0x0000000001af62ac: stp        q0, q0, [x1, #0x40]
+0x0000000001af62b0: mov        x8, x0
+0x0000000001af62b4: strb       wzr, [x8, #0x68]!
+0x0000000001af62b8: strb       wzr, [x8, #0x40]
+0x0000000001af62bc: ldrb       w9, [x1, #0xa8]
+0x0000000001af62c0: cmp        w9, #1
+0x0000000001af62c4: b.ne       #0x1af6304
+0x0000000001af62c8: ldur       q0, [x1, #0x68]
+0x0000000001af62cc: ldur       q1, [x1, #0x78]
+0x0000000001af62d0: ldr        x9, [x1, #0x88]
+0x0000000001af62d4: str        x9, [x8, #0x20]
+0x0000000001af62d8: stp        q0, q1, [x8]
+0x0000000001af62dc: ldr        x8, [x1, #0x90]
+0x0000000001af62e0: ldr        w9, [x1, #0x98]
+0x0000000001af62e4: str        w9, [x0, #0x98]
+0x0000000001af62e8: str        x8, [x0, #0x90]
+0x0000000001af62ec: ldur       x8, [x1, #0x9c]
+0x0000000001af62f0: ldr        w9, [x1, #0xa4]
+0x0000000001af62f4: str        w9, [x0, #0xa4]
+0x0000000001af62f8: stur       x8, [x0, #0x9c]
+0x0000000001af62fc: mov        w8, #1
+0x0000000001af6300: strb       w8, [x0, #0xa8]
+0x0000000001af6304: ret        

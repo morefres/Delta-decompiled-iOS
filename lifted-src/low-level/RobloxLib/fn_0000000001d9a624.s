@@ -1,0 +1,6 @@
+; instruction-faithful ARM64 fallback for RobloxLib::function_1d9a624
+0x0000000001d9a624: add        x8, x0, #0x98
+0x0000000001d9a628: cmp        x1, #1
+0x0000000001d9a62c: csel       x0, x8, xzr, eq
+0x0000000001d9a630: ret        
+0x0000000001d9a634: b          #0x4154314

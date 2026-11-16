@@ -1,0 +1,3 @@
+; instruction-faithful ARM64 fallback for Persona2::function_27992c
+0x000000000027992c: ldrb       w0, [x20]
+0x0000000000279930: b          #0x279824

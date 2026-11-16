@@ -1,0 +1,149 @@
+/* Evidence-based generated lift; not original source. */
+/* libgloop.dylib::function_afac18 start_va=0xafac18 image_relative=0xafac18 bytes=580 */
+void function_afac18__at_afac18(void) {
+    /* sub sp, sp, #0x1d0 */
+    /* stp x28, x27, [sp, #0x180] */
+    /* stp x24, x23, [sp, #0x190] */
+    /* stp x22, x21, [sp, #0x1a0] */
+    /* stp x20, x19, [sp, #0x1b0] */
+    /* stp x29, x30, [sp, #0x1c0] */
+    /* add x29, sp, #0x1c0 */
+    /* mov x2, x7 */
+    /* mov x20, x4 */
+    /* mov x19, x3 */
+    /* mov x21, x1 */
+    /* mov x22, x0 */
+    /* ldr x3, [x29, #0x10] */
+    /* adrp x8, #0xe68000 */
+    /* ldr x8, [x8, #0xe0] */
+    /* ldr x8, [x8] */
+    /* stur x8, [x29, #-0x48] */
+    /* stp xzr, x0, [sp, #0x40] */
+    /* str xzr, [sp, #0x38] */
+    /* mov w8, #2 */
+    /* str w8, [sp, #0x34] */
+    /* add x0, sp, #0x48 */
+    /* call #0xadfb2c; ABI effects unresolved */
+    /* mov x23, x0 */
+    /* cbz x0, #0xafacd8 */
+    /* add x3, sp, #0x40 */
+    /* mov x0, #0 */
+    /* mov x1, #0 */
+    /* mov x2, #0 */
+    /* mov x4, x23 */
+    /* call #0xae0a88; ABI effects unresolved */
+    /* cbz w0, #0xafae14 */
+    /* ldr x3, [sp, #0x40] */
+    /* add x0, sp, #0x38 */
+    /* mov x1, #0 */
+    /* mov x2, #0 */
+    /* call #0x9b43b0; ABI effects unresolved */
+    /* ldr x0, [sp, #0x38] */
+    /* call #0xa7ea2c; ABI effects unresolved */
+    /* cmp w0, #0x198 */
+    /* b.ne #0xaface0 */
+    /* ldr x0, [sp, #0x40] */
+    /* call #0x9fc710; ABI effects unresolved */
+    /* cbz w0, #0xaface0 */
+    /* mov w8, #0x4d53 */
+    /* movk w8, #0x32, lsl #16 */
+    /* stur w8, [x29, #-0x7c] */
+    /* branch b #0xafacfc */
+    /* mov w19, #1 */
+    /* branch b #0xafae18 */
+    /* ldr x2, [sp, #0x38] */
+    /* sub x0, x29, #0x7c */
+    /* mov w1, #0x32 */
+    /* mov w3, #0 */
+    /* call #0xa7e6c8; ABI effects unresolved */
+    /* cmp w0, #1 */
+    /* b.lt #0xafae14 */
+    /* add x24, sp, #0x50 */
+    /* mov x0, x23 */
+    /* call #0xadfba0; ABI effects unresolved */
+    /* adrp x0, #0xc93000 */
+    /* add x0, x0, #0xee9 */
+    /* add x8, sp, #0x50 */
+    /* sub x1, x29, #0x7c */
+    /* mov x2, #0 */
+    /* call #0xa56198; ABI effects unresolved */
+    /* adrp x0, #0xc93000 */
+    /* add x0, x0, #0xef3 */
+    /* adrp x1, #0xc8d000 */
+    /* add x1, x1, #0xb55 */
+    /* add x8, sp, #8 */
+    /* mov x2, #0 */
+    /* call #0xa56198; ABI effects unresolved */
+    /* ldur q0, [sp, #8] */
+    /* ldur q1, [sp, #0x18] */
+    /* stur q0, [sp, #0x78] */
+    /* stur q1, [x24, #0x38] */
+    /* ldr x8, [sp, #0x28] */
+    /* str x8, [sp, #0x98] */
+    /* adrp x0, #0xc93000 */
+    /* add x0, x0, #0xd7d */
+    /* adrp x1, #0xc93000 */
+    /* add x1, x1, #0xefe */
+    /* add x8, sp, #8 */
+    /* mov x2, #0 */
+    /* call #0xa56198; ABI effects unresolved */
+    /* ldur q0, [sp, #8] */
+    /* ldur q1, [sp, #0x18] */
+    /* stp q0, q1, [x24, #0x50] */
+    /* ldr x8, [sp, #0x28] */
+    /* str x8, [sp, #0xc0] */
+    /* adrp x0, #0xc87000 */
+    /* add x0, x0, #0xd18 */
+    /* add x8, sp, #8 */
+    /* mov x1, x22 */
+    /* mov x2, x21 */
+    /* call #0xa561f0; ABI effects unresolved */
+    /* ldur q0, [sp, #8] */
+    /* ldur q1, [sp, #0x18] */
+    /* stur q0, [x24, #0x78] */
+    /* stur q1, [x24, #0x88] */
+    /* ldr x8, [sp, #0x28] */
+    /* str x8, [sp, #0xe8] */
+    /* adrp x0, #0xc7d000 */
+    /* add x0, x0, #0xaa0 */
+    /* add x8, sp, #8 */
+    /* add x1, sp, #0x34 */
+    /* call #0xa54b2c; ABI effects unresolved */
+    /* ldur q0, [sp, #8] */
+    /* ldur q1, [sp, #0x18] */
+    /* stp q0, q1, [x24, #0xa0] */
+    /* ldr x8, [sp, #0x28] */
+    /* str x8, [sp, #0x110] */
+    /* add x8, sp, #8 */
+    /* call #0xa5673c; ABI effects unresolved */
+    /* ldur q0, [sp, #8] */
+    /* ldur q1, [sp, #0x18] */
+    /* stur q0, [x24, #0xc8] */
+    /* stur q1, [x24, #0xd8] */
+    /* ldr x8, [sp, #0x28] */
+    /* str x8, [sp, #0x138] */
+    /* add x0, sp, #0x50 */
+    /* mov x1, x20 */
+    /* call x19; ABI effects unresolved */
+    /* mov x19, x0 */
+    /* mov x23, #0 */
+    /* branch b #0xafae18 */
+    /* mov w19, #0 */
+    /* mov x0, x23 */
+    /* call #0xadfba0; ABI effects unresolved */
+    /* ldur x8, [x29, #-0x48] */
+    /* adrp x9, #0xe68000 */
+    /* ldr x9, [x9, #0xe0] */
+    /* ldr x9, [x9] */
+    /* cmp x9, x8 */
+    /* b.ne #0xafae58 */
+    /* mov x0, x19 */
+    /* ldp x29, x30, [sp, #0x1c0] */
+    /* ldp x20, x19, [sp, #0x1b0] */
+    /* ldp x22, x21, [sp, #0x1a0] */
+    /* ldp x24, x23, [sp, #0x190] */
+    /* ldp x28, x27, [sp, #0x180] */
+    /* add sp, sp, #0x1d0 */
+    return;
+    /* call #0xc7ba98; ABI effects unresolved */
+}

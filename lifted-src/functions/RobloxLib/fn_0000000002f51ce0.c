@@ -1,0 +1,9 @@
+/* Evidence-based generated lift; not original source. */
+/* RobloxLib::function_2f51ce0 start_va=0x2f51ce0 image_relative=0x2f51ce0 bytes=20 */
+void function_2f51ce0__at_2f51ce0(void) {
+    /* ldr x8, [x0] */
+    /* ldr x0, [x8] */
+    /* ldr x8, [x0] */
+    /* ldr x1, [x8, #0x38] */
+    /* branch br x1 */
+}

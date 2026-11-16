@@ -1,0 +1,13 @@
+/*
+ * Evidence-based lift for Roblox::function_4e928c
+ * Start VA: 0x1004e928c; image-relative: 0x4e928c; bytes: 24
+ * This is generated pseudocode, not original source. Unknown semantics are preserved as comments.
+ */
+void function_4e928c__at_4e928c(void) {
+    /* memory stp x29, x30, [sp, #-0x10]! */
+    /* mov x29, sp */
+    /* call #0x1004e91dc; return value/ABI effects unresolved */
+    /* mov w1, #0xc0 */
+    /* memory ldp x29, x30, [sp], #0x10 */
+    goto label__0x1005c0860;
+}

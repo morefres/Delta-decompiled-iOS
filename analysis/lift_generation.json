@@ -1,0 +1,50 @@
+[
+  {
+    "image": "Roblox",
+    "functions": 19961,
+    "text_size": 6003312,
+    "out": "lifted-src/functions/Roblox"
+  },
+  {
+    "image": "libgloop.dylib",
+    "functions": 0,
+    "text_size": 13071344,
+    "out": "lifted-src/functions/libgloop.dylib"
+  },
+  {
+    "image": "Frameworks/libswift_Concurrency.dylib",
+    "functions": 0,
+    "text_size": 202628,
+    "out": "lifted-src/functions/libswift_Concurrency.dylib"
+  },
+  {
+    "image": "PlugIns/RBWidgetExtension.appex/RBWidgetExtension",
+    "functions": 396,
+    "text_size": 95792,
+    "out": "lifted-src/functions/RBWidgetExtension"
+  },
+  {
+    "image": "PlugIns/RBNotificationServiceExtension.appex/RBNotificationServiceExtension",
+    "functions": 99,
+    "text_size": 30096,
+    "out": "lifted-src/functions/RBNotificationServiceExtension"
+  },
+  {
+    "image": "Frameworks/Persona2.framework/Persona2",
+    "functions": 0,
+    "text_size": 4945944,
+    "out": "lifted-src/functions/Persona2"
+  },
+  {
+    "image": "Frameworks/RobloxLib.framework/RobloxLib",
+    "functions": 0,
+    "text_size": 79245528,
+    "out": "lifted-src/functions/RobloxLib"
+  },
+  {
+    "image": "Frameworks/Reaper.framework/Reaper",
+    "functions": 0,
+    "text_size": 11188,
+    "out": "lifted-src/functions/Reaper"
+  }
+]

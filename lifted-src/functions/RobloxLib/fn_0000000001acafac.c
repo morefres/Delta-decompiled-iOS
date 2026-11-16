@@ -1,0 +1,6 @@
+/* Evidence-based generated lift; not original source. */
+/* RobloxLib::function_1acafac start_va=0x1acafac image_relative=0x1acafac bytes=8 */
+void function_1acafac__at_1acafac(void) {
+    /* branch b #0x4409db4 */
+    /* branch b #0x440a004 */
+}

@@ -1,0 +1,22 @@
+; instruction-faithful ARM64 fallback for RobloxLib::function_178ef14
+0x000000000178ef14: b          #0x178efa8
+0x000000000178ef18: ldr        q0, [x1]
+0x000000000178ef1c: str        q0, [x0]
+0x000000000178ef20: stp        xzr, xzr, [x1]
+0x000000000178ef24: stp        xzr, xzr, [x0, #0x10]
+0x000000000178ef28: str        xzr, [x0, #0x20]
+0x000000000178ef2c: ldr        q0, [x1, #0x10]
+0x000000000178ef30: str        q0, [x0, #0x10]
+0x000000000178ef34: ldr        x8, [x1, #0x20]
+0x000000000178ef38: str        x8, [x0, #0x20]
+0x000000000178ef3c: stp        xzr, xzr, [x1, #0x10]
+0x000000000178ef40: str        xzr, [x1, #0x20]
+0x000000000178ef44: stp        xzr, xzr, [x0, #0x28]
+0x000000000178ef48: str        xzr, [x0, #0x38]
+0x000000000178ef4c: ldur       q0, [x1, #0x28]
+0x000000000178ef50: stur       q0, [x0, #0x28]
+0x000000000178ef54: ldr        x8, [x1, #0x38]
+0x000000000178ef58: str        x8, [x0, #0x38]
+0x000000000178ef5c: stp        xzr, xzr, [x1, #0x28]
+0x000000000178ef60: str        xzr, [x1, #0x38]
+0x000000000178ef64: ret        

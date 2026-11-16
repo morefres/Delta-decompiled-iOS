@@ -1,0 +1,12 @@
+/*
+ * Evidence-based lift for Roblox::function_195ca8
+ * Start VA: 0x100195ca8; image-relative: 0x195ca8; bytes: 20
+ * This is generated pseudocode, not original source. Unknown semantics are preserved as comments.
+ */
+void function_195ca8__at_195ca8(void) {
+    /* memory stp x29, x30, [sp, #-0x10]! */
+    /* mov x29, sp */
+    /* call #0x100195ccc; return value/ABI effects unresolved */
+    /* memory ldp x29, x30, [sp], #0x10 */
+    goto label__0x1005c1004;
+}

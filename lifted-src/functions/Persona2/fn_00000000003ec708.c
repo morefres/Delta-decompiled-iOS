@@ -1,0 +1,27 @@
+/* Evidence-based generated lift; not original source. */
+/* Persona2::function_3ec708 start_va=0x3ec708 image_relative=0x3ec708 bytes=92 */
+void function_3ec708__at_3ec708(void) {
+    /* sub sp, sp, #0x70 */
+    /* stp x20, x19, [sp, #0x50] */
+    /* stp x29, x30, [sp, #0x60] */
+    /* add x29, sp, #0x60 */
+    /* ldrb w19, [x20] */
+    /* add x8, sp, #8 */
+    /* mov x0, #0 */
+    /* call #0x4c16fc; ABI effects unresolved */
+    /* cmp w19, #0 */
+    /* mov w8, #0x7974 */
+    /* mov w9, #0x6d6e */
+    /* csel x1, x9, x8, ne */
+    /* add x0, sp, #8 */
+    /* mov x2, #-0x1e00000000000000 */
+    /* call #0x4c0748; ABI effects unresolved */
+    /* mov x0, #-0x1e00000000000000 */
+    /* call #0x4c2590; ABI effects unresolved */
+    /* add x20, sp, #8 */
+    /* call #0x4c1744; ABI effects unresolved */
+    /* ldp x29, x30, [sp, #0x60] */
+    /* ldp x20, x19, [sp, #0x50] */
+    /* add sp, sp, #0x70 */
+    return;
+}

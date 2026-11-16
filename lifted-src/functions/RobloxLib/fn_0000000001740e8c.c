@@ -1,0 +1,495 @@
+/* Evidence-based generated lift; not original source. */
+/* RobloxLib::function_1740e8c start_va=0x1740e8c image_relative=0x1740e8c bytes=1964 */
+void function_1740e8c__at_1740e8c(void) {
+    /* ldp s7, s4, [x0, #0x28] */
+    /* ldp s19, s18, [x0, #0x20] */
+    /* ldp s16, s17, [x0, #0x18] */
+    /* ldp s5, s6, [x0, #0x10] */
+    /* ldp s2, s3, [x0, #8] */
+    /* ldp s0, s1, [x0] */
+    /* ldr s20, [x1, #4] */
+    /* fmul s20, s0, s20 */
+    /* fsub s1, s1, s20 */
+    /* str s1, [x0, #4] */
+    /* ldp s20, s21, [x1, #0xc] */
+    /* fmul s20, s0, s20 */
+    /* fsub s2, s2, s20 */
+    /* fmul s20, s1, s21 */
+    /* fsub s2, s2, s20 */
+    /* str s2, [x0, #8] */
+    /* ldp s20, s21, [x1, #0x18] */
+    /* fmul s20, s0, s20 */
+    /* fsub s3, s3, s20 */
+    /* fmul s20, s1, s21 */
+    /* fsub s3, s3, s20 */
+    /* ldr s20, [x1, #0x20] */
+    /* fmul s20, s2, s20 */
+    /* fsub s3, s3, s20 */
+    /* str s3, [x0, #0xc] */
+    /* ldp s20, s21, [x1, #0x28] */
+    /* fmul s20, s0, s20 */
+    /* fsub s5, s5, s20 */
+    /* fmul s20, s1, s21 */
+    /* fsub s5, s5, s20 */
+    /* ldp s20, s21, [x1, #0x30] */
+    /* fmul s20, s2, s20 */
+    /* fsub s5, s5, s20 */
+    /* fmul s20, s3, s21 */
+    /* fsub s5, s5, s20 */
+    /* str s5, [x0, #0x10] */
+    /* ldp s20, s21, [x1, #0x3c] */
+    /* fmul s20, s0, s20 */
+    /* fsub s6, s6, s20 */
+    /* fmul s20, s1, s21 */
+    /* fsub s6, s6, s20 */
+    /* ldp s20, s21, [x1, #0x44] */
+    /* fmul s20, s2, s20 */
+    /* fsub s6, s6, s20 */
+    /* fmul s20, s3, s21 */
+    /* fsub s6, s6, s20 */
+    /* ldr s20, [x1, #0x4c] */
+    /* fmul s20, s5, s20 */
+    /* fsub s6, s6, s20 */
+    /* str s6, [x0, #0x14] */
+    /* ldp s20, s21, [x1, #0x54] */
+    /* fmul s20, s0, s20 */
+    /* fsub s16, s16, s20 */
+    /* fmul s20, s1, s21 */
+    /* fsub s16, s16, s20 */
+    /* ldp s20, s21, [x1, #0x5c] */
+    /* fmul s20, s2, s20 */
+    /* fsub s16, s16, s20 */
+    /* fmul s20, s3, s21 */
+    /* fsub s16, s16, s20 */
+    /* ldp s20, s21, [x1, #0x64] */
+    /* fmul s20, s5, s20 */
+    /* fsub s16, s16, s20 */
+    /* fmul s20, s6, s21 */
+    /* fsub s16, s16, s20 */
+    /* str s16, [x0, #0x18] */
+    /* ldp s20, s21, [x1, #0x70] */
+    /* fmul s20, s0, s20 */
+    /* fsub s17, s17, s20 */
+    /* fmul s20, s1, s21 */
+    /* fsub s17, s17, s20 */
+    /* ldp s20, s21, [x1, #0x78] */
+    /* fmul s20, s2, s20 */
+    /* fsub s17, s17, s20 */
+    /* fmul s20, s3, s21 */
+    /* fsub s17, s17, s20 */
+    /* ldp s20, s21, [x1, #0x80] */
+    /* fmul s20, s5, s20 */
+    /* fsub s17, s17, s20 */
+    /* fmul s20, s6, s21 */
+    /* fsub s17, s17, s20 */
+    /* ldr s20, [x1, #0x88] */
+    /* fmul s20, s16, s20 */
+    /* fsub s17, s17, s20 */
+    /* str s17, [x0, #0x1c] */
+    /* ldp s20, s21, [x1, #0x90] */
+    /* fmul s20, s0, s20 */
+    /* fsub s19, s19, s20 */
+    /* fmul s20, s1, s21 */
+    /* fsub s19, s19, s20 */
+    /* ldp s20, s21, [x1, #0x98] */
+    /* fmul s20, s2, s20 */
+    /* fsub s19, s19, s20 */
+    /* fmul s20, s3, s21 */
+    /* fsub s19, s19, s20 */
+    /* ldp s20, s21, [x1, #0xa0] */
+    /* fmul s20, s5, s20 */
+    /* fsub s19, s19, s20 */
+    /* fmul s20, s6, s21 */
+    /* fsub s19, s19, s20 */
+    /* ldp s20, s21, [x1, #0xa8] */
+    /* fmul s20, s16, s20 */
+    /* fsub s19, s19, s20 */
+    /* fmul s20, s17, s21 */
+    /* fsub s19, s19, s20 */
+    /* str s19, [x0, #0x20] */
+    /* ldp s20, s21, [x1, #0xb4] */
+    /* fmul s20, s0, s20 */
+    /* fsub s18, s18, s20 */
+    /* fmul s20, s1, s21 */
+    /* fsub s18, s18, s20 */
+    /* ldp s20, s21, [x1, #0xbc] */
+    /* fmul s20, s2, s20 */
+    /* fsub s18, s18, s20 */
+    /* fmul s20, s3, s21 */
+    /* fsub s18, s18, s20 */
+    /* ldp s20, s21, [x1, #0xc4] */
+    /* fmul s20, s5, s20 */
+    /* fsub s18, s18, s20 */
+    /* fmul s20, s6, s21 */
+    /* fsub s18, s18, s20 */
+    /* ldp s20, s21, [x1, #0xcc] */
+    /* fmul s20, s16, s20 */
+    /* fsub s18, s18, s20 */
+    /* fmul s20, s17, s21 */
+    /* fsub s18, s18, s20 */
+    /* ldr s20, [x1, #0xd4] */
+    /* fmul s20, s19, s20 */
+    /* fsub s18, s18, s20 */
+    /* str s18, [x0, #0x24] */
+    /* ldp s20, s21, [x1, #0xdc] */
+    /* fmul s20, s0, s20 */
+    /* fsub s7, s7, s20 */
+    /* fmul s20, s1, s21 */
+    /* fsub s7, s7, s20 */
+    /* ldp s20, s21, [x1, #0xe4] */
+    /* fmul s20, s2, s20 */
+    /* fsub s7, s7, s20 */
+    /* fmul s20, s3, s21 */
+    /* fsub s7, s7, s20 */
+    /* ldp s20, s21, [x1, #0xec] */
+    /* fmul s20, s5, s20 */
+    /* fsub s7, s7, s20 */
+    /* fmul s20, s6, s21 */
+    /* fsub s7, s7, s20 */
+    /* ldp s20, s21, [x1, #0xf4] */
+    /* fmul s20, s16, s20 */
+    /* fsub s7, s7, s20 */
+    /* fmul s20, s17, s21 */
+    /* fsub s7, s7, s20 */
+    /* ldp s20, s21, [x1, #0xfc] */
+    /* fmul s20, s19, s20 */
+    /* fsub s7, s7, s20 */
+    /* fmul s20, s18, s21 */
+    /* fsub s7, s7, s20 */
+    /* str s7, [x0, #0x28] */
+    /* ldr s20, [x1, #0x108] */
+    /* fmul s20, s0, s20 */
+    /* fsub s4, s4, s20 */
+    /* ldr s20, [x1, #0x10c] */
+    /* fmul s20, s1, s20 */
+    /* fsub s4, s4, s20 */
+    /* ldr s20, [x1, #0x110] */
+    /* fmul s20, s2, s20 */
+    /* fsub s4, s4, s20 */
+    /* ldr s20, [x1, #0x114] */
+    /* fmul s20, s3, s20 */
+    /* fsub s4, s4, s20 */
+    /* ldr s20, [x1, #0x118] */
+    /* fmul s20, s5, s20 */
+    /* fsub s4, s4, s20 */
+    /* ldr s20, [x1, #0x11c] */
+    /* fmul s20, s6, s20 */
+    /* fsub s4, s4, s20 */
+    /* ldr s20, [x1, #0x120] */
+    /* fmul s20, s16, s20 */
+    /* fsub s4, s4, s20 */
+    /* ldr s20, [x1, #0x124] */
+    /* fmul s20, s17, s20 */
+    /* fsub s4, s4, s20 */
+    /* ldr s20, [x1, #0x128] */
+    /* fmul s20, s19, s20 */
+    /* fsub s4, s4, s20 */
+    /* ldr s20, [x1, #0x12c] */
+    /* fmul s20, s18, s20 */
+    /* fsub s4, s4, s20 */
+    /* ldr s20, [x1, #0x130] */
+    /* fmul s20, s7, s20 */
+    /* fsub s20, s4, s20 */
+    /* str s20, [x0, #0x2c] */
+    /* ldr s4, [x1] */
+    /* fmul s4, s0, s4 */
+    /* str s4, [x0] */
+    /* ldr s0, [x1, #8] */
+    /* fmul s1, s1, s0 */
+    /* str s1, [x0, #4] */
+    /* ldr s0, [x1, #0x14] */
+    /* fmul s2, s2, s0 */
+    /* str s2, [x0, #8] */
+    /* ldr s0, [x1, #0x24] */
+    /* fmul s3, s3, s0 */
+    /* str s3, [x0, #0xc] */
+    /* ldr s0, [x1, #0x38] */
+    /* fmul s5, s5, s0 */
+    /* str s5, [x0, #0x10] */
+    /* ldr s0, [x1, #0x50] */
+    /* fmul s6, s6, s0 */
+    /* str s6, [x0, #0x14] */
+    /* ldr s0, [x1, #0x6c] */
+    /* fmul s16, s16, s0 */
+    /* str s16, [x0, #0x18] */
+    /* ldr s0, [x1, #0x8c] */
+    /* fmul s17, s17, s0 */
+    /* str s17, [x0, #0x1c] */
+    /* ldr s0, [x1, #0xb0] */
+    /* fmul s19, s19, s0 */
+    /* str s19, [x0, #0x20] */
+    /* ldr s0, [x1, #0xd8] */
+    /* fmul s18, s18, s0 */
+    /* str s18, [x0, #0x24] */
+    /* ldr s0, [x1, #0x104] */
+    /* fmul s0, s7, s0 */
+    /* str s0, [x0, #0x28] */
+    /* ldr s7, [x1, #0x134] */
+    /* fmul s7, s20, s7 */
+    /* str s7, [x0, #0x2c] */
+    /* ldr s20, [x1, #0x130] */
+    /* fmul s20, s7, s20 */
+    /* fsub s0, s0, s20 */
+    /* str s0, [x0, #0x28] */
+    /* ldr s20, [x1, #0x12c] */
+    /* fmul s20, s7, s20 */
+    /* fsub s18, s18, s20 */
+    /* str s18, [x0, #0x24] */
+    /* ldr s20, [x1, #0x128] */
+    /* fmul s20, s7, s20 */
+    /* fsub s19, s19, s20 */
+    /* str s19, [x0, #0x20] */
+    /* ldr s20, [x1, #0x124] */
+    /* fmul s20, s7, s20 */
+    /* fsub s17, s17, s20 */
+    /* str s17, [x0, #0x1c] */
+    /* ldr s20, [x1, #0x120] */
+    /* fmul s20, s7, s20 */
+    /* fsub s16, s16, s20 */
+    /* str s16, [x0, #0x18] */
+    /* ldr s20, [x1, #0x11c] */
+    /* fmul s20, s7, s20 */
+    /* fsub s6, s6, s20 */
+    /* str s6, [x0, #0x14] */
+    /* ldr s20, [x1, #0x118] */
+    /* fmul s20, s7, s20 */
+    /* fsub s5, s5, s20 */
+    /* str s5, [x0, #0x10] */
+    /* ldr s20, [x1, #0x114] */
+    /* fmul s20, s7, s20 */
+    /* fsub s3, s3, s20 */
+    /* str s3, [x0, #0xc] */
+    /* ldr s20, [x1, #0x110] */
+    /* fmul s20, s7, s20 */
+    /* fsub s2, s2, s20 */
+    /* str s2, [x0, #8] */
+    /* ldr s20, [x1, #0x10c] */
+    /* fmul s20, s7, s20 */
+    /* fsub s20, s1, s20 */
+    /* str s20, [x0, #4] */
+    /* ldr s1, [x1, #0x108] */
+    /* fmul s1, s7, s1 */
+    /* fsub s4, s4, s1 */
+    /* str s4, [x0] */
+    /* ldr s1, [x1, #0x100] */
+    /* fmul s1, s0, s1 */
+    /* fsub s1, s18, s1 */
+    /* str s1, [x0, #0x24] */
+    /* ldr s7, [x1, #0xfc] */
+    /* fmul s7, s0, s7 */
+    /* fsub s7, s19, s7 */
+    /* str s7, [x0, #0x20] */
+    /* ldr s18, [x1, #0xf8] */
+    /* fmul s18, s0, s18 */
+    /* fsub s17, s17, s18 */
+    /* str s17, [x0, #0x1c] */
+    /* ldr s18, [x1, #0xf4] */
+    /* fmul s18, s0, s18 */
+    /* fsub s16, s16, s18 */
+    /* str s16, [x0, #0x18] */
+    /* ldr s18, [x1, #0xf0] */
+    /* fmul s18, s0, s18 */
+    /* fsub s6, s6, s18 */
+    /* str s6, [x0, #0x14] */
+    /* ldr s18, [x1, #0xec] */
+    /* fmul s18, s0, s18 */
+    /* fsub s5, s5, s18 */
+    /* str s5, [x0, #0x10] */
+    /* ldr s18, [x1, #0xe8] */
+    /* fmul s18, s0, s18 */
+    /* fsub s3, s3, s18 */
+    /* str s3, [x0, #0xc] */
+    /* ldr s18, [x1, #0xe4] */
+    /* fmul s18, s0, s18 */
+    /* fsub s2, s2, s18 */
+    /* str s2, [x0, #8] */
+    /* ldr s18, [x1, #0xe0] */
+    /* fmul s18, s0, s18 */
+    /* fsub s18, s20, s18 */
+    /* str s18, [x0, #4] */
+    /* ldr s19, [x1, #0xdc] */
+    /* fmul s0, s0, s19 */
+    /* fsub s0, s4, s0 */
+    /* str s0, [x0] */
+    /* ldr s4, [x1, #0xd4] */
+    /* fmul s4, s1, s4 */
+    /* fsub s4, s7, s4 */
+    /* str s4, [x0, #0x20] */
+    /* ldr s7, [x1, #0xd0] */
+    /* fmul s7, s1, s7 */
+    /* fsub s7, s17, s7 */
+    /* str s7, [x0, #0x1c] */
+    /* ldr s17, [x1, #0xcc] */
+    /* fmul s17, s1, s17 */
+    /* fsub s16, s16, s17 */
+    /* str s16, [x0, #0x18] */
+    /* ldr s17, [x1, #0xc8] */
+    /* fmul s17, s1, s17 */
+    /* fsub s6, s6, s17 */
+    /* str s6, [x0, #0x14] */
+    /* ldr s17, [x1, #0xc4] */
+    /* fmul s17, s1, s17 */
+    /* fsub s5, s5, s17 */
+    /* str s5, [x0, #0x10] */
+    /* ldr s17, [x1, #0xc0] */
+    /* fmul s17, s1, s17 */
+    /* fsub s3, s3, s17 */
+    /* str s3, [x0, #0xc] */
+    /* ldr s17, [x1, #0xbc] */
+    /* fmul s17, s1, s17 */
+    /* fsub s2, s2, s17 */
+    /* str s2, [x0, #8] */
+    /* ldr s17, [x1, #0xb8] */
+    /* fmul s17, s1, s17 */
+    /* fsub s17, s18, s17 */
+    /* str s17, [x0, #4] */
+    /* ldr s18, [x1, #0xb4] */
+    /* fmul s1, s1, s18 */
+    /* fsub s0, s0, s1 */
+    /* str s0, [x0] */
+    /* ldr s1, [x1, #0xac] */
+    /* fmul s1, s4, s1 */
+    /* fsub s1, s7, s1 */
+    /* str s1, [x0, #0x1c] */
+    /* ldr s7, [x1, #0xa8] */
+    /* fmul s7, s4, s7 */
+    /* fsub s7, s16, s7 */
+    /* str s7, [x0, #0x18] */
+    /* ldr s16, [x1, #0xa4] */
+    /* fmul s16, s4, s16 */
+    /* fsub s6, s6, s16 */
+    /* str s6, [x0, #0x14] */
+    /* ldr s16, [x1, #0xa0] */
+    /* fmul s16, s4, s16 */
+    /* fsub s5, s5, s16 */
+    /* str s5, [x0, #0x10] */
+    /* ldr s16, [x1, #0x9c] */
+    /* fmul s16, s4, s16 */
+    /* fsub s3, s3, s16 */
+    /* str s3, [x0, #0xc] */
+    /* ldr s16, [x1, #0x98] */
+    /* fmul s16, s4, s16 */
+    /* fsub s2, s2, s16 */
+    /* str s2, [x0, #8] */
+    /* ldr s16, [x1, #0x94] */
+    /* fmul s16, s4, s16 */
+    /* fsub s16, s17, s16 */
+    /* str s16, [x0, #4] */
+    /* ldr s17, [x1, #0x90] */
+    /* fmul s4, s4, s17 */
+    /* fsub s0, s0, s4 */
+    /* str s0, [x0] */
+    /* ldr s4, [x1, #0x88] */
+    /* fmul s4, s1, s4 */
+    /* fsub s4, s7, s4 */
+    /* str s4, [x0, #0x18] */
+    /* ldr s7, [x1, #0x84] */
+    /* fmul s7, s1, s7 */
+    /* fsub s6, s6, s7 */
+    /* str s6, [x0, #0x14] */
+    /* ldr s7, [x1, #0x80] */
+    /* fmul s7, s1, s7 */
+    /* fsub s5, s5, s7 */
+    /* str s5, [x0, #0x10] */
+    /* ldr s7, [x1, #0x7c] */
+    /* fmul s7, s1, s7 */
+    /* fsub s3, s3, s7 */
+    /* str s3, [x0, #0xc] */
+    /* ldr s7, [x1, #0x78] */
+    /* fmul s7, s1, s7 */
+    /* fsub s2, s2, s7 */
+    /* str s2, [x0, #8] */
+    /* ldr s7, [x1, #0x74] */
+    /* fmul s7, s1, s7 */
+    /* fsub s7, s16, s7 */
+    /* str s7, [x0, #4] */
+    /* ldr s16, [x1, #0x70] */
+    /* fmul s1, s1, s16 */
+    /* fsub s0, s0, s1 */
+    /* str s0, [x0] */
+    /* ldr s1, [x1, #0x68] */
+    /* fmul s1, s4, s1 */
+    /* fsub s1, s6, s1 */
+    /* str s1, [x0, #0x14] */
+    /* ldr s6, [x1, #0x64] */
+    /* fmul s6, s4, s6 */
+    /* fsub s5, s5, s6 */
+    /* str s5, [x0, #0x10] */
+    /* ldr s6, [x1, #0x60] */
+    /* fmul s6, s4, s6 */
+    /* fsub s3, s3, s6 */
+    /* str s3, [x0, #0xc] */
+    /* ldr s6, [x1, #0x5c] */
+    /* fmul s6, s4, s6 */
+    /* fsub s2, s2, s6 */
+    /* str s2, [x0, #8] */
+    /* ldr s6, [x1, #0x58] */
+    /* fmul s6, s4, s6 */
+    /* fsub s6, s7, s6 */
+    /* str s6, [x0, #4] */
+    /* ldr s7, [x1, #0x54] */
+    /* fmul s4, s4, s7 */
+    /* fsub s0, s0, s4 */
+    /* str s0, [x0] */
+    /* ldr s4, [x1, #0x4c] */
+    /* fmul s4, s1, s4 */
+    /* fsub s4, s5, s4 */
+    /* str s4, [x0, #0x10] */
+    /* ldr s5, [x1, #0x48] */
+    /* fmul s5, s1, s5 */
+    /* fsub s3, s3, s5 */
+    /* str s3, [x0, #0xc] */
+    /* ldr s5, [x1, #0x44] */
+    /* fmul s5, s1, s5 */
+    /* fsub s2, s2, s5 */
+    /* str s2, [x0, #8] */
+    /* ldr s5, [x1, #0x40] */
+    /* fmul s5, s1, s5 */
+    /* fsub s5, s6, s5 */
+    /* str s5, [x0, #4] */
+    /* ldr s6, [x1, #0x3c] */
+    /* fmul s1, s1, s6 */
+    /* fsub s0, s0, s1 */
+    /* str s0, [x0] */
+    /* ldr s1, [x1, #0x34] */
+    /* fmul s1, s4, s1 */
+    /* fsub s1, s3, s1 */
+    /* str s1, [x0, #0xc] */
+    /* ldr s3, [x1, #0x30] */
+    /* fmul s3, s4, s3 */
+    /* fsub s2, s2, s3 */
+    /* str s2, [x0, #8] */
+    /* ldr s3, [x1, #0x2c] */
+    /* fmul s3, s4, s3 */
+    /* fsub s3, s5, s3 */
+    /* str s3, [x0, #4] */
+    /* ldr s5, [x1, #0x28] */
+    /* fmul s4, s4, s5 */
+    /* fsub s0, s0, s4 */
+    /* str s0, [x0] */
+    /* ldr s4, [x1, #0x20] */
+    /* fmul s4, s1, s4 */
+    /* fsub s2, s2, s4 */
+    /* str s2, [x0, #8] */
+    /* ldr s4, [x1, #0x1c] */
+    /* fmul s4, s1, s4 */
+    /* fsub s3, s3, s4 */
+    /* str s3, [x0, #4] */
+    /* ldr s4, [x1, #0x18] */
+    /* fmul s1, s1, s4 */
+    /* fsub s0, s0, s1 */
+    /* str s0, [x0] */
+    /* ldr s1, [x1, #0x10] */
+    /* fmul s1, s2, s1 */
+    /* fsub s1, s3, s1 */
+    /* str s1, [x0, #4] */
+    /* ldr s3, [x1, #0xc] */
+    /* fmul s2, s2, s3 */
+    /* fsub s0, s0, s2 */
+    /* str s0, [x0] */
+    /* ldr s2, [x1, #4] */
+    /* fmul s1, s1, s2 */
+    /* fsub s0, s0, s1 */
+    /* str s0, [x0] */
+    return;
+}

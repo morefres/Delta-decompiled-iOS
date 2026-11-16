@@ -1,0 +1,28 @@
+Command: ID_DYLIB
+Offset:  0x960
+Size:    0x30
+name=@rpath/libgloop.dylib, timestamp=1, current_version=0.0.0,  compatibility_version=0.0.0
+Command: LOAD_DYLIB
+Offset:  0xa88
+Size:    0x58
+name=/System/Library/Frameworks/Foundation.framework/Foundation, timestamp=2, current_version=4040.1.0,  compatibility_version=300.0.0
+Command: LOAD_DYLIB
+Offset:  0xae0
+Size:    0x38
+name=/usr/lib/libobjc.A.dylib, timestamp=2, current_version=228.0.0,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0xb18
+Size:    0x30
+name=/usr/lib/libc++.1.dylib, timestamp=2, current_version=2000.63.0,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0xb48
+Size:    0x38
+name=/usr/lib/libSystem.B.dylib, timestamp=2, current_version=1356.0.0,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0xb80
+Size:    0x60
+name=/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation, timestamp=2, current_version=4040.1.0,  compatibility_version=150.0.0
+Command: LOAD_DYLIB
+Offset:  0xbe0
+Size:    0x50
+name=/System/Library/Frameworks/Security.framework/Security, timestamp=2, current_version=61901.0.87,  compatibility_version=1.0.0

@@ -1,0 +1,44 @@
+/* Evidence-based generated lift; not original source. */
+/* RobloxLib::function_3fe55e4 start_va=0x3fe55e4 image_relative=0x3fe55e4 bytes=160 */
+void function_3fe55e4__at_3fe55e4(void) {
+    /* adrp x8, #0x6197000 */
+    /* add x8, x8, #0x8a8 */
+    /* ldrb w8, [x8] */
+    /* cmp w8, #0 */
+    /* mov w8, #4 */
+    /* mov w9, #8 */
+    /* csel w8, w9, w8, ne */
+    /* stp x2, xzr, [x0, #0x10] */
+    /* stp xzr, xzr, [x0, #0x20] */
+    /* strb w8, [x0, #0x34] */
+    /* mov w8, #0xa */
+    /* strb w8, [x0, #0x35] */
+    /* ldrb w8, [x0, #0x36] */
+    /* and w8, w8, #0xf8 */
+    /* strb w8, [x0, #0x36] */
+    /* movi v0.16b, #0 */
+    /* mov x8, x0 */
+    /* str q0, [x8, #0x60]! */
+    /* str x8, [x0, #0x38] */
+    /* stp q0, q0, [x0, #0x40] */
+    /* adrp x8, #0x4c48000 */
+    /* ldr d1, [x8, #0xfe0] */
+    /* str s1, [x0, #0x30] */
+    /* adrp x8, #0x5cd2000 */
+    /* add x8, x8, #0x6d0 */
+    /* add x8, x8, #0x10 */
+    /* stp x8, x1, [x0] */
+    /* stp q0, q0, [x0, #0x70] */
+    /* adrp x8, #0x4bce000 */
+    /* ldr q0, [x8, #0x540] */
+    /* str q0, [x0, #0x90] */
+    /* stp xzr, xzr, [x0, #0xa8] */
+    /* str xzr, [x0, #0xa0] */
+    /* mov w8, #0x3f800000 */
+    /* str w8, [x0, #0xb8] */
+    /* stur xzr, [x0, #0xcc] */
+    /* str wzr, [x0, #0xd4] */
+    /* stur xzr, [x0, #0xbc] */
+    /* stur xzr, [x0, #0xc4] */
+    return;
+}

@@ -1,0 +1,16 @@
+; instruction-faithful ARM64 fallback for RobloxLib::function_35c1424
+0x00000000035c1424: ldr        q0, [sp, #0x30]
+0x00000000035c1428: ldr        x8, [sp, #0x40]
+0x00000000035c142c: ldp        x10, x9, [sp, #0x20]
+0x00000000035c1430: ldrb       w11, [sp, #0x1c]
+0x00000000035c1434: ldp        w13, w12, [sp, #0x14]
+0x00000000035c1438: ldrb       w14, [sp, #0x10]
+0x00000000035c143c: ldp        x15, x16, [sp]
+0x00000000035c1440: stp        x15, x16, [sp]
+0x00000000035c1444: strb       w14, [sp, #0x10]
+0x00000000035c1448: stp        w13, w12, [sp, #0x14]
+0x00000000035c144c: strb       w11, [sp, #0x1c]
+0x00000000035c1450: stp        x10, x9, [sp, #0x20]
+0x00000000035c1454: str        x8, [sp, #0x40]
+0x00000000035c1458: str        q0, [sp, #0x30]
+0x00000000035c145c: b          #0x35c0f8c

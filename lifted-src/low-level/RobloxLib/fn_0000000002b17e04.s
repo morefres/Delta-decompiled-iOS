@@ -1,0 +1,5 @@
+; instruction-faithful ARM64 fallback for RobloxLib::function_2b17e04
+0x0000000002b17e04: adrp       x8, #0x5ecd000
+0x0000000002b17e08: add        x8, x8, #0x1c8
+0x0000000002b17e0c: str        x8, [x0]
+0x0000000002b17e10: b          #0x4b980a4

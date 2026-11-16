@@ -1,0 +1,56 @@
+Command: ID_DYLIB
+Offset:  0xbe0
+Size:    0x38
+name=@rpath/Reaper.framework/Reaper, timestamp=1, current_version=0.0.0,  compatibility_version=0.0.0
+Command: LOAD_DYLIB
+Offset:  0xd10
+Size:    0x30
+name=/usr/lib/libc++.1.dylib, timestamp=2, current_version=2000.67.0,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0xd40
+Size:    0x58
+name=/System/Library/Frameworks/Foundation.framework/Foundation, timestamp=2, current_version=4201.0.0,  compatibility_version=300.0.0
+Command: LOAD_DYLIB
+Offset:  0xd98
+Size:    0x38
+name=/usr/lib/libobjc.A.dylib, timestamp=2, current_version=228.0.0,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0xdd0
+Size:    0x38
+name=/usr/lib/libSystem.B.dylib, timestamp=2, current_version=1356.0.0,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0xe08
+Size:    0x60
+name=/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation, timestamp=2, current_version=4201.0.0,  compatibility_version=150.0.0
+Command: LOAD_DYLIB
+Offset:  0xe68
+Size:    0x50
+name=/System/Library/Frameworks/UIKit.framework/UIKit, timestamp=2, current_version=9126.2.4,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0xeb8
+Size:    0x40
+name=/usr/lib/swift/libswiftCore.dylib, timestamp=2, current_version=0.0.0,  compatibility_version=0.0.0
+Command: LOAD_WEAK_DYLIB
+Offset:  0xef8
+Size:    0x48
+name=/usr/lib/swift/libswiftCoreFoundation.dylib, timestamp=2, current_version=120.100.0,  compatibility_version=1.0.0
+Command: LOAD_WEAK_DYLIB
+Offset:  0xf40
+Size:    0x40
+name=/usr/lib/swift/libswiftDarwin.dylib, timestamp=2, current_version=347.40.2,  compatibility_version=1.0.0
+Command: LOAD_WEAK_DYLIB
+Offset:  0xf80
+Size:    0x40
+name=/usr/lib/swift/libswiftDispatch.dylib, timestamp=2, current_version=56.0.0,  compatibility_version=1.0.0
+Command: LOAD_WEAK_DYLIB
+Offset:  0xfc0
+Size:    0x40
+name=/usr/lib/swift/libswiftObjectiveC.dylib, timestamp=2, current_version=951.1.0,  compatibility_version=1.0.0
+Command: LOAD_WEAK_DYLIB
+Offset:  0x1000
+Size:    0x40
+name=/usr/lib/swift/libswiftXPC.dylib, timestamp=2, current_version=105.0.14,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0x1040
+Size:    0x40
+name=/usr/lib/swift/libswiftFoundation.dylib, timestamp=2, current_version=1.0.0,  compatibility_version=1.0.0

@@ -1,0 +1,66 @@
+/* Evidence-based generated lift; not original source. */
+/* RobloxLib::function_2f51a34 start_va=0x2f51a34 image_relative=0x2f51a34 bytes=248 */
+void function_2f51a34__at_2f51a34(void) {
+    /* stp x20, x19, [sp, #-0x20]! */
+    /* stp x29, x30, [sp, #0x10] */
+    /* add x29, sp, #0x10 */
+    /* mov x19, x0 */
+    /* ldr w20, [x0, #8] */
+    /* call #0x2f50414; ABI effects unresolved */
+    /* sub w8, w20, #1 */
+    /* clz w8, w8 */
+    /* mov w9, #0x21 */
+    /* sub w8, w9, w8 */
+    /* mov w9, #1 */
+    /* lsl w8, w9, w8 */
+    /* cmp w8, #0x40 */
+    /* mov w9, #0x40 */
+    /* csel w8, w8, w9, gt */
+    /* cmp w20, #0 */
+    /* csel w20, wzr, w8, eq */
+    /* ldr w8, [x19, #0x10] */
+    /* cmp w20, w8 */
+    /* b.ne #0x2f51a94 */
+    /* mov x0, x19 */
+    /* ldp x29, x30, [sp, #0x10] */
+    /* ldp x20, x19, [sp], #0x20 */
+    /* branch b #0x2f4f6a0 */
+    /* ldr x0, [x19] */
+    /* call #0x47e93a8; ABI effects unresolved */
+    /* mov x0, x19 */
+    /* mov x1, x20 */
+    /* ldp x29, x30, [sp, #0x10] */
+    /* ldp x20, x19, [sp], #0x20 */
+    /* branch b #0x2f4f620 */
+    /* stp x20, x19, [sp, #-0x20]! */
+    /* stp x29, x30, [sp, #0x10] */
+    /* add x29, sp, #0x10 */
+    /* mov x19, x0 */
+    /* ldr w20, [x0, #8] */
+    /* call #0x2f50940; ABI effects unresolved */
+    /* sub w8, w20, #1 */
+    /* clz w8, w8 */
+    /* mov w9, #0x21 */
+    /* sub w8, w9, w8 */
+    /* mov w9, #1 */
+    /* lsl w8, w9, w8 */
+    /* cmp w8, #0x40 */
+    /* mov w9, #0x40 */
+    /* csel w8, w8, w9, gt */
+    /* cmp w20, #0 */
+    /* csel w20, wzr, w8, eq */
+    /* ldr w8, [x19, #0x10] */
+    /* cmp w20, w8 */
+    /* b.ne #0x2f51b10 */
+    /* mov x0, x19 */
+    /* ldp x29, x30, [sp, #0x10] */
+    /* ldp x20, x19, [sp], #0x20 */
+    /* branch b #0x2f4fb90 */
+    /* ldr x0, [x19] */
+    /* call #0x47e93a8; ABI effects unresolved */
+    /* mov x0, x19 */
+    /* mov x1, x20 */
+    /* ldp x29, x30, [sp, #0x10] */
+    /* ldp x20, x19, [sp], #0x20 */
+    /* branch b #0x2f4fb10 */
+}

@@ -1,0 +1,366 @@
+{
+  "path": "/home/ubuntu/ipa_analysis/extracted/Payload/Roblox.app/PlugIns/RBWidgetExtension.appex/RBWidgetExtension",
+  "sha256": "2c524653b776431374e4dae3e23b2edac257f72cee94d1160fab3206dc57ceb8",
+  "size": 250160,
+  "header": {
+    "magic": "0xfeedfacf",
+    "cpu": "CPU_TYPE.ARM64",
+    "file_type": "FILE_TYPE.EXECUTE",
+    "flags": 69206149,
+    "ncmds": 46
+  },
+  "libraries": [
+    "Command: LOAD_WEAK_DYLIB\nOffset:  0xd48\nSize:    0x50\nname=/System/Library/Frameworks/SwiftUI.framework/SwiftUI, timestamp=2, current_version=7.2.5,  compatibility_version=1.0.0",
+    "Command: LOAD_DYLIB\nOffset:  0xd98\nSize:    0x58\nname=/System/Library/Frameworks/WidgetKit.framework/WidgetKit, timestamp=2, current_version=664.2.7,  compatibility_version=1.0.0",
+    "Command: LOAD_DYLIB\nOffset:  0xdf0\nSize:    0x58\nname=/System/Library/Frameworks/Foundation.framework/Foundation, timestamp=2, current_version=4201.0.0,  compatibility_version=300.0.0",
+    "Command: LOAD_DYLIB\nOffset:  0xe48\nSize:    0x38\nname=/usr/lib/libobjc.A.dylib, timestamp=2, current_version=228.0.0,  compatibility_version=1.0.0",
+    "Command: LOAD_DYLIB\nOffset:  0xe80\nSize:    0x38\nname=/usr/lib/libSystem.B.dylib, timestamp=2, current_version=1356.0.0,  compatibility_version=1.0.0",
+    "Command: LOAD_DYLIB\nOffset:  0xeb8\nSize:    0x60\nname=/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation, timestamp=2, current_version=4201.0.0,  compatibility_version=150.0.0",
+    "Command: LOAD_WEAK_DYLIB\nOffset:  0xf18\nSize:    0x50\nname=/System/Library/Frameworks/UIKit.framework/UIKit, timestamp=2, current_version=9126.2.4,  compatibility_version=1.0.0",
+    "Command: LOAD_DYLIB\nOffset:  0xf68\nSize:    0x40\nname=/usr/lib/swift/libswiftCore.dylib, timestamp=2, current_version=0.0.0,  compatibility_version=0.0.0",
+    "Command: LOAD_DYLIB\nOffset:  0xfa8\nSize:    0x48\nname=/usr/lib/swift/libswiftCoreFoundation.dylib, timestamp=2, current_version=120.100.0,  compatibility_version=1.0.0",
+    "Command: LOAD_WEAK_DYLIB\nOffset:  0xff0\nSize:    0x40\nname=/usr/lib/swift/libswiftCoreImage.dylib, timestamp=2, current_version=2.2.0,  compatibility_version=1.0.0",
+    "Command: LOAD_WEAK_DYLIB\nOffset:  0x1030\nSize:    0x48\nname=/usr/lib/swift/libswiftCoreLocation.dylib, timestamp=2, current_version=53.0.0,  compatibility_version=1.0.0",
+    "Command: LOAD_WEAK_DYLIB\nOffset:  0x1078\nSize:    0x40\nname=/usr/lib/swift/libswiftDarwin.dylib, timestamp=2, current_version=347.40.2,  compatibility_version=1.0.0",
+    "Command: LOAD_WEAK_DYLIB\nOffset:  0x10b8\nSize:    0x40\nname=/usr/lib/swift/libswiftDispatch.dylib, timestamp=2, current_version=56.0.0,  compatibility_version=1.0.0",
+    "Command: LOAD_WEAK_DYLIB\nOffset:  0x10f8\nSize:    0x40\nname=/usr/lib/swift/libswiftIntents.dylib, timestamp=2, current_version=12.0.0,  compatibility_version=1.0.0",
+    "Command: LOAD_WEAK_DYLIB\nOffset:  0x1138\nSize:    0x40\nname=/usr/lib/swift/libswiftMetal.dylib, timestamp=2, current_version=370.64.2,  compatibility_version=1.0.0",
+    "Command: LOAD_WEAK_DYLIB\nOffset:  0x1178\nSize:    0x40\nname=/usr/lib/swift/libswiftOSLog.dylib, timestamp=2, current_version=10.0.0,  compatibility_version=1.0.0",
+    "Command: LOAD_WEAK_DYLIB\nOffset:  0x11b8\nSize:    0x40\nname=/usr/lib/swift/libswiftObjectiveC.dylib, timestamp=2, current_version=951.1.0,  compatibility_version=1.0.0",
+    "Command: LOAD_WEAK_DYLIB\nOffset:  0x11f8\nSize:    0x40\nname=/usr/lib/swift/libswiftQuartzCore.dylib, timestamp=2, current_version=5.0.0,  compatibility_version=1.0.0",
+    "Command: LOAD_WEAK_DYLIB\nOffset:  0x1238\nSize:    0x40\nname=/usr/lib/swift/libswiftSpatial.dylib, timestamp=2, current_version=1.0.0,  compatibility_version=1.0.0",
+    "Command: LOAD_WEAK_DYLIB\nOffset:  0x1278\nSize:    0x50\nname=/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib, timestamp=2, current_version=879.2.4,  compatibility_version=1.0.0",
+    "Command: LOAD_WEAK_DYLIB\nOffset:  0x12c8\nSize:    0x40\nname=/usr/lib/swift/libswiftXPC.dylib, timestamp=2, current_version=105.0.14,  compatibility_version=1.0.0",
+    "Command: LOAD_DYLIB\nOffset:  0x1308\nSize:    0x48\nname=/usr/lib/swift/libswift_Concurrency.dylib, timestamp=2, current_version=0.0.0,  compatibility_version=1.0.0",
+    "Command: LOAD_DYLIB\nOffset:  0x1350\nSize:    0x38\nname=/usr/lib/swift/libswiftos.dylib, timestamp=2, current_version=1076.40.2,  compatibility_version=1.0.0",
+    "Command: LOAD_WEAK_DYLIB\nOffset:  0x1388\nSize:    0x40\nname=/usr/lib/swift/libswiftsimd.dylib, timestamp=2, current_version=23.0.0,  compatibility_version=1.0.0",
+    "Command: LOAD_WEAK_DYLIB\nOffset:  0x13c8\nSize:    0x40\nname=/usr/lib/swift/libswiftUIKit.dylib, timestamp=2, current_version=1.0.0,  compatibility_version=1.0.0"
+  ],
+  "counts": {
+    "symbols": 513,
+    "imports": 454,
+    "exports": 4,
+    "functions": 401
+  },
+  "segments": [
+    {
+      "name": "__PAGEZERO",
+      "vmaddr": "0x0",
+      "vmsize": 4294967296,
+      "fileoff": 0,
+      "filesize": 0,
+      "maxprot": 0,
+      "initprot": 0
+    },
+    {
+      "name": "__TEXT",
+      "vmaddr": "0x100000000",
+      "vmsize": 163840,
+      "fileoff": 0,
+      "filesize": 163840,
+      "maxprot": 5,
+      "initprot": 5
+    },
+    {
+      "name": "__DATA_CONST",
+      "vmaddr": "0x100028000",
+      "vmsize": 16384,
+      "fileoff": 163840,
+      "filesize": 16384,
+      "maxprot": 3,
+      "initprot": 3
+    },
+    {
+      "name": "__DATA",
+      "vmaddr": "0x10002c000",
+      "vmsize": 16384,
+      "fileoff": 180224,
+      "filesize": 16384,
+      "maxprot": 3,
+      "initprot": 3
+    },
+    {
+      "name": "__LINKEDIT",
+      "vmaddr": "0x100030000",
+      "vmsize": 65536,
+      "fileoff": 196608,
+      "filesize": 53552,
+      "maxprot": 1,
+      "initprot": 1
+    }
+  ],
+  "sections": [
+    {
+      "name": "__text",
+      "segment": "Command: SEGMENT_64\nOffset:  0x68\nSize:    0x778\nname=__TEXT, vaddr=0x100000000, vsize=0x28000 offset=0x000000, size=163840, max protection=5, init protection=5 flags=0",
+      "addr": "0x100004000",
+      "size": 95792,
+      "offset": 16384,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "__stubs",
+      "segment": "Command: SEGMENT_64\nOffset:  0x68\nSize:    0x778\nname=__TEXT, vaddr=0x100000000, vsize=0x28000 offset=0x000000, size=163840, max protection=5, init protection=5 flags=0",
+      "addr": "0x10001b630",
+      "size": 2712,
+      "offset": 112176,
+      "type": "TYPE.SYMBOL_STUBS"
+    },
+    {
+      "name": "__objc_methlist",
+      "segment": "Command: SEGMENT_64\nOffset:  0x68\nSize:    0x778\nname=__TEXT, vaddr=0x100000000, vsize=0x28000 offset=0x000000, size=163840, max protection=5, init protection=5 flags=0",
+      "addr": "0x10001c0c8",
+      "size": 184,
+      "offset": 114888,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "__cstring",
+      "segment": "Command: SEGMENT_64\nOffset:  0x68\nSize:    0x778\nname=__TEXT, vaddr=0x100000000, vsize=0x28000 offset=0x000000, size=163840, max protection=5, init protection=5 flags=0",
+      "addr": "0x10001c180",
+      "size": 2374,
+      "offset": 115072,
+      "type": "TYPE.CSTRING_LITERALS"
+    },
+    {
+      "name": "__const",
+      "segment": "Command: SEGMENT_64\nOffset:  0x68\nSize:    0x778\nname=__TEXT, vaddr=0x100000000, vsize=0x28000 offset=0x000000, size=163840, max protection=5, init protection=5 flags=0",
+      "addr": "0x10001cad0",
+      "size": 5732,
+      "offset": 117456,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "__constg_swiftt",
+      "segment": "Command: SEGMENT_64\nOffset:  0x68\nSize:    0x778\nname=__TEXT, vaddr=0x100000000, vsize=0x28000 offset=0x000000, size=163840, max protection=5, init protection=5 flags=0",
+      "addr": "0x10001e134",
+      "size": 1952,
+      "offset": 123188,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "__swift5_typeref",
+      "segment": "Command: SEGMENT_64\nOffset:  0x68\nSize:    0x778\nname=__TEXT, vaddr=0x100000000, vsize=0x28000 offset=0x000000, size=163840, max protection=5, init protection=5 flags=0",
+      "addr": "0x10001e8d4",
+      "size": 12964,
+      "offset": 125140,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "__swift5_builtin",
+      "segment": "Command: SEGMENT_64\nOffset:  0x68\nSize:    0x778\nname=__TEXT, vaddr=0x100000000, vsize=0x28000 offset=0x000000, size=163840, max protection=5, init protection=5 flags=0",
+      "addr": "0x100021b78",
+      "size": 20,
+      "offset": 138104,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "__swift5_mpenum",
+      "segment": "Command: SEGMENT_64\nOffset:  0x68\nSize:    0x778\nname=__TEXT, vaddr=0x100000000, vsize=0x28000 offset=0x000000, size=163840, max protection=5, init protection=5 flags=0",
+      "addr": "0x100021b8c",
+      "size": 8,
+      "offset": 138124,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "__swift5_reflstr",
+      "segment": "Command: SEGMENT_64\nOffset:  0x68\nSize:    0x778\nname=__TEXT, vaddr=0x100000000, vsize=0x28000 offset=0x000000, size=163840, max protection=5, init protection=5 flags=0",
+      "addr": "0x100021ba0",
+      "size": 567,
+      "offset": 138144,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "__swift5_fieldmd",
+      "segment": "Command: SEGMENT_64\nOffset:  0x68\nSize:    0x778\nname=__TEXT, vaddr=0x100000000, vsize=0x28000 offset=0x000000, size=163840, max protection=5, init protection=5 flags=0",
+      "addr": "0x100021dd8",
+      "size": 1116,
+      "offset": 138712,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "__swift5_proto",
+      "segment": "Command: SEGMENT_64\nOffset:  0x68\nSize:    0x778\nname=__TEXT, vaddr=0x100000000, vsize=0x28000 offset=0x000000, size=163840, max protection=5, init protection=5 flags=0",
+      "addr": "0x100022234",
+      "size": 136,
+      "offset": 139828,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "__swift5_types",
+      "segment": "Command: SEGMENT_64\nOffset:  0x68\nSize:    0x778\nname=__TEXT, vaddr=0x100000000, vsize=0x28000 offset=0x000000, size=163840, max protection=5, init protection=5 flags=0",
+      "addr": "0x1000222bc",
+      "size": 100,
+      "offset": 139964,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "__objc_methname",
+      "segment": "Command: SEGMENT_64\nOffset:  0x68\nSize:    0x778\nname=__TEXT, vaddr=0x100000000, vsize=0x28000 offset=0x000000, size=163840, max protection=5, init protection=5 flags=0",
+      "addr": "0x100022320",
+      "size": 625,
+      "offset": 140064,
+      "type": "TYPE.CSTRING_LITERALS"
+    },
+    {
+      "name": "__swift5_protos",
+      "segment": "Command: SEGMENT_64\nOffset:  0x68\nSize:    0x778\nname=__TEXT, vaddr=0x100000000, vsize=0x28000 offset=0x000000, size=163840, max protection=5, init protection=5 flags=0",
+      "addr": "0x100022594",
+      "size": 20,
+      "offset": 140692,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "__swift5_assocty",
+      "segment": "Command: SEGMENT_64\nOffset:  0x68\nSize:    0x778\nname=__TEXT, vaddr=0x100000000, vsize=0x28000 offset=0x000000, size=163840, max protection=5, init protection=5 flags=0",
+      "addr": "0x1000225a8",
+      "size": 384,
+      "offset": 140712,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "__swift_as_entry",
+      "segment": "Command: SEGMENT_64\nOffset:  0x68\nSize:    0x778\nname=__TEXT, vaddr=0x100000000, vsize=0x28000 offset=0x000000, size=163840, max protection=5, init protection=5 flags=0",
+      "addr": "0x100022728",
+      "size": 8,
+      "offset": 141096,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "__swift_as_ret",
+      "segment": "Command: SEGMENT_64\nOffset:  0x68\nSize:    0x778\nname=__TEXT, vaddr=0x100000000, vsize=0x28000 offset=0x000000, size=163840, max protection=5, init protection=5 flags=0",
+      "addr": "0x100022730",
+      "size": 8,
+      "offset": 141104,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "__swift5_capture",
+      "segment": "Command: SEGMENT_64\nOffset:  0x68\nSize:    0x778\nname=__TEXT, vaddr=0x100000000, vsize=0x28000 offset=0x000000, size=163840, max protection=5, init protection=5 flags=0",
+      "addr": "0x100022738",
+      "size": 180,
+      "offset": 141112,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "__swift5_entry",
+      "segment": "Command: SEGMENT_64\nOffset:  0x68\nSize:    0x778\nname=__TEXT, vaddr=0x100000000, vsize=0x28000 offset=0x000000, size=163840, max protection=5, init protection=5 flags=0",
+      "addr": "0x1000227ec",
+      "size": 8,
+      "offset": 141292,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "__unwind_info",
+      "segment": "Command: SEGMENT_64\nOffset:  0x68\nSize:    0x778\nname=__TEXT, vaddr=0x100000000, vsize=0x28000 offset=0x000000, size=163840, max protection=5, init protection=5 flags=0",
+      "addr": "0x1000227f4",
+      "size": 1744,
+      "offset": 141300,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "__eh_frame",
+      "segment": "Command: SEGMENT_64\nOffset:  0x68\nSize:    0x778\nname=__TEXT, vaddr=0x100000000, vsize=0x28000 offset=0x000000, size=163840, max protection=5, init protection=5 flags=0",
+      "addr": "0x100022ec8",
+      "size": 644,
+      "offset": 143048,
+      "type": "TYPE.COALESCED"
+    },
+    {
+      "name": "__oslogstring",
+      "segment": "Command: SEGMENT_64\nOffset:  0x68\nSize:    0x778\nname=__TEXT, vaddr=0x100000000, vsize=0x28000 offset=0x000000, size=163840, max protection=5, init protection=5 flags=0",
+      "addr": "0x100024000",
+      "size": 133,
+      "offset": 147456,
+      "type": "TYPE.CSTRING_LITERALS"
+    },
+    {
+      "name": "__got",
+      "segment": "Command: SEGMENT_64\nOffset:  0x7e0\nSize:    0x188\nname=__DATA_CONST, vaddr=0x100028000, vsize=0x4000 offset=0x028000, size=16384, max protection=3, init protection=3 flags=16",
+      "addr": "0x100028000",
+      "size": 3024,
+      "offset": 163840,
+      "type": "TYPE.NON_LAZY_SYMBOL_POINTERS"
+    },
+    {
+      "name": "__const",
+      "segment": "Command: SEGMENT_64\nOffset:  0x7e0\nSize:    0x188\nname=__DATA_CONST, vaddr=0x100028000, vsize=0x4000 offset=0x028000, size=16384, max protection=3, init protection=3 flags=16",
+      "addr": "0x100028bd0",
+      "size": 3264,
+      "offset": 166864,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "__objc_classlist",
+      "segment": "Command: SEGMENT_64\nOffset:  0x7e0\nSize:    0x188\nname=__DATA_CONST, vaddr=0x100028000, vsize=0x4000 offset=0x028000, size=16384, max protection=3, init protection=3 flags=16",
+      "addr": "0x100029890",
+      "size": 16,
+      "offset": 170128,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "__objc_imageinfo",
+      "segment": "Command: SEGMENT_64\nOffset:  0x7e0\nSize:    0x188\nname=__DATA_CONST, vaddr=0x100028000, vsize=0x4000 offset=0x028000, size=16384, max protection=3, init protection=3 flags=16",
+      "addr": "0x1000298a0",
+      "size": 8,
+      "offset": 170144,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "__objc_const",
+      "segment": "Command: SEGMENT_64\nOffset:  0x968\nSize:    0x278\nname=__DATA, vaddr=0x10002c000, vsize=0x4000 offset=0x02c000, size=16384, max protection=3, init protection=3 flags=0",
+      "addr": "0x10002c000",
+      "size": 416,
+      "offset": 180224,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "__objc_selrefs",
+      "segment": "Command: SEGMENT_64\nOffset:  0x968\nSize:    0x278\nname=__DATA, vaddr=0x10002c000, vsize=0x4000 offset=0x02c000, size=16384, max protection=3, init protection=3 flags=0",
+      "addr": "0x10002c1a0",
+      "size": 208,
+      "offset": 180640,
+      "type": "TYPE.LITERAL_POINTERS"
+    },
+    {
+      "name": "__objc_classrefs",
+      "segment": "Command: SEGMENT_64\nOffset:  0x968\nSize:    0x278\nname=__DATA, vaddr=0x10002c000, vsize=0x4000 offset=0x02c000, size=16384, max protection=3, init protection=3 flags=0",
+      "addr": "0x10002c270",
+      "size": 40,
+      "offset": 180848,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "__objc_data",
+      "segment": "Command: SEGMENT_64\nOffset:  0x968\nSize:    0x278\nname=__DATA, vaddr=0x10002c000, vsize=0x4000 offset=0x02c000, size=16384, max protection=3, init protection=3 flags=0",
+      "addr": "0x10002c298",
+      "size": 176,
+      "offset": 180888,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "__data",
+      "segment": "Command: SEGMENT_64\nOffset:  0x968\nSize:    0x278\nname=__DATA, vaddr=0x10002c000, vsize=0x4000 offset=0x02c000, size=16384, max protection=3, init protection=3 flags=0",
+      "addr": "0x10002c348",
+      "size": 5104,
+      "offset": 181064,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "__bss",
+      "segment": "Command: SEGMENT_64\nOffset:  0x968\nSize:    0x278\nname=__DATA, vaddr=0x10002c000, vsize=0x4000 offset=0x02c000, size=16384, max protection=3, init protection=3 flags=0",
+      "addr": "0x10002d740",
+      "size": 3912,
+      "offset": 0,
+      "type": "TYPE.ZEROFILL"
+    },
+    {
+      "name": "__common",
+      "segment": "Command: SEGMENT_64\nOffset:  0x968\nSize:    0x278\nname=__DATA, vaddr=0x10002c000, vsize=0x4000 offset=0x02c000, size=16384, max protection=3, init protection=3 flags=0",
+      "addr": "0x10002e688",
+      "size": 72,
+      "offset": 0,
+      "type": "TYPE.ZEROFILL"
+    }
+  ]
+}

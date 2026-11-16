@@ -1,0 +1,62 @@
+/*
+ * Evidence-based lift for Roblox::function_406974
+ * Start VA: 0x100406974; image-relative: 0x406974; bytes: 220
+ * This is generated pseudocode, not original source. Unknown semantics are preserved as comments.
+ */
+void function_406974__at_406974(void) {
+    /* sub sp, sp, #0x80 */
+    /* memory stp x20, x19, [sp, #0x60] */
+    /* memory stp x29, x30, [sp, #0x70] */
+    /* add x29, sp, #0x70 */
+    /* add x20, sp, #0x30 */
+    /* memory stp xzr, x20, [sp, #0x30] */
+    /* adrp x8, #0x100679000 */
+    /* memory ldr d0, [x8, #0xb50] */
+    /* adrp x8, #0x100406000 */
+    /* add x8, x8, #0x808 */
+    /* memory str d0, [sp, #0x40] */
+    /* adrp x9, #0x100406000 */
+    /* add x9, x9, #0x818 */
+    /* memory stp x8, x9, [sp, #0x48] */
+    /* memory str xzr, [sp, #0x58] */
+    /* call #0x1005f9460; return value/ABI effects unresolved */
+    /* mov x29, x29 */
+    /* call #0x1005c1160; return value/ABI effects unresolved */
+    /* mov x19, x0 */
+    /* adrp x8, #0x1007c6000 */
+    /* memory ldr x8, [x8, #0x448] */
+    /* memory str x8, [sp, #8] */
+    /* adrp x8, #0x100679000 */
+    /* memory ldr d0, [x8, #0xb40] */
+    /* adrp x8, #0x100406000 */
+    /* add x8, x8, #0xa50 */
+    /* memory str d0, [sp, #0x10] */
+    /* adrp x9, #0x1007d6000 */
+    /* add x9, x9, #0x918 */
+    /* memory stp x8, x9, [sp, #0x18] */
+    /* memory str x20, [sp, #0x28] */
+    /* add x1, sp, #8 */
+    /* call #0x1005c0cc8; return value/ABI effects unresolved */
+    /* mov x0, x19 */
+    /* call #0x1005c1130; return value/ABI effects unresolved */
+    /* memory ldr x8, [sp, #0x38] */
+    /* memory ldr x0, [x8, #0x28] */
+    /* call #0x1005c113c; return value/ABI effects unresolved */
+    /* mov x19, x0 */
+    /* add x0, sp, #0x30 */
+    /* mov w1, #8 */
+    /* call #0x1005bfcb4; return value/ABI effects unresolved */
+    /* memory ldr x0, [sp, #0x58] */
+    /* call #0x1005c1130; return value/ABI effects unresolved */
+    /* mov x0, x19 */
+    /* memory ldp x29, x30, [sp, #0x70] */
+    /* memory ldp x20, x19, [sp, #0x60] */
+    /* add sp, sp, #0x80 */
+    goto label__0x1005c1004;
+    /* mov x19, x0 */
+    /* add x0, sp, #0x30 */
+    /* mov w1, #8 */
+    /* call #0x1005bfcb4; return value/ABI effects unresolved */
+    /* mov x0, x19 */
+    /* call #0x1005bfce4; return value/ABI effects unresolved */
+}

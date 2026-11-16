@@ -1,0 +1,28 @@
+; instruction-faithful ARM64 fallback for RobloxLib::function_56bda8
+0x000000000056bda8: ldr        x8, [x0, #0x238]
+0x000000000056bdac: str        x8, [x0, #0x240]
+0x000000000056bdb0: ldr        x8, [x0, #0x468]
+0x000000000056bdb4: str        x8, [x0, #0x470]
+0x000000000056bdb8: ldr        x8, [x0, #0x718]
+0x000000000056bdbc: str        x8, [x0, #0x720]
+0x000000000056bdc0: ldr        x8, [x0, #0x738]
+0x000000000056bdc4: str        x8, [x0, #0x740]
+0x000000000056bdc8: ldr        x8, [x0, #0x9e8]
+0x000000000056bdcc: str        x8, [x0, #0x9f0]
+0x000000000056bdd0: ldr        x8, [x0, #0xb98]
+0x000000000056bdd4: str        x8, [x0, #0xba0]
+0x000000000056bdd8: ldr        x8, [x0, #0xc88]
+0x000000000056bddc: str        x8, [x0, #0xc90]
+0x000000000056bde0: ldr        x8, [x0, #0xd78]
+0x000000000056bde4: str        x8, [x0, #0xd80]
+0x000000000056bde8: ldrb       w8, [x0, #0xda8]
+0x000000000056bdec: cmp        w8, #1
+0x000000000056bdf0: b.ne       #0x56bdf8
+0x000000000056bdf4: strb       wzr, [x0, #0xda8]
+0x000000000056bdf8: ldr        x8, [x0, #0xe00]
+0x000000000056bdfc: str        x8, [x0, #0xe08]
+0x000000000056be00: ldr        x8, [x0, #0xe60]
+0x000000000056be04: str        x8, [x0, #0xe68]
+0x000000000056be08: ldr        x8, [x0, #0xee0]
+0x000000000056be0c: str        x8, [x0, #0xee8]
+0x000000000056be10: ret        

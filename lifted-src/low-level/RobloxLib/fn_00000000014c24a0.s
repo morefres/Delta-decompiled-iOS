@@ -1,0 +1,27 @@
+; instruction-faithful ARM64 fallback for RobloxLib::function_14c24a0
+0x00000000014c24a0: sub        sp, sp, #0x40
+0x00000000014c24a4: stp        x20, x19, [sp, #0x20]
+0x00000000014c24a8: stp        x29, x30, [sp, #0x30]
+0x00000000014c24ac: add        x29, sp, #0x30
+0x00000000014c24b0: adrp       x1, #0x531b000
+0x00000000014c24b4: add        x1, x1, #0x2a2
+0x00000000014c24b8: add        x0, sp, #8
+0x00000000014c24bc: bl         #0x18aac
+0x00000000014c24c0: add        x0, sp, #8
+0x00000000014c24c4: mov        w1, #4
+0x00000000014c24c8: bl         #0x47e6398
+0x00000000014c24cc: ldrsb      w8, [sp, #0x1f]
+0x00000000014c24d0: tbz        w8, #0x1f, #0x14c24dc
+0x00000000014c24d4: ldr        x0, [sp, #8]
+0x00000000014c24d8: bl         #0x47e93a8
+0x00000000014c24dc: ldp        x29, x30, [sp, #0x30]
+0x00000000014c24e0: ldp        x20, x19, [sp, #0x20]
+0x00000000014c24e4: add        sp, sp, #0x40
+0x00000000014c24e8: ret        
+0x00000000014c24ec: mov        x19, x0
+0x00000000014c24f0: ldrsb      w8, [sp, #0x1f]
+0x00000000014c24f4: tbz        w8, #0x1f, #0x14c2500
+0x00000000014c24f8: ldr        x0, [sp, #8]
+0x00000000014c24fc: bl         #0x47e93a8
+0x00000000014c2500: mov        x0, x19
+0x00000000014c2504: bl         #0x4b97984

@@ -1,0 +1,416 @@
+{
+  "path": "/home/ubuntu/ipa_analysis/extracted/Payload/Roblox.app/Frameworks/RobloxLib.framework/RobloxLib",
+  "sha256": "201be50c05ace0a4e0289ee75a6657199130a978e6b0b6380edd27b774ddf182",
+  "size": 107654384,
+  "header": {
+    "magic": "0xfeedfacf",
+    "cpu": "CPU_TYPE.ARM64",
+    "file_type": "FILE_TYPE.DYLIB",
+    "flags": 9535621,
+    "ncmds": 50
+  },
+  "libraries": [
+    "Command: ID_DYLIB\nOffset:  0xdb0\nSize:    0x40\nname=@rpath/RobloxLib.framework/RobloxLib, timestamp=1, current_version=0.0.0,  compatibility_version=0.0.0",
+    "Command: LOAD_WEAK_DYLIB\nOffset:  0xee8\nSize:    0x30\nname=/usr/lib/libhvf.dylib, timestamp=2, current_version=0.0.0,  compatibility_version=0.0.0",
+    "Command: LOAD_DYLIB\nOffset:  0xf18\nSize:    0x50\nname=/System/Library/Frameworks/Contacts.framework/Contacts, timestamp=2, current_version=3804.255.31,  compatibility_version=0.0.0",
+    "Command: LOAD_WEAK_DYLIB\nOffset:  0xf68\nSize:    0x70\nname=/System/Library/Frameworks/UniformTypeIdentifiers.framework/UniformTypeIdentifiers, timestamp=2, current_version=709.0.0,  compatibility_version=1.0.0",
+    "Command: LOAD_DYLIB\nOffset:  0xfd8\nSize:    0x50\nname=/System/Library/Frameworks/WebKit.framework/WebKit, timestamp=2, current_version=623.1.14,  compatibility_version=1.0.0",
+    "Command: LOAD_DYLIB\nOffset:  0x1028\nSize:    0x58\nname=/System/Library/Frameworks/CoreHaptics.framework/CoreHaptics, timestamp=2, current_version=1.0.0,  compatibility_version=1.0.0",
+    "Command: LOAD_DYLIB\nOffset:  0x1080\nSize:    0x58\nname=/System/Library/Frameworks/CoreMotion.framework/CoreMotion, timestamp=2, current_version=3064.0.10,  compatibility_version=1.0.0",
+    "Command: LOAD_DYLIB\nOffset:  0x10d8\nSize:    0x60\nname=/System/Library/Frameworks/GameController.framework/GameController, timestamp=2, current_version=13.2.8,  compatibility_version=1.0.0",
+    "Command: LOAD_DYLIB\nOffset:  0x1138\nSize:    0x58\nname=/System/Library/Frameworks/CoreServices.framework/CoreServices, timestamp=2, current_version=1226.0.0,  compatibility_version=1.0.0",
+    "Command: LOAD_DYLIB\nOffset:  0x1190\nSize:    0x50\nname=/System/Library/Frameworks/CallKit.framework/CallKit, timestamp=2, current_version=1.0.0,  compatibility_version=1.0.0",
+    "Command: LOAD_DYLIB\nOffset:  0x11e0\nSize:    0x58\nname=/System/Library/Frameworks/DeviceCheck.framework/DeviceCheck, timestamp=2, current_version=1.0.0,  compatibility_version=1.0.0",
+    "Command: LOAD_DYLIB\nOffset:  0x1238\nSize:    0x50\nname=/System/Library/Frameworks/CoreText.framework/CoreText, timestamp=2, current_version=877.2.0,  compatibility_version=1.0.0",
+    "Command: LOAD_DYLIB\nOffset:  0x1288\nSize:    0x50\nname=/System/Library/Frameworks/Photos.framework/Photos, timestamp=2, current_version=822.0.140,  compatibility_version=1.0.0",
+    "Command: LOAD_DYLIB\nOffset:  0x12d8\nSize:    0x58\nname=/System/Library/Frameworks/AVFoundation.framework/AVFoundation, timestamp=2, current_version=2.0.0,  compatibility_version=1.0.0",
+    "Command: LOAD_DYLIB\nOffset:  0x1330\nSize:    0x58\nname=/System/Library/Frameworks/CoreMedia.framework/CoreMedia, timestamp=2, current_version=3290.6.1,  compatibility_version=1.0.0",
+    "Command: LOAD_DYLIB\nOffset:  0x1388\nSize:    0x58\nname=/System/Library/Frameworks/IOSurface.framework/IOSurface, timestamp=2, current_version=1.0.0,  compatibility_version=1.0.0",
+    "Command: LOAD_DYLIB\nOffset:  0x13e0\nSize:    0x58\nname=/System/Library/Frameworks/VideoToolbox.framework/VideoToolbox, timestamp=2, current_version=3290.6.1,  compatibility_version=1.0.0",
+    "Command: LOAD_DYLIB\nOffset:  0x1438\nSize:    0x58\nname=/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics, timestamp=2, current_version=1965.2.3,  compatibility_version=64.0.0",
+    "Command: LOAD_DYLIB\nOffset:  0x1490\nSize:    0x58\nname=/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox, timestamp=2, current_version=1000.0.0,  compatibility_version=1.0.0",
+    "Command: LOAD_DYLIB\nOffset:  0x14e8\nSize:    0x58\nname=/System/Library/Frameworks/CoreAudio.framework/CoreAudio, timestamp=2, current_version=1.0.0,  compatibility_version=1.0.0",
+    "Command: LOAD_DYLIB\nOffset:  0x1540\nSize:    0x60\nname=/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation, timestamp=2, current_version=4201.0.0,  compatibility_version=150.0.0",
+    "Command: LOAD_DYLIB\nOffset:  0x15a0\nSize:    0x38\nname=/usr/lib/libSystem.B.dylib, timestamp=2, current_version=1356.0.0,  compatibility_version=1.0.0",
+    "Command: LOAD_DYLIB\nOffset:  0x15d8\nSize:    0x58\nname=/System/Library/Frameworks/Foundation.framework/Foundation, timestamp=2, current_version=4201.0.0,  compatibility_version=300.0.0",
+    "Command: LOAD_DYLIB\nOffset:  0x1630\nSize:    0x50\nname=/System/Library/Frameworks/CoreML.framework/CoreML, timestamp=2, current_version=1.0.0,  compatibility_version=1.0.0",
+    "Command: LOAD_DYLIB\nOffset:  0x1680\nSize:    0x58\nname=/System/Library/Frameworks/CoreVideo.framework/CoreVideo, timestamp=2, current_version=726.2.0,  compatibility_version=1.2.0",
+    "Command: LOAD_DYLIB\nOffset:  0x16d8\nSize:    0x50\nname=/System/Library/Frameworks/Network.framework/Network, timestamp=2, current_version=5569.60.39,  compatibility_version=1.0.0",
+    "Command: LOAD_DYLIB\nOffset:  0x1728\nSize:    0x50\nname=/System/Library/Frameworks/Metal.framework/Metal, timestamp=2, current_version=370.64.2,  compatibility_version=1.0.0",
+    "Command: LOAD_DYLIB\nOffset:  0x1778\nSize:    0x58\nname=/System/Library/Frameworks/QuartzCore.framework/QuartzCore, timestamp=2, current_version=1193.47.2,  compatibility_version=1.2.0",
+    "Command: LOAD_DYLIB\nOffset:  0x17d0\nSize:    0x50\nname=/System/Library/Frameworks/OpenGLES.framework/OpenGLES, timestamp=2, current_version=1.0.0,  compatibility_version=1.0.0",
+    "Command: LOAD_DYLIB\nOffset:  0x1820\nSize:    0x38\nname=/usr/lib/libresolv.9.dylib, timestamp=2, current_version=1.0.0,  compatibility_version=1.0.0",
+    "Command: LOAD_DYLIB\nOffset:  0x1858\nSize:    0x50\nname=/System/Library/Frameworks/UIKit.framework/UIKit, timestamp=2, current_version=9126.2.4,  compatibility_version=1.0.0",
+    "Command: LOAD_DYLIB\nOffset:  0x18a8\nSize:    0x68\nname=/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration, timestamp=2, current_version=1385.60.3,  compatibility_version=1.0.0",
+    "Command: LOAD_DYLIB\nOffset:  0x1910\nSize:    0x38\nname=/usr/lib/libobjc.A.dylib, timestamp=2, current_version=228.0.0,  compatibility_version=1.0.0",
+    "Command: LOAD_DYLIB\nOffset:  0x1948\nSize:    0x30\nname=/usr/lib/libc++.1.dylib, timestamp=2, current_version=2000.67.0,  compatibility_version=1.0.0"
+  ],
+  "counts": {
+    "symbols": 12706,
+    "imports": 1331,
+    "exports": 11374,
+    "functions": 297861
+  },
+  "segments": [
+    {
+      "name": "__TEXT",
+      "vmaddr": "0x0",
+      "vmsize": 96092160,
+      "fileoff": 0,
+      "filesize": 96092160,
+      "maxprot": 5,
+      "initprot": 5
+    },
+    {
+      "name": "__DATA_CONST",
+      "vmaddr": "0x5ba4000",
+      "vmsize": 5373952,
+      "fileoff": 96092160,
+      "filesize": 5373952,
+      "maxprot": 3,
+      "initprot": 3
+    },
+    {
+      "name": "__DATA",
+      "vmaddr": "0x60c4000",
+      "vmsize": 8863744,
+      "fileoff": 101466112,
+      "filesize": 1015808,
+      "maxprot": 3,
+      "initprot": 3
+    },
+    {
+      "name": "__IL_TEXT",
+      "vmaddr": "0x6938000",
+      "vmsize": 1048576,
+      "fileoff": 102481920,
+      "filesize": 1048576,
+      "maxprot": 5,
+      "initprot": 5
+    },
+    {
+      "name": "__IL_DATA",
+      "vmaddr": "0x6a38000",
+      "vmsize": 1048576,
+      "fileoff": 103530496,
+      "filesize": 1048576,
+      "maxprot": 3,
+      "initprot": 3
+    },
+    {
+      "name": "__LINKEDIT",
+      "vmaddr": "0x6b38000",
+      "vmsize": 5746688,
+      "fileoff": 104579072,
+      "filesize": 3075312,
+      "maxprot": 1,
+      "initprot": 1
+    }
+  ],
+  "sections": [
+    {
+      "name": "__text",
+      "segment": "Command: SEGMENT_64\nOffset:  0x20\nSize:    0x458\nname=__TEXT, vaddr=0x000000, vsize=0x5ba4000 offset=0x000000, size=96092160, max protection=5, init protection=5 flags=0",
+      "addr": "0x4000",
+      "size": 79245528,
+      "offset": 16384,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "__stubs",
+      "segment": "Command: SEGMENT_64\nOffset:  0x20\nSize:    0x458\nname=__TEXT, vaddr=0x000000, vsize=0x5ba4000 offset=0x000000, size=96092160, max protection=5, init protection=5 flags=0",
+      "addr": "0x4b970d8",
+      "size": 10776,
+      "offset": 79261912,
+      "type": "TYPE.SYMBOL_STUBS"
+    },
+    {
+      "name": "__stub_helper",
+      "segment": "Command: SEGMENT_64\nOffset:  0x20\nSize:    0x458\nname=__TEXT, vaddr=0x000000, vsize=0x5ba4000 offset=0x000000, size=96092160, max protection=5, init protection=5 flags=0",
+      "addr": "0x4b99af0",
+      "size": 10740,
+      "offset": 79272688,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "__objc_stubs",
+      "segment": "Command: SEGMENT_64\nOffset:  0x20\nSize:    0x458\nname=__TEXT, vaddr=0x000000, vsize=0x5ba4000 offset=0x000000, size=96092160, max protection=5, init protection=5 flags=0",
+      "addr": "0x4b9c500",
+      "size": 48000,
+      "offset": 79283456,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "__const",
+      "segment": "Command: SEGMENT_64\nOffset:  0x20\nSize:    0x458\nname=__TEXT, vaddr=0x000000, vsize=0x5ba4000 offset=0x000000, size=96092160, max protection=5, init protection=5 flags=0",
+      "addr": "0x4ba9000",
+      "size": 6698480,
+      "offset": 79335424,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "__cstring",
+      "segment": "Command: SEGMENT_64\nOffset:  0x20\nSize:    0x458\nname=__TEXT, vaddr=0x000000, vsize=0x5ba4000 offset=0x000000, size=96092160, max protection=5, init protection=5 flags=0",
+      "addr": "0x520c5f0",
+      "size": 3777850,
+      "offset": 86033904,
+      "type": "TYPE.CSTRING_LITERALS"
+    },
+    {
+      "name": "__gcc_except_tab",
+      "segment": "Command: SEGMENT_64\nOffset:  0x20\nSize:    0x458\nname=__TEXT, vaddr=0x000000, vsize=0x5ba4000 offset=0x000000, size=96092160, max protection=5, init protection=5 flags=0",
+      "addr": "0x55a6b2c",
+      "size": 4159292,
+      "offset": 89811756,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "__objc_classname",
+      "segment": "Command: SEGMENT_64\nOffset:  0x20\nSize:    0x458\nname=__TEXT, vaddr=0x000000, vsize=0x5ba4000 offset=0x000000, size=96092160, max protection=5, init protection=5 flags=0",
+      "addr": "0x599e268",
+      "size": 3094,
+      "offset": 93971048,
+      "type": "TYPE.CSTRING_LITERALS"
+    },
+    {
+      "name": "__objc_methname",
+      "segment": "Command: SEGMENT_64\nOffset:  0x20\nSize:    0x458\nname=__TEXT, vaddr=0x000000, vsize=0x5ba4000 offset=0x000000, size=96092160, max protection=5, init protection=5 flags=0",
+      "addr": "0x599ee7e",
+      "size": 60809,
+      "offset": 93974142,
+      "type": "TYPE.CSTRING_LITERALS"
+    },
+    {
+      "name": "__objc_methtype",
+      "segment": "Command: SEGMENT_64\nOffset:  0x20\nSize:    0x458\nname=__TEXT, vaddr=0x000000, vsize=0x5ba4000 offset=0x000000, size=96092160, max protection=5, init protection=5 flags=0",
+      "addr": "0x59adc07",
+      "size": 26618,
+      "offset": 94034951,
+      "type": "TYPE.CSTRING_LITERALS"
+    },
+    {
+      "name": "__unwind_info",
+      "segment": "Command: SEGMENT_64\nOffset:  0x20\nSize:    0x458\nname=__TEXT, vaddr=0x000000, vsize=0x5ba4000 offset=0x000000, size=96092160, max protection=5, init protection=5 flags=0",
+      "addr": "0x59b4404",
+      "size": 1998264,
+      "offset": 94061572,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "__eh_frame",
+      "segment": "Command: SEGMENT_64\nOffset:  0x20\nSize:    0x458\nname=__TEXT, vaddr=0x000000, vsize=0x5ba4000 offset=0x000000, size=96092160, max protection=5, init protection=5 flags=0",
+      "addr": "0x5b9c1c0",
+      "size": 15280,
+      "offset": 96059840,
+      "type": "TYPE.COALESCED"
+    },
+    {
+      "name": "__oslogstring",
+      "segment": "Command: SEGMENT_64\nOffset:  0x20\nSize:    0x458\nname=__TEXT, vaddr=0x000000, vsize=0x5ba4000 offset=0x000000, size=96092160, max protection=5, init protection=5 flags=0",
+      "addr": "0x5ba0000",
+      "size": 11,
+      "offset": 96075776,
+      "type": "TYPE.CSTRING_LITERALS"
+    },
+    {
+      "name": "__got",
+      "segment": "Command: SEGMENT_64\nOffset:  0x478\nSize:    0x318\nname=__DATA_CONST, vaddr=0x5ba4000, vsize=0x520000 offset=0x5ba4000, size=5373952, max protection=3, init protection=3 flags=16",
+      "addr": "0x5ba4000",
+      "size": 2592,
+      "offset": 96092160,
+      "type": "TYPE.NON_LAZY_SYMBOL_POINTERS"
+    },
+    {
+      "name": "__mod_init_func",
+      "segment": "Command: SEGMENT_64\nOffset:  0x478\nSize:    0x318\nname=__DATA_CONST, vaddr=0x5ba4000, vsize=0x520000 offset=0x5ba4000, size=5373952, max protection=3, init protection=3 flags=16",
+      "addr": "0x5ba4a20",
+      "size": 209152,
+      "offset": 96094752,
+      "type": "TYPE.MOD_INIT_FUNC_POINTERS"
+    },
+    {
+      "name": "__const",
+      "segment": "Command: SEGMENT_64\nOffset:  0x478\nSize:    0x318\nname=__DATA_CONST, vaddr=0x5ba4000, vsize=0x520000 offset=0x5ba4000, size=5373952, max protection=3, init protection=3 flags=16",
+      "addr": "0x5bd7b20",
+      "size": 5134504,
+      "offset": 96303904,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "__cfstring",
+      "segment": "Command: SEGMENT_64\nOffset:  0x478\nSize:    0x318\nname=__DATA_CONST, vaddr=0x5ba4000, vsize=0x520000 offset=0x5ba4000, size=5373952, max protection=3, init protection=3 flags=16",
+      "addr": "0x60bd3c8",
+      "size": 17568,
+      "offset": 101438408,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "__objc_classlist",
+      "segment": "Command: SEGMENT_64\nOffset:  0x478\nSize:    0x318\nname=__DATA_CONST, vaddr=0x5ba4000, vsize=0x520000 offset=0x5ba4000, size=5373952, max protection=3, init protection=3 flags=16",
+      "addr": "0x60c1868",
+      "size": 816,
+      "offset": 101455976,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "__objc_nlclslist",
+      "segment": "Command: SEGMENT_64\nOffset:  0x478\nSize:    0x318\nname=__DATA_CONST, vaddr=0x5ba4000, vsize=0x520000 offset=0x5ba4000, size=5373952, max protection=3, init protection=3 flags=16",
+      "addr": "0x60c1b98",
+      "size": 8,
+      "offset": 101456792,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "__objc_catlist",
+      "segment": "Command: SEGMENT_64\nOffset:  0x478\nSize:    0x318\nname=__DATA_CONST, vaddr=0x5ba4000, vsize=0x520000 offset=0x5ba4000, size=5373952, max protection=3, init protection=3 flags=16",
+      "addr": "0x60c1ba0",
+      "size": 32,
+      "offset": 101456800,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "__objc_protolist",
+      "segment": "Command: SEGMENT_64\nOffset:  0x478\nSize:    0x318\nname=__DATA_CONST, vaddr=0x5ba4000, vsize=0x520000 offset=0x5ba4000, size=5373952, max protection=3, init protection=3 flags=16",
+      "addr": "0x60c1bc0",
+      "size": 264,
+      "offset": 101456832,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "__objc_imageinfo",
+      "segment": "Command: SEGMENT_64\nOffset:  0x478\nSize:    0x318\nname=__DATA_CONST, vaddr=0x5ba4000, vsize=0x520000 offset=0x5ba4000, size=5373952, max protection=3, init protection=3 flags=16",
+      "addr": "0x60c1cc8",
+      "size": 8,
+      "offset": 101457096,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "__la_symbol_ptr",
+      "segment": "Command: SEGMENT_64\nOffset:  0x790\nSize:    0x4a8\nname=__DATA, vaddr=0x60c4000, vsize=0x874000 offset=0x60c4000, size=1015808, max protection=3, init protection=3 flags=0",
+      "addr": "0x60c4000",
+      "size": 7144,
+      "offset": 101466112,
+      "type": "TYPE.LAZY_SYMBOL_POINTERS"
+    },
+    {
+      "name": "__objc_const",
+      "segment": "Command: SEGMENT_64\nOffset:  0x790\nSize:    0x4a8\nname=__DATA, vaddr=0x60c4000, vsize=0x874000 offset=0x60c4000, size=1015808, max protection=3, init protection=3 flags=0",
+      "addr": "0x60c5be8",
+      "size": 73160,
+      "offset": 101473256,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "__objc_selrefs",
+      "segment": "Command: SEGMENT_64\nOffset:  0x790\nSize:    0x4a8\nname=__DATA, vaddr=0x60c4000, vsize=0x874000 offset=0x60c4000, size=1015808, max protection=3, init protection=3 flags=0",
+      "addr": "0x60d79b0",
+      "size": 12672,
+      "offset": 101546416,
+      "type": "TYPE.LITERAL_POINTERS"
+    },
+    {
+      "name": "__objc_classrefs",
+      "segment": "Command: SEGMENT_64\nOffset:  0x790\nSize:    0x4a8\nname=__DATA, vaddr=0x60c4000, vsize=0x874000 offset=0x60c4000, size=1015808, max protection=3, init protection=3 flags=0",
+      "addr": "0x60dab30",
+      "size": 1720,
+      "offset": 101559088,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "__objc_superrefs",
+      "segment": "Command: SEGMENT_64\nOffset:  0x790\nSize:    0x4a8\nname=__DATA, vaddr=0x60c4000, vsize=0x874000 offset=0x60c4000, size=1015808, max protection=3, init protection=3 flags=0",
+      "addr": "0x60db1e8",
+      "size": 584,
+      "offset": 101560808,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "__objc_ivar",
+      "segment": "Command: SEGMENT_64\nOffset:  0x790\nSize:    0x4a8\nname=__DATA, vaddr=0x60c4000, vsize=0x874000 offset=0x60c4000, size=1015808, max protection=3, init protection=3 flags=0",
+      "addr": "0x60db430",
+      "size": 1428,
+      "offset": 101561392,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "__objc_data",
+      "segment": "Command: SEGMENT_64\nOffset:  0x790\nSize:    0x4a8\nname=__DATA, vaddr=0x60c4000, vsize=0x874000 offset=0x60c4000, size=1015808, max protection=3, init protection=3 flags=0",
+      "addr": "0x60db9c8",
+      "size": 12720,
+      "offset": 101562824,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "__data",
+      "segment": "Command: SEGMENT_64\nOffset:  0x790\nSize:    0x4a8\nname=__DATA, vaddr=0x60c4000, vsize=0x874000 offset=0x60c4000, size=1015808, max protection=3, init protection=3 flags=0",
+      "addr": "0x60deb80",
+      "size": 898592,
+      "offset": 101575552,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "crashpad_info",
+      "segment": "Command: SEGMENT_64\nOffset:  0x790\nSize:    0x4a8\nname=__DATA, vaddr=0x60c4000, vsize=0x874000 offset=0x60c4000, size=1015808, max protection=3, init protection=3 flags=0",
+      "addr": "0x61ba1a0",
+      "size": 64,
+      "offset": 102474144,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "__thread_vars",
+      "segment": "Command: SEGMENT_64\nOffset:  0x790\nSize:    0x4a8\nname=__DATA, vaddr=0x60c4000, vsize=0x874000 offset=0x60c4000, size=1015808, max protection=3, init protection=3 flags=0",
+      "addr": "0x61ba1e0",
+      "size": 1248,
+      "offset": 102474208,
+      "type": "TYPE.THREAD_LOCAL_VARIABLES"
+    },
+    {
+      "name": "__thread_data",
+      "segment": "Command: SEGMENT_64\nOffset:  0x790\nSize:    0x4a8\nname=__DATA, vaddr=0x60c4000, vsize=0x874000 offset=0x60c4000, size=1015808, max protection=3, init protection=3 flags=0",
+      "addr": "0x61ba6c0",
+      "size": 32,
+      "offset": 102475456,
+      "type": "TYPE.THREAD_LOCAL_REGULAR"
+    },
+    {
+      "name": "__thread_bss",
+      "segment": "Command: SEGMENT_64\nOffset:  0x790\nSize:    0x4a8\nname=__DATA, vaddr=0x60c4000, vsize=0x874000 offset=0x60c4000, size=1015808, max protection=3, init protection=3 flags=0",
+      "addr": "0x61ba6e0",
+      "size": 13264,
+      "offset": 0,
+      "type": "TYPE.THREAD_LOCAL_ZEROFILL"
+    },
+    {
+      "name": "__bss",
+      "segment": "Command: SEGMENT_64\nOffset:  0x790\nSize:    0x4a8\nname=__DATA, vaddr=0x60c4000, vsize=0x874000 offset=0x60c4000, size=1015808, max protection=3, init protection=3 flags=0",
+      "addr": "0x61bdb00",
+      "size": 4268984,
+      "offset": 0,
+      "type": "TYPE.ZEROFILL"
+    },
+    {
+      "name": "__common",
+      "segment": "Command: SEGMENT_64\nOffset:  0x790\nSize:    0x4a8\nname=__DATA, vaddr=0x60c4000, vsize=0x874000 offset=0x60c4000, size=1015808, max protection=3, init protection=3 flags=0",
+      "addr": "0x65cfec0",
+      "size": 3561152,
+      "offset": 0,
+      "type": "TYPE.ZEROFILL"
+    },
+    {
+      "name": "__text",
+      "segment": "Command: SEGMENT_64\nOffset:  0xc38\nSize:    0x98\nname=__IL_TEXT, vaddr=0x6938000, vsize=0x100000 offset=0x61bc000, size=1048576, max protection=5, init protection=5 flags=0",
+      "addr": "0x6938000",
+      "size": 0,
+      "offset": 102481920,
+      "type": "TYPE.REGULAR"
+    },
+    {
+      "name": "__data",
+      "segment": "Command: SEGMENT_64\nOffset:  0xcd0\nSize:    0x98\nname=__IL_DATA, vaddr=0x6a38000, vsize=0x100000 offset=0x62bc000, size=1048576, max protection=3, init protection=3 flags=0",
+      "addr": "0x6a38000",
+      "size": 0,
+      "offset": 103530496,
+      "type": "TYPE.REGULAR"
+    }
+  ]
+}

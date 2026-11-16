@@ -1,0 +1,30 @@
+; instruction-faithful ARM64 fallback for RobloxLib::function_3bad504
+0x0000000003bad504: ldr        x8, [x0]
+0x0000000003bad508: ldur       x8, [x8, #-0x48]
+0x0000000003bad50c: add        x0, x0, x8
+0x0000000003bad510: b          #0x3ba9584
+0x0000000003bad514: ldr        x8, [x1]
+0x0000000003bad518: str        x8, [x0]
+0x0000000003bad51c: ldr        x9, [x1, #8]
+0x0000000003bad520: ldur       x8, [x8, #-0x18]
+0x0000000003bad524: str        x9, [x0, x8]
+0x0000000003bad528: str        xzr, [x0, #0xd8]
+0x0000000003bad52c: stp        xzr, xzr, [x0, #0x10]
+0x0000000003bad530: str        xzr, [x0, #8]
+0x0000000003bad534: str        wzr, [x0, #0x20]
+0x0000000003bad538: stp        xzr, xzr, [x0, #0x30]
+0x0000000003bad53c: str        xzr, [x0, #0x28]
+0x0000000003bad540: str        wzr, [x0, #0x40]
+0x0000000003bad544: movi       v0.16b, #0
+0x0000000003bad548: stur       q0, [x0, #0x48]
+0x0000000003bad54c: stur       q0, [x0, #0x58]
+0x0000000003bad550: str        wzr, [x0, #0x68]
+0x0000000003bad554: stp        xzr, xzr, [x0, #0x78]
+0x0000000003bad558: str        xzr, [x0, #0x70]
+0x0000000003bad55c: str        wzr, [x0, #0x88]
+0x0000000003bad560: str        wzr, [x0, #0xb0]
+0x0000000003bad564: stp        q0, q0, [x0, #0x90]
+0x0000000003bad568: stp        xzr, xzr, [x0, #0xb8]
+0x0000000003bad56c: str        wzr, [x0, #0xd0]
+0x0000000003bad570: str        xzr, [x0, #0xc8]
+0x0000000003bad574: ret        

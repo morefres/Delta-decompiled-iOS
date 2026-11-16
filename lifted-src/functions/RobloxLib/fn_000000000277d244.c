@@ -1,0 +1,8 @@
+/* Evidence-based generated lift; not original source. */
+/* RobloxLib::function_277d244 start_va=0x277d244 image_relative=0x277d244 bytes=16 */
+void function_277d244__at_277d244(void) {
+    /* ldr x0, [x0, #0x38] */
+    /* cbz x0, #0x277d250 */
+    /* branch b #0x4b9808c */
+    return;
+}

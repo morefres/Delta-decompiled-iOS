@@ -1,0 +1,44 @@
+; instruction-faithful ARM64 fallback for Roblox::function_1e3e9c
+; start_va=0x1001e3e9c image_relative=0x1e3e9c bytes=168
+0x00000001001e3e9c: adrp       x0, #0x1008ba000
+0x00000001001e3ea0: add        x0, x0, #0xcd0
+0x00000001001e3ea4: b          #0x1001e3f44
+0x00000001001e3ea8: adrp       x0, #0x1008c5000
+0x00000001001e3eac: add        x0, x0, #0x7b8
+0x00000001001e3eb0: b          #0x1001e3f44
+0x00000001001e3eb4: adrp       x0, #0x1008cd000
+0x00000001001e3eb8: add        x0, x0, #0x358
+0x00000001001e3ebc: b          #0x1001e3f44
+0x00000001001e3ec0: adrp       x0, #0x1008c3000
+0x00000001001e3ec4: add        x0, x0, #0xef8
+0x00000001001e3ec8: b          #0x1001e3f44
+0x00000001001e3ecc: adrp       x0, #0x1008bb000
+0x00000001001e3ed0: add        x0, x0, #0x5a0
+0x00000001001e3ed4: b          #0x1001e3f44
+0x00000001001e3ed8: adrp       x0, #0x1008bb000
+0x00000001001e3edc: add        x0, x0, #0x988
+0x00000001001e3ee0: b          #0x1001e3f44
+0x00000001001e3ee4: adrp       x0, #0x1008bc000
+0x00000001001e3ee8: add        x0, x0, #0xb8
+0x00000001001e3eec: b          #0x1001e3f44
+0x00000001001e3ef0: adrp       x0, #0x1008bf000
+0x00000001001e3ef4: add        x0, x0, #0x410
+0x00000001001e3ef8: b          #0x1001e3f44
+0x00000001001e3efc: adrp       x0, #0x1008cc000
+0x00000001001e3f00: add        x0, x0, #0xc58
+0x00000001001e3f04: b          #0x1001e3f44
+0x00000001001e3f08: adrp       x0, #0x1008b9000
+0x00000001001e3f0c: add        x0, x0, #0xf40
+0x00000001001e3f10: b          #0x1001e3f44
+0x00000001001e3f14: adrp       x0, #0x1008b9000
+0x00000001001e3f18: add        x0, x0, #0xf30
+0x00000001001e3f1c: b          #0x1001e3f44
+0x00000001001e3f20: adrp       x0, #0x1008be000
+0x00000001001e3f24: add        x0, x0, #0x130
+0x00000001001e3f28: b          #0x1001e3f44
+0x00000001001e3f2c: adrp       x0, #0x1008c3000
+0x00000001001e3f30: add        x0, x0, #0x988
+0x00000001001e3f34: b          #0x1001e3f44
+0x00000001001e3f38: adrp       x0, #0x1008c5000
+0x00000001001e3f3c: add        x0, x0, #0x80
+0x00000001001e3f40: b          #0x1001e3f44

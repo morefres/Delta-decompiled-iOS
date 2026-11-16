@@ -1,0 +1,222 @@
+/* Evidence-based generated lift; not original source. */
+/* RobloxLib::function_3ab8df8 start_va=0x3ab8df8 image_relative=0x3ab8df8 bytes=872 */
+void function_3ab8df8__at_3ab8df8(void) {
+    /* ldr x10, [x2, #0x50] */
+    /* add x8, x10, #7 */
+    /* cmp x10, #0 */
+    /* csel x13, x8, x10, lt */
+    /* add x12, x10, #3 */
+    /* csel x11, x12, x10, lt */
+    /* ldr x9, [x0, #0x10] */
+    /* ldr x8, [x0, #0x28] */
+    /* cmp x12, #7 */
+    /* b.hs #0x3ab8e64 */
+    /* ldr s0, [x9] */
+    /* ldr s1, [x8] */
+    /* fsub s0, s0, s1 */
+    /* fmul s0, s0, s0 */
+    /* cmp x10, #2 */
+    /* b.lt #0x3ab8f3c */
+    /* sub x10, x10, #1 */
+    /* add x9, x9, #4 */
+    /* add x8, x8, #4 */
+    /* ldr s1, [x9], #4 */
+    /* ldr s2, [x8], #4 */
+    /* fsub s1, s1, s2 */
+    /* fmul s1, s1, s1 */
+    /* fadd s0, s0, s1 */
+    /* subs x10, x10, #1 */
+    /* b.ne #0x3ab8e44 */
+    /* branch b #0x3ab8f3c */
+    /* and x12, x11, #0xfffffffffffffffc */
+    /* ldr q0, [x9] */
+    /* ldr q1, [x8] */
+    /* fsub v0.4s, v0.4s, v1.4s */
+    /* fmul v0.4s, v0.4s, v0.4s */
+    /* cmp x10, #8 */
+    /* b.lt #0x3ab8f00 */
+    /* and x13, x13, #0xfffffffffffffff8 */
+    /* ldr q1, [x9, #0x10] */
+    /* ldr q2, [x8, #0x10] */
+    /* fsub v1.4s, v1.4s, v2.4s */
+    /* fmul v1.4s, v1.4s, v1.4s */
+    /* cmp x10, #0x10 */
+    /* b.lo #0x3ab8edc */
+    /* add x14, x8, #0x30 */
+    /* add x15, x9, #0x30 */
+    /* mov w16, #8 */
+    /* ldp q2, q3, [x15, #-0x10] */
+    /* ldp q4, q5, [x14, #-0x10] */
+    /* fsub v2.4s, v2.4s, v4.4s */
+    /* fmul v2.4s, v2.4s, v2.4s */
+    /* fadd v0.4s, v0.4s, v2.4s */
+    /* fsub v2.4s, v3.4s, v5.4s */
+    /* fmul v2.4s, v2.4s, v2.4s */
+    /* fadd v1.4s, v1.4s, v2.4s */
+    /* add x16, x16, #8 */
+    /* add x14, x14, #0x20 */
+    /* add x15, x15, #0x20 */
+    /* cmp x16, x13 */
+    /* b.lt #0x3ab8ea8 */
+    /* fadd v0.4s, v1.4s, v0.4s */
+    /* cmp x12, x13 */
+    /* b.le #0x3ab8f00 */
+    /* lsl x13, x13, #2 */
+    /* ldr q1, [x9, x13] */
+    /* ldr q2, [x8, x13] */
+    /* fsub v1.4s, v1.4s, v2.4s */
+    /* fmul v1.4s, v1.4s, v1.4s */
+    /* fadd v0.4s, v0.4s, v1.4s */
+    /* ext v1.16b, v0.16b, v0.16b, #8 */
+    /* fadd v0.2s, v0.2s, v1.2s */
+    /* faddp v0.2s, v0.2s, v0.2s */
+    /* subs x10, x10, x12 */
+    /* b.le #0x3ab8f3c */
+    /* asr x11, x11, #2 */
+    /* add x9, x9, x11, lsl #4 */
+    /* add x8, x8, x11, lsl #4 */
+    /* ldr s1, [x9], #4 */
+    /* ldr s2, [x8], #4 */
+    /* fsub s1, s1, s2 */
+    /* fmul s1, s1, s1 */
+    /* fadd s0, s0, s1 */
+    /* subs x10, x10, #1 */
+    /* b.ne #0x3ab8f20 */
+    return;
+    /* ldr x9, [x2, #0x10] */
+    /* add x8, x9, #7 */
+    /* cmp x9, #0 */
+    /* csel x12, x8, x9, lt */
+    /* add x11, x9, #3 */
+    /* csel x10, x11, x9, lt */
+    /* ldr x8, [x0, #8] */
+    /* cmp x11, #7 */
+    /* b.hs #0x3ab8f94 */
+    /* ldr s0, [x8] */
+    /* fmul s0, s0, s0 */
+    /* cmp x9, #2 */
+    /* b.lt #0x3ab9034 */
+    /* sub x9, x9, #1 */
+    /* add x8, x8, #4 */
+    /* ldr s1, [x8], #4 */
+    /* fmul s1, s1, s1 */
+    /* fadd s0, s0, s1 */
+    /* subs x9, x9, #1 */
+    /* b.ne #0x3ab8f7c */
+    /* branch b #0x3ab9034 */
+    /* and x11, x10, #0xfffffffffffffffc */
+    /* ldr q0, [x8] */
+    /* fmul v0.4s, v0.4s, v0.4s */
+    /* cmp x9, #8 */
+    /* b.lt #0x3ab9004 */
+    /* and x12, x12, #0xfffffffffffffff8 */
+    /* ldr q1, [x8, #0x10] */
+    /* fmul v1.4s, v1.4s, v1.4s */
+    /* cmp x9, #0x10 */
+    /* b.lo #0x3ab8fe8 */
+    /* add x13, x8, #0x30 */
+    /* mov w14, #8 */
+    /* ldp q2, q3, [x13, #-0x10] */
+    /* fmul v2.4s, v2.4s, v2.4s */
+    /* fadd v0.4s, v0.4s, v2.4s */
+    /* fmul v2.4s, v3.4s, v3.4s */
+    /* fadd v1.4s, v1.4s, v2.4s */
+    /* add x14, x14, #8 */
+    /* add x13, x13, #0x20 */
+    /* cmp x14, x12 */
+    /* b.lt #0x3ab8fc4 */
+    /* fadd v0.4s, v1.4s, v0.4s */
+    /* cmp x11, x12 */
+    /* b.le #0x3ab9004 */
+    /* lsl x12, x12, #2 */
+    /* ldr q1, [x8, x12] */
+    /* fmul v1.4s, v1.4s, v1.4s */
+    /* fadd v0.4s, v0.4s, v1.4s */
+    /* ext v1.16b, v0.16b, v0.16b, #8 */
+    /* fadd v0.2s, v0.2s, v1.2s */
+    /* faddp v0.2s, v0.2s, v0.2s */
+    /* subs x9, x9, x11 */
+    /* b.le #0x3ab9034 */
+    /* asr x10, x10, #2 */
+    /* add x8, x8, x10, lsl #4 */
+    /* ldr s1, [x8], #4 */
+    /* fmul s1, s1, s1 */
+    /* fadd s0, s0, s1 */
+    /* subs x9, x9, #1 */
+    /* b.ne #0x3ab9020 */
+    return;
+    /* ldr x10, [x2, #0x48] */
+    /* add x8, x10, #7 */
+    /* cmp x10, #0 */
+    /* csel x13, x8, x10, lt */
+    /* add x12, x10, #3 */
+    /* csel x11, x12, x10, lt */
+    /* ldr x9, [x0, #8] */
+    /* ldr x8, [x0, #0x20] */
+    /* cmp x12, #7 */
+    /* b.hs #0x3ab909c */
+    /* ldr s0, [x9] */
+    /* ldr s1, [x8] */
+    /* fmul s0, s0, s1 */
+    /* cmp x10, #2 */
+    /* b.lt #0x3ab915c */
+    /* sub x10, x10, #1 */
+    /* add x9, x9, #4 */
+    /* add x8, x8, #4 */
+    /* ldr s1, [x9], #4 */
+    /* ldr s2, [x8], #4 */
+    /* fmul s1, s1, s2 */
+    /* fadd s0, s0, s1 */
+    /* subs x10, x10, #1 */
+    /* b.ne #0x3ab9080 */
+    /* branch b #0x3ab915c */
+    /* and x12, x11, #0xfffffffffffffffc */
+    /* ldr q0, [x9] */
+    /* ldr q1, [x8] */
+    /* fmul v0.4s, v0.4s, v1.4s */
+    /* cmp x10, #8 */
+    /* b.lt #0x3ab9124 */
+    /* and x13, x13, #0xfffffffffffffff8 */
+    /* ldr q1, [x9, #0x10] */
+    /* ldr q2, [x8, #0x10] */
+    /* fmul v1.4s, v1.4s, v2.4s */
+    /* cmp x10, #0x10 */
+    /* b.lo #0x3ab9104 */
+    /* add x14, x8, #0x30 */
+    /* add x15, x9, #0x30 */
+    /* mov w16, #8 */
+    /* ldp q2, q3, [x15, #-0x10] */
+    /* ldp q4, q5, [x14, #-0x10] */
+    /* fmul v2.4s, v2.4s, v4.4s */
+    /* fadd v0.4s, v0.4s, v2.4s */
+    /* fmul v2.4s, v3.4s, v5.4s */
+    /* fadd v1.4s, v1.4s, v2.4s */
+    /* add x16, x16, #8 */
+    /* add x14, x14, #0x20 */
+    /* add x15, x15, #0x20 */
+    /* cmp x16, x13 */
+    /* b.lt #0x3ab90d8 */
+    /* fadd v0.4s, v1.4s, v0.4s */
+    /* cmp x12, x13 */
+    /* b.le #0x3ab9124 */
+    /* lsl x13, x13, #2 */
+    /* ldr q1, [x9, x13] */
+    /* ldr q2, [x8, x13] */
+    /* fmul v1.4s, v1.4s, v2.4s */
+    /* fadd v0.4s, v0.4s, v1.4s */
+    /* ext v1.16b, v0.16b, v0.16b, #8 */
+    /* fadd v0.2s, v0.2s, v1.2s */
+    /* faddp v0.2s, v0.2s, v0.2s */
+    /* subs x10, x10, x12 */
+    /* b.le #0x3ab915c */
+    /* asr x11, x11, #2 */
+    /* add x9, x9, x11, lsl #4 */
+    /* add x8, x8, x11, lsl #4 */
+    /* ldr s1, [x9], #4 */
+    /* ldr s2, [x8], #4 */
+    /* fmul s1, s1, s2 */
+    /* fadd s0, s0, s1 */
+    /* subs x10, x10, #1 */
+    /* b.ne #0x3ab9144 */
+    return;
+}

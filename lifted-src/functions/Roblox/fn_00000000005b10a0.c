@@ -1,0 +1,9 @@
+/*
+ * Evidence-based lift for Roblox::function_5b10a0
+ * Start VA: 0x1005b10a0; image-relative: 0x5b10a0; bytes: 8
+ * This is generated pseudocode, not original source. Unknown semantics are preserved as comments.
+ */
+void function_5b10a0__at_5b10a0(void) {
+    /* memory ldr x0, [x0, #8] */
+    goto label__0x1005ec4e0;
+}

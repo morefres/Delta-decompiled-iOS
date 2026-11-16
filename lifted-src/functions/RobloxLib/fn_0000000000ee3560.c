@@ -1,0 +1,15 @@
+/* Evidence-based generated lift; not original source. */
+/* RobloxLib::function_ee3560 start_va=0xee3560 image_relative=0xee3560 bytes=44 */
+void function_ee3560__at_ee3560(void) {
+    /* ldr x9, [x1], #8 */
+    /* cmp x9, #0 */
+    /* csel x9, xzr, x1, eq */
+    /* ldrb w10, [x9, #8] */
+    /* tbz w10, #0, #0xee357c */
+    /* ldr x0, [x9] */
+    /* branch b #0x4795210 */
+    /* adrp x1, #0x520c000 */
+    /* add x1, x1, #0xfd2 */
+    /* mov x0, x8 */
+    /* branch b #0x18aac */
+}

@@ -1,0 +1,281 @@
+/*
+ * Evidence-based lift for Roblox::function_51e690
+ * Start VA: 0x10051e690; image-relative: 0x51e690; bytes: 1096
+ * This is generated pseudocode, not original source. Unknown semantics are preserved as comments.
+ */
+void function_51e690__at_51e690(void) {
+    /* sub sp, sp, #0x60 */
+    /* memory stp x22, x21, [sp, #0x30] */
+    /* memory stp x20, x19, [sp, #0x40] */
+    /* memory stp x29, x30, [sp, #0x50] */
+    /* add x29, sp, #0x50 */
+    /* mov x19, x0 */
+    /* mov w20, #0 */
+    /* adrp x8, #0x1007c6000 */
+    /* memory ldr x8, [x8, #0x4a8] */
+    /* memory ldr x8, [x8] */
+    /* memory str x8, [sp, #0x28] */
+    /* memory ldp w11, w12, [x0, #0x14] */
+    /* add w8, w11, #1 */
+    /* add w9, w12, #1 */
+    /* memory stp w8, w9, [x0, #0x14] */
+    /* condition cmp w11, #0xff */
+    /* conditional branch b.gt #0x10051ea84; control-flow target retained in assembly fallback */
+    /* condition cmp w12, #0x20, lsl #12 */
+    /* conditional branch b.ge #0x10051ea84; control-flow target retained in assembly fallback */
+    /* add x21, x19, #0x1c */
+    /* memory ldur q0, [x19, #0x1c] */
+    /* memory str q0, [sp] */
+    /* add w9, w11, #2 */
+    /* add w10, w12, #2 */
+    /* memory stp w9, w10, [x19, #0x14] */
+    /* condition cmp w11, #0xfe */
+    /* mov w10, #0x1fffe */
+    /* condition ccmp w12, w10, #0, le */
+    /* conditional branch b.gt #0x10051e78c; control-flow target retained in assembly fallback */
+    /* memory ldr x10, [x19] */
+    /* memory ldrsw x13, [x19, #0x1c] */
+    /* memory ldrb w14, [x10, x13] */
+    /* condition cmp w14, #0x64 */
+    /* conditional branch b.ne #0x10051e78c; control-flow target retained in assembly fallback */
+    /* add x14, x13, #1 */
+    /* memory str w14, [x19, #0x1c] */
+    /* memory str w8, [x19, #0x14] */
+    /* memory ldrb w8, [x10, x14] */
+    /* sub w15, w8, #0x30 */
+    /* condition cmp w8, #0x5f */
+    /* condition ccmp w15, #0xa, #0, ne */
+    /* conditional branch b.hs #0x10051e790; control-flow target retained in assembly fallback */
+    /* mov w15, #0xfffd */
+    /* movk w15, #1, lsl #16 */
+    /* add w8, w12, #3 */
+    /* memory stp w9, w8, [x19, #0x14] */
+    /* condition cmp w12, w15 */
+    /* conditional branch b.gt #0x10051e8d4; control-flow target retained in assembly fallback */
+    /* mov w8, #0 */
+    /* add w16, w11, #3 */
+    /* add w17, w12, #4 */
+    /* memory stp w16, w17, [x19, #0x14] */
+    /* condition cmp w11, #0xfd */
+    /* conditional branch b.gt #0x10051e864; control-flow target retained in assembly fallback */
+    /* condition cmp w12, w15 */
+    /* conditional branch b.eq #0x10051e864; control-flow target retained in assembly fallback */
+    /* memory ldrb w8, [x10, x14] */
+    /* condition cmp w8, #0x6e */
+    /* conditional branch b.ne #0x10051e860; control-flow target retained in assembly fallback */
+    /* add w8, w13, #2 */
+    /* memory str w8, [x21] */
+    /* mov w8, #1 */
+    goto label__0x10051e864;
+    /* memory str w8, [x19, #0x14] */
+    /* memory ldr q0, [sp] */
+    /* memory str q0, [x21] */
+    /* memory ldr w8, [x19, #0x28] */
+    /* conditional branch tbz w8, #0x1f, #0x10051e7b4; control-flow target retained in assembly fallback */
+    /* adrp x1, #0x1006d9000 */
+    /* add x1, x1, #0x378 */
+    /* mov x0, x19 */
+    /* mov w2, #2 */
+    /* call #0x1003d342c; return value/ABI effects unresolved */
+    /* mov x0, x19 */
+    /* call #0x100519038; return value/ABI effects unresolved */
+    /* conditional branch cbz w0, #0x10051e7d0; control-flow target retained in assembly fallback */
+    /* mov x0, x19 */
+    /* call #0x1003d8030; return value/ABI effects unresolved */
+    /* mov w20, #1 */
+    goto label__0x10051ea84;
+    /* memory ldr q0, [sp] */
+    /* memory str q0, [x21] */
+    /* memory ldr w8, [x19, #0x28] */
+    /* conditional branch tbz w8, #0x1f, #0x10051e7f8; control-flow target retained in assembly fallback */
+    /* memory ldrsw x8, [x19, #0x20] */
+    /* memory ldr w9, [x19, #0x10] */
+    /* condition cmp w8, w9 */
+    /* conditional branch b.ge #0x10051e7f8; control-flow target retained in assembly fallback */
+    /* memory ldr x9, [x19, #8] */
+    /* memory strb wzr, [x9, x8] */
+    /* mov w20, #0 */
+    /* memory ldp w8, w9, [x19, #0x14] */
+    /* add w10, w8, #1 */
+    /* add w11, w9, #1 */
+    /* memory stp w10, w11, [x19, #0x14] */
+    /* condition cmp w8, #0xff */
+    /* conditional branch b.gt #0x10051e83c; control-flow target retained in assembly fallback */
+    /* condition cmp w9, #0x20, lsl #12 */
+    /* conditional branch b.ge #0x10051e83c; control-flow target retained in assembly fallback */
+    /* memory ldr x10, [x19] */
+    /* memory ldrsw x9, [x19, #0x1c] */
+    /* memory ldrb w10, [x10, x9] */
+    /* condition cmp w10, #0x73 */
+    /* conditional branch b.ne #0x10051e850; control-flow target retained in assembly fallback */
+    /* add w9, w9, #1 */
+    /* memory str w9, [x21] */
+    /* mov w20, #1 */
+    /* memory str w8, [x19, #0x14] */
+    /* conditional branch cbz w20, #0x10051ea84; control-flow target retained in assembly fallback */
+    /* mov x0, x19 */
+    /* call #0x1003d8030; return value/ABI effects unresolved */
+    goto label__0x10051ea84;
+    /* mov w20, #0 */
+    /* memory str w8, [x19, #0x14] */
+    /* conditional branch cbnz w20, #0x10051e844; control-flow target retained in assembly fallback */
+    goto label__0x10051ea84;
+    /* mov w8, #0 */
+    /* memory str w9, [x19, #0x14] */
+    /* memory ldrsw x9, [x19, #0x1c] */
+    /* add x10, x10, x9 */
+    /* memory ldrb w13, [x10] */
+    /* sub w11, w13, #0x30 */
+    /* condition cmp w11, #9 */
+    /* conditional branch b.hi #0x10051e8ac; control-flow target retained in assembly fallback */
+    /* mov x11, #0 */
+    /* mov w14, #0xa */
+    /* mov x12, x10 */
+    /* mul x11, x11, x14 */
+    /* add x11, x11, w13, sxtb */
+    /* sub x11, x11, #0x30 */
+    /* memory ldrb w13, [x12, #1]! */
+    /* sub w15, w13, #0x30 */
+    /* condition cmp w15, #0xa */
+    /* conditional branch b.lo #0x10051e88c; control-flow target retained in assembly fallback */
+    goto label__0x10051e8b4;
+    /* mov x11, #0 */
+    /* mov x12, x10 */
+    /* condition cmp x12, x10 */
+    /* conditional branch b.eq #0x10051e8d4; control-flow target retained in assembly fallback */
+    /* sub w10, w12, w10 */
+    /* add w9, w9, w10 */
+    /* memory str w9, [x21] */
+    /* condition cmp w8, #0 */
+    /* cneg w8, w11, ne */
+    goto label__0x10051e8d8;
+    /* mov w8, #-1 */
+    /* memory ldr w9, [x19, #0x14] */
+    /* sub w9, w9, #1 */
+    /* memory str w9, [x19, #0x14] */
+    /* mov w9, #2 */
+    /* movk w9, #0x8000, lsl #16 */
+    /* add w9, w8, w9 */
+    /* add w8, w8, #2 */
+    /* mov w10, #-0x7fffffff */
+    /* condition cmp w9, w10 */
+    /* condition csinc w20, w8, wzr, hs */
+    /* memory ldr w8, [x19, #0x28] */
+    /* conditional branch tbz w8, #0x1f, #0x10051e91c; control-flow target retained in assembly fallback */
+    /* adrp x1, #0x1006d9000 */
+    /* add x1, x1, #0x6c5 */
+    /* mov x0, x19 */
+    /* mov w2, #0xf */
+    /* call #0x1003d342c; return value/ABI effects unresolved */
+    /* memory ldr w8, [x19, #0x28] */
+    /* conditional branch tbz w8, #0x1f, #0x10051e9dc; control-flow target retained in assembly fallback */
+    /* mov x8, #0 */
+    /* add x10, sp, #0x14 */
+    /* add x9, x10, #0x14 */
+    /* add x11, x10, #0x13 */
+    /* mov w12, #0x6667 */
+    /* movk w12, #0x6666, lsl #16 */
+    /* mov w13, #0xa */
+    /* smull x14, w20, w12 */
+    /* lsr x15, x14, #0x3f */
+    /* asr x14, x14, #0x22 */
+    /* add w14, w14, w15 */
+    /* msub w15, w14, w13, w20 */
+    /* add w15, w15, #0x30 */
+    /* add x16, x11, x8 */
+    /* memory strb w15, [x16] */
+    /* sub x8, x8, #1 */
+    /* condition cmp x16, x10 */
+    /* conditional branch b.ls #0x10051e97c; control-flow target retained in assembly fallback */
+    /* sub w15, w20, #0xa */
+    /* mov x20, x14 */
+    /* condition cmn w15, #0x13 */
+    /* conditional branch b.lo #0x10051e940; control-flow target retained in assembly fallback */
+    /* conditional branch cbz x8, #0x10051e9c4; control-flow target retained in assembly fallback */
+    /* add x10, x8, #1 */
+    /* memory ldrsw x11, [x19, #0x20] */
+    /* add w12, w11, #1 */
+    /* memory ldr w13, [x19, #0x10] */
+    /* condition cmp w12, w13 */
+    /* conditional branch b.ge #0x10051e9bc; control-flow target retained in assembly fallback */
+    /* memory ldrb w13, [x9, x8] */
+    /* memory ldr x14, [x19, #8] */
+    /* memory str w12, [x19, #0x20] */
+    /* memory strb w13, [x14, x11] */
+    /* add x10, x10, #1 */
+    /* add x8, x8, #1 */
+    /* condition cmp x10, #1 */
+    /* conditional branch b.ne #0x10051e984; control-flow target retained in assembly fallback */
+    goto label__0x10051e9c4;
+    /* add w8, w13, #1 */
+    /* memory str w8, [x19, #0x20] */
+    /* memory ldrsw x8, [x19, #0x20] */
+    /* memory ldr w9, [x19, #0x10] */
+    /* condition cmp w8, w9 */
+    /* conditional branch b.ge #0x10051e9dc; control-flow target retained in assembly fallback */
+    /* memory ldr x9, [x19, #8] */
+    /* memory strb wzr, [x9, x8] */
+    /* memory ldr w8, [x19, #0x28] */
+    /* conditional branch tbz w8, #0x1f, #0x10051e9f8; control-flow target retained in assembly fallback */
+    /* adrp x1, #0x1006d9000 */
+    /* add x1, x1, #0x6d5 */
+    /* mov x0, x19 */
+    /* mov w2, #3 */
+    /* call #0x1003d342c; return value/ABI effects unresolved */
+    /* memory ldp w8, w9, [x19, #0x14] */
+    /* add w10, w8, #1 */
+    /* add w11, w9, #1 */
+    /* memory stp w10, w11, [x19, #0x14] */
+    /* condition cmp w8, #0xff */
+    /* conditional branch b.gt #0x10051ea4c; control-flow target retained in assembly fallback */
+    /* condition cmp w9, #0x20, lsl #12 */
+    /* conditional branch b.ge #0x10051ea4c; control-flow target retained in assembly fallback */
+    /* memory ldr x10, [x19] */
+    /* memory ldrsw x9, [x19, #0x1c] */
+    /* memory ldrb w10, [x10, x9] */
+    /* condition cmp w10, #0x5f */
+    /* conditional branch b.ne #0x10051ea4c; control-flow target retained in assembly fallback */
+    /* add w9, w9, #1 */
+    /* memory str w9, [x19, #0x1c] */
+    /* memory str w8, [x19, #0x14] */
+    /* mov x0, x19 */
+    /* call #0x100519038; return value/ABI effects unresolved */
+    /* conditional branch tbz w0, #0, #0x10051ea50; control-flow target retained in assembly fallback */
+    /* mov w20, #1 */
+    goto label__0x10051ea84;
+    /* memory str w8, [x19, #0x14] */
+    /* memory ldr q0, [sp] */
+    /* memory str q0, [x21] */
+    /* memory ldr w8, [x19, #0x28] */
+    /* conditional branch tbz w8, #0x1f, #0x10051ea80; control-flow target retained in assembly fallback */
+    /* memory ldrsw x8, [x19, #0x20] */
+    /* memory ldr w9, [x19, #0x10] */
+    /* condition cmp w8, w9 */
+    /* conditional branch b.ge #0x10051ea80; control-flow target retained in assembly fallback */
+    /* mov w20, #0 */
+    /* memory ldr x9, [x19, #8] */
+    /* memory strb wzr, [x9, x8] */
+    goto label__0x10051ea84;
+    /* mov w20, #0 */
+    /* memory ldr w8, [x19, #0x14] */
+    /* sub w8, w8, #1 */
+    /* memory str w8, [x19, #0x14] */
+    /* memory ldr x8, [sp, #0x28] */
+    /* adrp x9, #0x1007c6000 */
+    /* memory ldr x9, [x9, #0x4a8] */
+    /* memory ldr x9, [x9] */
+    /* condition cmp x9, x8 */
+    /* conditional branch b.ne #0x10051eac0; control-flow target retained in assembly fallback */
+    /* mov x0, x20 */
+    /* memory ldp x29, x30, [sp, #0x50] */
+    /* memory ldp x20, x19, [sp, #0x40] */
+    /* memory ldp x22, x21, [sp, #0x30] */
+    /* add sp, sp, #0x60 */
+    return;
+    /* call #0x1005c095c; return value/ABI effects unresolved */
+    goto label__0x10051eac8;
+    /* memory ldr w8, [x19, #0x14] */
+    /* sub w8, w8, #1 */
+    /* memory str w8, [x19, #0x14] */
+    /* call #0x1005bfce4; return value/ABI effects unresolved */
+}

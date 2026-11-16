@@ -1,0 +1,9 @@
+/* Evidence-based generated lift; not original source. */
+/* RobloxLib::function_23176e4 start_va=0x23176e4 image_relative=0x23176e4 bytes=20 */
+void function_23176e4__at_23176e4(void) {
+    /* stp x29, x30, [sp, #-0x10]! */
+    /* mov x29, sp */
+    /* call #0x2318648; ABI effects unresolved */
+    /* ldp x29, x30, [sp], #0x10 */
+    /* branch b #0x47e93a8 */
+}

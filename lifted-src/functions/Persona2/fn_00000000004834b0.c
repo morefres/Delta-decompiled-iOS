@@ -1,0 +1,7 @@
+/* Evidence-based generated lift; not original source. */
+/* Persona2::function_4834b0 start_va=0x4834b0 image_relative=0x4834b0 bytes=12 */
+void function_4834b0__at_4834b0(void) {
+    /* adrp x4, #0x441000 */
+    /* add x4, x4, #0x40 */
+    /* branch b #0x4834bc */
+}

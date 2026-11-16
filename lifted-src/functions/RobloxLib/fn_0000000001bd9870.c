@@ -1,0 +1,77 @@
+/* Evidence-based generated lift; not original source. */
+/* RobloxLib::function_1bd9870 start_va=0x1bd9870 image_relative=0x1bd9870 bytes=292 */
+void function_1bd9870__at_1bd9870(void) {
+    /* sub sp, sp, #0xd0 */
+    /* stp x28, x27, [sp, #0x70] */
+    /* stp x26, x25, [sp, #0x80] */
+    /* stp x24, x23, [sp, #0x90] */
+    /* stp x22, x21, [sp, #0xa0] */
+    /* stp x20, x19, [sp, #0xb0] */
+    /* stp x29, x30, [sp, #0xc0] */
+    /* add x29, sp, #0xc0 */
+    /* mov x20, x3 */
+    /* mov x22, x2 */
+    /* mov x19, x1 */
+    /* mov x23, x0 */
+    /* ldr x21, [x0, #8] */
+    /* ldrsb w8, [x21, #0x17] */
+    /* tbz w8, #0x1f, #0x1bd98b0 */
+    /* ldr x21, [x21] */
+    /* ldr x8, [x19, #0x18] */
+    /* ldr x25, [x8, #8] */
+    /* ldrsb w8, [x25, #0x17] */
+    /* tbz w8, #0x1f, #0x1bd98c4 */
+    /* ldr x25, [x25] */
+    /* mov x0, x22 */
+    /* call #0x41a6a2c; ABI effects unresolved */
+    /* sub w27, w0, w20 */
+    /* ldp x28, x24, [x23, #0xa8] */
+    /* ldr x4, [x23, #0xb8] */
+    /* mov x0, x22 */
+    /* mov x1, x20 */
+    /* mov w2, #1 */
+    /* mov x3, x27 */
+    /* mov x5, x21 */
+    /* mov x6, x25 */
+    /* call #0x1bd95c0; ABI effects unresolved */
+    /* str w0, [sp, #0xc] */
+    /* ldr x4, [x23, #0xc0] */
+    /* mov x0, x22 */
+    /* mov x1, x20 */
+    /* mov w2, #2 */
+    /* mov x3, x27 */
+    /* mov x5, x21 */
+    /* mov x6, x25 */
+    /* call #0x17ee048; ABI effects unresolved */
+    /* mov x26, x0 */
+    /* ldr x4, [x23, #0xc8] */
+    /* add x8, sp, #0x10 */
+    /* mov x0, x22 */
+    /* mov x1, x20 */
+    /* mov w2, #3 */
+    /* mov x3, x27 */
+    /* mov x5, x21 */
+    /* mov x6, x25 */
+    /* call #0x1f82f8; ABI effects unresolved */
+    /* add x0, x19, x24, asr #1 */
+    /* tbz w24, #0, #0x1bd9950 */
+    /* ldr x8, [x0] */
+    /* ldr x28, [x8, w28, uxtw] */
+    /* ldp q0, q1, [sp, #0x10] */
+    /* stp q0, q1, [sp, #0x40] */
+    /* ldr q0, [sp, #0x30] */
+    /* str q0, [sp, #0x60] */
+    /* add x3, sp, #0x40 */
+    /* ldr w1, [sp, #0xc] */
+    /* mov x2, x26 */
+    /* call x28; ABI effects unresolved */
+    /* mov w0, #0 */
+    /* ldp x29, x30, [sp, #0xc0] */
+    /* ldp x20, x19, [sp, #0xb0] */
+    /* ldp x22, x21, [sp, #0xa0] */
+    /* ldp x24, x23, [sp, #0x90] */
+    /* ldp x26, x25, [sp, #0x80] */
+    /* ldp x28, x27, [sp, #0x70] */
+    /* add sp, sp, #0xd0 */
+    return;
+}

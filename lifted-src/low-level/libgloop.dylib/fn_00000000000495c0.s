@@ -1,0 +1,14 @@
+; instruction-faithful ARM64 fallback for libgloop.dylib::ctor_617
+0x00000000000495c0: adrp       x8, #0xf0c000
+0x00000000000495c4: ldrb       w9, [x8, #0xbe0]
+0x00000000000495c8: tbnz       w9, #0, #0x495f0
+0x00000000000495cc: mov        w9, #1
+0x00000000000495d0: adrp       x10, #0xf18000
+0x00000000000495d4: add        x10, x10, #0xab8
+0x00000000000495d8: strb       w9, [x8, #0xbe0]
+0x00000000000495dc: ldr        w8, [x10]
+0x00000000000495e0: add        w8, w8, #1
+0x00000000000495e4: str        w8, [x10]
+0x00000000000495e8: adrp       x9, #0xf0c000
+0x00000000000495ec: str        w8, [x9, #0xbd8]
+0x00000000000495f0: ret        

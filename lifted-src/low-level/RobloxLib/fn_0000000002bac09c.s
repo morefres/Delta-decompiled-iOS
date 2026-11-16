@@ -1,0 +1,25 @@
+; instruction-faithful ARM64 fallback for RobloxLib::function_2bac09c
+0x0000000002bac09c: sub        sp, sp, #0x30
+0x0000000002bac0a0: stp        x20, x19, [sp, #0x10]
+0x0000000002bac0a4: stp        x29, x30, [sp, #0x20]
+0x0000000002bac0a8: add        x29, sp, #0x20
+0x0000000002bac0ac: mov        x3, x2
+0x0000000002bac0b0: mov        x2, x1
+0x0000000002bac0b4: mov        x19, x0
+0x0000000002bac0b8: stp        xzr, xzr, [x0, #8]
+0x0000000002bac0bc: adrp       x8, #0x5ed0000
+0x0000000002bac0c0: add        x8, x8, #0x328
+0x0000000002bac0c4: str        x8, [x0]
+0x0000000002bac0c8: add        x0, sp, #0xf
+0x0000000002bac0cc: add        x1, x19, #0x18
+0x0000000002bac0d0: bl         #0x2bac0fc
+0x0000000002bac0d4: mov        x0, x19
+0x0000000002bac0d8: ldp        x29, x30, [sp, #0x20]
+0x0000000002bac0dc: ldp        x20, x19, [sp, #0x10]
+0x0000000002bac0e0: add        sp, sp, #0x30
+0x0000000002bac0e4: ret        
+0x0000000002bac0e8: mov        x20, x0
+0x0000000002bac0ec: mov        x0, x19
+0x0000000002bac0f0: bl         #0x4b980a4
+0x0000000002bac0f4: mov        x0, x20
+0x0000000002bac0f8: bl         #0x4b97984

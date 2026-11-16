@@ -1,0 +1,44 @@
+Command: LOAD_WEAK_DYLIB
+Offset:  0xa78
+Size:    0x40
+name=@rpath/Backtrace.framework/Backtrace, timestamp=2, current_version=1.0.0,  compatibility_version=1.0.0
+Command: LOAD_WEAK_DYLIB
+Offset:  0xab8
+Size:    0x60
+name=@rpath/Backtrace_PLCrashReporter.framework/Backtrace_PLCrashReporter, timestamp=2, current_version=1.0.0,  compatibility_version=1.0.0
+Command: LOAD_WEAK_DYLIB
+Offset:  0xb18
+Size:    0x50
+name=/System/Library/Frameworks/SwiftUI.framework/SwiftUI, timestamp=2, current_version=7.2.5,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0xb68
+Size:    0x58
+name=/System/Library/Frameworks/Foundation.framework/Foundation, timestamp=2, current_version=4201.0.0,  compatibility_version=300.0.0
+Command: LOAD_DYLIB
+Offset:  0xbc0
+Size:    0x38
+name=/usr/lib/libobjc.A.dylib, timestamp=2, current_version=228.0.0,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0xbf8
+Size:    0x38
+name=/usr/lib/libSystem.B.dylib, timestamp=2, current_version=1356.0.0,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0xc30
+Size:    0x60
+name=/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation, timestamp=2, current_version=4201.0.0,  compatibility_version=150.0.0
+Command: LOAD_DYLIB
+Offset:  0xc90
+Size:    0x50
+name=/System/Library/Frameworks/Intents.framework/Intents, timestamp=2, current_version=1.0.0,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0xce0
+Size:    0x50
+name=/System/Library/Frameworks/Security.framework/Security, timestamp=2, current_version=61901.60.40,  compatibility_version=1.0.0
+Command: LOAD_WEAK_DYLIB
+Offset:  0xd30
+Size:    0x50
+name=/System/Library/Frameworks/UIKit.framework/UIKit, timestamp=2, current_version=9126.2.4,  compatibility_version=1.0.0
+Command: LOAD_DYLIB
+Offset:  0xd80
+Size:    0x68
+name=/System/Library/Frameworks/UserNotifications.framework/UserNotifications, timestamp=2, current_version=1.0.0,  compatibility_version=1.0.0

@@ -1,0 +1,16 @@
+; instruction-faithful ARM64 fallback for RobloxLib::function_1dd8914
+0x0000000001dd8914: stp        x20, x19, [sp, #-0x20]!
+0x0000000001dd8918: stp        x29, x30, [sp, #0x10]
+0x0000000001dd891c: add        x29, sp, #0x10
+0x0000000001dd8920: mov        x19, x1
+0x0000000001dd8924: mov        x20, x0
+0x0000000001dd8928: mov        x0, x2
+0x0000000001dd892c: bl         #0x1e79c
+0x0000000001dd8930: mov        x2, x0
+0x0000000001dd8934: ldr        x8, [x20]
+0x0000000001dd8938: ldr        x3, [x8, #0x110]
+0x0000000001dd893c: mov        x0, x20
+0x0000000001dd8940: mov        x1, x19
+0x0000000001dd8944: ldp        x29, x30, [sp, #0x10]
+0x0000000001dd8948: ldp        x20, x19, [sp], #0x20
+0x0000000001dd894c: br         x3

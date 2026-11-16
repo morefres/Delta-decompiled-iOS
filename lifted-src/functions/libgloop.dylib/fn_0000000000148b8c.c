@@ -1,0 +1,23 @@
+/* Evidence-based generated lift; not original source. */
+/* libgloop.dylib::function_148b8c start_va=0x148b8c image_relative=0x148b8c bytes=76 */
+void function_148b8c__at_148b8c(void) {
+    /* sub sp, sp, #0x30 */
+    /* stp x20, x19, [sp, #0x10] */
+    /* stp x29, x30, [sp, #0x20] */
+    /* add x29, sp, #0x20 */
+    /* mov x19, x0 */
+    /* mov x8, sp */
+    /* str x8, [sp, #8] */
+    /* add x8, sp, #8 */
+    /* str x8, [sp] */
+    /* ldr x20, [x0, #8] */
+    /* call #0x150cdc; ABI effects unresolved */
+    /* add x8, x20, x0, lsl #3 */
+    /* ldr x9, [x19, #0x10] */
+    /* cmp x8, x9 */
+    /* cset w0, ne */
+    /* ldp x29, x30, [sp, #0x20] */
+    /* ldp x20, x19, [sp, #0x10] */
+    /* add sp, sp, #0x30 */
+    return;
+}
